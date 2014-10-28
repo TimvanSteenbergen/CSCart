@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Archivos adjuntos"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Permite adjuntar archivos a los productos"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Archivos adjuntos"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Adjunto nuevo"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Añadir adjunto"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Editar adjunto"
+

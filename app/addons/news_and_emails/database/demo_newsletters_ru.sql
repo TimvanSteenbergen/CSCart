@@ -1,0 +1,2 @@
+REPLACE INTO ?:newsletter_descriptions (newsletter_id, newsletter, body_html, lang_code) VALUES ('1', 'Xbox One уже на горизинте!', 'Игровая консоль нового поколения скоро в продаже. Будьте первым!', 'ru');
+REPLACE INTO `?:newsletter_descriptions` (`newsletter_id`, `newsletter`, `body_html`, `lang_code`) VALUES ('2','Пример','<h2>Привет,</h2>\r\n\r\n[Ваш текст]\r\n\r\nБольшое спасибо!\r\nВы можете отписаться от рассылки, используя эту ссылку:\r\n%UNSUBSCRIBE_LINK\r\n\r\n%COMPANY_NAME.','ru');

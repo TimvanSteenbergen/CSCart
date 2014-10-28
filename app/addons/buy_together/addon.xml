@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>buy_together</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item>DROP TABLE IF EXISTS `?:buy_together`</item>
+        <item>DROP TABLE IF EXISTS `?:buy_together_descriptions`</item>
+        <item>
+            CREATE TABLE `?:buy_together` (
+                `chain_id` int(10) unsigned NOT NULL auto_increment,
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `products` text,`modifier` decimal(12,3) unsigned NOT NULL default '0',
+                `modifier_type` varchar(20) NOT NULL default 'by_fixed',
+                `date_from` int(11) unsigned NOT NULL default '0',
+                `date_to` int(11) unsigned NOT NULL default '0',
+                `display_in_promotions` char(1) NOT NULL default 'Y',
+                `status` char(1) NOT NULL default 'D',
+                PRIMARY KEY (`chain_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+        </item>
+        <item>
+            CREATE TABLE `?:buy_together_descriptions` (
+                `chain_id` int(10) unsigned NOT NULL,
+                `name` varchar(50) NOT NULL default '',
+                `description` mediumtext,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`chain_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:buy_together`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:buy_together_descriptions`</item>
+    </queries>
+</addon>

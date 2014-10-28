@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rss_feed</id>
+    <version>1.0</version>
+    <priority>490</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="managing_editor">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="display_rss_feed_in_category">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="category_max_products_items">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

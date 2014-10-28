@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Legg til forhandlere"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Legg til butikk og lukk"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Legg til butikk"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Legg til forhandlers administrator"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Forhandlers administrator"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Forhandlers administratorer"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Liste over forhandleres administratorer, registrerte brukere med en forhandlerkonto."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Hei,<br/><br/>Du har en ny forhandler-kandidat i nettbutikken din. Denne forhandlerens konto står på vent til du har godkjent den. Følg <a>denne nettadressen for å se kontodetaljene</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Gå til Forhandler panelet"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Inntekter og utgifter statistikk (totalt, per forhandler, per periode)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Flett forhandler"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Velg en ny eier av dette firmaets profildata:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Fletting av to firmakontoer vil fjerne [company_name] fra databasen, og alle profildata (produkter, ordere, fraktmetoder, brukere, kampanjer, m.m.) vil bli overført til dette firmaets konto"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Alle butikker"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Søk om en forhandlerkonto"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Tilgjengelig for butikken"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Balanse videreført"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Belast forhandlerkonto"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Opprett administrator konto"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Viste butikker"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Rediger butikk"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Administrator-kontoen ble ikke opprettet. Epost-adressen tilhører en annen bruker. Du kan legge til administratoren for dette firmaet manuelt."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Administrator kontoen ble ikke opprettet. Brukernavnet tilhører en annen bruker. Du bør endre administratorens kontonavn."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Firmaet med e-posten du har valgt eksisterer allerede, vennligst prøv en annen."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Utgifter"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Inntekter"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Administrer forhandlere"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Ny administrator konto har blitt opprettet."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Ny butikk"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Varsle selger"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Varsle forhandlere via e-post"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Administrer utbetalinger"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Administrer forhandlere"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Vis utbetalinger"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Vis forhandlere"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Butikker"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Salgsperiode"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Salgsperiode totalt"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Søk etter butikk"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sorter alfabetisk: A til Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sorter alfabetisk: Z til A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Profilen din er endret, og etter at endringene er godkjent, vil informasjonen om ditt firma vises på butikk forsiden."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Din forespørsel om forhandler [company] ble godkjent."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Ny administrator ble opprettet. Du kan få tilgang til administrator-området: [link] ved å bruke følgende opplysninger:<br />Brukernavn: [login]<br />Passord: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Kontotype [login] endret til administrator. Du kan logge inn på administrator området: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Forespørselen om forhandler ble godkjent."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Forespørselen om forhandler [company] ble avvist."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Forespørselen om forhandler ble avvist."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gratulerer, din søknad om å få en forhandlerkonto har blitt godkjent. Når vi har vurdert din kontonformasjon, vil vi publisere det på vår nettside."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Ditt firma venter på godkjennelse."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Dine profilendringer for forhandleren [company] ble godkjent."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Feil ved å legge til forespørselen."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Ny betaling ble opprettet"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Du har forhandlere som krever godkjenning. vennligst <a href=\"[link]\">følg denne linken</a> for å vurdere disse forhandlerne."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Full tilgang til alle funksjoner i løpet av en 30-dagers prøveperiode, fra tidspunktet for aktivering.<br /><br />Når den 30-dagers prøveperioden er over, vil denne modusen bli utilgjengelige, og gratis-modus aktiveres automatisk.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Forespørselen ble lagt til. Du vil motta en e-post med svar senere."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Totalt beløp skyldig"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Salgsperiode utbetalingsbeløp totalt"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Totalt ubetalt saldo"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Hvis betalingsgebyr er tatt fra forhandlerne, er ikke skatt beregnet"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Kan ikke slette denne butikken fordi det er ordrer som inneholder produkter fra dette firmaet i butikkens database. For å slette kontoen, må du slette alle slike ordrer først."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Leverandør"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Butikker"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Sortert liste over firmakontoer registrert i butikken."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Kontobalanse"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Ny forhandler konto søknad"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Forhandler kommisjon"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "Leverandør ID"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Leverandørnavn"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Butikk sider"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Forhandler panel"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Vis butikkens ordre"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Vis butikkens produkter"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Vis butikkens brukere"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Du kan redigere kontodetaljene nå."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Forhandlere per side"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Brukerne kan bruke for forhandlerkonto"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Automatisk opprett administratorkontoen for nye godkjente forhandlere. (Hvis \"Tillat brukere å søke for forhandlerkonto\" er aktivert)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Søk om en forhandlerkonto skjema"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Inkludere fraktkostnader i forhandler-kommisjonen"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Ta betalingsgebyr fra forhandlere"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Provisjoner"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Vis produktforhandler"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Hvis aktivert vil ikke kunden kunne se betalingsavgiften og det vil ikke bli lagt til ordre totalen"
+

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>quickbooks</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <position>150</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="trns_class">
+                        <type>input</type>
+                        <default_value>Website:Retail</default_value>
+                    </item>
+                    <item id="accnt_tax">
+                        <type>input</type>
+                        <default_value>Website:Tax</default_value>
+                    </item>
+                    <item id="accnt_product">
+                        <type>input</type>
+                        <default_value>Sales:Product</default_value>
+                    </item>
+                    <item id="accnt_shipping">
+                        <type>input</type>
+                        <default_value>Sales:Shipping</default_value>
+                    </item>
+                    <item id="accnt_discount">
+                        <type>input</type>
+                        <default_value>Sales:Discount</default_value>
+                    </item>
+                    <item id="accnt_surcharge">
+                        <type>input</type>
+                        <default_value>Sales:Surcharge</default_value>
+                    </item>
+                    <item id="accnt_asset">
+                        <type>input</type>
+                        <default_value>Inventory Asset</default_value>
+                    </item>
+                    <item id="accnt_cogs">
+                        <type>input</type>
+                        <default_value>Cost of Goods Sold</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

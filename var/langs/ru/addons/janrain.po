@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Возможность авторизации в магазине через социальные сети (Facebook, Twitter и т.д.)"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Используйте эти данные и настройте учетную запись на <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Авторизация через социальную сеть с помощью Janrain"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Поле «Пароль» и некоторые другие обязательные поля пусты. Пожалуйста, обновите свой профиль."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "К сожалению, войти в магазин не получилось. Возможные причины:<br />- Вы ранее авторизовались в магазине, используя другой сервис OpenID, но с тем же адресом эл. почты.<br />- Вы уже зарегистрированы в нашем магазине с использованием этого адреса эл. почты.<br />Пожалуйста, свяжитесь с администрацией магазина для разрешения этой проблемы."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Общая информация"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API-ключ"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Домен приложения (application domain)"
+

@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "访问限制"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "允许您限制某些IP地址用不同的选项访问店面和管理员区域"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "访问限制"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "添加IPs"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "新的IPs"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "添加域名"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "新的域名"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "添加邮件地址"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "新的邮件地址"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "New credit card"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Add credit card"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Manage access restrictions"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "域名"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "输入的 IP 地址 <b>[entered_ip]</b>禁止从您的计算机访问到管理面板，(您的IP是 <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "此信用卡号码<b>[cc_number]</b>被管理员封锁. 请联系商店管理员或尝试另外一张."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b>不是一个有效的ip地址."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b>不是一个有效的域名."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> 不是一个有效的信用卡号码."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "此电子邮件<b>[email]</b>已被管理员封锁.请联系站点管理员或试另外一个."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "您不允许进入这一区域"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "在[number]登录失败后IP地址会被封锁"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "您的IP地址被封锁."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "站点管理员"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "您的IP地址<b>[ip]</b>已被添加到访问限制表."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "您的IP地址<b>[ip]</b>已启用访问限制."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "您的IP地址<b>[ip]</b>已从访问限制表已被删除."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP来自"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP指向"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "您可对此\"地址域\"使用通配符, \"电子邮件\"和\"信用卡\"选项: <br><b>*</b> - 可表示任意数量的字符,包含零<br><b>?</b> - 可以表示任何单个字符."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP地址"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "永久地"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "信用卡号码"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "管理区域设置"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "仅允许指定的IPs登录管理区域"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "在几次失败尝试后封锁IP地址"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "失败尝试次数"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "登录失败尝试时间间隔(秒)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "某IP必须封锁的时间(小时)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Customer area settings"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "在几次失败尝试后封锁IP地址"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "失败尝试次数"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "登录失败尝试时间间隔(秒)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "某IP必须封锁的时间(小时)"
+

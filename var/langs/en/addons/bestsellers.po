@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Bestsellers & on sale products"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Collects best selling & on sale product data and adds block fillings to show such products"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sort by Bestselling: Low to High"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sort by Bestselling"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sort by discount: Low to High"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sort by discount: High to Low"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Sales amount"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Bestselling"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "On sale"

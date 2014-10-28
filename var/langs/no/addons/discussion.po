@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 05:00-0400\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Kommentarer og omtaler"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Lar kundene legge inn kommentarer til produkter, kategorier, bestillinger, etc. Samt vurdere produkter og skrive anbefalinger"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Kundens kommentarer og omtaler på produkter, kategorier, bestillinger, etc."
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Omtaler"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Gjestebok"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Behandle anbefalinger fra besøkende i nettbutikken."
+
+msgctxt "Languages::discussion_title_news"
+msgid "Comments"
+msgstr "Kommentarer"
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Kommentarer"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Omtaler"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Ingen innlegg funnet"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Din vurdering"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Kommentarer og omtaler"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Anbefalinger"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Anbefalinger er deaktivert. For å aktivere, vennligst gå til<a href=\"[link]\">Kommentarer og omtaler: alternativer</a> og velg verdi \"Kommunikasjon\", \"Vurdering\" eller \"Alle\" i \"Anbefalinger\"-feltet."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Omtaler"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Vurdering"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Finner ikke tråden."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Du har allerede lagt til innlegg i denne diskusjonen"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Takk for ditt innlegg"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Ditt innlegg vil bli kontrollert før det blir publisert."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Kommentarer og omtaler"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Dette er et varsel om et nytt innlegg til"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Dette innlegget trenger godkjenning"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "Siste kommentarer og omtaler"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Kommentar av"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "og"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Legg til Innlegg"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "Ikke godkjent"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Kommentarer og omtaler"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Anbefalinger"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "Vis kommentarer og omtaler"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Administrer kommentarer og omtaler"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Anbefalinger"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "Anbefalinger fra brukere"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Sorter etter vurdering: lav til høy"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Sorter etter vurdering"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "omtale|omtaler"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Skriv en omtale"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Produkter"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Kategorier"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Ordre"
+
+msgctxt "SettingsSections::discussion::news"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Gaveregister"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Sider"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Anbefalinger"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send meldinger til forhandler"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Del diskusjon med produktet"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Tillat kunden å starte diskusjon"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send meldinger til forhandler"
+
+msgctxt "SettingsOptions::discussion::news_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::news_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::news_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::news_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::news_share_discussion"
+msgid "Share discussion with news"
+msgstr "Del diskusjon med nyheter"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send meldinger til forhandler"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Del diskusjon med side"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Anbefalinger"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Vis anbefalinger fra alle nettbutikker"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Omtaler"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Tillat innlegg kun for kunder som har kjøpt noe fra forhandleren"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Innlegg per side"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator må godkjenne innlegg innsendt av"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bare én post fra én IP er tillatt"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Send meldinger til denne e-post-adressen"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send meldinger til forhandleren"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "Kommunikasjon og vurdering"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Vurdering"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Deaktivert"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Enhver kunde"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Bare anonyme kunder"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Ingen godkjenning nødvendig"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "Kommunikasjon og vurdering"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Vurdering"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Deaktivert"
+

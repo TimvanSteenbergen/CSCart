@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Adaugă furnizori"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Adaugă furnizori și închideți"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Adaugă furnizor"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Adauga Administratorul de furnizor"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Administrator de furnizori/ vînzători"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Administratorii  furnizori/ vînzători"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Lista de administratori furnizori(vînzători), utilizatori înregistrați cu un cont de furnizor(vînzător)."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Bună,<br/><br/>Aveți o nouă solicitare in calitate de furnizor in magazin dvs. Acest cont furnizor este în așteptarea aprobării. Urmați <a> această adresă URL pentru a vizualiza detaliile contului </ a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Mergeți la panoul de furnizor"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Statisticile de venituri și cheltuieli (total, pe furnizor, pe perioadă)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Îmbinare furnizor"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Selectați un nou proprietar al profilului datelor acestei companii:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Fuziunea dintre dintre companii vor elimina [company_name] din baza de date, precum și toate datele de profil (produse, comenzi, metode de livrare, utilizatori, promoți, ect) vor fi transferate în contul acestei companii."
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Toți Furnizorii"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Aplică pentru contul de furnizor"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Disponibil pentru furnizor"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Sold reportat"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Furnizori"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Încărcați pentru contul de furnizor"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Companie Furnizor"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Creare cont de Administrator"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Afişare Furnizori"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Editaţi Furniroul"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Cont de administrator nu a fost creat. Adresa de e-mail aparține unui alt utilizator. Puteți adăuga administratorul pentru acest furnizor manual."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Cont de administrator nu a fost creat. Numele de utilizator aparține unui alt utilizator. Dvs., trebuie să schimbaţi numele contului de administrator."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Adresa de e-mail aleasă pentru furnizor există deja, incercaţi una nouă."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Cheltuieli"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Venituri"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Gestionați furnizori"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Cont nou de Administrator a fost creat cu succes."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Furnizor nou"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Anunță vânzătorul"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Anunță vânzătorul prin e-mail"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Gestionați plățile"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Gestionați furnizori"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Vizualizează plățile"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Vizualizare furnizori"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Furnizori"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Perioada de vânzări"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Perioada  totală de vânzări"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Cauta dupa furnizor"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Ordine alfabetică: de la A la Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Ordine alfabetică: de la Z la A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Profilul dvs. a fost schimbat și odată ce modificările sunt aprobate, informația despre compania dumneavoastră va apărea în vitrina magazinului."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Cererea dvs. de furnizor al [companie] a fost aprobată."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Administratorul nou a fost creat. Puteți accesa zona de Administrator: [link] utilizând următoarele acreditări: <br /> Utilizator: [login] <br /> Parolă: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Tipul contului dvs. [login] schimbat în Administrator. Te poți loga în zona de administrator [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Cererea dvs. de furnizor a fost aprobată."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Cererea dvs. de furnizor al [companie] a fost respinsă."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Cererea dvs. de furnizor a fost respinsă."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Felicitări, cererea dumneavoastră pentru a obține un cont de furnizor a fost aprobată. După ce vom revizui informațiile despre contul dvs., o vom publica pe site-ul nostru."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Compania dvs. este în așteptare pentru aprobare."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Profilul dumneavoastră se schimbă pentru furnizor  [company] a fost aprobat."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Eroare în timpul adăugării cererii"
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "O nouă metodă de plată a fost creată"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Aveți furnizori care necesită aprobarea dvs., Vă rog  <a href=\"[link]\">urmați acest link</a> pentru a revizui acești furnizori."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Acces complet la toate caracteristicile în timpul perioadei de probă de 30 de zile, începe din momentul activării. <br /><br />După perioada de probă de 30 de zile se va încheia, acest mod va deveni indisponibil.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Cererea ta a fost adaugata cu succes. Veți primi e-mail cu răspuns mai târziu."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Suma total datorată"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Plata totală perioadei de vânzări"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Sold total neplătit"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "În cazul în care taxă suplimentară plăți este luată de la furnizori, impozitele nu sunt calculate"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Imposibil pentru a șterge acest cont  de furnizor pentru că există comenzi care conțin produse ale acestui furnizor în baza de date a magazinului. Pentru a șterge contul,  în primul rând vă rugăm să ștergeți toate aceste produse, comenzi."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Furnizor"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Furnizori"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Lista sortată a conturilor de furnizor înregistrate în magazin."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Soldul contului"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Nouă cerere, cont de furnizor"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Comision furnizor"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID furnizor"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Nume furnizor"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Pagini furnizor"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Panoul furnizor"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Vezi comenzi furnizor"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Vezi produsele furnizorului"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Vezi utilizatorii furnizorului"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Puteți să editați detaliile contului acum."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Furnizori"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Furnizori pe pagină"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Permite utilizatorilor să aplice pentru contul de furnizor"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Creați automat contul de administrator pentru noul furnizor aprobat. (Dacă setarea \"Permite utilizatorilor să aplice pentru contul furnizor\" este activat)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Se aplică pentru formular de cont furnizor"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Includeți costul de livrare în comisionul furnizorilor"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Ia taxă suplimentară a plații de la furnizor"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Comisioane"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Afișează produsele furnizorului"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Dacă opțiunea este activată unui client nu va fi taxă suplimentară de plată și nu va fii posibil să aplice la comanda totală"
+

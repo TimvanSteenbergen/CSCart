@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tag"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Abilita Tag prodotto"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Gestire Tag di pagina e prodotto."
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "Gestire i tag che vengono aggiunti ad altre pagine del tuo negozio."
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "Tag popolari"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Esegui login per inserire tag"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Nuvola di tag"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "I miei tag"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "Riepilogo dei miei tag"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Tag"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tag"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Tag prodotto"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "Aggiungi un tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "Articoli segnati dal tag \"[tag]\":"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "I miei articoli contrassegnati dal tag \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Tag"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "Nuovo tag"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Aggiungi tag"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tag per prodotti"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tag per le pagine"
+

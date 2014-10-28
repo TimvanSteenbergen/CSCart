@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>searchanise</id>
+    <version>1.2.1</version>
+    <priority>1200</priority>
+    <position>10</position>
+    <status>active</status>
+    <compatibility>
+        <conflicts>age_verification,vendor_data_premoderation</conflicts>
+    </compatibility>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="configuration" layout="separate" outside_of_form="true">
+                <items>
+                    <item id="template">
+                        <type>permanent_template</type>
+                        <default_value>admin_panel.tpl</default_value>
+                    </item>
+                    <item id="api_key">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="private_key">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="parent_private_key">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="import_status">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="last_request">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="last_resync">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="use_navigation">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+        CREATE TABLE IF NOT EXISTS `?:se_settings` (
+            `name` varchar(32) NOT NULL default '',
+            `company_id` int(11) NOT NULL DEFAULT '0',
+            `lang_code` char(2) NOT NULL default 'en',
+            `value` varchar(255) NOT NULL default '',
+            PRIMARY KEY  (`name`, `company_id`, `lang_code`)
+        ) ENGINE=MyISAM DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">
+        CREATE TABLE `?:se_queue` (
+            `queue_id` mediumint NOT NULL auto_increment,
+            `data` text NOT NULL,
+            `action` varchar(32) NOT NULL default '',
+            `company_id` int(11) NOT NULL DEFAULT '0',
+            `lang_code` char(2) NOT NULL default 'en',
+            `started` int(11) NOT NULL DEFAULT '0',
+            `error_count` int NOT NULL default 0,
+            `status` enum('pending', 'processing') default 'pending',
+            PRIMARY KEY  (`queue_id`),
+            KEY (`status`)
+        ) ENGINE=MyISAM DEFAULT CHARSET=UTF8
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:se_queue`</item>
+    </queries>
+</addon>

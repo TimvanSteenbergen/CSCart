@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Űrlapkezelő"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Készítsen egyedi űrlapokat (pl. kapcsolatfelvételhez, vagy partnerprogramhoz)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Új űrlap"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Űrlap szerkesztése"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Űrlapkezelő"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Űrlap elküldése szöveg"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail címzettje"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Biztonságos űrlap (SSL használata)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Űrlap hozzáadása"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Alap"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Többszörös jelölőnégyzet"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Többszörös választómező"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Fejléc"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Elválasztó"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciális"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Országlista"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Megyelista"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Hivatkozó oldal"
+

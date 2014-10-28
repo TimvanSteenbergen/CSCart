@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>image_zoom</id>
+	<priority>3500</priority>
+	<position>100</position>
+	<status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+        <tab_order>prepend</tab_order>
+        <settings edition_type="ROOT,ULT:VENDOR">
+            <sections>
+                <section id="general">
+                    <items>
+                        <item id="cz_opacity">
+                            <type>input</type>
+                            <default_value>0.6</default_value>
+                        </item>
+                        <item id="cz_animation_time">
+                            <type>input</type>
+                            <default_value>200</default_value>
+                        </item>
+                        <item id="cz_tint_color_picker">
+                            <type>input</type>
+                            <default_value>#ffffff</default_value>
+                        </item>
+                        <item id="cz_zoom_position">
+                            <type>selectbox</type>
+                            <default_value>3</default_value>
+                            <variants>
+                                <item id="0">
+                                </item>
+                                <item id="1">
+                                </item>
+                                <item id="2">
+                                </item>
+                                <item id="3">
+                                </item>
+                                <item id="4">
+                                </item>
+                                <item id="5">
+                                </item>
+                                <item id="6">
+                                </item>
+                                <item id="7">
+                                </item>
+                                <item id="8">
+                                </item>
+                                <item id="9">
+                                </item>
+                                <item id="10">
+                                </item>
+                                <item id="11">
+                                </item>
+                                <item id="12">
+                                </item>
+                                <item id="13">
+                                </item>
+                                <item id="14">
+                                </item>
+                                <item id="15">
+                                </item>
+                                <item id="inside">
+                                </item>
+                            </variants>
+                        </item>
+                        <item id="cz_zoom_size_mode">
+                            <type>selectbox</type>
+                            <default_value>zoom</default_value>
+                            <variants>
+                                <item id="image">
+                                </item>
+                                <item id="lens">
+                                </item>
+                                <item id="zoom">
+                                </item>
+                                <item id="full">
+                                </item>
+                            </variants>
+                            
+                        </item>
+                        <item id="cz_caption_position">
+                            <type>selectbox</type>
+                            <default_value>bottom</default_value>
+                            <variants>
+                                <item id="top">
+                                </item>
+                                <item id="bottom">
+                                </item>
+                            </variants>
+                        </item>
+                        <item id="cz_ease_time">
+                            <type>input</type>
+                            <default_value>200</default_value>
+                        </item>
+                        <item id="cz_zoom_fly_out">
+                            <type>checkbox</type>
+                            <default_value>Y</default_value>
+                        </item>
+                    </items>
+                </section>
+            </sections>
+        </settings>
+</addon>

@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Közösségi bejelentkezési funkcióval látja el az áruházat a Janrain fizetős szolgáltatáson keresztül (pl Facebook, Twitter, LinkedIn)"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Az alábbi értékekkel állítsa be a közösségi bejelentkezést a <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a> weboldalon</p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Közösségi bejelentkezés"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "A \"Jelszó\" mező és néhány kötelezően kitöltendő mező jelenleg üres. Kérjük frissítse a profilját."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Sajnos nem sikerült a bejelentkezés feltehetően az alábbi okok miatt:<br/>\n"
+"- Korábban már bejelenktezett az oldalra egy másik szolgáltatás segítségével, ahol megegyezik az elsődleges e-mail címe<br/>\n"
+"- Már regisztrált áruházunkba ezzel az e-mail címmel<br/>\n"
+"Kérjük vegye fel a kapcsolatot ügyfélszolgálatunkkal, hogy megoldjuk a problémát."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Általános info"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API kulcs"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Applikáció Domain"
+

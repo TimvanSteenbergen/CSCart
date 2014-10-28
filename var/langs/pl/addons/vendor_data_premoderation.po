@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Moderacja produktów sprzedawcy"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "Moderacja produktów sprzedawcy"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "Zarządzanie poszczególnymi produktami lub grupami produktów dostarczanych przez sprzedawców."
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Moderacja produktów sprzedawcy"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "Zatwierdzenie produktu"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "Powiadom sprzedawcę przez e-mail"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "Produkt [product] została zatwierdzony przez administrację sklepu i dodany do katalogu produktów. Teraz kupujący można zamówić ten produkt w sklepie."
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "Produkt [product] został odrzucony przez administrację sklepu"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "Dziękujemy za przesłanie nowych produktów. Następujące produkty zostały zatwierdzone przez administrację sklepu i dodane do katalogu produktów"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "Teraz kupujący można zamówić te produkty w sklepie."
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "Dziękujemy za przesłanie nowych produktów. Następujące produkty zostały odrzucone przez administrację sklepu"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "Zatwierdź wybrane"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "Odrzuć wybrane"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "Produkty wymagają uprzedniego zatwierdzenia"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "Zatwierdzenie aktualizacji informacji o produkcie"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "Zatwierdzenie aktualizacji profilu sprzedawcy"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "Masz produkty, które wymagają zatwierdzenia. Proszę kliknij w <a href=\"[link]\"> poniższy link </a> żeby przejrzeć te produkty."
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "Twój produkt(y) zostały [status]"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "Zatwierdzenia"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "Czy jesteś pewien, że chcesz zaktualizować swój profil ? Informacje o firmie nie będą dostępne w  dopóki administrator zatwierdzi zmian."
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "Zatwierdzanie produktów sprzedawcy"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Products require prior approval"
+msgstr "Produkty wymagają uprzedniego zatwierdzenia"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "Zatwierdzenie aktualizacji informacji o produkcie"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "Zatwierdzenie aktualizacji profilu sprzedawcy"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Brak\" - opcja jest wyłączona dla wszystkich sprzedawców; \"Niestandardowe\" - opcja jest włączona dla określonych sprzedawców (zakładka Dodatki); \"Wszyscy sprzedawcy\" - opcja włączona dla wszystkich sprzedawców."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Brak\" - opcja jest wyłączona dla wszystkich sprzedawców; \"Niestandardowe\" - opcja jest włączona dla określonych sprzedawców (zakładka Dodatki); \"Wszyscy sprzedawcy\" - opcja włączona dla wszystkich sprzedawców."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Brak\" - opcja jest wyłączona dla wszystkich sprzedawców; \"Niestandardowe\" - opcja jest włączona dla określonych sprzedawców (zakładka Dodatki); \"Wszyscy sprzedawcy\" - opcja włączona dla wszystkich sprzedawców."
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "Brak"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "Niestandardowe"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "Wszyscy sprzedawcy"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "Brak"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "Niestandardowe"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "Wszyscy sprzedawcy"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "Brak"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "Niestandardowe"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "Wszyscy sprzedawcy"
+

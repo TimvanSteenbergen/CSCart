@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Anti Fraud"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Προσθέτει τη δυνατοτητα διαμόρφωσης ασφάλειας με επαλήθευση παραγγελίας χρησιμοποιώντας την υπηρεσία Maxmind για την πρόληψη της απάτης"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Το άθροισμα της παραγγελίας υπερβαίνει το επιτρεπόμενο μέγιστο όριο"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Η χώρα δεν ταιριάζει με την διεύθυνση IP"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Ο πελάτης έχει ΑΠΟΤΥΧΗΜΕΝΕΣ παραγγελίες"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Ο πελάτης έχει ΕΠΙΤΥΧΗΜΕΝΕΣ παραγγελίες"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Χώρα υψηλού κινδύνου"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Οι παράγοντες κινδύνου υπερβαίνουν την καθορισμένη τιμή"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Αποτυχία στην αναγνώριση της IP του πελάτη"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Ο πελάτης είναι έξω από την απόσταση ασφαλείας"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Δεκτές οι παράγοντες κινδύνου"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Παραλήφθηκε η παραγγελία σας από το κατάστημα. Αυτή τη στιγμή υποβάλλεται σε επιπλέον έλεγχο. Θα επικοινωνήσουμε μαζί σας μόλις τελειώσει αυτή η διαδικασία"
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Παράγοντα κινδύνου"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "μ/δ"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Απόφαση"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Η παραγγελία δεν έχει εγκριθεί επειδή ο συντελεστής  επικινδυνότητας έχει υπερβεί"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Η παραγγελία έχει εγκριθεί"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Κίνδυνος απάτης"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Έλεγχος απάτης"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Αριθμός-κλειδί Maxmind"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Ασφαλής απόσταση (km)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Μέγιστο σύνολο παραγγελίας"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Μέγιστος παράγοντας κινδύνου (1 .. 100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Κατάσταση παραγγελίας"
+

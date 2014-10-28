@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-02 08:00-0400\n"
+
+msgctxt "Addons::name::hybrid_auth"
+msgid "Social login"
+msgstr "Social login"
+
+msgctxt "Addons::description::hybrid_auth"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+
+msgctxt "Languages::hybrid_auth_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+
+msgctxt "Languages::hybrid_auth_social_login"
+msgid "Or sign-in with another identity provider"
+msgstr "Or sign-in with another identity provider"
+
+msgctxt "Languages::hybrid_auth_unspecified_error"
+msgid "Unspecified error"
+msgstr "Unspecified error"
+
+msgctxt "Languages::hybrid_auth_configuration_error"
+msgid "Social login configuration error"
+msgstr "Social login configuration error"
+
+msgctxt "Languages::hybrid_auth_provider_error_configuration"
+msgid "Provider not properly configured"
+msgstr "Provider not properly configured"
+
+msgctxt "Languages::hybrid_auth_wrong_provider"
+msgid "Unknown or disabled provider"
+msgstr "Unknown or disabled provider"
+
+msgctxt "Languages::hybrid_auth_missing_credentials"
+msgid "Missing provider application credentials"
+msgstr "Missing provider application credentials"
+
+msgctxt "Languages::hybrid_auth_failed_auth"
+msgid "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+msgstr "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+
+msgctxt "Languages::hybrid_auth_connecting_provider"
+msgid "Contacting <b>[provider]</b>. Please wait..."
+msgstr "Contacting <b>[provider]</b>. Please wait..."
+
+msgctxt "Languages::hybrid_auth_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+
+msgctxt "Languages::google_callback_url"
+msgid "Google callback URL"
+msgstr "Google callback URL"
+
+msgctxt "SettingsSections::hybrid_auth::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::hybrid_auth::header_openid"
+msgid "OpenID"
+msgstr "OpenID"
+
+msgctxt "SettingsOptions::hybrid_auth::openid_status"
+msgid "Enable OpenID"
+msgstr "Enable OpenID"
+
+msgctxt "SettingsOptions::hybrid_auth::header_yahoo"
+msgid "Yahoo"
+msgstr "Yahoo"
+
+msgctxt "SettingsOptions::hybrid_auth::yahoo_status"
+msgid "Enable Yahoo"
+msgstr "Enable Yahoo"
+
+msgctxt "SettingsOptions::hybrid_auth::yahoo_key"
+msgid "Yahoo ID"
+msgstr "Yahoo ID"
+
+msgctxt "SettingsOptions::hybrid_auth::yahoo_secret"
+msgid "Yahoo Secret key"
+msgstr "Yahoo Secret key"
+
+msgctxt "SettingsOptions::hybrid_auth::header_google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsOptions::hybrid_auth::google_status"
+msgid "Enable Google"
+msgstr "Enable Google"
+
+msgctxt "SettingsOptions::hybrid_auth::google_id"
+msgid "Google ID"
+msgstr "Google ID"
+
+msgctxt "SettingsOptions::hybrid_auth::google_secret"
+msgid "Google Secret key"
+msgstr "Google Secret key"
+
+msgctxt "SettingsOptions::hybrid_auth::google_callback_url"
+msgid "Google callback url"
+msgstr "Google callback url"
+
+msgctxt "SettingsOptions::hybrid_auth::header_facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsOptions::hybrid_auth::facebook_status"
+msgid "Enable Facebook"
+msgstr "Enable Facebook"
+
+msgctxt "SettingsOptions::hybrid_auth::facebook_id"
+msgid "Facebook ID"
+msgstr "Facebook ID"
+
+msgctxt "SettingsOptions::hybrid_auth::facebook_secret"
+msgid "Facebook Secret key"
+msgstr "Facebook Secret key"
+
+msgctxt "SettingsOptions::hybrid_auth::header_twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsOptions::hybrid_auth::twitter_status"
+msgid "Enable Twitter"
+msgstr "Enable Twitter"
+
+msgctxt "SettingsOptions::hybrid_auth::twitter_key"
+msgid "Twitter API key"
+msgstr "Twitter API key"
+
+msgctxt "SettingsOptions::hybrid_auth::twitter_secret"
+msgid "Twitter Secret key"
+msgstr "Twitter Secret key"
+
+msgctxt "SettingsOptions::hybrid_auth::header_myspace"
+msgid "MySpace"
+msgstr "MySpace"
+
+msgctxt "SettingsOptions::hybrid_auth::myspace_status"
+msgid "Enable MySpace"
+msgstr "Enable MySpace"
+
+msgctxt "SettingsOptions::hybrid_auth::myspace_key"
+msgid "MySpace API key"
+msgstr "MySpace API key"
+
+msgctxt "SettingsOptions::hybrid_auth::myspace_secret"
+msgid "MySpace Secret key"
+msgstr "MySpace Secret key"
+
+msgctxt "SettingsOptions::hybrid_auth::header_linkedin"
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+msgctxt "SettingsOptions::hybrid_auth::linkedin_status"
+msgid "Enable LinkedIn"
+msgstr "Enable LinkedIn"
+
+msgctxt "SettingsOptions::hybrid_auth::linkedin_key"
+msgid "LinkedIn API key"
+msgstr "LinkedIn API key"
+
+msgctxt "SettingsOptions::hybrid_auth::linkedin_secret"
+msgid "LinkedIn Secret key"
+msgstr "LinkedIn Secret key"
+
+msgctxt "Languages::hybrid_auth"
+msgid "Social login"
+msgstr "Social login"
+
+msgctxt "Languages::hybrid_auth.providers"
+msgid "Providers"
+msgstr "Providers"
+
+msgctxt "Languages::hybrid_auth.add_provider"
+msgid "Add provider"
+msgstr "Add provider"
+
+msgctxt "Languages::hybrid_auth.new_provider"
+msgid "New provider"
+msgstr "New provider"
+
+msgctxt "Languages::hybrid_auth.editing_provider"
+msgid "Editing provider"
+msgstr "Editing provider"
+
+msgctxt "Languages::hybrid_auth.callback_url"
+msgid "Callback URL"
+msgstr "Callback URL"
+
+msgctxt "Languages::hybrid_auth.need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+
+msgctxt "Languages::hybrid_auth.social_login"
+msgid "Or sign-in with another identity provider"
+msgstr "Or sign-in with another identity provider"
+
+msgctxt "Languages::hybrid_auth.unspecified_error"
+msgid "Unspecified error"
+msgstr "Unspecified error"
+
+msgctxt "Languages::hybrid_auth.configuration_error"
+msgid "Hybriauth configuration error"
+msgstr "Hybriauth configuration error"
+
+msgctxt "Languages::hybrid_auth.provider_error_configuration"
+msgid "Provider not properly configured"
+msgstr "Provider not properly configured"
+
+msgctxt "Languages::hybrid_auth.wrong_provider"
+msgid "Unknown or disabled provider"
+msgstr "Unknown or disabled provider"
+
+msgctxt "Languages::hybrid_auth.missing_credentials"
+msgid "Missing provider application credentials"
+msgstr "Missing provider application credentials"
+
+msgctxt "Languages::hybrid_auth.failed_auth"
+msgid "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+msgstr "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+
+msgctxt "Languages::hybrid_auth.connecting_provider"
+msgid "Contacting <b>[provider]</b>. Please wait..."
+msgstr "Contacting <b>[provider]</b>. Please wait..."
+
+msgctxt "Languages::hybrid_auth.cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+
+msgctxt "Languages::hybrid_auth.password_generated"
+msgid "We are glad to inform you that you have been successfully registered in the store. A password was generated for you"
+msgstr "We are glad to inform you that you have been successfully registered in the store. A password was generated for you"
+
+msgctxt "Languages::hybrid_auth.change_password"
+msgid "You can change your password here"
+msgstr "You can change your password here"
+
+msgctxt "Languages::hybrid_auth.link_provider"
+msgid "Assigning social network accounts"
+msgstr "Assigning social network accounts"
+
+msgctxt "Languages::text_hybrid_auth.link_provider"
+msgid "Assign your social network account to this one and use it to log in"
+msgstr "Assign your social network account to this one and use it to log in"
+
+msgctxt "Languages::text_hybrid_auth.user_is_already_link"
+msgid "This social network account is already being used"
+msgstr "This social network account is already being used"
+
+msgctxt "Languages::hybrid_auth.connect_social"
+msgid "Connect social account"
+msgstr "Connect social account"
+
+msgctxt "Languages::text_hybrid_auth.connect_social_title"
+msgid "Such user already exists"
+msgstr "Such user already exists"
+
+msgctxt "Languages::text_hybrid_auth.connect_social"
+msgid "<p>The user with the e-mail specified during social login already exists.</p><p>If you want to assign a social network account to the registered user, please log in.</p>"
+msgstr "<p>The user with the e-mail specified during social login already exists.</p><p>If you want to assign a social network account to the registered user, please log in.</p>"
+
+msgctxt "Languages::hybrid_auth.specify_email"
+msgid "Specify email"
+msgstr "Specify email"
+
+msgctxt "Languages::text_hybrid_auth.specify_email_title"
+msgid "The e-mail was not specified."
+msgstr "The e-mail was not specified."
+
+msgctxt "Languages::text_hybrid_auth.specify_email"
+msgid "<p>When logging through the social network the e-mail was not specified.</p><p>Please enter your e-mail and click Continue.</p>"
+msgstr "<p>When logging through the social network the e-mail was not specified.</p><p>Please enter your e-mail and click Continue.</p>"
+
+msgctxt "Languages::hybrid_auth_menu_description"
+msgid "Create social provider"
+msgstr "Create social provider"
+
+msgctxt "Languages::public_key"
+msgid "Public key"
+msgstr "Public key"
+
+msgctxt "SettingsOptions::hybrid_auth::icons_pack"
+msgid "Icons pack"
+msgstr "Icons pack"
+
+msgctxt "SettingsTooltips::hybrid_auth::icons_pack"
+msgid "Directory with the social networks icons. A path to the directory: media/images/addons/addons/hybrid_auth/icons/."
+msgstr "Directory with the social networks icons. A path to the directory: media/images/addons/addons/hybrid_auth/icons/."
+
+msgctxt "SettingsOptions::hybrid_auth::autogen_email"
+msgid "Autogeneration email"
+msgstr "Autogeneration email"
+
+msgctxt "SettingsTooltips::hybrid_auth::autogen_email"
+msgid "Enables the email auto generation in case that a social network does not pass the address."
+msgstr "Enables the email auto generation in case that a social network does not pass the address."
+
+msgctxt "Languages::hybrid_auth::paypal_seamless"
+msgid "Use seamless checkout"
+msgstr "Use seamless checkout"
+
+msgctxt "Languages::hybrid_auth::paypal_sandbox"
+msgid "Test mode"
+msgstr "Test mode"
+

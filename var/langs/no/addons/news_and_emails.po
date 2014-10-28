@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "Nyheter og e-post"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Lar deg administrere nettstedets nyheter og konfigurere sending av nyhetsbrev"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Lag og send nyhetsbrev til dine kunder."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Administrer nyheter som er publisert i Nyhetsboksen på butikkens forside."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Enkel"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Meld deg på for vårt nyhetsbrev!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "Nyheter & e-post: Nyhetsbrev abonnement skjema"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "Nyheter og e-post"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Stopp abonnement link"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Legg til abonnenter fra listen over brukere"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> er allerede i listen over abonnenter"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Noen e-postlister fra input-filen ble ikke funnet i databasen. Enkelte importerte abonnenter vil bli liggende utildelt."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Abonnenter"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "Nyhetsliste side"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "Nyheter side"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Nyhetsbrev abonnement"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "E-post-felt for nyhetsbrev abonnement"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "Vis nyheter"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Behandle nyheter"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Nyhetsbrevet har ikke blitt sendt fordi ingen mottakere ble funnet som passer de valgte kriteriene."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Nyhetsbrev(ene) har blitt sendt."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-post-feltet kan ikke være tomt"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Sender e-post til [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Din e-post har blitt lagt til i vår liste for gratis e-post oppdateringer"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Din e-post abonnerer allerede."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Din e-post har blitt fjernet fra vår liste for gratis e-post oppdateringer"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Din e-post har blitt aktivert"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Linken vil bli vist i et live nyhetsbrev"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Nyhetsbrev"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Maler"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Autosvarer"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampanjer"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Sendt"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Legg til nyheter"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Legg til nyheter og lukk"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Antall abonnenter"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Redigerer forsendelsesliste"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Fra navn"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Fra e-post"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Svar til"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "E-postbekreftelse"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Ingen autosvarer"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Vis i kassen"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Vis ved registrering"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Vis på egen side"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Redigerer nyheter"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "Nye nyheter"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Kampanjestatistikk"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Legg til kampanje"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Ny kampanje"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Nyhetsbrev maler"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Nyhetsbrev autosvarere"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Emne"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Legg til nyhetsbrev"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Legg til mal"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Legg autosvarer"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Vilkårlige emner (en per linje)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML kropp"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Ingen mal"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Last"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Kampanje"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Send til"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Legge til mottakere fra brukere"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Kunder med forlatte"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Handlevogn eller Ønskeliste"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "som er"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "dager gamle"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Send til test e-post"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Lagre og send"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Nyhetsbrev mal"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Nyhetsbrev autosvarer"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Forsendelsesliste"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Bekreftet"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Abonnerer på [num] lister"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Abonnert"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Du er nå påmeldt til vår gratis e-post oppdateringer og kampanjer!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Vi respekterer ditt privatliv og ikke sende uønsket e-post til brukere som ikke har bedt om korrespondanse. Du har mottatt denne e-posten fordi du bedt om å motta vår gratis oppdateringer og kampanjer <br /> <br /> Hvis du ønsker å avslutte abonnementet, vennligst følg linken nedenfor.:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "oppdateringer og kampanjer abonnement"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Delt med:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "E-post til en avsender."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Navn på en avsender (f.eks firmanavn)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "E-post til å sende svar til."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Hvis flere emner er spesifisert, er e-post emne tilfeldig plukket fra denne listen."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Hvis meldingen teksten inneholder unsubscribe linken, vil det bli tomt for disse brukerne."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Legg til forsendelseslister"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Legg til abonnenter"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Ny e-postliste"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "Legg til nye abonnenter"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Nyhetsbrev sendt per steg"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Avanserte e-post server valg"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Metode for å sende e-post"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP-serverinnstillinger"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP host"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP brukernavn"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP passord"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Bruk SMTP-autentisering"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Sendmail innstillinger"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Sti til sendmail program"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "via SMTP server"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "via php e-post funksjon"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "via sendmail program"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "bruk standardinnstillingene"
+

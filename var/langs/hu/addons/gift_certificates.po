@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "Ajándékutalványok"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "Beépített ajándékutalvány rendszerrel egészíti ki az áruház funkcionalitását"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "Ajándékutalvány"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "Ajándékutalványok"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "Megvásárolt ajándékutalványok megtekintése és kezelése."
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "Ajándékutalvány információ"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "Ajándékutalvány ellenőrzés"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "Ajándékutalvány kód"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "Egyenleg"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "Ajándékozó neve"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "Ajándékozott neve"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "Ajándékutalvány"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "Ajándékutalvány vásárlása"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "<b>Ajándékutalvány</b> logó"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "Az összeg [min] és [max] közötti érték lehet"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "Ajándékutalvány sikeresen törölve."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "Érvénytelen ajándékutalvány kód. Kérjük próbálkozzon újra."
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "Adjon hozzá ajándék terméket"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "Üzenet"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "Ajándékutalvány beváltása/ellenőrzése"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "Részletes információk"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "Előzmény"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "Ajándékutalvány státuszok"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "Ajándékutalvány sikeresen alkalmazva"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "Ez az ajándékutalvány már használatban van"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "Az ajándékutalvány nem váltható be. Kérjük vegye fel a kapcsolatot ügyfélszolgálatunkkal."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "Érvénytelen ajándékutalvány kód"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "Az alábbi ajándékutalvány kódokat az oldal kezelője törölte vagy visszavonta a kosarából: [codes]. Kérjük vegye fel a kapcsolatot ügyfélszolgálatunkkal, vagy próbáljon új ajándékutalvány hozzáadásával."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "A [code] ajándékutalvány nem törölhető, mert az alábbi rendelés(ek) használják: [ids]."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "Ajándékutalvány összege megváltozott."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "Megvásárolt"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "Felhasznált"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "Ajándékutalvány készítése az ügyfélnek"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "Kapcsolódó ajándékutalványok"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "Ajándékutalvány hozzáadása"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "Ajándékutalvány státusz"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "Aktuális összeg"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "Levél"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "státuszok"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "Új utalvány"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "Utalvány szerkesztése"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "Megveszem most"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "Ajándékutalvány"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "Ajándékutalvány vagy promóciós kód"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "Ajándékutalvány hozzáadva a kosárhoz"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Ajándékutalvány ellenőrzés"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Ajándékutalvány ellenőrzés"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "Ajándékutalvány bekérés és ellenőrzés"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "Ajándékozott neve"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "Ajándékozó neve"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "Összeg nem lehet magasabb, mint a [max] és kevesebb, mint [min]"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "Ajándékutalvány rendszer kezelése"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Ajándékutalvány státuszának módosítása"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Termékek és ajándékutalványok együttes vásárlása nem lehetséges. Kérjük adja fel a jelenlegi rendelését, és próbálja meg a következő rendelésnél."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "Minimális összeg"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "Maximális összeg"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "Ajándékutalvány kód előtag"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "Ajándékutalványok száma oldalanként"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "Ingyenes termékek engedélyezése"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "Szállítási költség fizetése ajándékutalvánnyal"
+

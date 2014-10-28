@@ -1,0 +1,62 @@
+ul.dropdown-multicolumns li {
+    font-size: 15px;
+}
+.multicolumns-list td:hover .product-cell-wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+}
+.sidebox-title span, .sidebox-title a:link, .sidebox-title a:visited, .sidebox-title a:hover {
+    color: #777777;
+    text-shadow: 0;
+}
+.sidebox-title {
+    padding-left: 4px;
+    background-image: none;
+}
+.sidebox-wrapper .sidebox-body {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #eAe9e5;
+}
+.statistic-list-wrap {
+    box-shadow: none;
+    background-color: #ffffff;
+}
+.no-items{
+    box-shadow: 0 0 0 #ffffff;
+}
+.product-cell-empty div {
+    box-shadow: 0 0 0 #ffffff;
+}
+@-moz-document url-prefix() {
+    .button-submit-big input {
+        min-height: 37px;
+    }
+    .sort-dropdown a {
+        height: 18px;
+    }
+}
+.actual-price, .actual-price .price span, .price-update, .price-num, .price-update .price span, .price-update {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.tygh-top-panel {
+    padding: 4px 0;
+    margin-bottom: 0px;
+}
+label.cm-required:after {
+    color: #EB340A;
+    font-size: 100%;
+}
+.tygh-header > div {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+.top-menu {
+    margin-top: 25px;
+}
+.top-logo-grid, .search-block-grid, .cart-content-grid {
+    margin-top: 35px;
+}
+.dropdown-container .sort-dropdown a:hover, .dropdown-container .sort-dropdown a:hover i {
+  color: #737373;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>reward_points</id>
+    <version>1.0</version>
+    <priority>1900</priority>
+    <position>180</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="point_rate">
+                        <type>input</type>
+                        <default_value>50</default_value>
+                        <variants/>
+                    </item>
+                    <item id="auto_price_in_points">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="price_in_points_with_discounts">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="points_with_discounts">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="price_in_points_order_discount">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="reward_points_order_discount">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="higher_level_extract">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="several_points_action">
+                        <type>selectbox</type>
+                        <default_value>minimal_absolute</default_value>
+                        <variants>
+                            <item id="minimal_absolute">
+                            </item>
+                            <item id="minimal_percentage">
+                            </item>
+                            <item id="maximal_absolute">
+                            </item>
+                            <item id="maximal_percentage">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="consider_zero_values">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="log_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:reward_point_changes;</item>
+        <item>DROP TABLE IF EXISTS ?:reward_points;</item>
+        <item>DROP TABLE IF EXISTS ?:product_point_prices;</item>
+        <item>
+            CREATE TABLE `?:reward_point_changes` (
+                `change_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `amount` int(11) NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `action` char(1) NOT NULL default 'A',
+                `reason` text NOT NULL,
+                PRIMARY KEY  (`change_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:reward_points` (
+                `reward_point_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `usergroup_id` mediumint(8) unsigned NOT NULL default '0',
+                `amount` int(11) unsigned NOT NULL default '0',
+                `amount_type` char(1) NOT NULL default 'A',
+                `object_type` char(1) NOT NULL default 'P',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`reward_point_id`),
+                UNIQUE KEY `unique_key` (`object_id`,`usergroup_id`,`object_type`,`company_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:product_point_prices` (
+                `point_price_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `point_price` int(11) unsigned NOT NULL default '0',
+                `lower_limit` smallint(5) unsigned NOT NULL default '0',
+                `usergroup_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`point_price_id`),
+                UNIQUE KEY `unique_key` (`lower_limit`,`usergroup_id`,`product_id`),
+                KEY `src_k` (`product_id`,`lower_limit`,`usergroup_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_reward_points', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_reward_points'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:reward_point_changes;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:reward_points;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:product_point_prices;</item>
+    </queries>
+</addon>

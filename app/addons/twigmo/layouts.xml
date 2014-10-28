@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<block_scheme scheme="1.0">
+    <settings>
+        <default_language>en</default_language>
+    </settings>
+    <location dispatch="twigmo.post" is_default="0" object_ids="" position="200" lang_code="en" name="Twigmo home page" title="Twigmo" meta_description="" meta_keywords="">
+        <containers>
+            <container position="TOP_PANEL" width="16" user_class="" status="A"/>
+            <container position="HEADER" width="16" user_class="" status="A"/>
+            <container position="CONTENT" width="16" user_class="" status="A">
+                <grid width="16" user_class="" status="A" offset="0" omega="0" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0">
+                    <blocks>
+                        <block>
+                            <type><![CDATA[products]]></type>
+                            <properties>
+                                <template><![CDATA[blocks/products/grid_list.tpl]]></template>
+                                <hide_header><![CDATA[N]]></hide_header>
+                                <hide_add_to_cart_button><![CDATA[Y]]></hide_add_to_cart_button>
+                            </properties>
+                            <lang_code><![CDATA[en]]></lang_code>
+                            <name><![CDATA[Newest products]]></name>
+                            <object_type><![CDATA[]]></object_type>
+                            <content>
+                                <items>
+                                    <filling><![CDATA[newest]]></filling>
+                                    <period><![CDATA[HC]]></period>
+                                    <last_days><![CDATA[10]]></last_days>
+                                    <limit><![CDATA[30]]></limit>
+                                </items>
+                            </content>
+                            <object_ids><![CDATA[]]></object_ids>
+                            <wrapper><![CDATA[]]></wrapper>
+                            <user_class><![CDATA[]]></user_class>
+                            <order><![CDATA[0]]></order>
+                            <status><![CDATA[A]]></status>
+                            <translations>
+                                <translation lang_code="de"><![CDATA[Newest products]]></translation>
+                                <translation lang_code="ru"><![CDATA[Newest products]]></translation>
+                                <translation lang_code="zh"><![CDATA[Newest products]]></translation>
+                            </translations>
+                            <contents>
+                                <item>
+                                    <object_id><![CDATA[0]]></object_id>
+                                    <object_type><![CDATA[]]></object_type>
+                                    <lang_code><![CDATA[de]]></lang_code>
+                                    <content>
+                                        <items>
+                                            <filling><![CDATA[newest]]></filling>
+                                            <period><![CDATA[HC]]></period>
+                                            <last_days><![CDATA[10]]></last_days>
+                                            <limit><![CDATA[30]]></limit>
+                                        </items>
+                                    </content>
+                                </item>
+                                <item>
+                                    <object_id><![CDATA[0]]></object_id>
+                                    <object_type><![CDATA[]]></object_type>
+                                    <lang_code><![CDATA[ru]]></lang_code>
+                                    <content>
+                                        <items>
+                                            <filling><![CDATA[newest]]></filling>
+                                            <period><![CDATA[HC]]></period>
+                                            <last_days><![CDATA[10]]></last_days>
+                                            <limit><![CDATA[30]]></limit>
+                                        </items>
+                                    </content>
+                                </item>
+                                <item>
+                                    <object_id><![CDATA[0]]></object_id>
+                                    <object_type><![CDATA[]]></object_type>
+                                    <lang_code><![CDATA[zh]]></lang_code>
+                                    <content>
+                                        <items>
+                                            <filling><![CDATA[newest]]></filling>
+                                            <period><![CDATA[HC]]></period>
+                                            <last_days><![CDATA[10]]></last_days>
+                                            <limit><![CDATA[30]]></limit>
+                                        </items>
+                                    </content>
+                                </item>
+                            </contents>
+                        </block>
+                    </blocks>
+                </grid>
+            </container>
+            <container position="FOOTER" width="16" user_class="" status="A"/>
+        </containers>
+        <translations>
+            <translation lang_code="de">
+                <meta_keywords><![CDATA[]]></meta_keywords>
+                <page_title><![CDATA[Twigmo]]></page_title>
+                <meta_description><![CDATA[]]></meta_description>
+                <name>Twigmo home page</name>
+            </translation>
+            <translation lang_code="ru">
+                <meta_keywords><![CDATA[]]></meta_keywords>
+                <page_title><![CDATA[Твигмо]]></page_title>
+                <meta_description><![CDATA[]]></meta_description>
+                <name>&#x414;&#x43E;&#x43C;&#x430;&#x448;&#x43D;&#x44F;&#x44F; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430;
+                    &#x422;&#x432;&#x438;&#x433;&#x43C;&#x43E;</name>
+            </translation>
+            <translation lang_code="zh">
+                <meta_keywords><![CDATA[]]></meta_keywords>
+                <page_title><![CDATA[Twigmo]]></page_title>
+                <meta_description><![CDATA[]]></meta_description>
+                <name>Twigmo home page</name>
+            </translation>
+        </translations>
+    </location>
+</block_scheme>

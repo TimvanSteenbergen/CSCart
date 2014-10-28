@@ -1,0 +1,13 @@
+/* Translate box */
+.cm-live-edit, .cm-live-edit p {
+    background: #C0FFC0 !important;
+    color: black !important;
+}
+
+#translate_link {
+    position: absolute;
+    z-index: 10001;
+    cursor: pointer;
+    opacity: .7;
+}
+/* /Translate box */

@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-06 11:00-0400\n"
+
+msgctxt "Addons::name::catalog_mode"
+msgid "Catalog mode"
+msgstr "Catalog mode"
+
+msgctxt "Addons::description::catalog_mode"
+msgid "Allows you to use the store as a product catalog"
+msgstr "Allows you to use the store as a product catalog"
+
+msgctxt "Languages::catalog_mode"
+msgid "Catalog Mode"
+msgstr "Catalog Mode"
+
+msgctxt "Languages::text_catalog_mode_zero_price_action_notice"
+msgid "In order that the \"Buy now\" button could be displayed on the product details page, please set \"Zero price action\" as \"Allow customers to add the product to cart\"."
+msgstr "In order that the \"Buy now\" button could be displayed on the product details page, please set \"Zero price action\" as \"Allow customers to add the product to cart\"."
+
+msgctxt "Languages::buy_now_url"
+msgid "Buy Now URL"
+msgstr "Buy Now URL"
+
+msgctxt "SettingsSections::catalog_mode::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::catalog_mode::main_store_mode"
+msgid "Store operation mode"
+msgstr "Store operation mode"
+
+msgctxt "SettingsOptions::catalog_mode::add_to_cart_empty_buy_now_url"
+msgid "Allow purchasing products with empty Buy Now URL"
+msgstr "Allow purchasing products with empty Buy Now URL"
+
+msgctxt "SettingsVariants::catalog_mode::main_store_mode::catalog"
+msgid "Catalog"
+msgstr "Catalog"
+
+msgctxt "SettingsVariants::catalog_mode::main_store_mode::store"
+msgid "Store"
+msgstr "Store"
+

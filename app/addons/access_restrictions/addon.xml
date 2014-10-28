@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>access_restrictions</id>
+    <version>1.0</version>
+    <priority>2700</priority>
+    <position>200</position>
+    <dependencies/>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_administrator_area_settings">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="admin_reverse_ip_access">
+                        <type>checkbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="unsuccessful_attempts_login">
+                        <type>checkbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="number_unsuccessful_attempts">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="login_intervals">
+                        <type>input</type>
+                        <default_value>60</default_value>
+                    </item>
+                    <item id="time_block">
+                        <type>input</type>
+                        <default_value>24</default_value>
+                    </item>
+                    <item id="elm_customer_and_affiliate_area_settings">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="unsuccessful_attempts_login_customer">
+                        <type>checkbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="number_unsuccessful_attempts_customer">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="login_intervals_customer">
+                        <type>input</type>
+                        <default_value>60</default_value>
+                    </item>
+                    <item id="time_block_customer">
+                        <type>input</type>
+                        <default_value>24</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:access_restriction_block;</item>
+        <item>DROP TABLE IF EXISTS ?:access_restriction;</item>
+        <item>DROP TABLE IF EXISTS ?:access_restriction_reason_descriptions;</item>
+        <item>
+            CREATE TABLE `?:access_restriction_block` (
+                `ip` int(11) unsigned NOT NULL default '0',
+                `tries` smallint(5) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `expires` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`ip`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <!--
+        /********************
+        *
+        * field "type" in
+        * ipr - IP range for customer area
+        * ips - Specific IP address for customer area
+        * ipb - Blocked ip after number of faisled logins (customer and partner area)
+        * aar - Admin area IPs range
+        * aas - Admin area specific IPs
+        * aab - Blocked ip after number of failed logins (admin area)
+        * cc - Credit card numbers
+        * es - E-Mail addresses
+        * ed - E-Mail domain
+        * d - Domains
+        *
+        */
+        -->
+        <item>
+            CREATE TABLE `?:access_restriction` (
+                `item_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `value` varchar(66) NOT NULL default '',
+                `ip_from` int(11) unsigned NOT NULL default '0',
+                `ip_to` int(11) unsigned NOT NULL default '0',
+                `type` char(3) NOT NULL default '',
+                `status` char(1) NOT NULL default 'A',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `expires` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`item_id`),  KEY `type` (`type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:access_restriction_reason_descriptions` (
+                `item_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `type` char(3) NOT NULL default '',
+                `reason` mediumtext NOT NULL,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`item_id`,`type`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_access_restrictions', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_access_restrictions'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:access_restriction_block;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:access_restriction;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:access_restriction_reason_descriptions;</item>
+    </queries>
+</addon>

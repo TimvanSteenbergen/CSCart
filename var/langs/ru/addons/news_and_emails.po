@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "Новости и почтовые рассылки"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Новости сайта и новостные и информационные почтовые рассылки"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "Новости"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Создание и и отправика рассылки покупателям."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Управление новостями в секции «Новости сайта» на витрине магазина."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Обычный"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Подпишитесь на нашу рассылку!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "Новости и почтовые рассылки: форма подписки"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "Новости"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "Новости и почтовые рассылки"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Ссылка для отмены подписки"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Добавить подписчиков из списка пользователей"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "Адрес эл. почты <b>[email]</b> уже есть в списке рассылки"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Некоторые списки рассылок, указанные в файле, не найдены в базе данных. Некоторые импортированные подписчики останутся не привязанными ни к какому списку рассылки."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Подписчики"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "Страница новостей"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "Просмотреть страницу новостей"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Подписка на рассылку"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "Новости"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Поле ввода адреса эл. почты для подписки на рассылку"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "Просмотр новостей"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Управление новостями"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Рассылка не была произведена, т.к. нет подписчиков, удовлетворяющих заданным условиям."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Рассылки успешно отправлены."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Не введен адрес электронной почты"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Отправление сообщения по адресу [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Ваш адрес эл. почты был успешно добавлен в наш список рассылки"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Ваш адрес эл. почты уже есть в списке рассылки."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Ваш адрес эл. почты успешно удален из нашей рассылки"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Ваш адрес эл. почты успешно активирован"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Эта ссылка будет отображаться в рассылке"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Рассылки"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Шаблоны"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Автоответчики"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Кампании"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Отправлено"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Добавить новости"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Добавить новости и закрыть"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Количество подписчиков"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Редактирование списка рассылок"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "От кого"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Эл. почта отправителя"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Эл. почта для ответа"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Эл. письмо для подтверждения подписки"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Без автоответчика"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Показывать на странице оформления заказа"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Показывать при регистрации"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Показывать на отдельной странице"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Редактирование новостей"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "Новые новости"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Статистика кампании"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Добавить кампанию"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Новая кампания"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Шаблоны рассылки"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Автоответчики"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Тема"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Добавить рассылку"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Добавить шаблон"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Добавить автоответчик"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Больше тем (Тема для каждого сообщения будет выбрана случайно из данного списка)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "Текст письма (HTML)"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Шаблонов нет"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Загрузить"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Кампания"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Отправить"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Добавить получателей из пользователей"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Покупатели оставившие  (без изменений)"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Корзина или Отложенные"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "В течение"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "дней"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Отправить тестовое сообщение"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Сохранить и отправить"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Рассылка"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Шаблон рассылки"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Автоответчик"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Список рассылок"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Подтвержден"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Подписан на [num] рассылок"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Подписан"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Вы были успешно подписаны на наши бесплатные рассылки с обновлениями и акциями!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Мы уважаем вашу частную жизнь. Мы не рассылаем  e-mail сообщений пользователям, которые этого не просили. Вы получили это сообщение, потому что подписались на нашу рассылку.<br><br> Если Вы хотите отказаться от подписки, пожалуйста, нажмите на ссылку:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "Подписка на обновления"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Общее для витрин:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "E-mail адрес отправителя."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Имя отправителя (например, название компании)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "E-mail адрес, на который отправляются ответы."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Если задано несколько тем, тема письма случайно выбирается из этого списка."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Если сообщение содержит ссылку для отмены подписки, она будет пустой для данных пользователей."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Добавить список рассылки"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Добавить подписчиков"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Новый список рассылки"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "Добавить новых подписчиков"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Отправлять рассылок за один шаг"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Расширенные настройки почтового сервера"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Способ отправки электронной почты"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Настройки сервера SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP Хост"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP имя пользователя"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP пароль"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Использовать аутентификацию"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Настройки Sendmail"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Путь до программы sendmail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "используя SMTP сервер"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "используя функцию php mail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "используя програму sendmail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "использовать настройки по умолчанию"
+

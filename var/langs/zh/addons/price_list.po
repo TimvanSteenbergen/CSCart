@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "价格清单"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "生成 PDF 或 XLS 可配置的价格清单"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "价格清单"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "选择的字段"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "使用此连接去下载XLS(MS Excel)格式的价格列表"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "使用此连接去下载XLS(MS Excel)格式的价格列表"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "使用此连接去下载PDF格式的价格列表"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "使用此连接去下载PDF格式的价格列表"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "如果列被添加或更改, 请<a href=\"[clear_cache_url]\">清除缓存</a>再生成价格清单."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "生成PDF. 请耐心等待......"
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "生成XLS. 请耐心等待......"
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "请注意: XLS中的价格将基于货币显示."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "无法创建XML价格清单. 请在服务器的PHP中增加zip支持. 连接 <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "表格排版"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "字段"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "排序"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "目录组"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "包含产品选项"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "XLS排版"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "XLS url"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "PDF排版"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "PDF url"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "清除缓存"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Clear cache"
+

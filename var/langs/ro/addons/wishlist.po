@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Lista de preferințe"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Permite clienților să stocheze articole în wishlist-uri personale"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Adăugați la lista de preferințe"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Ștergeți lista de preferințe"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "Vezi lista de preferințe"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Conținutul listei de preferințe"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Listă de preferințe"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Wishlist-urile mele"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Utilizarea cuponului nu a fost reușită. Asigurați-vă că sumarul sumei de plată nu e zero."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Bonul a fost adăugat listă de preferințe-ului"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Produs adăugat în Lista de preferințe"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Acest produs există deja în lista de preferințe"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Produse în wishlist"
+

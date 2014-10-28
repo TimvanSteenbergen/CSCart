@@ -1,0 +1,197 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "The product catalog is queued for syncing with Searchanise."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: New search engine for [store] created. Catalog import started."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "An error occurred during Searchanise registration. Please try later."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "The product catalog syncing is in progress."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "The product catalog was synced successfully with Searchanise."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Click the button below to connect to Searchanise."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Congratulations, you've just connected to Searchanise."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "You've connected to Searchanise."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Only the root admin has the permission to connect to Searchanise"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Did you mean"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "Product Id"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "Product Url"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Price"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Quantity"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Product Code"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "Image Url"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "Category Id"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "Category Usergroup Ids"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "Usergroup Ids"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "Company Id"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Without Categories"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Price for usergroup Id ([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "Feature \"[id]\" Id"
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Relevance"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Products"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Popular suggestions"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Sort by Relevance"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Private key"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "SettingsOptions::searchanise::template"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::api_key"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::private_key"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::parent_private_key"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::import_status"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::last_request"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::last_resync"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::searchanise::use_navigation"
+msgid ""
+msgstr ""

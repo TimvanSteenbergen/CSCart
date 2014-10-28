@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Breidt de add-on Data Feeds uit, om te werken met Google Base en creëert een voorbeeld van dergelijke gegevensvoer"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Opmerking: voor deze instelling moet u meertalige Google categorieën inschakelen. Ondersteunt Frans, Duits, Italiaans, Spaans en Brits Engels. Let op dat deze handeling een aanzienlijke tijd in beslag kan nemen.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Start met importeren"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Algemene informatie"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Extra talen voor Google categorieën installeren"
+

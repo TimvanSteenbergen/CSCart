@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Добавить продавцов"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Добавить Продавцов и закрыть"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Добавить продавца"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Добавить администратора продавца"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Администратор продавца"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Администраторы продавца"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Список администраторов продавца, зарегистрированных пользователей с аккаунтом продавца."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Здравствуйте, <br/><br/>У вас появился новый продавец в вашем магазине. Эта учетная запись находится на рассмотрении, пока вы не утвердите ее. Пройдите  <a>по этой ссылке, чтобы просмотреть данные учетной записи</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Перейти в панель продавца"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Статистика доходов и расходов."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Объединить продавца"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Выберите нового владельца для профиля данной компании:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Объединение двух компаний удалит [company_name] из базы данных, и все данные профиля (продукты, заказы, способы доставки, покупатели, акции и т.д.) будут переведены на учетную запись этой компании"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Все продавцы"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Получить учетную запись продавца"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Доступно для продавца"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Сальдо к переносу"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Продавцы"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Зачислить на счет продавца"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Продавцы"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Создать учетную запись администратора"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Отображать продавцов"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Редактирование продавца"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Учетная запись администратора не была создана. Данный адрес электронной почты используется другим пользователем. Вы можете создать учетную запись администратора для этого продавца вручную."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Учетная запись администратора не была создана. Данное имя используется другим пользователем. Вам нужно сменить имя учетной записи."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Продавец с данным адресом электронной почты уже существует. Пожалуйста, попробуйте указать другой адрес."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Расход"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Доход"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Управление продавцами"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Новая учетная запись администратора была успешно создана."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Новый продавец"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Уведомление продавца"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Уведомлять продавцов по электронной почте"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Управлять выплатами"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Управлять продавцами"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Просматривать выплаты"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Просматривать продавцов"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Продавцы"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Период продаж"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Сумма продаж за период"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Искать по продавцу"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Сортировать по алфавиту: от А до Я"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Сортировать по алфавиту: от Я до А"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Ваша учетная запись была обновлена, и после того как изменения будут утверждены, информация о Вашей компании появится в витрине магазина."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Ваш запрос на создание учетной записи продавца [company] был одобрен."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Создан новый администратор. Теперь Вы можете авторизоваться в администраторской части: [link] , используя следующие данные:<br />Логин: [login]<br />Пароль: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Тип учетной записи [login] был изменен на администратора. Теперь Вы можете авторизоваться в администраторской части: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Ваш запрос на создание учетной записи продавца был одобрен."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Ваш запрос на создание учетной записи продавца [company] был отклонен."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Ваш запрос на создание учетной записи продавца был отклонен."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Поздравляем, ваш запрос на создание учетной записи продавца был одобрен. После того, как мы просмотрим вашу информацию, мы опубликуем её на нашем сайте."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Ваша компания ожидает подтверждения."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Изменения Вашей учетной записи продавца [company] были одобрены."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Ошибка при добавлении запроса."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Был создан новый платеж"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "У Вас есть продавцы, которые ожидают подтверждения. Посмотреть их список можно по <a href=\"[link]\">этой ссылке</a>."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Все функции доступны на протяжении 30 дней с момента активации. Ввод номера лицензии не требуется.<br /><br />Через 30 дней после активации данный режим станет недоступным.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Ваш запрос был успешно отправлен. Вы получите письмо с ответом позже."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Общая сумма за счет"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Сумма выплат с продаж за период"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Общий невыплаченный остаток"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Если принимается доплата от способа оплаты с продавцов, налоги посчитаны не будут"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Не удалось удалить учетную запись продавца, так как в базе данных присутствуют заказы, в которых приобретены товары этого продавца. Чтобы удалить этого продавца, сначала удалите упомянутые заказы."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Продавец"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Продавцы"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Сортировать список продавцов, зарегистрированных в магазине."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Баланс учетной записи"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Новый запрос на создание учетной записи продавца"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Комиссия продавца"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID продавца"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Имя продавца"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Страницы продавца"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Панель продавца"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Просмотреть заказы продавца"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Просмотреть товары продавца"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Просмотреть пользователей продавца"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Теперь Вы можете редактировать данные учетной записи."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Продавцы"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Продавцов на страницу"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Позволить пользователю создать учетную запись продавца"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Автоматически создавать учетную запись администратора для нового подтвержденного продавца. (Если включена настройка \"Позволить пользователю создать учетную запись продавца\")"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Заполнить форму для получения учетной записи продавца"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Включать цену доставки в комиссию продавца"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Принимать доплату от способа оплаты с продавцов"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Комиссия"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Отображать продавца на странице продукта"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Если включено, то покупатели не смогут увидеть доплату, и она не будет применена к общей стоимости заказа"
+

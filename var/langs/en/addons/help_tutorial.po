@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::help_tutorial"
+msgid "Video tutorials"
+msgstr "Video tutorials"
+
+msgctxt "Addons::description::help_tutorial"
+msgid "Enables on-site video tutorials in the admin panel"
+msgstr "Enables on-site video tutorials in the admin panel"
+
+msgctxt "Languages::help_tutorial.need_help"
+msgid "Need help?"
+msgstr "Need help?"

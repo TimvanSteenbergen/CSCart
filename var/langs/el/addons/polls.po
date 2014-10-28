@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Δημοσκοπήσεις"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Προσθέτει τη δυνατότητα να προσθέσετε προσαρμοσμένες δημοσκοπήσεις στο site"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Κεντρική"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Πλαινό Κουτί"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Απάντηση με σχόλια"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Έχετε ήδη ολοκληρώσει αυτή τη δημοσκόπηση."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Συνολικές ψήφοι"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Ψηφοφορίες"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Νέα ψηφοφορία"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Επεξεργασία ψηφοφορίας"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Δημοσκοπήσεις"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Έχετε ήδη ολοκληρώσει αυτήν τη δημοσκόπηση"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Δημοσκοπήσεις"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Ψηφοφορία"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Ερωτήσεις"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Στατιστικές ψηφοφορίας"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Προσθήκη ψηφοφοριών και κλείσιμο"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Προσθήκη Ψηφοφοριών"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Θα πρέπει να απαντήσετε σε όλες τις υποχρεωτικές ερωτήσεις"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Σας ευχαριστούμε που ξοδέψατε χρόνο για αυτήν τη δημοσκόπηση.."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Αποτελέσματα Δημοσκόπησεων ορατά σε"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "κανείς"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "χρήστες που ψήφισαν"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "όλοι (σε ένα αναδυόμενο παράθυρο)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Πρώτες σειρές πληροφοριών της ψηφοφορίας(στο πάνω μέρος της σελίδας)"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Τελευταίες σειρές πληροφοριών της ψηφοφορίας(στο κάτω μέρος της σελίδας)"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Μήνυμα ψηφοφορίας"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Νέ ερώτημα"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Προσθήκη Ερώτησης"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Επεξεργασία ερώτησης"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Προσθήκη ψηφοφορίας"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Συνολικός αριθμός των υποβληθέντων εντύπων δημοσκόπησης"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Αριθμός των εντύπων της δημοσκόπησης που συμπληρώθηκαν πλήρως"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Υποβλήθηκε η πρώτη φόρμα ψηφοφορίας"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Υποβλήθηκε η τελευταία φόρμα ψηφοφορίας"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Στατιστικά στοιχεία από ερωτήσεις"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Προβολή απαντήσεων"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Ψήφοι"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Απαντήσεις"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Κείμενο ερώτησης"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Επιλέξτε μονή επιλογή"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Επιλογή ενός ή περισσοτέρων προϊόντων"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Δώστε μια απάντηση κειμένου"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Κείμενο απάντησης"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Πλαίσιο κειμένου"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Μήνυμα που εμφανίζεται στην κεντρική σελίδα του καταστήματος  μετά την ολοκλήρωση της ψηφοφορίας."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Ψηφοφορίες στην σελίδα"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Απαντήσεις στην σελίδα"
+

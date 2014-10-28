@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "JanRain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Voegt een Sociale Login functie toe; Zo kunnen klanten gebruik maken van Facebook, Twitter, etc. om zich aan te melden in uw webwinkel"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Krijg deze waarden en configureer sociale login bij<a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Sociale login"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Het \"Wachtwoord\" veld en een aantal andere verplichte velden zijn op dit moment leeg. Update uw profiel a.u.b."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Helaas, is het mislukt om een klant login aan te maken in onze webwinkel en dit om volgende redenen:<br />- U heeft zich vroeger al eens aangemeld in onze webwinkel met gebruik van een andere OpenID provider waarvan uw email hetzelfde is.<br />- U heeft zich al geregistreerd in onze webwinkel met dezelfde email.<br />Contacteer aub een beheerder om dit probleem kunnen oplossen."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Algemene informatie"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API sleutel"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Applicatie Domein"
+

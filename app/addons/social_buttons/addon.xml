@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>social_buttons</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="twitter">
+                <items>
+                    <item id="twitter_header">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="twitter_enable">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="twitter_via">
+                        <type>input</type>
+                    </item>
+                    <item id="twitter_size">
+                        <type>selectbox</type>
+                        <default_value>medium</default_value>
+                        <variants>
+                            <item id="medium">
+                            </item>
+                            <item id="large">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="twitter_display_count">
+                        <type>selectbox</type>
+                        <default_value>horizontal</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="horizontal">
+                            </item>
+                            <item id="vertical">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="twitter_display_on">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                                <item id="products">
+                                </item>
+                                <item id="pages">
+                                </item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+            <section id="facebook">
+                <items>
+                    <item id="facebook_header">
+                        <type>header</type>
+                    </item>
+                    <item id="facebook_enable">
+                       <type>checkbox</type>
+                    </item>
+                    <item id="facebook_app_id">
+                        <type>input</type>
+                    </item>
+                    <item id="facebook_href">
+                        <type>input</type>
+                    </item>
+                    <item id="facebook_send">
+                       <type>checkbox</type>
+                       <default_value>Y</default_value>
+                    </item>
+                    <item id="facebook_width">
+                        <type>input</type>
+                        <default_value>450</default_value>
+                    </item>
+                    <item id="facebook_layout">
+                        <type>selectbox</type>
+                        <default_value>button_count</default_value>
+                        <variants>
+                            <item id="standard">
+                            </item>
+                            <item id="button_count">
+                            </item>
+                            <item id="box_count">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="facebook_show_faces">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="facebook_action">
+                        <type>selectbox</type>
+                        <default_value>like</default_value>
+                        <variants>
+                            <item id="like">
+                            </item>
+                            <item id="recommend">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="facebook_lang">
+                        <type>selectbox</type>
+                        <default_value>en_US</default_value>
+                        <variants>
+                            <item id="af_ZA">
+                            </item>
+                            <item id="ar_AR">
+                            </item>
+                            <item id="az_AZ">
+                            </item>
+                            <item id="be_BY">
+                            </item>
+                            <item id="bg_BG">
+                            </item>
+                            <item id="bn_IN">
+                            </item>
+                            <item id="bs_BA">
+                            </item>
+                            <item id="ca_ES">
+                            </item>
+                            <item id="cs_CZ">
+                            </item>
+                            <item id="cy_GB">
+                            </item>
+                            <item id="da_DK">
+                            </item>
+                            <item id="de_DE">
+                            </item>
+                            <item id="el_GR">
+                            </item>
+                            <item id="en_GB">
+                            </item>
+                            <item id="en_PI">
+                            </item>
+                            <item id="en_UD">
+                            </item>
+                            <item id="en_US">
+                            </item>
+                            <item id="eo_EO">
+                            </item>
+                            <item id="es_ES">
+                            </item>
+                            <item id="es_LA">
+                            </item>
+                            <item id="et_EE">
+                            </item>
+                            <item id="eu_ES">
+                            </item>
+                            <item id="fa_IR">
+                            </item>
+                            <item id="fb_LT">
+                            </item>
+                            <item id="fi_FI">
+                            </item>
+                            <item id="fo_FO">
+                            </item>
+                            <item id="fr_CA">
+                            </item>
+                            <item id="fr_FR">
+                            </item>
+                            <item id="fy_NL">
+                            </item>
+                            <item id="ga_IE">
+                            </item>
+                            <item id="gl_ES">
+                            </item>
+                            <item id="he_IL">
+                            </item>
+                            <item id="hi_IN">
+                            </item>
+                            <item id="hr_HR">
+                            </item>
+                            <item id="hu_HU">
+                            </item>
+                            <item id="hy_AM">
+                            </item>
+                            <item id="id_ID">
+                            </item>
+                            <item id="is_IS">
+                            </item>
+                            <item id="it_IT">
+                            </item>
+                            <item id="ja_JP">
+                            </item>
+                            <item id="ka_GE">
+                            </item>
+                            <item id="km_KH">
+                            </item>
+                            <item id="ko_KR">
+                            </item>
+                            <item id="ku_TR">
+                            </item>
+                            <item id="la_VA">
+                            </item>
+                            <item id="lt_LT">
+                            </item>
+                            <item id="lv_LV">
+                            </item>
+                            <item id="mk_MK">
+                            </item>
+                            <item id="ml_IN">
+                            </item>
+                            <item id="ms_MY">
+                            </item>
+                            <item id="nb_NO">
+                            </item>
+                            <item id="ne_NP">
+                            </item>
+                            <item id="nl_NL">
+                            </item>
+                            <item id="nn_NO">
+                            </item>
+                            <item id="pa_IN">
+                            </item>
+                            <item id="pl_PL">
+                            </item>
+                            <item id="ps_AF">
+                            </item>
+                            <item id="pt_BR">
+                            </item>
+                            <item id="pt_PT">
+                            </item>
+                            <item id="ro_RO">
+                            </item>
+                            <item id="ru_RU">
+                            </item>
+                            <item id="sk_SK">
+                            </item>
+                            <item id="sl_SI">
+                            </item>
+                            <item id="sq_AL">
+                            </item>
+                            <item id="sr_RS">
+                            </item>
+                            <item id="sv_SE">
+                            </item>
+                            <item id="sw_KE">
+                            </item>
+                            <item id="ta_IN">
+                            </item>
+                            <item id="te_IN">
+                            </item>
+                            <item id="th_TH">
+                            </item>
+                            <item id="tl_PH">
+                            </item>
+                            <item id="tr_TR">
+                            </item>
+                            <item id="uk_UA">
+                            </item>
+                            <item id="vi_VN">
+                            </item>
+                            <item id="zh_CN">
+                            </item>
+                            <item id="zh_HK">
+                            </item>
+                            <item id="zh_TW">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="facebook_action_font">
+                        <type>selectbox</type>
+                        <default_value>arial</default_value>
+                        <variants>
+                            <item id="arial">
+                            </item>
+                            <item id="lucida grande">
+                            </item>
+                            <item id="segoe ui">
+                            </item>
+                            <item id="tahoma">
+                            </item>
+                            <item id="trebuchet ms">
+                            </item>
+                            <item id="verdana">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="facebook_colorscheme">
+                        <type>selectbox</type>
+                        <default_value>light</default_value>
+                        <variants>
+                            <item id="light">
+                            </item>
+                            <item id="dark">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="facebook_display_on">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="products">
+                            </item>
+                            <item id="pages">
+                            </item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+            <section id="vkontakte">
+                <items>
+                    <item id="vkontakte_header">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="vkontakte_enable">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="vkontakte_appid">
+                        <type>input</type>
+                    </item>
+                    <item id="vkontakte_button_style">
+                        <type>selectbox</type>
+                        <default_value>mini</default_value>
+                        <variants>
+                            <item id="full">
+                            </item>
+                            <item id="button">
+                            </item>
+                            <item id="mini">
+                            </item>
+                            <item id="Vertical">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="vkontakte_height">
+                        <type>input</type>
+                        <default_value>22</default_value>
+                    </item>
+                    <item id="vkontakte_width">
+                        <type>input</type>
+                        <default_value>350</default_value>
+                    </item>
+                    <item id="vkontakte_buttons_name">
+                        <type>selectbox</type>
+                        <default_value>like</default_value>
+                        <variants>
+                            <item id="like">
+                            </item>
+                            <item id="interesting">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="vkontakte_display_on">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="products">
+                            </item>
+                            <item id="pages">
+                            </item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+
+            <section id="email">
+                <items>
+                    <item id="email_header">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="email_enable">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="email_display_on">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                                <item id="products">
+                                </item>
+                                <item id="pages">
+                                </item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:products` ADD `facebook_obj_type` VARCHAR(64) NOT NULL;
+        </item>
+        <item for="install">
+            ALTER TABLE `?:pages` ADD `facebook_obj_type` VARCHAR(64) NOT NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products` DROP `facebook_obj_type`;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:pages` DROP `facebook_obj_type`;
+        </item>
+    </queries>
+    <functions>
+    </functions>
+</addon>

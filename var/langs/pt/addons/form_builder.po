@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-06 11:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Form builder"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "New form"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editing form"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Form builder"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Form submit text"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail to"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Form is secure (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Add form"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Multiple checkboxes"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Multiple selectbox"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Header"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separator"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Special"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Countries list"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "States list"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referer"
+

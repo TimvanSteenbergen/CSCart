@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-11 14:00-0400\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Lista de preços"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Gera a lista de preços configurável em PDF ou XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Lista de preços"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Campos selecionados"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "Use este link para baixar a lista de preços em formato XLS (MS Excel)"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "Use estes links para baixar a lista de preços em formato XLS (MS Excel)"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "Use este link para baixar a lista de preços em formato PDF"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "Use estes links para baixar a lista de preços em formato PDF"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "Se colunas foram adicionadas ou alteradas, por favor <a href=\"[clear_cache_url]\">limpe o cache</a> para atualizar a lista de preços."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Gerando o PDF. Por favor aguarde..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Gerando o XLS. Por favor aguarde..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "Por favor, note: os preços no XLS serão indicados na moeda base."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "É Impossível criar lista de preço em XML. Por favor, adicione suporte a zip em PHP no seu servidor. Siga <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "Layout da tabela"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Campos"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Agrupar por categoria"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Incluir opções do produto"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "Layout do XLS"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "Url do XLS"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "Layouts do PDF"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "Url do PDF"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "Limpar cache"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Limpar cache"
+

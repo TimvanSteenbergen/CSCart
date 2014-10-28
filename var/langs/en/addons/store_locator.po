@@ -1,0 +1,109 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Store locator"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Lets you place local stores on map and inform customers about their nearest stores"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "View on map"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Obtaining an API Key"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Store locator"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Store locator block"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Address not found"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Select coordinates"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Set"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Editing store location"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "New store location"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Add store location"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Coordinates"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "lat"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "long"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "All stores"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Map zoom"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "MapType control"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Zoom control"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Scale control"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Map provider"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Map"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"

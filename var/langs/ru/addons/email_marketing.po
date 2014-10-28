@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "Email-маркетинг"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "Синхронизация списков подписчиков с MailChimp и Mad Mimi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "Список подписчиков и настройки рассылки."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Спасибо, что подписались на нашу рассылку!"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "Ваша подписка подтверждена. Никаких дополнительных действий не требуется."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "Необходимо подтвердить адрес эл. почты!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "Спасибо, что подписались на нашу рассылку.<p>Вам выслано электронное письмо для подтверждения подписки. Пожалуйста, пройдите по ссылке в этом письме, чтобы подтвердить подписку.</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "Пожалуйста, подтвердите подписку"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "Мы получили запрос на подписку от вас. Пожалуйста, подтвердите его: <p><a href=\"[href]\">Нажмите здесь для подтверждения подписки на нашу информационную рассылку.</a></p>Если вы получили это сообщение по ошибке, просто удалите его. Вы не будете подписаны, пока не пройдете по ссылке выше."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "Подписка подтверждена"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "Ваша подписка на нашу рассылку подтверждена. Спасибо!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "Вы подписаны на нашу рассылку"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Спасибо за то, что подписались на нашу рассылку.<p>Если вы больше не хотите получать наши письма, <a href=\"[href]\">нажмите здесь, чтобы отписаться</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "Подписка подтверждена"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Ваша подписка на нашу информационную рассылку подтверждена.<p>Если вы больше не хотите получать наши письма, <a href=\"[href]\">нажмите здесь, чтобы отписаться</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "Вы успешно отписались от информационной рассылки"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "Ваш адрес  эл. почты удален из нашего списка."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "Экспортировать все"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "Пожалуйста, сначала введите API-ключ и сохраните изменения"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "[email] уже подписан"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "Новый подписчик"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "Синхронизировать"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "Подписаться на нашу информационную рассылку"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "Email-маркетинг: форма подписки"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing addon"
+msgstr "Управление модулем email-маркетинга"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing addon"
+msgstr "Просмотр модуля email-маркетинга"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "Mad Mimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "Показывать флажок подписки на странице оплаты"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "Снят по умолчанию"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "Запрашивать подтверждение подписки"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "Отправлять приветственное письмо со ссылкой отказа от подписки"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "Сервис почтовой рассылки"
+
+msgctxt "SettingsOptions::email_marketing::em_token"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::email_marketing::em_lastsync"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API-ключ"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "Список"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API-ключ"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "Список"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "Mad Mimi"
+

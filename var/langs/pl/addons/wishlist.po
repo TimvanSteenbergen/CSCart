@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Lista życzeń"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Umożliwia klientom przechowywanie wybranych pozycji na liście życzeń"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Dodaj do listy życzeń"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Wyczyść listę życzeń"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "Zobacz listę życzeń"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Zawartość listy życzeń"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Lista życzeń"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Przejdź do listy życzeń"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Nie udało się dodać bonu podarunkowego. Upewnij się, że wartość jest większa od zera."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Bon podarunkowy został dodany do listy życzeń"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Produkt został dodany do listy życzeń"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Produkt już jest na liście życzeń"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Produkty na liście życzeń"
+

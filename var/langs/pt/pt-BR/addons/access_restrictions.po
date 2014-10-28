@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-11 14:00-0400\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Restrições de acesso"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Permite limitar o acesso da loja e administrador para determinados endereços IP com opções diferentes"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Restrições de acesso"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Adicionar IPs"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "Novos IPs"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Adicionar domínios"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Novos domínios"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Adicionar endereços de e-mail"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Novos endereços de e-mail"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Novo cartão de crédito"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Adicionar cartão de crédito"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Gerenciar as restrições de acesso"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Domínio"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "O  endereço IP <b>[entered_ip]</b> inserido proíbe acesso ao painel de administração do seu computador (seu IP é <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "O número de cartão de crédito <b>[cc_number]</b> está bloqueado pelo administrador. Por favor entre em contato com o administrador da loja, ou tente outro cartão."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> não é um endereço ip válido."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> não é um nome de domínio válido."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> não é um número válido de cartão de crédito."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "O endereço de email <b>[email]</b> está bloqueado pelo administrador. Por favor entre em contato com o administrador da loja, ou tente com outro."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Você não tem permissão para acessar esta área"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "O IP foi bloqueado após [number] tentativas inválidas de login"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Seu endereço IP está bloqueado."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Administrador da loja"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Seu endereço IP <b>[ip]</b> foi adicionado à tabela de restrições de acesso."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Seu endereço IP <b>[ip]</b> foi habilitado na tabela de restrições de acesso."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Seu endereço IP <b>[ip]</b> foi removido da tabela de restrições de acesso."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP de"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP até"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "Você pode usar caracteres curinga para as guias de \"Domínio\", \"E-mail\" e \"Cartão de crédito\": <br /> <b>*</b> - pode representar qualquer número de caracteres, incluindo zero <br /> <b>?</b> - pode representar um único caracter."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IPs"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Tornar permanente"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Número de cartão de crédito"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Configurações da área do administrador"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Permitir login para a área de administração somente de IPs especificados"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Bloquear IP depois de várias tentativas sem sucesso"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Número de tentativas sem sucesso"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Tempo entre tentativas de login sem sucesso (segundos)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Tempo que o IP ficará bloqueado (horas)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Configurações da área do cliente"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Bloquear IP depois de várias tentativas sem sucesso"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Número de tentativas sem sucesso"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Tempo entre tentativas de login sem sucesso (segundos)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Tempo que o IP ficará bloqueado (horas)"
+

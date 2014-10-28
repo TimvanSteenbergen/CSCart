@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::myob"
+msgid "MYOB"
+msgstr "MYOB"
+
+msgctxt "Addons::description::myob"
+msgid "Adds the MYOB integration"
+msgstr "Adds the MYOB integration"
+
+msgctxt "Languages::export_to_myob"
+msgid "Export to MYOB"
+msgstr "Export to MYOB"
+
+msgctxt "SettingsSections::myob::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::myob::sales_account"
+msgid "Default Sales Account"
+msgstr "Default Sales Account"

@@ -1,0 +1,239 @@
+a:hover {
+    color: @primary_button;
+    text-decoration: underline;
+}
+.ty-dropdown-box__content .ty-dropdown-box__item:hover {
+	background: lighten(@links, 40%);
+}
+.ty-dropdown-box__content .ty-account-info__name:hover {
+	background: transparent;
+}
+.top-links-grid .ty-dropdown-box__title a, .top-links-grid .ty-dropdown-box .ty-icon-down-micro {
+	color: @top_panel_links;
+}
+.ty-dropdown-box__title a:hover {
+	color: darken(@base, 40%);
+}
+.ty-grid-list__item-name .product-title, a.ty-quick-view__title {
+	color: @font;
+}
+.ty-select-block__a,
+.top-my-account .logged .ty-account-info__title,
+.ty-select-block__arrow,
+.logged .ty-account-info__user-arrow {
+	color: @top_panel_links;
+}
+.ty-select-block__a:hover,
+.ty-select-block__a:hover .ty-select-block__arrow,
+.ty-select-block__a.open .ty-select-block__arrow,
+.ty-dropdown-box__title:hover,
+.ty-dropdown-box__title:hover .ty-account-info__user-arrow,
+.ty-dropdown-box__title.open,
+.ty-dropdown-box__title.open .ty-account-info__title,
+.ty-select-block__a.open,
+.ty-dropdown-box__title.open i,
+.ty-dropdown-box__title:hover .ty-account-info__title,
+.ty-select-block__a.open:hover,
+.ty-currencies__active,
+.ty-currencies__active:hover,
+.ty-dropdown-box__title.open .ty-minicart-title {
+	background: #fff;
+	color: darken(@base, 50%);
+	.transition(all 0ms);
+}
+.ty-dropdown-box__title.open .ty-icon-down-micro {
+	color: darken(@base, 50%);
+}
+.ty-sort-dropdown__wrapper.open:hover {
+	color: #fff;
+}
+.ty-sort-dropdown__wrapper:hover {
+	color: darken(@base, 50%);
+}
+.ty-select-block__a.open {
+	border: 1px solid darken(@base, 34%);
+}
+.top-quick-links a:hover {
+	color: @top_panel_links;
+}
+.ty-sidebox__title-wrapper, .ty-sidebox__title span {
+	text-decoration: @headings_font_decoration;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    font-size: 15px;
+    font-family: @headings_font;
+}
+.ty-footer-menu__header {
+	color: darken(@font, 10%);
+}
+.footer-stay-connected {
+	background: @top_panel_bg;
+}
+.no-touch .ty-menu__item:hover .ty-menu__item-link {
+	color: lighten(@menu_links, 10%);
+}
+.ty-menu__item-toggle {
+	color: lighten(@menu_links, 25%);	
+}
+.ty-currencies__item.ty-currencies__active:hover {
+	background: darken(@base, 4%);
+}
+.header-widget-grid .ty-currencies__item,
+.header-widget-grid .ty-select-block__a {
+	color: @menu_links;
+}
+.ty-grid-list__item-name .product-title {
+    color: darken(@font, 35%);
+}
+.ty-grid-list__item-name .product-title:hover {
+    color: @primary_button;
+}
+.ty-sidebox__title-wrapper, .ty-sidebox__title span, .ty-sidebox__title a {
+	color: darken(@font, 5%);
+}
+.ty-footer-menu__item a {
+    color: darken(@footer_text, 10%);
+}
+.ty-footer-menu__item a:hover {
+	color: darken(@footer_text, 10%);
+	text-decoration: none;
+}
+.ty-btn__secondary {
+	background: @secondary_button;
+	color: #FFF;
+	text-shadow: 0px 0px 1px #808080;
+}
+.ty-btn__secondary:hover {
+	background: darken(@secondary_button, 15%);
+}
+.ty-btn.ty-btn__primary {
+	background: @primary_button;
+}
+.ty-btn.ty-btn__primary:hover {
+	background: darken(@primary_button, 5%);
+}
+.ty-product-filters__switch {
+	border-bottom: 1px solid @base;	
+}
+.ty-product-filters__item, .ty-product-filters__title {
+	color: @font;
+}
+.ty-product-filters__item.disabled {
+	color: lighten(@font, 40%)
+}
+
+.ty-footer-menu-bg-is-transparent() when(@footer_bg_transparent = true) {
+    background-color: transparent;
+    background-image: none;
+}
+.ty-footer-menu-bg() when(@footer_bg_full = true) {
+    .tygh-footer > div {
+    	background-color: @footer_bg;
+    	.ty-footer-menu-bg-is-transparent();
+    }
+}
+.ty-footer-menu-bg() when(@footer_bg_full = false) {
+    .tygh-footer > div {
+  		max-width: 1240px;
+		min-width: 290px;
+		background-color: @footer_bg;
+		.ty-footer-menu-bg-is-transparent();
+	}
+	.ty-footer-menu > .row, .ty-footer-menu > .row-fluid {
+		#gradient .vertical(@footer_bg, @footer_bg_grad_stop);
+        .ty-footer-menu-bg-is-transparent();
+	}
+	.footer-copyright {
+        background-color: lighten(@footer_bg, 5%);
+        .ty-footer-menu-bg-is-transparent();
+    }
+}
+.ty-footer-menu-bg();
+
+.ty-cr-phone-number-link .ty-cr-phone-prefix {
+    color: darken(@base, 35%);
+}
+
+.footer-copyright {
+    border-top: 1px solid darken(@footer_bg, 10%);
+}
+
+@rounded_corners: false;
+@links: #333333;
+@menu_links: #666666;
+@menu: #efefef;
+@base: #ececec;
+@font: #585858;
+
+@primary_button: #00a161;
+@secondary_button: #C5C5C5;
+@tertiary_button: #c5c5c5;
+
+@sidebar: #fff;
+@price: #00a178;
+@discount_label: #ff9900;
+@in_stock: #ff8a00;
+@out_of_stock: #a80006;
+@top_panel_links: #d8f6e6;
+@top_panel_text: #d8f6e6;
+@footer_text: #A3AAAF;
+@decorative: #e3e3e3;
+
+@general_bg_color: #ffffff;
+@general_bg_image: transparent;
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+
+@top_panel_bg: #00a161;
+@top_panel_bg_full: true;
+@top_panel_bg_transparent: false;
+@top_panel_bg_grad_stop: #00a161;
+
+@header_bg: #ffffff;
+@header_bg_full: false;
+@header_bg_transparent: false;
+@header_bg_grad_stop: #ffffff;
+
+@content_bg: #ffffff;
+@content_bg_full: false;
+@content_bg_transparent: false;
+
+@footer_bg: #EDEFF1;
+@footer_bg_full: true;
+@footer_bg_transparent: false;
+@footer_bg_grad_stop: #EDEFF1;
+
+@body_font: Tahoma,Geneva,sans-serif;
+@body_font_size: 13px;
+@body_font_style: normal;
+@body_font_weight: normal;
+@headings_font: Fjalla One;
+@headings_font_size: 20px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: bold;
+@links_font: Tahoma,Geneva,sans-serif;
+@links_font_size: 13px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+@price_font: Tahoma,Geneva,sans-serif;
+@price_font_size: 20px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: bold;
+@buttons_font: Tahoma,Geneva,sans-serif;
+@buttons_font_size: 14px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: normal;
+
+/*GFONTS*/
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://themes.googleusercontent.com/static/fonts/fjallaone/v2/rxxXUYj4oZ6Q5oDJFtEd6i3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+/*/GFONTS*/

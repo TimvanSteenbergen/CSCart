@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::barcode"
+msgid "Order barcode"
+msgstr "Barcode παραγγελίας"
+
+msgctxt "Addons::description::barcode"
+msgid "Makes it possible to configure and attach barcodes to orders"
+msgstr "Δίνει τη δυνατότητα να ρυθμίσετε παραμέτρους και να επισυνάψετε barcodes στις παραγγελίες"
+
+msgctxt "Languages::please_enable_the_add_on_to_see_barcode"
+msgid "Please enable the add-on to see a code example."
+msgstr "Παρακαλώ ενεργοποιήστε το το πρόσθετο για να δείτε ένα παράδειγμα του κώδικα."
+
+msgctxt "SettingsSections::barcode::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::barcode::elm_image"
+msgid "Image"
+msgstr "Εικόνα"
+
+msgctxt "SettingsOptions::barcode::elm_image_info"
+msgid "Example Image"
+msgstr "Παράδειγμα εικόνας"
+
+msgctxt "SettingsOptions::barcode::elm_configs"
+msgid "Configs"
+msgstr "Δομές"
+
+msgctxt "SettingsOptions::barcode::type"
+msgid "Type"
+msgstr "Τύπος"
+
+msgctxt "SettingsOptions::barcode::output"
+msgid "Output"
+msgstr "Εξοδος"
+
+msgctxt "SettingsOptions::barcode::text"
+msgid "Text"
+msgstr "Κείμενο"
+
+msgctxt "SettingsOptions::barcode::height"
+msgid "Height,px"
+msgstr "Υψος, px"
+
+msgctxt "SettingsOptions::barcode::width"
+msgid "Width,px"
+msgstr "Πλάτος, px"
+
+msgctxt "SettingsOptions::barcode::resolution"
+msgid "Resolution"
+msgstr "Aνάλυση"
+
+msgctxt "SettingsOptions::barcode::text_font"
+msgid "Text Font"
+msgstr "Κείμενο γραμματοσειράς"
+
+msgctxt "SettingsOptions::barcode::prefix"
+msgid "Barcode prefix"
+msgstr "Πρόθεμα Barcode"
+
+msgctxt "SettingsOptions::barcode::elm_specification"
+msgid "Specification"
+msgstr "Προσδιορισμός"
+
+msgctxt "SettingsOptions::barcode::elm_spec_descr"
+msgid "Spec Description"
+msgstr "Περιγραφή προδιαγραφών"
+
+msgctxt "SettingsVariants::barcode::type::C128A"
+msgid "Code 128-A"
+msgstr "Κωδικός 128-Α"
+
+msgctxt "SettingsVariants::barcode::type::C128B"
+msgid "Code 128-B"
+msgstr "Κωδικός 128-Β"
+
+msgctxt "SettingsVariants::barcode::type::C128C"
+msgid "Code 128-C"
+msgstr "Κωδικός 128-C"
+
+msgctxt "SettingsVariants::barcode::type::I25"
+msgid "Interleaved 2 of 5"
+msgstr "Παρεμβολλή φύλλων μεταξύ των σελίδων 2 απο 5"
+
+msgctxt "SettingsVariants::barcode::type::C39"
+msgid "Code 39"
+msgstr "Κωδικός 39"
+
+msgctxt "SettingsVariants::barcode::output::png"
+msgid "Portable Network Graphics (PNG)"
+msgstr "Φορητά γραφικά δικτύου (PNG)"
+
+msgctxt "SettingsVariants::barcode::output::jpeg"
+msgid "Joint Photographic Experts Group (JPEG)"
+msgstr "Joint Photographic Experts Group (JPEG)"
+
+msgctxt "SettingsVariants::barcode::text::N"
+msgid "Disabled"
+msgstr "Απενεργοποιήθηκε"
+
+msgctxt "SettingsVariants::barcode::text::Y"
+msgid "Enabled"
+msgstr "Ενεργοποιήθηκε"
+
+msgctxt "SettingsVariants::barcode::resolution::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::resolution::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::resolution::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::text_font::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::text_font::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::barcode::text_font::5"
+msgid "5"
+msgstr "5"
+

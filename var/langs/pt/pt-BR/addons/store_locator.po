@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 05:00-0400\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Localizador de lojas"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Permite colocar os endereços de suas lojas físicas em um mapa, e permite que os clientes localizem as lojas mais próximas"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Ver no mapa"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Obtendo chave de API"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Localizador de lojas"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Bloco do localizador de lojas"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Endereço não encontrado"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Selecionar coordenadas"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Definir"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Editando localização da loja"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Nova localização da loja"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Adicionar localização da loja"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "latitude"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "longitude"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Todas as lojas"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Zoom do mapa"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "Controle MapType"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Controle de zoom"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Controle de aproximação"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Fornecedor do mapa"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Mapa"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Configurações"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

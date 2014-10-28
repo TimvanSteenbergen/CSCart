@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-07 19:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "ショップの追加"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "ショップを追加して閉じる"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "ショップの追加"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Add vendor's administrator"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Vendor's administrator"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Vendor's administrators"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "List of vendor's administrators, registered users with a vendor account."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Go to Vendor panel"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Income and expenditure statistics (total, per vendor, per period)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Merge vendor"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Select a new owner of this company's profile data:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "すべてのショップ"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "このサイトに出品する"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "出品者の利用"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "持ち越し残高"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "出品者の残高情報に反映"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "管理者アカウントの作成"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "表示する出品者数"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "ショップの編集"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "入力したEメールアドレスは他のユーザーが既に使用しているため管理者用アカウントは作成されませんでした。手動でこの会社向けの管理者用アカウントを作成してください。"
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "指定したユーザー名が他のユーザーにより既に使用されているため、管理者アカウントは作成されませんでした。この出品者の管理者アカウントは手動で作成してください。"
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "ご指定のEメールアドレスはすでに使用されています。他のEメールアドレスを入力してください。"
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "支出"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "収入"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "出品者の管理"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "出品者データ管理者アカウントが作成されました。"
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "ショップの追加"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "出品者に通知する"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "出品者にEメールで通知"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "出品者への支払いの管理"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "出品者の管理"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "出品者への支払いの閲覧"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "出品者の閲覧"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "ショップ"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "対象販売期間"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "指定期間内の総計"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "出品者で検索"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "アルファベット順: A から Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "アルファベット順: Z から A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "出品者情報が更新されました。更新内容はシステム管理者の承認後にショップページに反映されます。"
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "[company]様のデータを管理するアカウントが以下の通り作成されました。"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "URL: [link]<br />ユーザー名/Eメール: [login]<br />仮パスワード: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "ユーザー [login] 様のアカウントタイプが管理者に変更されました。<br />次のURLから管理画面にアクセスできます:<br /> [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "出品者データに対するアクションが承認されました。"
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "出品者データに対するアクションが却下されました。"
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "マーケットプレイスへの参加申請が却下されました。"
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "マーケットプレイスへの参加申請が承認されました。申請いただいた内容を後ほど弊社にてマーケットプレイスに登録いたします。"
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "出品者情報の更新は承認待ちの状態です。"
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "[company]様の登録データ更新が承認されました。"
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "処理中にエラーが発生しました。"
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "御社売上金額のお支払いについて"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "確認が必要なマーケットプレイスへの参加申請または登録内容の更新があります。以下のURLにアクセスのうえ申請を処理してください。:<a href=\"[link]\">処理ページへ移動</a>"
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "インストールから30日間無料でCS-Cartのすべての機能をお試しいただけます。<br />30日間のトライアル期間内にフルモードへの切り替えが実行されない場合は自動的にフリーモードに切り替わります。<br />なお、ショップモードは「ショップモード」ページにて変更できます。"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "マーケットプレイスへの参加申請を受け付けました。後ほど担当者よりEメールにてご連絡さしあげます。"
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "指定期間内の要支払金額"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "指定期間内の支払済金額"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "出品者への要支払額合計"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "支払手数料を出品者から徴収する場合、税金の計算は行われません"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "このショップが管理する商品を含む注文情報が存在するためショップを削除できません。このショップが管理する商品を含む注文情報をすべて削除した後に再度お試しください。"
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "ショップ"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "ショップ"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "出品者の一覧です。"
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "出品者の残高情報"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "マーケットプレイスへの参加申請がありました"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "販売手数料"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ショップID"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "ショップ名"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "ショップページ"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "出品者用管理画面"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "このショップの注文を表示"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "このショップの商品を表示"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "このショップのお客様を表示"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "アカウントを確認"
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "1ページに表示する出品者数"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "ユーザーの出品者登録申請を許可"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "登録を承認された出品者の管理者アカウントを自動で作成 (「ユーザーの出品者登録申請を許可」がチェックされている場合)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "出品者登録申請フォーム"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "手数料算出のベース金額に送料を含める"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "出品者が支払手数料を負担"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "販売手数料"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "出品者の表示"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+

@@ -1,0 +1,859 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 07:00-0400\n"
+
+msgctxt "Addons::name::social_buttons"
+msgid "Social buttons"
+msgstr "Közösségi gombok"
+
+msgctxt "Addons::description::social_buttons"
+msgid "Social media and e-mail share buttons (Twitter, Facebook, etc.)"
+msgstr "Közösségi médiához (pl Twitter, Facebook, stb ...) kapcsolódó, továbbá e-mail és nyomtatás gombok elhelyezése terémkadatlapokon, és oldalakon"
+
+msgctxt "Languages::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::facebook_obj_type"
+msgid "Facebook object type"
+msgstr "Facebook objektum típusa"
+
+msgctxt "Languages::fb_activities"
+msgid "Activities"
+msgstr "Tevékenységek"
+
+msgctxt "Languages::fb_businesses"
+msgid "Businesses"
+msgstr "Vállalkozások"
+
+msgctxt "Languages::fb_groups"
+msgid "Groups"
+msgstr "Csoportok"
+
+msgctxt "Languages::fb_organizations"
+msgid "Organizations"
+msgstr "Szervezetek"
+
+msgctxt "Languages::fb_people"
+msgid "People"
+msgstr "Emberek"
+
+msgctxt "Languages::fb_places"
+msgid "Places"
+msgstr "Helyek"
+
+msgctxt "Languages::fb_products_entertainment"
+msgid "Products and Entertainment"
+msgstr "Termékek és szórakozás"
+
+msgctxt "Languages::fb_websites"
+msgid "Websites"
+msgstr "Weboldalak"
+
+msgctxt "Languages::error_no_recipient_address"
+msgid "Please enter your friends e-mail address to proceed"
+msgstr "Adja meg barátja nevét a folytatáshoz"
+
+msgctxt "Languages::recommendation_from"
+msgid "Recommendation from"
+msgstr "Ajánlás"
+
+msgctxt "Languages::text_recommendation_notes"
+msgid "Your friend has recommended this page to you. Please follow the link:"
+msgstr "A barátod egy oldalt ajánlott neked. Az ajánlás az alábbi linken tekinthető meg:"
+
+msgctxt "Languages::your_email"
+msgid "Your e-mail"
+msgstr "Az Ön e-mail címe"
+
+msgctxt "Languages::name_of_friend"
+msgid "Name of your friend"
+msgstr "Barátja neve"
+
+msgctxt "Languages::email_of_friend"
+msgid "E-mail of your friend"
+msgstr "Barátja e-mail címe"
+
+msgctxt "Languages::share_via_email"
+msgid "Share via E-Mail"
+msgstr "Megosztás E-mailen keresztül"
+
+msgctxt "Languages::sb_share"
+msgid "Share"
+msgstr "Megosztás"
+
+msgctxt "SettingsSections::social_buttons::twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsSections::social_buttons::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsSections::social_buttons::vkontakte"
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+msgctxt "SettingsSections::social_buttons::email"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "SettingsOptions::social_buttons::twitter_header"
+msgid "Twitter settings"
+msgstr "Twitter beállítások"
+
+msgctxt "SettingsOptions::social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Twitter gomb megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::twitter_via"
+msgid "Via"
+msgstr "Kin keresztül (via)"
+
+msgctxt "SettingsOptions::social_buttons::twitter_size"
+msgid "Button size"
+msgstr "Gomb mérete"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_count"
+msgid "Display count"
+msgstr "Számláló megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_on"
+msgid "Display on"
+msgstr "Megjelenítés itt"
+
+msgctxt "SettingsOptions::social_buttons::facebook_header"
+msgid "Facebook settings"
+msgstr "Facebook beállítások"
+
+msgctxt "SettingsOptions::social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Facebook gomb megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::facebook_app_id"
+msgid "Facebook app ID"
+msgstr "Facebook app ID"
+
+msgctxt "SettingsOptions::social_buttons::facebook_href"
+msgid "The URL of the page to like"
+msgstr "Az oldal linkje, melyet kedvelni fognak"
+
+msgctxt "SettingsOptions::social_buttons::facebook_send"
+msgid "Include a Send button with the Like button"
+msgstr "Küldés gomb is legyen a Tetszik gomb mellett"
+
+msgctxt "SettingsOptions::social_buttons::facebook_width"
+msgid "Width of the Like button (px)"
+msgstr "Tetszik gomb szélessége (képpont)"
+
+msgctxt "SettingsOptions::social_buttons::facebook_layout"
+msgid "Button layout"
+msgstr "Gomb megjelenése"
+
+msgctxt "SettingsOptions::social_buttons::facebook_show_faces"
+msgid "Display profile photos"
+msgstr "Profilképek megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action"
+msgid "Button verb"
+msgstr "Gombhoz tartozó ige"
+
+msgctxt "SettingsOptions::social_buttons::facebook_lang"
+msgid "Language"
+msgstr "Nyelv"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action_font"
+msgid "Button font"
+msgstr "Gomb betűtípus"
+
+msgctxt "SettingsOptions::social_buttons::facebook_colorscheme"
+msgid "Color scheme"
+msgstr "Színséma"
+
+msgctxt "SettingsOptions::social_buttons::facebook_display_on"
+msgid "Display on"
+msgstr "Megjelenítés itt"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_header"
+msgid "Vkontakte settings"
+msgstr "Vkontakte beállítások"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_enable"
+msgid "Show Vkontakte button"
+msgstr "Vkontakte gomb megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_appid"
+msgid "Vkontakte app ID"
+msgstr "Vkontakte app ID"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_button_style"
+msgid "Button layout"
+msgstr "Gomb megjelenése"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_height"
+msgid "Button height (px)"
+msgstr "Gomb magassága (képpont)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_width"
+msgid "Button width (px)"
+msgstr "Gomb szélessége (képpont)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_buttons_name"
+msgid "Button name"
+msgstr "Gomb neve"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_display_on"
+msgid "Display on"
+msgstr "Megjelenítés itt"
+
+msgctxt "SettingsOptions::social_buttons::email_header"
+msgid "E-mail settings"
+msgstr "E-mail beállítások"
+
+msgctxt "SettingsOptions::social_buttons::email_enable"
+msgid "Show E-mail button"
+msgstr "E-mail gomb megjelenítése"
+
+msgctxt "SettingsOptions::social_buttons::email_display_on"
+msgid "Display on"
+msgstr "Megjelenítés itt"
+
+msgctxt "SettingsTooltips::social_buttons::twitter_via"
+msgid "User name to attribute the Tweet to (i.e. 'via @username')"
+msgstr "User name to attribute the Tweet to (i.e. 'via @username')"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_app_id"
+msgid "Specify any Facebook app ID, otherwise the button will not be shown"
+msgstr "Specify any Facebook app ID, otherwise the button will not be shown"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_href"
+msgid "Leave empty to use an actual page URL"
+msgstr "Leave empty to use an actual page URL"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_show_faces"
+msgid "Enable to display profile photos below the button (standard layout only)"
+msgstr "Enable to display profile photos below the button (standard layout only)"
+
+msgctxt "SettingsTooltips::social_buttons::vkontakte_width"
+msgid "Only for the button with text counter"
+msgstr "Only for the button with text counter"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::medium"
+msgid "Medium"
+msgstr "Közepes"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::large"
+msgid "Large"
+msgstr "Nagy"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::none"
+msgid "None"
+msgstr "Nincs"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::horizontal"
+msgid "Horizontal"
+msgstr "Vízszintes"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::vertical"
+msgid "vertical"
+msgstr "függőleges"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::products"
+msgid "Product details pages"
+msgstr "Termékadatlap"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::pages"
+msgid "Pages"
+msgstr "Oldalak"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::products"
+msgid "Product details pages"
+msgstr "Termékadatlap"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::pages"
+msgid "Pages"
+msgstr "Oldalak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::products"
+msgid "Product details pages"
+msgstr "Termékadatlap"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::pages"
+msgid "Pages"
+msgstr "Oldalak"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::products"
+msgid "Product details pages"
+msgstr "Termékadatlap"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::pages"
+msgid "Pages"
+msgstr "Oldalak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::standard"
+msgid "Standard"
+msgstr "Hagyományos"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::button_count"
+msgid "With count"
+msgstr "Számlálóval"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::box_count"
+msgid "With large count"
+msgstr "Nagy számlálóval"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::like"
+msgid "Like"
+msgstr "Tetszik"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::like"
+msgid "Like"
+msgstr "Tetszik"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::recommend"
+msgid "Recommend"
+msgstr "Ajánlott"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::af_ZA"
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ar_AR"
+msgid "Arabic"
+msgstr "Arab"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::az_AZ"
+msgid "Azerbaijani"
+msgstr "Azeri"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::be_BY"
+msgid "Belarusian"
+msgstr "Belorusz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bg_BG"
+msgid "Bulgarian"
+msgstr "Bolgár"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bn_IN"
+msgid "Bengali"
+msgstr "Bengáli"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bs_BA"
+msgid "Bosnian"
+msgstr "Bosnyák"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ca_ES"
+msgid "Catalan"
+msgstr "Katalán"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cs_CZ"
+msgid "Czech"
+msgstr "Cseh"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cy_GB"
+msgid "Welsh"
+msgstr "Walesi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::da_DK"
+msgid "Danish"
+msgstr "Dán"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::de_DE"
+msgid "German"
+msgstr "Német"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::el_GR"
+msgid "Greek"
+msgstr "Görög"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_GB"
+msgid "English (UK)"
+msgstr "Angol (brit)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_PI"
+msgid "English (Pirate)"
+msgstr "Angol (kalóz)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_UD"
+msgid "English (Upside Down)"
+msgstr "Angol (fejjel lefelé)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_US"
+msgid "English (US)"
+msgstr "Angol (amerikai)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eo_EO"
+msgid "Esperanto"
+msgstr "Eszperantó"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_ES"
+msgid "Spanish (Spain)"
+msgstr "Spanyol (spanyolországi)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_LA"
+msgid "Spanish"
+msgstr "Spanyol"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::et_EE"
+msgid "Estonian"
+msgstr "Észt"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eu_ES"
+msgid "Basque"
+msgstr "Baszk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fa_IR"
+msgid "Persian"
+msgstr "Perzsa"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fb_LT"
+msgid "Leet Speak"
+msgstr "Leet Speak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fi_FI"
+msgid "Finnish"
+msgstr "Finn"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fo_FO"
+msgid "Faroese"
+msgstr "Feröer-szigeteki"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_CA"
+msgid "French (Canada)"
+msgstr "Francia (kanadai)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_FR"
+msgid "French (France)"
+msgstr "Francia (franciaországi)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fy_NL"
+msgid "Frisian"
+msgstr "Fríz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ga_IE"
+msgid "Irish"
+msgstr "Ír"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::gl_ES"
+msgid "Galician"
+msgstr "Galíciai"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::he_IL"
+msgid "Hebrew"
+msgstr "Héber"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hi_IN"
+msgid "Hindi"
+msgstr "Hindi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hr_HR"
+msgid "Croatian"
+msgstr "Horvát"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hu_HU"
+msgid "Hungarian"
+msgstr "Magyar"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hy_AM"
+msgid "Armenian"
+msgstr "Örmény"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::id_ID"
+msgid "Indonesian"
+msgstr "Indonéz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::is_IS"
+msgid "Icelandic"
+msgstr "Izlandi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::it_IT"
+msgid "Italian"
+msgstr "Olasz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ja_JP"
+msgid "Japanese"
+msgstr "Japán"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ka_GE"
+msgid "Georgian"
+msgstr "Grúz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::km_KH"
+msgid "Khmer"
+msgstr "Khmer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ko_KR"
+msgid "Korean"
+msgstr "Koreai"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ku_TR"
+msgid "Kurdish"
+msgstr "Kurd"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::la_VA"
+msgid "Latin"
+msgstr "Latin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lt_LT"
+msgid "Lithuanian"
+msgstr "Litván"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lv_LV"
+msgid "Latvian"
+msgstr "Lett"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::mk_MK"
+msgid "Macedonian"
+msgstr "Macedón"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ml_IN"
+msgid "Malayalam"
+msgstr "Malajálam"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ms_MY"
+msgid "Malay"
+msgstr "Maláj"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nb_NO"
+msgid "Norwegian (bokmal)"
+msgstr "Norvég (bokmal)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ne_NP"
+msgid "Nepali"
+msgstr "Nepáli"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nl_NL"
+msgid "Dutch"
+msgstr "Holland"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nn_NO"
+msgid "Norwegian (nynorsk)"
+msgstr "Norvég (nynorsk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pa_IN"
+msgid "Punjabi"
+msgstr "Pandzsábi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pl_PL"
+msgid "Polish"
+msgstr "Lengyel"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ps_AF"
+msgid "Pashto"
+msgstr "Pashto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_BR"
+msgid "Portuguese (Brazil)"
+msgstr "Portugál (Brazília)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_PT"
+msgid "Portuguese (Portugal)"
+msgstr "Portugál (portugáliai)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ro_RO"
+msgid "Romanian"
+msgstr "Román"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ru_RU"
+msgid "Russian"
+msgstr "Orosz"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sk_SK"
+msgid "Slovak"
+msgstr "Szlovák"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sl_SI"
+msgid "Slovenian"
+msgstr "Szlovén"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sq_AL"
+msgid "Albanian"
+msgstr "Albán"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sr_RS"
+msgid "Serbian"
+msgstr "Szerb"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sv_SE"
+msgid "Swedish"
+msgstr "Svéd"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sw_KE"
+msgid "Swahili"
+msgstr "Szuahéli"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ta_IN"
+msgid "Tamil"
+msgstr "Tamil"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::te_IN"
+msgid "Telugu"
+msgstr "Telugu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::th_TH"
+msgid "Thai"
+msgstr "Thai"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tl_PH"
+msgid "Filipino"
+msgstr "Filippínó"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tr_TR"
+msgid "Turkish"
+msgstr "Török"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::uk_UA"
+msgid "Ukrainian"
+msgstr "Ukrán"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::vi_VN"
+msgid "Vietnamese"
+msgstr "Vietnámi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_CN"
+msgid "Simplified Chinese (China)"
+msgstr "Egyszerűsített kínai (Kína)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_HK"
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "Hagyományos kínai (Hong Kong)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_TW"
+msgid "Traditional Chinese (Taiwan)"
+msgstr "Hagyományos kínai (Tajvan)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::arial"
+msgid "Arial"
+msgstr "Arial"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::lucida grande"
+msgid "Lucida grande"
+msgstr "Lucida grande"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::segoe ui"
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::tahoma"
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::trebuchet ms"
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::verdana"
+msgid "Verdana"
+msgstr "Verdana"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::light"
+msgid "Light"
+msgstr "Világos"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::dark"
+msgid "Dark"
+msgstr "Sötét"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::full"
+msgid "Button with a text counter"
+msgstr "Gomb szöveges számlálóval"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::button"
+msgid "Button with a little counter"
+msgstr "Gomb kis számlálóval"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::mini"
+msgid "Mini button"
+msgstr "Mini gomb"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::Vertical"
+msgid "Mini button, counter on top"
+msgstr "Mini gomb, számlálóval a tetején"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::interesting"
+msgid "It's interesting"
+msgstr "Érdekes"
+
+msgctxt "SettingsSections::social_buttons::gplus"
+msgid "Google plus"
+msgstr "Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_header"
+msgid "Google plus settings"
+msgstr "Google plus settings"
+
+msgctxt "SettingsOptions::social_buttons::gplus_enable"
+msgid "Show Google plus button"
+msgstr "Show Google plus button"
+
+msgctxt "SettingsOptions::social_buttons::gplus_href"
+msgid "Google plus href"
+msgstr "Google plus href"
+
+msgctxt "SettingsOptions::social_buttons::gplus_size"
+msgid "Size"
+msgstr "Size"
+
+msgctxt "SettingsOptions::social_buttons::gplus_annotation"
+msgid "Annotation"
+msgstr "Annotation"
+
+msgctxt "SettingsOptions::social_buttons::gplus_width"
+msgid "Width"
+msgstr "Width"
+
+msgctxt "SettingsOptions::social_buttons::gplus_align"
+msgid "Align"
+msgstr "Align"
+
+msgctxt "SettingsOptions::social_buttons::gplus_expandto"
+msgid "Expand To"
+msgstr "Expand To"
+
+msgctxt "SettingsOptions::social_buttons::gplus_recommendations"
+msgid "Recomendations"
+msgstr "Recomendations"
+
+msgctxt "SettingsOptions::social_buttons::gplus_display_on"
+msgid "Display on"
+msgstr "Display on"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::products"
+msgid "Product details pages"
+msgstr "Product details pages"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::pages"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::small"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::medium"
+msgid "Medium"
+msgstr "Medium"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::tall"
+msgid "Tall"
+msgstr "Tall"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::bubble"
+msgid "Bubble"
+msgstr "Bubble"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::inline"
+msgid "Inline"
+msgstr "Inline"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::left"
+msgid "Left"
+msgstr "Left"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::right"
+msgid "Right"
+msgstr "Right"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::top"
+msgid "Top"
+msgstr "Top"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::right"
+msgid "Right"
+msgstr "Right"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::bottom"
+msgid "Bottom"
+msgstr "Bottom"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::left"
+msgid "Left"
+msgstr "Left"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::yes"
+msgid "Yes"
+msgstr "Yes"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::no"
+msgid "No"
+msgstr "No"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_display_on"
+msgid "Display on"
+msgstr "Display on"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::products"
+msgid "Product details pages"
+msgstr "Product details pages"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::pages"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "SettingsSections::social_buttons::pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_header"
+msgid "Pinterest settings"
+msgstr "Pinterest settings"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_enable"
+msgid "Show Pinterest button"
+msgstr "Show Pinterest button"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_size"
+msgid "Button size"
+msgstr "Button size"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::20"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::28"
+msgid "Large"
+msgstr "Large"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_shape"
+msgid "Shape"
+msgstr "Shape"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::round"
+msgid "Circular"
+msgstr "Circular"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_color"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::gray"
+msgid "Gray"
+msgstr "Gray"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::red"
+msgid "Red"
+msgstr "Red"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::white"
+msgid "White"
+msgstr "White"
+

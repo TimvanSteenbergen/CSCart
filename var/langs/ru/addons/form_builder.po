@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Конструктор форм"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Создание веб-форм, например, формы обратной связи и партнерской программы"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Новая форма"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Редактирование формы"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Конструктор форм"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Текст после отправки формы"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Отправлять на эл. почту"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Форма защищена (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Добавить форму"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Основные"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Группа флажков"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Список со множественным выбором"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Заголовок"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Разделитель"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Дополнительные"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Список стран"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Список регионов"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "HTTP Referer (скрытое поле, информация берется из HTTP-сессии)"
+

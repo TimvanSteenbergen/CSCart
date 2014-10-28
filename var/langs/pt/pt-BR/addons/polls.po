@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-11 14:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Enquetes"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Adiciona a possibilidade de adicionar enquetes personalizadas ao site"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Central"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Caixa lateral"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Respostas com comentários"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Você já participou desta enquete."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Total de votos"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Enquetes"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Nova enquete"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Editando enquete"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Enquetes"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Você já participou desta enquete"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Enquetes"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Enquete"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Perguntas"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Estatísticas da enquete"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Adicionar enquetes e fechar"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Adicionar enquetes"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Você deve responder todas as perguntas obrigatórias"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Obrigado por completar esta enquete."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Resultados da enquete visíveis para"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "ninguém"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "usuários que votaram"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "todos (em uma janela popup)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Cabeçalho da enquete"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Rodapé da enquete"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Mensagem da enquete"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Nova pergunta"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Adicionar pergunta"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Editando pergunta"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Adicionar enquete"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Número total enviados a enquete"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Número de enquetes completamente preenchidas"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Primeira enquete enviada"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Última enquete enviada"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Estatísticas por pergunta"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Ver respostas"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Votos"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Respostas"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Texto da pergunta"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Escolha uma opção"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Escolha uma ou mais opções"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Forneça uma resposta em texto"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Texto da resposta"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Caixa de texto"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Mensagem exibida na loja após a participação na enquete."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Votos na página"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Respostas na página"
+

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>polls</id>
+    <version>1.0</version>
+    <priority>2600</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="polls_votes_on_page">
+                        <type>input</type>
+                        <default_value>20</default_value>
+                    </item>
+                    <item id="polls_comments_on_page">
+                        <type>input</type>
+                        <default_value>20</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item for="demo" type="file" table="poll_descriptions" lang="en">database/demo_en.sql</item>
+        <item for="demo" type="file" table="page_descriptions" lang="en">database/demo_pages_en.sql</item>
+        <item for="demo" type="file" table="poll_descriptions" lang="ru">database/demo_ru.sql</item>
+        <item for="demo" type="file" table="page_descriptions" lang="ru">database/demo_pages_ru.sql</item>
+        <item>DROP TABLE IF EXISTS `?:polls`;</item>
+        <item>DROP TABLE IF EXISTS `?:polls_answers`;</item>
+        <item>DROP TABLE IF EXISTS `?:polls_votes`;</item>
+        <item>DROP TABLE IF EXISTS `?:poll_descriptions`;</item>
+        <item>DROP TABLE IF EXISTS `?:poll_items`;</item>
+        <item>CREATE TABLE `?:polls` (
+                `page_id` mediumint(8) unsigned NOT NULL default '0',
+                `start_date` int(11) unsigned NOT NULL default '0',
+                `end_date` int(11) unsigned NOT NULL default '0',
+                `show_results` char(1) NOT NULL default 'V',
+                PRIMARY KEY  (`page_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>CREATE TABLE `?:polls_answers` (
+                `answer_id` mediumint(8) unsigned NOT NULL default '0',
+                `vote_id` mediumint(8) unsigned NOT NULL default '0',
+                `item_id` mediumint(8) unsigned NOT NULL default '0',
+                `comment` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`answer_id`,`vote_id`,`item_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>CREATE TABLE `?:polls_votes` (
+                `vote_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `page_id` mediumint(8) unsigned NOT NULL default '0',
+                `ip_address` varchar(15) NOT NULL default '',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `time` int(11) NOT NULL default '0',
+                `type` char(1) NOT NULL default '',
+                PRIMARY KEY  (`vote_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>CREATE TABLE `?:poll_descriptions` (
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `page_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `type` char(1) NOT NULL default 'P',
+                `description` mediumtext NOT NULL,
+                PRIMARY KEY  (`object_id`,`lang_code`,`type`),
+                KEY `page_id` (`page_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>CREATE TABLE `?:poll_items` (
+                `item_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `parent_id` mediumint(8) unsigned NOT NULL default '0',
+                `type` char(1) NOT NULL default 'Q',
+                `position` smallint(5) NOT NULL default '0',
+                `required` char(1) NOT NULL default '',
+                `page_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`item_id`),
+                KEY `parent_id` (`parent_id`),
+                KEY `type` (`type`),
+                KEY `page_id` (`page_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:polls`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:polls_answers`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:polls_votes`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:poll_descriptions`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:poll_items`;</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_polls_remove_pages</item>
+    </functions>
+</addon>

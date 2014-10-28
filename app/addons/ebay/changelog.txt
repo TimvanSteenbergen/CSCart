@@ -1,0 +1,15 @@
+Legend:
+[+] - new feature/improvement
+[*] - functionality changes
+[!] - bugfix
+
+Version 2.0, March 18 2014
+
+[+] The RelistItem method added.
+[+] New option for duration of product availability for sale on eBay was added.
+[+] Ability to export option images added.
+[+] Ability to upload additional images added.
+[*] The 'Package' package type was renamed to 'Package/thick envelope'.
+[!] Product weight was calculated incorrectly. Fixed.
+[!] Variant images were not uploaded to eBay. Fixed.
+[!] SQL error occurred on product export to eBay performed by a store admin. Fixed.

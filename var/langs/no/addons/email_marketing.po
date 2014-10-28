@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "E-post markedsføring"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "Synkroniserer dine nyhetsbrev abonnentslister med MailChimp og Mad Mimi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "Administrere innstillinger og nyhetsbrevabonnenter."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Takk for at du abonnerer på vårt nyhetsbrev"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "Abonnementet er bekreftet. Det kreves ingen ekstra handlinger."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "E-post bekreftelse er nødvendig!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "Takk for at du abonnerer på vårt nyhetsbrev.<p>En bekreftelse er sendt til deg via e-post. Bruk linken i e-posten for å bekrefte abonnementet</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "Bekreft abonnementet"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "Vi fikk en abonnement-forespørsel fra deg. Vennligst bekreft:<p><a href=\"[href]\">Klikk her for å bekrefte abonnementet på nyhetsbrevet</a></p> hvis du har mottatt denne e-posten ved en feil, bare slett den. Du vil ikke tegnes på abonnementet hvis du ikke klikker på bekreftelse-linken over."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "Abonnement bekreftet"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "Abonnementet på nyhetsbrevet er bekreftet. Vi takker for interessen!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "Du abonnenerer nå på vårt nyhetsbrev"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Takk for å abonnerer på vårt nyhetsbrev. <p>Hvis du vil slutte å motta e-post fra oss, <a href=\"[href]\">Klikk på denne linken for å avslutte abonnementet når som helst</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "Abonnement bekreftet"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Ditt abonnement på nyhetsbrevet er bekreftet.<p>Hvis du vil slutte å motta e-post fra oss, <a href=\"[href]\">Klikk på denne lenken for å avslutte abonnementet når som helst</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "Abonnementet er avsluttet"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "Din e-post har blitt fjernet fra vår liste."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "Eksporter alle"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "Skriv inn API-nøkkel og lagre først"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "[email] er allerede abonnent"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "Ny abonnent"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "Synkroniser"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "Abonner på vårt nyhetsbrev"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "E-post markedsføring: nyhetsbrev abonnement skjema"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing addon"
+msgstr "Administrer E-post markedsføring tillegget"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing addon"
+msgstr "Vis E-post markedsføring tillegget"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "Nyhetsbrev avkrysningsboks ved utsjekking"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "Kryss av som standard"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "Double opt-in"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "Send en velkomsthilsen med link for mulighet til å avslutte abonnementet"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "E-post integrasjonsleverandør"
+
+msgctxt "SettingsOptions::email_marketing::em_token"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::email_marketing::em_lastsync"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API-nøkkel"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "Liste"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "E-post"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API-nøkkel"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "Liste"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+

@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "JanRain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Aggiunge la funzionalità di Accesso Social; permette ai clienti di utilizzare Facebook, Twitter, ecc. per accedere al negozio"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Prendi questi valori e configura l'Accesso Social su <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Accesso social"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Il campo \"Password\" e altri campi obbligatori sono vuoti al momento. Ti preghiamo di aggiornare il tuo profilo."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Sfortunatamente, non siamo riusciti a creare un accesso cliente nel negozio a causa di una delle seguenti ragioni:<br />- Hai già effettuato l'accesso al nostro negozio in precedenza, usando qualche fornitore di OpenID in cui è stata utilizzata la stessa e-mail.<br />- Ti sei già registrato nel nostro negozio usando la stessa e-mail.<br />Ti preghiamo di contattare il proprietario del negozio per risolvere i problemi."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Informazioni generali"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "Chiave API"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Dominio applicazione"
+

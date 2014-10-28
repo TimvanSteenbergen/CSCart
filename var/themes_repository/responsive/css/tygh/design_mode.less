@@ -1,0 +1,286 @@
+/* Translate
+   ========================================================================== */
+/* Translate icon (Smarty filter) */
+.live-edit-wrap {
+    position: relative;
+    .editable-click,
+    a.editable-click,
+    a.editable-click:hover {
+        border-bottom: none !important;
+    }
+    .cm-live-edit {
+        display: inline-block;
+        outline: 1px dashed #999;
+        outline-offset: -1px;
+    }
+}
+.live-edit-wrap .ty-icon-live-edit {
+    background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: 0 0 2px #ddd;
+    box-shadow: 0 0 2px #ddd;
+    color: #333 !important;
+    cursor: pointer;
+    filter:Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe5e5e5', GradientType=0);
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    opacity: 0;
+    padding: 0 2px;
+    position: absolute;
+    -webkit-transform: translateZ(0);
+    width: 12px;
+    z-index: 1050;
+    .border-radius(3px);
+    .transition(all .2s linear);
+    &:hover {
+        background-color: #dbdbdb;
+        background-image: -moz-linear-gradient(top,#e0e0e0,#f3f3f3);
+        background-image: -webkit-gradient(linear,0 0,0 100%,from(#e0e0e0),to(#f3f3f3));
+        background-image: -webkit-linear-gradient(top,#e0e0e0,#f3f3f3);
+        background-image: -o-linear-gradient(top,#e0e0e0,#f3f3f3);
+        background-image: linear-gradient(to bottom,#e0e0e0,#f3f3f3);
+        color: #111 !important;
+    }
+    &:before {
+        line-height: 18px;
+        margin-left: 1px;
+    }
+}
+.live-edit-wrap:hover .ty-icon-live-edit {
+    opacity: 1;
+    filter:Alpha(Opacity=100);
+}
+
+/* Highlight original text (Smarty filter) */
+.live-edit-item,
+.live-edit-item p {
+    font-style: initial;
+}
+
+/* X-editable compatibility */
+.editable-pre-wrapped {
+    white-space: inherit !important;
+}
+.editable-input {
+    max-width: 600px !important;
+}
+
+/* Editable popups */
+.editable-container.ui-widget {
+    .border-radius(5px);
+    background: #fff;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    label {
+        color: #777;
+        display: block;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+    button.editable-submit {
+        background: none;
+        background-color: #1abc9c;
+        border: none;
+        .border-radius(3px);
+        span.ui-icon {
+            background-image: none;
+            &:after {
+                color: #fff;
+                content: "\e008";
+                display: block;
+                font-family: 'glyphs';
+                font-size: 11px;
+                line-height: 18px;
+                margin-left: 1px;
+                position: relative;
+                text-indent: 0;
+            }
+        }
+    }
+    button.editable-cancel {
+        .border-radius(50%);
+        background: none;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        height: 21px;
+        margin-left: 4px;
+        margin-top: -10px;
+        outline:none;
+        position: absolute;
+        top: 0;
+        width: 21px;
+        span.ui-icon {
+            background-image: none;
+            &:after {
+                color: #888;
+                content: '✕';
+                display: block;
+                font-size: 11px;
+                position: relative;
+                text-indent: 0;
+            }
+        }
+        &:hover span.ui-icon:after {
+            color: #555;
+        }
+    }
+    input[type="text"], input[type="password"], textarea, select {
+        border: 1px solid #eee;
+        max-width: 100%;
+    }
+    .cm-textarea-autosize {
+        -moz-transition: height 0.2s;
+        -webkit-transition: height 0.2s;
+        transition: height 0.2s;
+    }
+}
+
+.cm-live-editor-empty-element {
+    background-color: #ccc;
+    color: #fff;
+    .border-radius(2px);
+}
+
+
+/* Templates
+   ========================================================================== */
+/*
+ * Template: templates/common/template_editor.tpl
+ * Template: /js/tygh/design_mode.js
+ */
+.template-over {
+    display: none;
+    position: absolute;
+    display: none;
+    z-index: 1025;
+    background: #c0ff00;
+}
+/* Template icon (Smarty filter) */
+.template-box .ty-icon-edit {
+    position: absolute;
+    z-index: 99;
+    padding: 2px 3px;
+    width: 13px;
+    height: 13px;
+    background: #3e3e3e;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    .border-radius(3px);
+}
+
+.ty-template-list-menu {
+    position: absolute;
+    margin-left: -2px;
+    background: white;
+    display: none;
+    z-index: 1030;
+    border: 1px solid #3e3e3e;
+    border-radius: 4;
+    border-top-left-radius: 0;
+}
+.ty-template-list-menu li {
+    color: @links;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.ty-template-list-menu li:hover {
+    background: #f3f3f3;
+    color: #303030;
+}
+
+.ty-templates__list {
+    margin: 10px 4px;
+}
+.ty-templates__list .active {
+    color: #ff0000;
+    cursor: default;
+}
+.ty-templates__list li {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.ty-templates__tree,
+.ty-templates__content {
+    background: #f0f0f0;
+    border: 1px solid #888888;
+}
+.ty-templates__tree {
+    float: left;
+    width: 30%;
+    height: 400px;
+    padding: 22px 6px 6px 6px;
+    border-right: 0;
+    .box-sizing(border-box);
+}
+.ty-templates__tree-title {
+    margin: -22px 0 0;
+    padding: 3px 0 3px 3px;
+    font: bold 100% Arial, Helvetica, sans-serif;
+}
+.ty-templates__tree-wrapper {
+    overflow: auto;
+    height: 100%;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
+
+.ty-templates__content {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 400px;
+    .box-sizing(border-box);
+}
+.ty-templates__text {
+    width: 100%;
+    height: 100%;
+}
+
+.ace_editor p,
+.ace_editor div,
+.ace_editor span,
+.ace_editor i {
+    font-family: 'Monaco', 'Menlo', 'Droid Sans Mono', 'Courier New', monospace !important;
+}
+
+/* Landscape phone to desktop/tablet */
+@media (max-width: 767px) {
+    .ty-templates__content,
+    .ty-templates__tree {
+        width: 100%;
+        float: none;
+    }
+    .ty-templates__tree {
+        height: 200px;
+        border-right: 1px solid #888888;
+        border-bottom: 0;
+    }
+    .ty-templates__content {
+        margin-bottom: 10px;
+    }
+    .editable-input {
+        max-width: 400px !important;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .ty-templates__buttons .ty-btn {
+        margin-bottom: 15px;
+        float: none;
+    }
+    .editable-input {
+        max-width: 200px !important;
+    }
+}

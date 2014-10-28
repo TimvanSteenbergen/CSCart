@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::customers_also_bought"
+msgid "Customers also bought"
+msgstr "Kunder kjøpte også"
+
+msgctxt "Addons::description::customers_also_bought"
+msgid "Makes it possible to create a special block for the products often purchased along with the current one"
+msgstr "Gjør det mulig å opprette en spesiell blokk for produkter ofte kjøpt sammen med det gjeldende produktet"
+

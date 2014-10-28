@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>customers_also_bought</id>
+    <version>1.0</version>
+    <priority>900</priority>
+    <position>110</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item>DROP TABLE IF EXISTS ?:also_bought_products;</item>
+        <item>
+            CREATE TABLE `?:also_bought_products` (
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `related_id` mediumint(8) unsigned NOT NULL default '0',
+                `amount` smallint(5) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`product_id`,`related_id`)
+                ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:also_bought_products;</item>
+    </queries>
+</addon>

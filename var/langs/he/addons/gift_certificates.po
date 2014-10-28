@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "שוברי מתנה"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "Adds a built-in gift certificate system"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "שוברי מתנה"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "שוברי מתנה"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "צפה ונהל את שוברי מתנה שנרכשו על ידי הלקוחות."
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "פרטי שובר מתנה"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "אימות שובר מתנה"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "קוד קופון"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "Debit balance"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "מאת"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "אל"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "שובר מתנה"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "רכוש שובר מתנה"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "לוגו עבור <b>תלושי שי</b>"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "הסכום צריך להיות בין [min]- [max]"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "שובר מתנה נמחק בהצלחה."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "קוד שובר המתנה שהזנת אינו חוקי.נסה שוב."
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "הוסף מוצר כמתנה"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "השתמש/נצל שובר מתנה"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "מידע מפורט"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "היסטוריה"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "סטטוס שוברי מתנה"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "שובר המתנה התקבל בהצלחה"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "שובר המתנה כבר נמצא בשימוש"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "לא ניתן לקבל את שובר המתנה,אנא פנה לשירות הלקוחות."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "קוד שובר המתנה אינו חוקי"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "Gift certificate amount has been changed."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "Purchased"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "Used"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "Create Gift Certificate for this customer"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "Related gift certificates"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "הוסף שובר מתנה"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "סטטוס שוברי מתנה"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "סכום נוכחי"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "Mail"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "סטטוסים"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "שובר חדש"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "עריכת שובר"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "רכוש כעת"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "שוברי מתנה"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "Gift certificate or promo code"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "שובר מתנה התווסף לעגלה שלך"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "אימות שובר מתנה"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "אימות שובר מתנה"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "Gift certificate input and validation"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "עבור"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "מאת"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "Amount should not be higher than [max] and less than [min]"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "ניהול מערכת שוברי מתנה"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Change gift certificate status to"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "כללי"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "סכום מינימלי"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "סכום מקסימאלי"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "GC Code prefix"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "Gift certificates per page"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "Allow to use free products"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "אפשר לקזז עלות משלוח בעזרת שובר מתנה"
+

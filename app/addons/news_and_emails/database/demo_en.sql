@@ -1,0 +1,3 @@
+REPLACE INTO ?:news_descriptions (news_id, news, description, lang_code) VALUES('2', 'Happy Groundhog Day!', '<p>Take our very best wishes on this pleasant day.</p>', 'en');
+REPLACE INTO ?:news_descriptions (news_id, news, description, lang_code) VALUES('3', 'Give your store a new face! Easy and Fast!', '<p>With the new real-time Theme editor you can customize your store\'s look and feel in no time.</p>', 'en');
+REPLACE INTO ?:news_descriptions (news_id, news, description, lang_code) VALUES('4', 'New Level of Online Shopping', '<p>It is a breakthrough release. It has tons of new features and improvements; it is more powerful, beautiful, and faster than ever.</p>', 'en');

@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Címkék"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Termékcímkék engedélyezése"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Termék és weboldal címkék kezelése."
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "Címkefelhőm"
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "Népszerű címkék"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Jelentkezzen be címkék hozzáadásához"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Címkefelhő"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "Címkéim"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "Címkéim összefoglalója"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Címkék"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Címkék"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Termékcímkék"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "címke hozzáadása"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "\"[tag]\" címkével ellátott elemek:"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "\"[tag]\" címkével ellátott elemeim:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Címke"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "Új címke"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Címke hozzáadása"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Termékcímkék"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Oldalcímkék"
+

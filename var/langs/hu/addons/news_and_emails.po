@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "Hírek és e-mailek"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Hírlevélküldő rendszer, és weboldal hírek kezelése"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "Hírek"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Hozzon létre, és küldjön hírleveleket vevőinek."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Weboldal híreinek kezelése."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Egyszerű"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Iratkozzon fel hírlevelünkre!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "News & emails: Newsletter subscription form"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "Hírek"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "Hírek és e-mailek"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Leiratkozási link"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Feliratkozók hozzáadása listából"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "Az alábbi e-mail cím már a feliratkozottak között szerepel: <b>[email]</b>"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Néhány levelezési lista nem található az adatbázisban. Számos importált feliratkozó nem kerül listára."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Feliratkozók"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "Hírek listaoldal"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "Hírek oldal"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Hírlevél feliratkozás"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "Hírek"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Hírlevél feliratkozás e-mail mező"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "Hírek megtekintése"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Hírek kezelése"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Hírlevél nem lett elküldve, mert nem találhatók a kiválasztott feltételeknek megfelelő címzettek."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Hírlevel(ek) sikeresen elküldve."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail cím nem lehet üres"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "E-mail küldése [email] címre ..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Sikeresen feliratkozott ingyenes hírlevelünkre"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Az e-mail címe már szerepel listánkon."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "E-mail címét sikeresen eltávolítottuk ingyenes hírlevelünk listájáról"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "E-mail címe sikeresen aktiválva"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "A link az éles hírlevélben jelenik meg"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Hírlevelek"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Sablonok"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Automata értesítések"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampányok"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Küldött"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Hír hozzáadása"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Hír hozzáadása és beázárás"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Feliratkozók száma"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Levelezési lista szerkesztése"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Küldő neve"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Küldő e-mail címe"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Válasz e-mail"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Megerősítő e-mail"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Nincs automatikus értesítés"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Megjelenítés pénztárban"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Megjelenítés regisztrációkor"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Külön oldalon"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Hírek szerkesztése"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "Új hír"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Kampány statisztikák"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Kampány hozzáadása"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Új kampány"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Hírlevél sablonok"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Automata értesítő hírlevelek"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Tárgy"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Hírlevél hozzáadása"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Sablon hozzáadása"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Automatikus értesítés hozzáadása"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Random tárgyak (soronként egyet)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML szöveg"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Nincs sablon"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Betöltés"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Kampány"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Küldés ide"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Címzettek hozzáadása felhasználók listájából"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Az alábbi vevőkenk"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "elhagyott kosár vagy kívánságlista"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "ami"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "napos"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Teszt e-mail küldése"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Mentés és küldés"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Hírlevél"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Hírlevél sablon"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Automata értesítő hírlevelek"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Levelezési lista"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Visszaigazolva"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Feliratkozva [num] listára"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Feliratkozott"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Sikeresen feliratkozott ingyenes hírlevelünkre és promócióinkra!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Tiszteletben tartjuk adatainak védelmént, és soha nem küldünk e-mailt olyan felhasználónak, aki nem iratkozott fel előzőleg. Ön azért kapta ezt az e-mailt, mert korábban feliratkozott ingyenes hírlevelünkre.<br /><br /> Amennyiben le szeretne iratkozni, kérjük, hogy kattintson az alábbi linkre:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "hírlevél és promóció feliratkozások"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Megosztva:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Küldő e-mail címe."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Küldő neve (pl. cégnév)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "E-mail cím, melyre a válaszok érkeznek."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Amennyiben több tárgyat ad meg, az e-mail tárgyak véletlenszerűen lesznek kiválasztva a listából."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Amennyiben az üzenet leiratkozási linket tartalmaz, az alábbi felhasználóknak üres lesz."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Hírlevél lista hozzáadása"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Feliratkozó hozzáadása"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Új hírlevél lista"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "Új feliratkozók"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Elküldött levelek száma lépésenként"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Haladó levélküldő szerver beállítások"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Email küldés módja"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP szerver beállítások"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP hoszt"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP felhasználói név"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP jelszó"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "SMTP autentikáció használata"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Sendmail beállítások"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Sendmail program útvonala"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "SMTP szerveren keresztül"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "php mail függvényén keresztül"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "sendmail alkalmazáson keresztül"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "Alapértelmezett beállítások használata"
+

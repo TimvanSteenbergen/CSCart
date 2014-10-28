@@ -1,0 +1,141 @@
+/* Discussion */
+.posts {
+    border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    line-height: 19px;
+    margin: 22px 0 50px 0;
+    padding: 15px;
+}
+.posts h2 {
+    font: bold 100% Tahoma;
+    float: left;
+    padding: 2px 0 0;
+}
+.posts .float-right {
+    padding-top: 5px;
+}
+.post-author {
+    position: absolute;
+    top: -25px;
+    left: 37px;
+    font-weight: 700;
+}
+.post-date {
+    position: absolute;
+    top: -25px;
+    color: #a6a6a6;
+    right: 0;
+}
+.posts em {
+    font-size: 85%;
+}
+.post-message {
+    padding: 0;
+}
+.left-column .post-author,.right-column .post-author {
+    padding: 3px 0 15px;
+}
+#content_discussion p.stars {
+    text-align: right;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.discussion-block .no-items {
+    margin-bottom: 15px;
+}
+.discussion-block .subheader {
+    padding-bottom: 15px;
+}
+.product-main-info .stars img {
+    margin: 0;
+    padding: 3px 1px 0;
+}
+.product-main-info .stars {
+    float: left;
+    padding: 0 17px 0 0;
+}
+.company-page-top-links .stars i {
+    font-size: 21px;
+}
+.product-quick-view .stars {
+    float: left;
+    padding: 0 17px 0 0;
+}
+.product-main-info .image-border .stars {
+    float: none;
+    text-align: center;
+    padding: 8px 0 0;
+}
+.stars {
+    padding: 0;
+    font-size: 135%;
+}
+.product-image .stars img,.product-item-image .stars img,.feature-image .stars img,.image-border .stars img,.mainbox2-body .product-image .stars img,.mainbox2-body .product-item-image .stars img,.mainbox2-body .mainbox2-body .feature-image .stars img,.mainbox2-body .image-border .stars img {
+    border: 0 none;
+    background-color: transparent;
+    padding: 0 1px;
+}
+.post-new {
+    margin-top: -15px;
+}
+.posts .no-items {
+    margin-bottom: 40px;
+}
+
+/* Rate stars */
+.rating {
+    float:left;
+}
+.rating label {
+    display: inline-block;
+}
+.rating:not(:checked) > input {
+    position: absolute;
+    left: -9999px;
+    clip: rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float: right;
+    width: 17px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.2;
+    margin-right: 2px;
+}
+.rating:not(:checked) > label:before {
+    font-family: 'glyphs';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 21px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e004";
+}
+.rating:not(:checked) > label:hover:before,
+.rating:not(:checked) > label:hover ~ label:before {
+    content: "\e041";
+}
+.rating > input:checked ~ label:before,
+.rating > input:checked + label:hover:before,
+.rating > input:checked + label:hover ~ label:before,
+.rating > input:checked ~ label:hover:before,
+.rating > input:checked ~ label:hover ~ label:before,
+.rating > label:hover ~ input:checked ~ label:before {
+    content: "\e041";
+}
+.product-title-wrap .stars {
+    margin-top: 4px;
+    height: 15px;
+}
+/* /Rate stars */
+
+/* /Discussion */

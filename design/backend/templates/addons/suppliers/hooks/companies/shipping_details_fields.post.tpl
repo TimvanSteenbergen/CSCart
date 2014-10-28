@@ -1,0 +1,1 @@
+{include file="addons/suppliers/views/suppliers/components/supplier_field.tpl" title=__("supplier") name="shipping_data[supplier_id]" id="shipping_data_supplier_id" selected=$shipping.supplier_id company_id=$shipping.company_id}

@@ -1,0 +1,13 @@
+{
+    "default_style": "Modern",
+    "default": {
+        "Modern": true,
+        "Greeny": true,
+        "Facebook": true,
+        "Woody": true,
+        "Black": true,
+        "Posh": true,
+        "MTronX": true,
+        "Brightness": true
+    }
+}

@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Комбинации товаров"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Позволяет устанавливать общие скидки на конкретные комбинации товаров"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Комбинации товаров"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Задать параметры"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Итоговая рекомендованная цена"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Цена для всех"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Добавить все в корзину"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Редактирование комбинации"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Итоговая цена: [total_price], Скидка [discount], Цена комбинации: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Показывать в промо-акциях"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Товары комбинации"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Общая скидка"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator addon"
+msgstr "Товар [product_name] не может быть добавлен в комбинацию. Модуль «Товары в связке» не совместим с модулем «Конфигуратор товаров»"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing addon"
+msgstr "Товар [product_name] не может быть добавлен в комбинацию. Модуль «Комбинации товаров» не совместим с модулем «Оплата в рассрочку»"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Комбинация не может быть добавлена в корзину"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "Товара [product] не было в достаточном количестве в наличии ([amount]), и он был удален из корзины"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Пожалуйста, выберите параметры товара перед добавлением комбинации в корзину."
+

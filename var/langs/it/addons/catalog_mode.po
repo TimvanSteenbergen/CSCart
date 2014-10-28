@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::catalog_mode"
+msgid "Catalog mode"
+msgstr "Modalità catalogo"
+
+msgctxt "Addons::description::catalog_mode"
+msgid "Allows you to use the store as a product catalog"
+msgstr "Consente di utilizzare il negozio come un catalogo di prodotti"
+
+msgctxt "Languages::catalog_mode"
+msgid "Catalog Mode"
+msgstr "Modalità catalogo"
+
+msgctxt "Languages::text_catalog_mode_zero_price_action_notice"
+msgid "In order that the \"Buy now\" button could be displayed on the product details page, please set \"Zero price action\" as \"Allow customers to add the product to cart\"."
+msgstr "Per mostrare il pulsante \"Acquista ora\" nella pagina dettaglio prodotto, per favore impostare \"Comportamento con prezzo zero\" su \"Permettere ai clienti di aggiungere il prodotto al carrello\"."
+
+msgctxt "Languages::buy_now_url"
+msgid "Buy Now URL"
+msgstr "URL compra ora"
+
+msgctxt "SettingsSections::catalog_mode::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::catalog_mode::main_store_mode"
+msgid "Store operation mode"
+msgstr "Modalità di funzionamento del negozio"
+
+msgctxt "SettingsOptions::catalog_mode::add_to_cart_empty_buy_now_url"
+msgid "Allow purchasing products with empty Buy Now URL"
+msgstr "Consentire l'acquisto di prodotti con URL Acquista ora vuoto"
+
+msgctxt "SettingsVariants::catalog_mode::main_store_mode::catalog"
+msgid "Catalog"
+msgstr "Catalogo"
+
+msgctxt "SettingsVariants::catalog_mode::main_store_mode::store"
+msgid "Store"
+msgstr "Negozio"
+

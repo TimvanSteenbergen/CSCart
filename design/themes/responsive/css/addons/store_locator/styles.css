@@ -1,0 +1,12 @@
+.store-location {
+	padding-left: 420px;
+}
+.store-location-wrapper {
+	margin-left: -420px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid #979797;	
+}
+.store-location-item {
+	margin: 15px 0;
+}

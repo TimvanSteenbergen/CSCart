@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Ønskeliste"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Lar kundene lagre produkter i personlige ønskelister"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Legg til i ønskeliste"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Tøm ønskeliste"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "Vis ønskelisten"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Innhold i ønskelisten"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Ønskeliste"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Gå til din ønskeliste"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Kunne ikke legge til sertifikatet. Kontroller at sammenlagtbeløpet ikke er null."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Gavekortet har blitt lagt til ønskelisten"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Produktet ble lagt til i din ønskeliste"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Dette produktet er allerede i ønskelisten"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Produkter i ønskelisten"
+

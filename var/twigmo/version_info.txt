@@ -1,0 +1,1 @@
+a:3:{s:12:"next_version";s:3:"3.7";s:11:"description";s:109:"Twigmo 3.7 is available. <a href="http://www.twigmo.com/blog-twigmo-3-7-is-up/" target="_blank">Read more</a>";s:10:"update_url";s:59:"http://cp.twigmo.com/download/cscart/3.7/twigmo.cscart4.tgz";}

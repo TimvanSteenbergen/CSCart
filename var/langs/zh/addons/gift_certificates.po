@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "礼卷"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "添加一个内置礼卷系统"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "礼券"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "礼券"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "查看和管理客户已购买的礼券"
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "礼券信息"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "礼券验证"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "礼券代码"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "借方余额"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "从"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "到"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "礼券"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "购买礼卷"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "<b>礼卷</b>商标"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "Amount should be between [min] and [max]"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "礼卷已成功删除."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "您输入的礼卷代码无效.请再试一次"
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "添加产品礼品"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "消息"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "验证/兑换礼券"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "详细信息"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "历史"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "礼券状态"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "礼卷已申请"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "此礼卷已经使用"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "礼卷无法使用.请联系商店管理人员."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "礼卷代码无效"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "以下礼券已被删除或取消管理员,并且已从您的购物车删除: [codes]. 您的商店联系管理员或尝试另一个."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "礼卷[code]无法删除因已用于订单[ids]."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "礼券数量已经改变."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "购买的"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "使用的"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "给客户创建礼卷"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "相关礼卷"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "添加礼券"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "礼券状态"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "目前金额"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "邮件"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "状态"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "新礼卷"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "编辑证书"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "现在购物"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "Gift Certificate"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "礼卷促销代码"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "礼卷已添加到您的购物车"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "礼卷检验"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "礼卷检验"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "礼卷输入和确认"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "到"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "来自"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "总额不能高于[max]同时不低于[min]"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "Manage gift certificate system"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Change gift certificate status to"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "最小金额"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "最大金额"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "GC 代码前缀"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "每页礼券数"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "允许使用免费产品"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "允许赎回配送成本与礼卷"
+

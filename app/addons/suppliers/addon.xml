@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>suppliers</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="display_supplier">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="display_shipping_methods_separately">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS `?:suppliers`</item>
+        <item for="install">DROP TABLE IF EXISTS `?:supplier_links`</item>
+        <item for="install">
+            CREATE TABLE `?:suppliers` (
+                `supplier_id` mediumint(8) UNSIGNED NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL,
+                `name` varchar(255),
+                `address` varchar(255) NOT NULL,
+                `city` varchar(64) NOT NULL,
+                `state` varchar(32) NOT NULL,
+                `country` char(2) NOT NULL,
+                `zipcode` varchar(16) NOT NULL,
+                `email` varchar(128) NOT NULL,
+                `phone` varchar(32) NOT NULL,
+                `fax` varchar(32) NOT NULL,
+                `url` varchar(128) NOT NULL,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT '0',
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`supplier_id`),
+                KEY `company` (`company_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">
+            CREATE TABLE `?:supplier_links` (
+                `supplier_id` mediumint(8) UNSIGNED NOT NULL,
+                `object_id` int(11) UNSIGNED NOT NULL,
+                `object_type` char(1),
+                PRIMARY KEY  (`supplier_id`, `object_id`, `object_type`),
+                KEY `object_id` (`object_id`,`object_type`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=UTF8
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:suppliers`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:supplier_links`</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_suppliers', 'Y', 'addons')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_suppliers'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_suppliers_install</item>
+    </functions>
+</addon>

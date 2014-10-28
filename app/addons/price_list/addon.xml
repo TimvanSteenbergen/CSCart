@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>price_list</id>
+    <version>1.0</version>
+    <priority>4100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <!-- TABLE LAYOUT -->
+                    <item id="table_layout_header">
+                        <type>header</type>
+                    </item>
+                    <item id="price_list_fields">
+                        <type>selectable_box</type>
+                        <default_value><![CDATA[#M#product_code=Y&product=Y&amount=Y&price=Y]]></default_value>
+                    </item>
+                    <item id="price_list_sorting">
+                        <type>selectbox</type>
+                        <default_value>product_code</default_value>
+                    </item>
+                    <item id="group_by_category">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="include_options">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="xls_header">
+                        <type>header</type>
+                    </item>
+                    <item id="xls_url">
+                        <type>info</type>
+                        <handler>fn_price_list_xls_url_info</handler>
+                    </item>
+                    <item id="pdf_header">
+                        <type>header</type>
+                    </item>
+                    <item id="pdf_url">
+                        <type>info</type>
+                        <handler>fn_price_list_pdf_url_info</handler>
+                    </item>
+                    <item id="clear_header">
+                        <type>header</type>
+                    </item>
+                    <item id="clear_url">
+                        <type>info</type>
+                        <handler>fn_price_list_clear_url_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

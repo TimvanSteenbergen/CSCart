@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>CS-Cart Installation Instructions</title>
+    <style type="text/css">
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        p {
+            line-height: 18px;
+        }
+
+        blockquote {
+            padding: 10px 0 10px 15px;
+            margin: 10px 0 20px;
+            border-left: 5px solid #eeeeee;
+        }
+
+        .content {
+            width: 1010px;
+            margin: 0 auto;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+        }
+
+        ol {
+            margin-left: 0px;
+            padding-left: 21px;
+        }
+
+        hr {
+            color: #a6a6a6;
+            background-color: #a6a6a6;
+            height: 1px;
+            margin: 25px 0px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1>CS-Cart Installation Instructions</h1>
+    <hr>
+
+    <p>The instructions below apply to CS-Cart installation on a hosting server accessible on the Internet.</p>
+
+    <p>If you would like to make a CS-Cart installation on your local computer (desktop), please download the <b>"How to
+        install CS-Cart on a local computer"</b> manual on the <b>"File area"</b> page in our Customer Help Desk (<a
+            href="https://www.cs-cart.com">https://www.cs-cart.com</a>).</p>
+
+    <b>
+        CS-Cart installation includes the following steps:
+    </b>
+
+    <ol>
+        <li>extracting the software distribution package and uploading the files to a web server</li>
+        <li>setting file access permissions</li>
+        <li>creating a MySQL database</li>
+        <li>running the Installation Wizard</li>
+    </ol>
+
+    <hr>
+
+    <ol>
+        <li>
+            <p><b>Unpack the CS-Cart distribution package (the "cscart_vX.X.X.tgz" or
+                "cscart_vX.X.X.zip" file) anywhere under your web server directory.</b></p>
+
+            <p>On a Windows-based server, you can do it with any TAR- or ZIP-compatible
+                archive software.<br>
+                On a UNIX-based server with terminal access, run one of
+                the following commands depending on the package file format:<br>
+            <pre>tar -xpf cscart_vX.X.X.tgz</pre>
+            or
+            <pre>unzip cscart_vX.X.X.zip</pre>
+            </p>
+
+            <blockquote><b>NOTE:</b> Most control panels have a so called file manager
+                that allows to unpack a TAR and ZIP archives in a single click.
+            </blockquote>
+
+            <p>If none of the ways described above works for you, you should extract the
+                distribution package on your local computer using any TAR-
+                or ZIP-compatible archive software, e.g. WinRAR (you can download it here:
+                <a href="http://www.rarlab.com/rar/wrar370.exe">http://www.rarlab.com/rar/wrar370.exe</a>) and upload
+                all the files to your server via FTP.</p>
+        </li>
+
+        <li>
+            <p><b>Set the access permissions</b>.</p>
+
+            <blockquote><b>NOTE:</b> You can skip this step if you have used command <pre>tar -xpf cscart_vX.X.X.tgz</pre> to unpack the CS-Cart distribution package.
+            </blockquote>
+
+            <p>On a UNIX-based server with terminal access, run the following commands one by one:</p>
+
+            <pre>chmod 666 config.local.php
+chmod -R 777 design images var
+find design -type f -print0 | xargs -0 chmod 666
+find images -type f -print0 | xargs -0 chmod 666
+find var -type f -print0 | xargs -0 chmod 666
+chmod 644 design/.htaccess images/.htaccess var/.htaccess var/themes_repository/.htaccess
+chmod 644 design/index.php images/index.php var/index.php var/themes_repository/index.php</pre>
+
+            <p>If you do not have terminal access to your server, you can change file
+                access permissions using an FTP client. Most of them have the "Change
+                permissions" or "Change mode" functions. With the help of these functions
+                you can set the permissions for the 'config.local.php' file and the
+                directories listed above.</p>
+
+            <p>The 'chmod 666 config.local.php' command means that the 666 permissions
+                (read and write permissions for the file user, group, and others)
+                will be set for the 'config.local.php' file.</p>
+
+            <p>Other commands (e.g. 'chmod -R 777 design') mean that the 777 (read,
+                write and execute) permissions are set for the directory, its subdirectories, and
+                all the files within these directories.</p>
+
+            <p>Please refer to your FTP client documentation for more detailed instructions
+                on setting file permissions.</p>
+
+            <p>In order to set the same file access permissions on a Windows-based
+                server, you may need to give full permissions for the files and
+                directories to the user with the IUSER_ComputerName account.</p>
+        </li>
+        <li>
+            <p><b>Create a MySQL database</b></p>
+
+            <p>Create a MySQL database (you may need to create a MySQL user before
+                that) via your website control panel. Remember the MySQL name, host, user
+                name, and password; they will be required at the next installation step.</p>
+        </li>
+        <li>
+            <p><b>Run the CS-Cart Installation Wizard.</b></p>
+
+            <p>In your browser go to the following URL: <a href="http://www.my_site.com/install/">http://www.my_site.com/install/</a>
+                (replace "my_site.com" with your actual site domain name).</p>
+
+            <p>Follow the instructions in the Installation Wizard.</p>
+        </li>
+        <li>
+            <p><b>After the installation.</b></p>
+
+            <p>Once the installation is complete, it is strongly recommended that you take the following steps to protect the current installation and the CS-Cart source code.</p>
+<ul><li>Delete the directory install/.</li>
+<li>Change the default administrator password.</li>
+<li>Remove the distribution package from the web accessible directory on your server.</li>
+<li>Change the access permissions for the configuration file config.local.php as advised below.</li></ul>
+
+<pre>chmod 644 config.local.php</pre>
+ 
+<p>The chmod 644 command leaves the file readable and writeable for the file owner and makes it readable for all other system users. The file contents cannot be viewed in a browser though.</p>
+        </li>
+    </ol>
+
+    <hr>
+
+    <p>Please report bugs and suggestions using our Customer Help Desk: <a href="http://www.cs-cart.com">http://www.cs-cart.com</a>
+    </p>
+
+    <p>&copy; 2004 Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev.</p>
+
+    <p>Thank you for choosing us. CS-Cart Team</p>
+
+</div>
+</body>
+</html>

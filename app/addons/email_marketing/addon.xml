@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>email_marketing</id>
+    <version>1.0</version>
+    <priority>500</priority>
+    <position>110</position>
+    <status>disabled</status>
+    <compatibility>
+        <conflicts>news_and_emails</conflicts>
+    </compatibility>    
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <functions>
+        <item for="install">fn_em_install</item>
+    </functions>
+    <settings layout="separate">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="em_show_on_checkout">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="em_checkout_enabled" parent_id="em_show_on_checkout">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="em_double_opt_in">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="em_welcome_letter">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="em_service">
+                        <type>selectbox</type>
+                        <default_value>dummy</default_value>
+                        <variants>
+                            <item id="dummy">
+                            </item>
+                            <item id="mailchimp">
+                            </item>
+                            <item id="madmimi">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="em_token">
+                        <type>hidden</type>
+                    </item>
+                    <item id="em_lastsync">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+            <section id="mailchimp">
+                <items>
+                    <item id="em_mailchimp_api_key">
+                        <type>input</type>
+                    </item>
+                    <item id="em_mailchimp_list">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+            <section id="madmimi">
+                <items>
+                    <item id="em_madmimi_username">
+                        <type>input</type>
+                    </item>
+                    <item id="em_madmimi_api_key">
+                        <type>input</type>
+                    </item>
+                    <item id="em_madmimi_list">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:em_subscribers;</item>
+        <item>
+            CREATE TABLE `?:em_subscribers` (
+                `subscriber_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `email` varchar(128) NOT NULL default '',
+                `name` varchar(128) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `ip_address` varchar(15) NOT NULL default '',
+                `lang_code` char(2) NOT NULL default '',
+                `status` char(1) NOT NULL default 'A',
+                `unsubscribe_key` varchar(32) not null default '',
+                UNIQUE KEY  (`email`) ,
+                PRIMARY KEY  (`subscriber_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'view_email_marketing');</item>
+        <item>REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'manage_email_marketing');</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_email_marketing', 'Y', 'cms');</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_email_marketing', 'Y', 'cms');</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:em_subscribers;</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege IN ('manage_email_marketing', 'view_email_marketing')</item>
+        <item for="uninstall">DELETE FROM ?:usergroup_privileges WHERE privilege IN ('manage_email_marketing', 'view_email_marketing')</item>
+    </queries>
+</addon>

@@ -1,0 +1,859 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 07:00-0400\n"
+
+msgctxt "Addons::name::social_buttons"
+msgid "Social buttons"
+msgstr "Sosiale knapper"
+
+msgctxt "Addons::description::social_buttons"
+msgid "Social media and e-mail share buttons (Twitter, Facebook, etc.)"
+msgstr "Sosiale medier og e-post delings-knapper (Twitter, Facebook, osv.)"
+
+msgctxt "Languages::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::facebook_obj_type"
+msgid "Facebook object type"
+msgstr "Facebook objekttype"
+
+msgctxt "Languages::fb_activities"
+msgid "Activities"
+msgstr "Aktiviteter"
+
+msgctxt "Languages::fb_businesses"
+msgid "Businesses"
+msgstr "Bedrifter"
+
+msgctxt "Languages::fb_groups"
+msgid "Groups"
+msgstr "Grupper"
+
+msgctxt "Languages::fb_organizations"
+msgid "Organizations"
+msgstr "Organisasjoner"
+
+msgctxt "Languages::fb_people"
+msgid "People"
+msgstr "Personer"
+
+msgctxt "Languages::fb_places"
+msgid "Places"
+msgstr "Steder"
+
+msgctxt "Languages::fb_products_entertainment"
+msgid "Products and Entertainment"
+msgstr "Produkter og underholdning"
+
+msgctxt "Languages::fb_websites"
+msgid "Websites"
+msgstr "Nettsider"
+
+msgctxt "Languages::error_no_recipient_address"
+msgid "Please enter your friends e-mail address to proceed"
+msgstr "Vennligst skriv inn din venns e-postadresse for å fortsette."
+
+msgctxt "Languages::recommendation_from"
+msgid "Recommendation from"
+msgstr "Anbefaling fra"
+
+msgctxt "Languages::text_recommendation_notes"
+msgid "Your friend has recommended this page to you. Please follow the link:"
+msgstr "Din venn har anbefalt denne siden til deg. Vennligst følg linken:"
+
+msgctxt "Languages::your_email"
+msgid "Your e-mail"
+msgstr "Din e-post"
+
+msgctxt "Languages::name_of_friend"
+msgid "Name of your friend"
+msgstr "Navn på din venn"
+
+msgctxt "Languages::email_of_friend"
+msgid "E-mail of your friend"
+msgstr "E-post til din venn"
+
+msgctxt "Languages::share_via_email"
+msgid "Share via E-Mail"
+msgstr "Dele via e-post"
+
+msgctxt "Languages::sb_share"
+msgid "Share"
+msgstr "Del"
+
+msgctxt "SettingsSections::social_buttons::twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsSections::social_buttons::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsSections::social_buttons::vkontakte"
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+msgctxt "SettingsSections::social_buttons::email"
+msgid "E-mail"
+msgstr "E-post"
+
+msgctxt "SettingsOptions::social_buttons::twitter_header"
+msgid "Twitter settings"
+msgstr "Twitter innstillinger"
+
+msgctxt "SettingsOptions::social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Vis Twitter-knappen"
+
+msgctxt "SettingsOptions::social_buttons::twitter_via"
+msgid "Via"
+msgstr "Via"
+
+msgctxt "SettingsOptions::social_buttons::twitter_size"
+msgid "Button size"
+msgstr "Knappstørrelse"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_count"
+msgid "Display count"
+msgstr "Vise antall"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_on"
+msgid "Display on"
+msgstr "Vis på"
+
+msgctxt "SettingsOptions::social_buttons::facebook_header"
+msgid "Facebook settings"
+msgstr "Facebook innstillinger"
+
+msgctxt "SettingsOptions::social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Vis Facebook knappen"
+
+msgctxt "SettingsOptions::social_buttons::facebook_app_id"
+msgid "Facebook app ID"
+msgstr "Facebook-app-ID"
+
+msgctxt "SettingsOptions::social_buttons::facebook_href"
+msgid "The URL of the page to like"
+msgstr "Nettadressen for siden å like"
+
+msgctxt "SettingsOptions::social_buttons::facebook_send"
+msgid "Include a Send button with the Like button"
+msgstr "Inkluder en Send-knapp med Liker-knappen"
+
+msgctxt "SettingsOptions::social_buttons::facebook_width"
+msgid "Width of the Like button (px)"
+msgstr "Bredden på Liker-knappen (px)"
+
+msgctxt "SettingsOptions::social_buttons::facebook_layout"
+msgid "Button layout"
+msgstr "Layout for knappen"
+
+msgctxt "SettingsOptions::social_buttons::facebook_show_faces"
+msgid "Display profile photos"
+msgstr "Vis profilbilder"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action"
+msgid "Button verb"
+msgstr "Knapp verb"
+
+msgctxt "SettingsOptions::social_buttons::facebook_lang"
+msgid "Language"
+msgstr "Språk"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action_font"
+msgid "Button font"
+msgstr "Font for knappen"
+
+msgctxt "SettingsOptions::social_buttons::facebook_colorscheme"
+msgid "Color scheme"
+msgstr "Fargevalg"
+
+msgctxt "SettingsOptions::social_buttons::facebook_display_on"
+msgid "Display on"
+msgstr "Vis på"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_header"
+msgid "Vkontakte settings"
+msgstr "Vkontakte innstillinger"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_enable"
+msgid "Show Vkontakte button"
+msgstr "Vis Vkontakte-knappen"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_appid"
+msgid "Vkontakte app ID"
+msgstr "Vkontakte app ID"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_button_style"
+msgid "Button layout"
+msgstr "Layout for knappen"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_height"
+msgid "Button height (px)"
+msgstr "Knapp høyde (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_width"
+msgid "Button width (px)"
+msgstr "Knapp bredde (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_buttons_name"
+msgid "Button name"
+msgstr "Navn på knappen"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_display_on"
+msgid "Display on"
+msgstr "Vis på"
+
+msgctxt "SettingsOptions::social_buttons::email_header"
+msgid "E-mail settings"
+msgstr "E-post innstillinger"
+
+msgctxt "SettingsOptions::social_buttons::email_enable"
+msgid "Show E-mail button"
+msgstr "Vis e-post-knappen"
+
+msgctxt "SettingsOptions::social_buttons::email_display_on"
+msgid "Display on"
+msgstr "Vis på"
+
+msgctxt "SettingsTooltips::social_buttons::twitter_via"
+msgid "User name to attribute the Tweet to (i.e. 'via @username')"
+msgstr "Brukernavn å tillegge Tweet til (i.e. 'via @username')"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_app_id"
+msgid "Specify any Facebook app ID, otherwise the button will not be shown"
+msgstr "Spesifiser en Facebook app ID, ellers vises ikke knappen"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_href"
+msgid "Leave empty to use an actual page URL"
+msgstr "La stå tomt for å bruke en faktisk nettadresse"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_show_faces"
+msgid "Enable to display profile photos below the button (standard layout only)"
+msgstr "Aktiver visning av profilbilder under knappen (kun standard layout)"
+
+msgctxt "SettingsTooltips::social_buttons::vkontakte_width"
+msgid "Only for the button with text counter"
+msgstr "Bare for knappen med tekst teller"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::medium"
+msgid "Medium"
+msgstr "Middels"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::large"
+msgid "Large"
+msgstr "Stor"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::none"
+msgid "None"
+msgstr "Ingen"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::horizontal"
+msgid "Horizontal"
+msgstr "Horisontal"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::vertical"
+msgid "vertical"
+msgstr "vertikal"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::products"
+msgid "Product details pages"
+msgstr "Produktdetaljer sider"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::pages"
+msgid "Pages"
+msgstr "Sider"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::products"
+msgid "Product details pages"
+msgstr "Produktdetaljer sider"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::pages"
+msgid "Pages"
+msgstr "Sider"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::products"
+msgid "Product details pages"
+msgstr "Produktdetaljer sider"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::pages"
+msgid "Pages"
+msgstr "Sider"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::products"
+msgid "Product details pages"
+msgstr "Produktdetaljer sider"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::pages"
+msgid "Pages"
+msgstr "Sider"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::button_count"
+msgid "With count"
+msgstr "Med teller"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::box_count"
+msgid "With large count"
+msgstr "Med stor teller"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::like"
+msgid "Like"
+msgstr "Liker"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::like"
+msgid "Like"
+msgstr "Liker"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::recommend"
+msgid "Recommend"
+msgstr "Anbefal"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::af_ZA"
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ar_AR"
+msgid "Arabic"
+msgstr "Arabisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::az_AZ"
+msgid "Azerbaijani"
+msgstr "Aserbajdsjansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::be_BY"
+msgid "Belarusian"
+msgstr "Hviterussisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bg_BG"
+msgid "Bulgarian"
+msgstr "Bulgarsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bn_IN"
+msgid "Bengali"
+msgstr "Bengali"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bs_BA"
+msgid "Bosnian"
+msgstr "Bosnisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ca_ES"
+msgid "Catalan"
+msgstr "Katalansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cs_CZ"
+msgid "Czech"
+msgstr "Tsjekkisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cy_GB"
+msgid "Welsh"
+msgstr "Walisisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::da_DK"
+msgid "Danish"
+msgstr "Dansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::de_DE"
+msgid "German"
+msgstr "Tysk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::el_GR"
+msgid "Greek"
+msgstr "Gresk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_GB"
+msgid "English (UK)"
+msgstr "Engelsk (britisk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_PI"
+msgid "English (Pirate)"
+msgstr "Engelsk (pirat)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_UD"
+msgid "English (Upside Down)"
+msgstr "Engelsk (opp-ned)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_US"
+msgid "English (US)"
+msgstr "Engelsk (USA)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eo_EO"
+msgid "Esperanto"
+msgstr "Esperanto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_ES"
+msgid "Spanish (Spain)"
+msgstr "Spansk (Spania)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_LA"
+msgid "Spanish"
+msgstr "Spansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::et_EE"
+msgid "Estonian"
+msgstr "Estisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eu_ES"
+msgid "Basque"
+msgstr "Baskisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fa_IR"
+msgid "Persian"
+msgstr "Persisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fb_LT"
+msgid "Leet Speak"
+msgstr "Leet"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fi_FI"
+msgid "Finnish"
+msgstr "Finsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fo_FO"
+msgid "Faroese"
+msgstr "Færøysk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_CA"
+msgid "French (Canada)"
+msgstr "Fransk (Canada)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_FR"
+msgid "French (France)"
+msgstr "Fransk (Frankrike)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fy_NL"
+msgid "Frisian"
+msgstr "Frisisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ga_IE"
+msgid "Irish"
+msgstr "Irsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::gl_ES"
+msgid "Galician"
+msgstr "Galisisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::he_IL"
+msgid "Hebrew"
+msgstr "Hebraisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hi_IN"
+msgid "Hindi"
+msgstr "Hindi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hr_HR"
+msgid "Croatian"
+msgstr "Kroatisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hu_HU"
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hy_AM"
+msgid "Armenian"
+msgstr "Armensk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::id_ID"
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::is_IS"
+msgid "Icelandic"
+msgstr "Islandsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::it_IT"
+msgid "Italian"
+msgstr "Italiensk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ja_JP"
+msgid "Japanese"
+msgstr "Japansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ka_GE"
+msgid "Georgian"
+msgstr "Georgisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::km_KH"
+msgid "Khmer"
+msgstr "Khmer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ko_KR"
+msgid "Korean"
+msgstr "Koreansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ku_TR"
+msgid "Kurdish"
+msgstr "Kurdisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::la_VA"
+msgid "Latin"
+msgstr "Latinsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lt_LT"
+msgid "Lithuanian"
+msgstr "Litauisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lv_LV"
+msgid "Latvian"
+msgstr "Latvisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::mk_MK"
+msgid "Macedonian"
+msgstr "Makedonsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ml_IN"
+msgid "Malayalam"
+msgstr "Malayalam"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ms_MY"
+msgid "Malay"
+msgstr "Malayisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nb_NO"
+msgid "Norwegian (bokmal)"
+msgstr "Norsk (bokmål)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ne_NP"
+msgid "Nepali"
+msgstr "Nepalsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nl_NL"
+msgid "Dutch"
+msgstr "Nederlandsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nn_NO"
+msgid "Norwegian (nynorsk)"
+msgstr "Norsk (nynorsk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pa_IN"
+msgid "Punjabi"
+msgstr "Punjabi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pl_PL"
+msgid "Polish"
+msgstr "Polsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ps_AF"
+msgid "Pashto"
+msgstr "Pashto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_BR"
+msgid "Portuguese (Brazil)"
+msgstr "Portugisisk (Brasil)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_PT"
+msgid "Portuguese (Portugal)"
+msgstr "Portugisisk (Portugal)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ro_RO"
+msgid "Romanian"
+msgstr "Rumensk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ru_RU"
+msgid "Russian"
+msgstr "Russisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sk_SK"
+msgid "Slovak"
+msgstr "Slovakisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sl_SI"
+msgid "Slovenian"
+msgstr "Slovensk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sq_AL"
+msgid "Albanian"
+msgstr "Albansk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sr_RS"
+msgid "Serbian"
+msgstr "Serbisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sv_SE"
+msgid "Swedish"
+msgstr "Svensk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sw_KE"
+msgid "Swahili"
+msgstr "Swahili"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ta_IN"
+msgid "Tamil"
+msgstr "Tamilsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::te_IN"
+msgid "Telugu"
+msgstr "Telugu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::th_TH"
+msgid "Thai"
+msgstr "Thai"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tl_PH"
+msgid "Filipino"
+msgstr "Filippinsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tr_TR"
+msgid "Turkish"
+msgstr "Tyrkisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::uk_UA"
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::vi_VN"
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_CN"
+msgid "Simplified Chinese (China)"
+msgstr "Forenklet kinesisk (Kina)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_HK"
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "Tradisjonell kinesisk (Hong Kong)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_TW"
+msgid "Traditional Chinese (Taiwan)"
+msgstr "Tradisjonell kinesisk (Taiwan)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::arial"
+msgid "Arial"
+msgstr "Arial"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::lucida grande"
+msgid "Lucida grande"
+msgstr "Lucida grande"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::segoe ui"
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::tahoma"
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::trebuchet ms"
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::verdana"
+msgid "Verdana"
+msgstr "Verdana"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::light"
+msgid "Light"
+msgstr "Lys"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::dark"
+msgid "Dark"
+msgstr "Mørk"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::full"
+msgid "Button with a text counter"
+msgstr "Knapp med en tekst-teller"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::button"
+msgid "Button with a little counter"
+msgstr "Knapp med en liten tekst-teller"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::mini"
+msgid "Mini button"
+msgstr "Mini-knapp"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::Vertical"
+msgid "Mini button, counter on top"
+msgstr "Mini-knapp, teller på toppen"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::interesting"
+msgid "It's interesting"
+msgstr "Det er interessant"
+
+msgctxt "SettingsSections::social_buttons::gplus"
+msgid "Google plus"
+msgstr "Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_header"
+msgid "Google plus settings"
+msgstr "Google plus settings"
+
+msgctxt "SettingsOptions::social_buttons::gplus_enable"
+msgid "Show Google plus button"
+msgstr "Show Google plus button"
+
+msgctxt "SettingsOptions::social_buttons::gplus_href"
+msgid "Google plus href"
+msgstr "Google plus href"
+
+msgctxt "SettingsOptions::social_buttons::gplus_size"
+msgid "Size"
+msgstr "Size"
+
+msgctxt "SettingsOptions::social_buttons::gplus_annotation"
+msgid "Annotation"
+msgstr "Annotation"
+
+msgctxt "SettingsOptions::social_buttons::gplus_width"
+msgid "Width"
+msgstr "Width"
+
+msgctxt "SettingsOptions::social_buttons::gplus_align"
+msgid "Align"
+msgstr "Align"
+
+msgctxt "SettingsOptions::social_buttons::gplus_expandto"
+msgid "Expand To"
+msgstr "Expand To"
+
+msgctxt "SettingsOptions::social_buttons::gplus_recommendations"
+msgid "Recomendations"
+msgstr "Recomendations"
+
+msgctxt "SettingsOptions::social_buttons::gplus_display_on"
+msgid "Display on"
+msgstr "Display on"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::products"
+msgid "Product details pages"
+msgstr "Product details pages"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::pages"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::small"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::medium"
+msgid "Medium"
+msgstr "Medium"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::tall"
+msgid "Tall"
+msgstr "Tall"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::bubble"
+msgid "Bubble"
+msgstr "Bubble"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::inline"
+msgid "Inline"
+msgstr "Inline"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::left"
+msgid "Left"
+msgstr "Left"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::right"
+msgid "Right"
+msgstr "Right"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::top"
+msgid "Top"
+msgstr "Top"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::right"
+msgid "Right"
+msgstr "Right"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::bottom"
+msgid "Bottom"
+msgstr "Bottom"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::left"
+msgid "Left"
+msgstr "Left"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::yes"
+msgid "Yes"
+msgstr "Yes"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::no"
+msgid "No"
+msgstr "No"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_display_on"
+msgid "Display on"
+msgstr "Display on"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::products"
+msgid "Product details pages"
+msgstr "Product details pages"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::pages"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "SettingsSections::social_buttons::pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_header"
+msgid "Pinterest settings"
+msgstr "Pinterest settings"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_enable"
+msgid "Show Pinterest button"
+msgstr "Show Pinterest button"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_size"
+msgid "Button size"
+msgstr "Button size"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::20"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::28"
+msgid "Large"
+msgstr "Large"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_shape"
+msgid "Shape"
+msgstr "Shape"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::round"
+msgid "Circular"
+msgstr "Circular"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_color"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::gray"
+msgid "Gray"
+msgstr "Gray"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::red"
+msgid "Red"
+msgstr "Red"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::white"
+msgid "White"
+msgstr "White"
+

@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "Nέα & e-mails"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Σας επιτρέπει να διαχειριστείτε τη νέα του ιστότοπου και να ρυθμίσετε τα Newsletter"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "Νέα ιστότοπου"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Δημιουργία και αποστολή newsletter στους πελάτες σας."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Διαχείριση νέων που έχουν δημοσιευθεί στο κουτί των Νέων της Ιστοσελίδας."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Πεδίο"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Εγγραφείτε για τα για ενημερωτικά δελτία μας(newsletters)!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "Ειδήσεις &  email: φόρμα εγγραφής Newsletter"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "Νέα"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "Νέα & e-mails"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Μη εγγράψιμος σύνδεσμος"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Προσθήκη συνδρομητών από τις λίστες των χρηστών"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> βρίσκεται ήδη στην λίστα συνδρομητών"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Μερικές λίστες ηλεκτρονικού ταχυδρομείου από το αρχείο εισαγωγής δεν βρέθηκαν στη βάση δεδομένων. Ορισμένοι εισηγμένοι συνδρομητές θα μείνει χωρίς αντιστοίχιση."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Συνδρομητές"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "Σελίδα \"λίστα ειδήσεων\""
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "Σελίδα Νέων"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Εγγραφή σε Newsletter"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "Νέα"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Πεδίο ηλεκτρονικού ταχυδρομείου για συνδρομή σε Newsletter"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "Προβολή Νέων"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Διαχείριση Νέων"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Τα ενημερωτικά δελτία(newsletters) δεν έχουν αποσταλεί , καθώς δεν βρέθηκαν παραλήπτες να ταιριάζουν στα επιλεγμένα κριτήρια."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Το ενημερωτικό δελτίο(α) (newsletters), στάλθηκε επιτυχώς"
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail δεν μπορεί να είναι κενό"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Αποστολή email στο [email] ..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Το e-mail σας έχει έχει προστεθεί επιτυχώς στήν δωρεάν λίστα αναβαθμίσεων μέσω e-mail."
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Το e-mail έχει ήδη εγγραφεί."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Το e-mail σας έχει έχει αφαιρεθεί επιτυχώς από την δωρεάν λίστα αναβαθμίσεων μέσω e-mail."
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Το email ενεργοποιήθηκε επιτυχώς."
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Ο σύνδεσμος θα παρουσιάζετε στο live newsletter"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Ενημερωτικό δελτίο"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Πρότυπα εμφάνισης (templates)"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Αυτόματες απαντήσεις"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Καμπάνιες"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Εστάλη"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Προσθήκη νέων"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Προσθήκη νέων και κλείσιμο"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Αριθμός συνδρομητή"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Επεξεργασία λίστας αποδεκτών αλληλογραφίας"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Από το όνομα"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Από το e-mail"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Απάντηση σε"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Ε-mail επιβεβαίωσης"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Χωρίς αυτόματο αποκριτή"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Προβολή κατά την πληρωμή"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Προβολή στην καταχώριση"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Προβολή σε ξεχωριστή σελίδα"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Επεξεργασία γεγονότων"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "Καινούργιες ειδήσεις"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Στατιστικά καμπάνιας"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Προσθήκη καμπάνιας"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Νέα καμπάνια"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Τtemplates ενημερωτικού δελτίου"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Αυτόματοι αποκριτές ενημερωτικού δελτίου"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Θέμα"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Προσθήκη newsletter"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Προσθήκη εμφάνισης ιστοσελίδας"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Προσθήκη αυτόματων απαντήσεων"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Τυχαία αντικείμενα (ένα ανα σειρά)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "Σώμα HTML"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Χωρίς θέμα εμφάνισης"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Φόρτωση"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Καμπάνια"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Αποστολή σε"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Προσθήκη παραληπτών από χρήστες"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Οι πελάτες με εγκαταλελειμμένα"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Καλάθι ή λίστα επιθυμιών"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "Ποιο είναι"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "μέρες πριν"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Αποστολή για  να δοκιμάσετε το email"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Αποθήκευση και αποστολή"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Ενημερωτικά δελτία"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Τtemplate ενημερωτικού δελτίου"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Αυτόματο αποκριτής ενημερωτικού δελτίου"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Λίστα αποστολής"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Επιβεβαιώθηκε"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Έγινε εγγραφή στις [num] λίστες"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Έγινε εγγραφή"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Έχετε επιτυχώς εγγραφεί στις δωρεάν αναβαθμίσεις ηλεκτρονικού ταχυδρομείου και στις προσφορές μας !"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Σεβόμαστε το απόρρητό σας και δεν στέλνουμε ανεπιθύμητα e-mail σε χρήστες που δεν έχουν ζητήσει την αλληλογραφία. Έχετε λάβει αυτό το e-mail, επειδή ζητήσατε να λαμβάνετε νέα και προσφορές μας <br /> <br />  n  nΑν επιθυμείτε να διαγραφείτε, παρακαλώ ακολουθήστε τον παρακάτω σύνδεσμο.:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "Συνδρομή ενημερώσεων και προωθήσεων"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Διαμοιραμό με:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "E-mail του αποστολέα."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Όνομα του αποστολέα (π.χ. το όνομα της εταιρείας)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Συντάξτε email ,για να στείλετε απαντήσεις."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Αν προσδιορίζονται διάφορα θέματα, το θέμα του email έχει επιλεχθεί τυχαία από αυτή τη λίστα."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Εάν το κείμενο του μηνύματος περιέχει τον μη εγγεγραμμένο σύνδεσμο, θα είναι άδειο για αυτούς τους χρήστες."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Προσθήκη λίστα διευθύνσεων e-mail"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Προσθήκη συνδρομητών"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Νέα λίστα mail"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "Προσθήκη νέων συνδρομητών"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Ενημερωτικά δελτία που στάλθηκαν ανα βήμα"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Προηγμένες επιλογές διακομιστή αλληλογραφίας"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Μέθοδος αποστολής e-mails"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Ρυθμίσεις του διακομιστή SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP host"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "Ονομα χρήστη του διακομιστή SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "Κωδικός SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Χρήση πιστοποίησης STMP"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Ρυθμίσεις αποστολής mail"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Η διαδρομή προς το πρόγραμμα αποστολής mail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "Μέσω του διακομιστή SMTP"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "Μέσω της λειτουργίας php mail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "Μέδω προγράμματος αποστολής mail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "Χρήση προεπιλεγμένων ρυθμίσεων"
+

@@ -1,0 +1,25 @@
+.social-buttons {
+    margin-bottom: 20px;
+}
+.social-buttons_blocks .social-buttons_wrap {
+    display: inline-block;
+    margin: 5px 20px 10px 0;
+    float: left;
+}
+.social-buttons_ul {
+    margin-top: 20px;
+    width: 180px;
+}
+.social-buttons_ul .social-buttons_li {
+    margin: 5px 15px 15px 0;
+}
+.email-sharing:hover {
+    text-decoration: none;
+}
+.email-sharing i {
+    margin-left: 5px;
+    font-size: 16px;
+}
+.email-sharing:hover span {
+    text-decoration: underline;
+}

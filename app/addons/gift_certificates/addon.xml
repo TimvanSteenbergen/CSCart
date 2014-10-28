@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>gift_certificates</id>
+    <version>1.0</version>
+    <priority>1100</priority>
+    <position>180</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="min_amount">
+                        <type>input</type>
+                        <default_value>50</default_value>
+                    </item>
+                    <item id="max_amount">
+                        <type>input</type>
+                        <default_value>1500</default_value>
+                    </item>
+                    <item id="code_prefix">
+                        <type>input</type>
+                        <default_value>GC</default_value>
+                    </item>
+                    <item id="cert_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                    </item>
+                    <item id="free_products_allow">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="redeem_shipping_cost">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:gift_certificates;</item>
+        <item>DROP TABLE IF EXISTS ?:gift_certificates_log;</item>
+        <item>
+            CREATE TABLE `?:gift_certificates` (
+                `gift_cert_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `gift_cert_code` varchar(255) NOT NULL default '',
+                `sender` varchar(64) NOT NULL default '',
+                `recipient` varchar(64) NOT NULL default '',
+                `send_via` char(1) NOT NULL default 'E',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `email` varchar(64) NOT NULL default '',
+                `address` varchar(255) NOT NULL default '',
+                `address_2` varchar(255) NOT NULL default '',
+                `city` varchar(255) NOT NULL default '',
+                `state` varchar(32) NOT NULL default '',
+                `country` char(2) NOT NULL default '',
+                `zipcode` varchar(10) NOT NULL default '',
+                `status` char(1) NOT NULL default 'P',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `phone` varchar(32) NOT NULL default '',
+                `order_ids` varchar(255) NOT NULL default '',
+                `template` varchar(128) NOT NULL default '',
+                `message` mediumtext NOT NULL,  `products` text NOT NULL,
+                PRIMARY KEY  (`gift_cert_id`),  KEY `status` (`status`),
+                KEY `timestamp` (`timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:gift_certificates_log` (
+                `log_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `gift_cert_id` mediumint(8) unsigned NOT NULL default '0',
+                `area` char(1) NOT NULL default 'C',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `order_id` mediumint(8) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `debit` decimal(12,2) NOT NULL default '0.00',
+                `products` text NOT NULL,
+                `debit_products` text NOT NULL,
+                PRIMARY KEY  (`log_id`),
+                KEY `area` (`area`),
+                KEY `user_id` (`user_id`),
+                KEY `order_id` (`order_id`),
+                KEY `timestamp` (`timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('manage_gift_certificates', 'Y', 'addons');</item>
+        <item lang="en" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('P', 'G', 'Pending', 'has been created.', 'Your gift certificate has been created successfully. Please wait until it is activated.', 'en');</item>
+        <item lang="en" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('A', 'G', 'Active', 'has been activated.', 'Your gift certificate has status Active. You can use it now.', 'en');</item>
+        <item lang="en" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('C', 'G', 'Disabled', 'has been disabled.', 'Your gift certificate has been disabled. Please contact shop administration.', 'en');</item>
+        <item lang="en" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('U', 'G', 'Used', 'has been used.', 'Your gift certificate is spent. Thank you for choosing us.', 'en');</item>
+
+        <item lang="ru" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', '&#x420;&#x430;&#x441;&#x441;&#x43C;&#x430;&#x442;&#x440;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x439;', '&#x431;&#x44B;&#x43B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;.', '&#x412;&#x430;&#x448; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x441;&#x435;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x434;&#x43E;&#x436;&#x434;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x43A;&#x430; &#x43E;&#x43D; &#x43D;&#x435; &#x431;&#x443;&#x434;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;.', 'ru');</item>
+        <item lang="ru" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', '&#x410;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;', '&#x431;&#x44B;&#x43B; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;.', '<p>&#x412;&#x430;&#x448; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x441;&#x435;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;. &#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x435;&#x433;&#x43E;.</p>', 'ru');</item>
+        <item lang="ru" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', '&#x41D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;', '&#x43D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;.', '&#x412;&#x430;&#x448; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x441;&#x435;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442; &#x43D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x441;&#x432;&#x44F;&#x436;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x441; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x435;&#x439; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430;.', 'ru');</item>
+        <item lang="ru" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', '&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;', '&#x431;&#x44B;&#x43B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;.', '&#x412;&#x430;&#x448; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x441;&#x435;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;. &#x421;&#x43F;&#x430;&#x441;&#x438;&#x431;&#x43E;, &#x447;&#x442;&#x43E; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x43B;&#x438; &#x43D;&#x430;&#x441;.', 'ru');</item>
+
+        <item lang="ro" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', '&#xCE;n a&#x219;teptare', 'a fost creat.', 'Certificatul dvs. de cadou a fost creat cu succes. V&#x103; rug&#x103;m s&#x103; a&#x219;tepta&#x21B;i p&#xE2;n&#x103; c&#xE2;nd va fi activat.', 'ro');</item>
+        <item lang="ro" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', 'Activ', 'a fost activat.', 'Certificatul dvs. de cadou are statutul Activ. &#xCE;l pute&#x21B;i utiliza acum.', 'ro');</item>
+
+        <item lang="ro" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', 'Anulat', 'a fost anulat.', 'Certificatul dvs. de cadou a fost anulat. V&#x103; rug&#x103;m contacta&#x21B;i administra&#x21B;ia magazinului.', 'ro');</item>
+        <item lang="ro" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', 'Utilizat', 'a fost utilizat.', 'Certificatul dvs. de cadou este utilizat. V&#x103; mul&#x21B;umim c&#x103; ne-a&#x21B;i ales.', 'ro');</item>
+        <item lang="es" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', 'Pendiente', 'ha sido creado.', 'Su certificado de regalo ha sido creado con &#xE9;xito. Por favor espere hasta que sea activado.', 'es');</item>
+        <item lang="es" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', 'Activo', 'ha sido activado.', 'Su certificado de regalo est&#xE1; activo. Usted puede usarlo ahora.', 'es');</item>
+        <item lang="es" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', 'Cancelado', 'has been cancelled.', 'Su certificado de regalo ha sido cancelado. Por favor contacte con la administraci&#xF3;n de la tienda.', 'es');</item>
+        <item lang="es" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', 'Usado', 'ha sido usado.', 'Su certificado de regalo ha sido utilizado. Gracias por elegirnos.', 'es');</item>
+
+        <item lang="zh" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', '&#x5F85;&#x5B9A;&#x7684;', '&#x5DF2;&#x521B;&#x5EFA;.', '<p>&#x60A8;&#x7684;&#x793C;&#x5377;&#x5DF2;&#x6210;&#x529F;&#x521B;&#x5EFA;.&#x8BF7;&#x7B49;&#x5F85;&#x5B83;&#x88AB;&#x542F;&#x7528;.</p>', 'zh');</item>
+        <item lang="zh" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', '&#x5DF2;&#x542F;&#x7528;', '&#x5DF2;&#x542F;&#x7528;.', '<p>&#x60A8;&#x7684;&#x793C;&#x5377;&#x72B6;&#x6001;&#x5DF2;&#x542F;&#x7528;.&#x60A8;&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;.</p>', 'zh');</item>
+        <item lang="zh" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', '&#x5DF2;&#x53D6;&#x6D88;', '&#x5DF2;&#x53D6;&#x6D88;.', '<p>&#x60A8;&#x7684;&#x793C;&#x5377;&#x5DF2;&#x53D6;&#x6D88;.&#x8BF7;&#x8054;&#x7CFB;&#x5546;&#x5E97;&#x7BA1;&#x7406;&#x5458;.</p>', 'zh');</item>
+        <item lang="zh" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', '&#x5DF2;&#x4F7F;&#x7528;', '&#x5DF2;&#x4F7F;&#x7528;.', '<p>&#x60A8;&#x7684;&#x793C;&#x5377;&#x5DF2;&#x5931;&#x6548;. &#x611F;&#x8C22;&#x60A8;&#x9009;&#x62E9;&#x6211;&#x4EEC;.</p>', 'zh');</item>
+
+        <item lang="el" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', '&#x395;&#x3BA;&#x3BA;&#x3C1;&#x3B5;&#x3BC;&#x3AE;&#x3C2;', '&#x3B4;&#x3B7;&#x3BC;&#x3B9;&#x3BF;&#x3C5;&#x3C1;&#x3B3;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B4;&#x3B7;&#x3BC;&#x3B9;&#x3BF;&#x3C5;&#x3C1;&#x3B3;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5; &#x3BC;&#x3B5; &#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3C5;&#x3C7;&#x3AF;&#x3B1;. &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3BA;&#x3B1;&#x3BB;&#x3BF;&#x3CD;&#x3BC;&#x3B5; &#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3BC;&#x3AD;&#x3BD;&#x3B5;&#x3C4;&#x3B5; &#x3BC;&#x3AD;&#x3C7;&#x3C1;&#x3B9; &#x3BD;&#x3B1; &#x3B5;&#x3BD;&#x3B5;&#x3C1;&#x3B3;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3B8;&#x3B5;&#x3AF;.', 'el');</item>
+        <item lang="el" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', '&#x395;&#x3BD;&#x3B5;&#x3C1;&#x3B3;&#x3AE;', '&#x3B5;&#x3BD;&#x3B5;&#x3C1;&#x3B3;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B5;&#x3AF;&#x3BD;&#x3B1;&#x3B9; &#x3B5;&#x3BD;&#x3B5;&#x3C1;&#x3B3;&#x3AE;. &#x39C;&#x3C0;&#x3BF;&#x3C1;&#x3B5;&#x3AF;&#x3C4;&#x3B5; &#x3BD;&#x3B1; &#x3C4;&#x3B7;&#x3BD; &#x3C7;&#x3C1;&#x3B7;&#x3C3;&#x3B9;&#x3BC;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3AE;&#x3C3;&#x3B5;&#x3C4;&#x3B5; &#x3C4;&#x3CE;&#x3C1;&#x3B1;.', 'el');</item>
+        <item lang="el" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', '&#x391;&#x3BA;&#x3CD;&#x3C1;&#x3C9;&#x3C3;&#x3B7;', '&#x391;&#x3BA;&#x3C5;&#x3C1;&#x3CE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B1;&#x3BA;&#x3C5;&#x3C1;&#x3CE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;. &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3BA;&#x3B1;&#x3BB;&#x3BF;&#x3CD;&#x3BC;&#x3B5; &#x3B5;&#x3C0;&#x3B9;&#x3BA;&#x3BF;&#x3B9;&#x3BD;&#x3C9;&#x3BD;&#x3AE;&#x3C3;&#x3C4;&#x3B5; &#x3BC;&#x3B5; &#x3C4;&#x3BF;&#x3BD; &#x3B4;&#x3B9;&#x3B1;&#x3C7;&#x3B5;&#x3B9;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3AE; &#x3C4;&#x3BF;&#x3C5; &#x3BA;&#x3B1;&#x3C4;&#x3B1;&#x3C3;&#x3C4;&#x3AE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;.', 'el');</item>
+        <item lang="el" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', '&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7;', '&#x3C7;&#x3C1;&#x3B7;&#x3C3;&#x3B9;&#x3BC;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;', '&#x397; &#x3B4;&#x3C9;&#x3C1;&#x3BF;&#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3C7;&#x3C1;&#x3B7;&#x3C3;&#x3B9;&#x3BC;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;. &#x395;&#x3C5;&#x3C7;&#x3B1;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3CD;&#x3BC;&#x3B5; &#x3C0;&#x3BF;&#x3C5; &#x3BC;&#x3B1;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3AD;&#x3BE;&#x3B1;&#x3C4;&#x3B5;.', 'el');</item>
+
+        <item lang="bg" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', '&#x412; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441; &#x43D;&#x430; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430;', '&#x435; &#x441;&#x44A;&#x437;&#x434;&#x430;&#x434;&#x435;&#x43D;.', '<p>&#x412;&#x430;&#x448;&#x438;&#x44F;&#x442; &#x442;&#x430;&#x43B;&#x43E;&#x43D; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x44A;&#x43A; &#x435; &#x441;&#x44A;&#x437;&#x434;&#x430;&#x434;&#x435;&#x43D; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;. &#x41C;&#x43E;&#x43B;&#x44F;, &#x438;&#x437;&#x447;&#x430;&#x43A;&#x430;&#x439;&#x442;&#x435; &#x434;&#x430; &#x431;&#x44A;&#x434;&#x435; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x430;&#x43D;.</p>', 'bg');</item>
+        <item lang="bg" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', '&#x410;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;', '&#x435; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;.', '<p>&#x412;&#x430;&#x448;&#x438;&#x44F;&#x442; &#x442;&#x430;&#x43B;&#x43E;&#x43D; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x44A;&#x43A; &#x435; &#x432; &#x441;&#x442;&#x430;&#x442;&#x443;&#x441; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x438; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x434;&#x430; &#x433;&#x43E; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x442;&#x435;.</p>', 'bg');</item>
+        <item lang="bg" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', '&#x410;&#x43D;&#x443;&#x43B;&#x438;&#x440;&#x430;&#x43D;', '&#x435; &#x430;&#x43D;&#x443;&#x43B;&#x438;&#x440;&#x430;&#x43D;.', '<p>&#x412;&#x430;&#x448;&#x438;&#x44F;&#x442; &#x442;&#x430;&#x43B;&#x43E;&#x43D; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x44A;&#x43A; &#x435; &#x430;&#x43D;&#x443;&#x43B;&#x438;&#x440;&#x430;&#x43D;. &#x417;&#x430; &#x43F;&#x43E;&#x432;&#x435;&#x447;&#x435; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x441;&#x435; &#x441;&#x432;&#x44A;&#x440;&#x436;&#x435;&#x442;&#x435; &#x441; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x43D;&#x430; &#x441;&#x430;&#x439;&#x442;&#x430;.</p>', 'bg');</item>
+        <item lang="bg" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', '&#x418;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43D;', '&#x438; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43D;.', '<p>&#x412;&#x430;&#x448;&#x438;&#x44F;&#x442; &#x442;&#x430;&#x43B;&#x43E;&#x43D; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x44A;&#x43A; &#x435; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43D;. &#x411;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x438;&#x43C; &#x412;&#x438;, &#x447;&#x435; &#x438;&#x437;&#x43F;&#x440;&#x430;&#x445;&#x442;&#x435; &#x43D;&#x430;&#x441;!</p>', 'bg');</item>
+
+        <item lang="da" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', 'Afventende', 'er blevet oprettet.', 'Dit gavekort er blevet oprettet. Vent venligst, indtil det er aktiveret.', 'da');</item>
+        <item lang="da" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', 'Aktiv', 'Er blevet aktiveret', 'Gavekortet har status som Aktiv. Du kan bruge det nu.', 'da');</item>
+        <item lang="da" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', 'Annulleret', 'Er blevet annulleret', 'Dit gavekort er blevet annulleret. Kontakt venligst butikkens administration.', 'da');</item>
+        <item lang="da" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', 'Brugt', 'Er blevet brugt', 'Gavekortet er brugt. Tak fordi du valgte os.', 'da');</item>
+
+        <item lang="sl" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('P', 'G', 'Na &#x10D;akanju', 'je na &#x10D;akanju', 'Va&#x161; darilni bon je bil uspe&#x161;no ustvarjen. Prosimo, po&#x10D;akajte, da se aktivira.', 'sl');</item>
+        <item lang="sl" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'G', 'Aktivno', 'je bilo aktivirano.', 'Va&#x161; darilni bon ima status Aktiven. Sedaj ga lahko uporabite.', 'sl');</item>
+        <item lang="sl" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'G', 'Preklicano', 'je bilo preklicano.', 'Va&#x161; darilni bon je bil preklican. Prosimo, kontaktirajte administratorja.', 'sl');</item>
+        <item lang="sl" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('U', 'G', 'Uporabljen', 'je bil uporabljen', 'Va&#x161; darilni bon je porabljen. Hvala, ker ste nas izbrali.', 'sl');</item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('P', 'G', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('A', 'G', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('C', 'G', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('U', 'G', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('A', 'G', 'color', '#97cf4d');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('C', 'G', 'color', '#c2c2c2');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('P', 'G', 'color', '#ff9522');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('U', 'G', 'color', '#28abf6');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('A', 'G', 'notify', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('C', 'G', 'notify', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('P', 'G', 'notify', 'N');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('U', 'G', 'notify', 'N');
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_gift_certificates'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:status_descriptions WHERE type = 'G'</item>
+        <item for="uninstall">DELETE FROM ?:statuses WHERE type = 'G'</item>
+        <item for="uninstall">DELETE FROM ?:status_data WHERE type = 'G'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:gift_certificates;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:gift_certificates_log;</item>
+    </queries>
+    <functions>
+        <item for="install">fn_gift_certificates_install</item>
+        <item for="uninstall">fn_gift_certificates_install</item>
+    </functions>
+</addon>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>google_export</id>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>data_feeds</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general_info">
+                        <type>info</type>
+                        <handler>fn_google_export_generate_info</handler>
+                    </item>
+                    <item id="additional_langs">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_google_export_add_features</item>
+        <item for="install">fn_google_export_add_feed</item>
+        <item for="uninstall">fn_google_export_remove_features</item>
+        <item for="uninstall">fn_google_export_remove_feed</item>
+    </functions>
+</addon>

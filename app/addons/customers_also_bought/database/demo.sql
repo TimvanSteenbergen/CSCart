@@ -1,0 +1,16 @@
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('12', '11', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('12', '7', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('12', '79', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('11', '12', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('7', '12', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('79', '12', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('114', '199', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('199', '114', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('21', '112', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('21', '110', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('110', '21', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('112', '21', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('18', '108', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('18', '103', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('108', '18', '1');
+REPLACE INTO ?:also_bought_products (product_id, related_id, amount) VALUES ('103', '18', '1');

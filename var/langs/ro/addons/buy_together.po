@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Cumpără împreună"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Îți permite să setezi cota de reduceri pe anumite combinații de produs"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Cumpără împreună"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Specifică opțiuni"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Preț de listă total"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Preț pentru toate"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Adaugă toate în coș"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Editare combinații"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Preț total: [total_price], Discount: [discount], Preț combinație: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Afișează în promoții"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Combinație produse"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Cotă de reducere"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator addon"
+msgstr "[product_name] nu poate fi adăugat la combinație. «Cumpără împreună» nu este compatibil cu add-on-ul «Configurator produs»"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing addon"
+msgstr "[product_name] nu poate fi adăugat la combinație. «Cumpără împreună» nu este compatibil cu add-on-ul «Facturare periodică»"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Combinația nu poate fi adăugată în coș"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] nu a fost în cantitate suficientă ([amount]) și a fost eliminat din coș"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Te rugăm să specifici opțiunile produsului înainte de a adăuga combinația în coș."
+

@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS ?:conf_class_descriptions;
+DROP TABLE IF EXISTS ?:conf_class_products;
+DROP TABLE IF EXISTS ?:conf_classes;
+DROP TABLE IF EXISTS ?:conf_compatible_classes;
+DROP TABLE IF EXISTS ?:conf_group_descriptions;
+DROP TABLE IF EXISTS ?:conf_group_products;
+DROP TABLE IF EXISTS ?:conf_groups;
+DROP TABLE IF EXISTS ?:conf_product_groups;
+DROP TABLE IF EXISTS ?:conf_step_descriptions;
+DROP TABLE IF EXISTS ?:conf_steps;
+DELETE FROM ?:addons WHERE addon = 'product_configurator';
+DELETE FROM ?:addon_descriptions WHERE addon = 'product_configurator';

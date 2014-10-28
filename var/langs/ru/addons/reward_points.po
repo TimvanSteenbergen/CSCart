@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Бонусные баллы"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Бонусы и вознаграждения за покупки"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Бонусные баллы"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Журнал бонусных баллов"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Настройка глобальных бонусных баллов в магазине."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Баллы у пользователя"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Баллы"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Баллы в употреблении"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "использовано баллов"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "баллы"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Баллы для использования"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Оплата баллами"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Цена в баллах"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "Баллы, использованные в заказе, были добавлены на счет."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "Баллы были использованы в заказе"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "Баллы на вашем счете:"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Разрешить оплату баллами"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Заменить глобальный курс конвертации баллов"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Заменить глобальные баллы и баллы категорий"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "Число баллов, которое вы ввели, больше, чем количество баллов на вашем счете."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "Число баллов, которое вы ввели, больше, чем можно использовать в этом заказе."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Баллы не могут быть использованы, потому что подытог полностью погашен."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "К сожалению, вы не можете использовать баллы в этом заказе, потому что его общая стоимость равна нулю."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "К сожалению, вы не можете использовать баллы в этом заказе, потому что на вашем счете недостаточно баллов."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "Статус заказа не был изменен, т.к. у пользователя недостаточно баллов."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Цена в баллах была увеличена на"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Цена в баллах была уменьшена на"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Баллы за товар"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Заменить глобальные баллы для всех товаров в этой категории"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Тип количества"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Максимальный"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Модификатор баллов"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Заменить глобальные баллы и баллы категории для этого товара"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "Просмотреть баллы пользователя"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Журнал событий"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Вычесть"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Изменить баллы"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Добавить или вычесть баллы"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Очистить журналы событий"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "Мы хотим проинформировать вас о том, что"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "have been added to your account."
+msgstr "были добавлены к вашей учетной записи."
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "have been subtracted from your account."
+msgstr "были списаны с вашей учетной записи."
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Управление бонусными баллами"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Курс конвертации баллов (количество баллов, равное 1-й условной единице)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "«Цена в баллах» вычисляется автоматически на основе курса конвертации"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "«Цена в баллах» пересчитывается с учетом скидок"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "«Баллы» пересчитываются с учетом скидок"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "«Цена в баллах» пересчитывается с учетом общей скидки на заказ"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "«Баллы» пересчитываются с учетом общей скидки на заказ"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "Если бонусные баллы не заданы для товара или категории товара, но заданы для категории высшего уровня, извлечь данные из нее"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "Если можно применить разное количество бонусных баллов, то установить"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Применять бонусные баллы с нулевым значением"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Количество строчек записей событий на странице"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "Рассматривать правила начисления бонусных баллов с нулевыми значениями"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Минимальное асболютное"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Минимальное процентное"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Максимальное абсолютное"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Максимальное процентное"
+

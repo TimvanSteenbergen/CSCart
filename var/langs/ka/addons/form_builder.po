@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "ფორმების კონსტრუქტორი"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "ახალი ფორმა"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "ფორმის რედაქტირება"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "ფორმების კონსტრუქტორი"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Form submit text"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail to"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "დაცული ფორმა (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "ფორმის დამატება"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "ძირითადი"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Multiple checkboxes"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Multiple selectbox"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "სათაური"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "გამყოფი"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "სპეციალური"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "ქვეყნების სია"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "რეგიონების სია"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "რეფერალი"
+

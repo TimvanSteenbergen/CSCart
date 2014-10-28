@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Verkopers toevoegen"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Verkopers toevoegen en sluiten"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Verkoper toevoegen"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Beheerder van verkopers toevoegen"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Verkopers beheerder"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Verkopers beheerders"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Overzicht van verkopers."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Hallo,<br/><br/>Er is een nieuwe kandidaat verkoper in uw webwinkel. Deze verkoper staat in de wacht totdat u deze goedkeurd. Volg <a>deze link om de accountgegevens te bekijken</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Ga naar het paneel voor verkopers"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Statistieken van inkomsten en uitgaven (totaal, per verkoper, per periode)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Verkopers samenvoegen"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Selecteer een nieuwe eigenaar voor dit bedrijfsprofiel:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Het samenvoegen van twee bedrijven zal [company_name] verwijderen uit de database, en alle profielgegevens (producten, bestellingen, verzendmethodes, gebruikers, promoties, etc.) worden overgedragen aan dit bedrijf."
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Alle verkopers"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Verkoper account aanvragen"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Beschikbaar voor verkoper"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Saldo overgeboekt"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Verkopers"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "In rekening brengen aan verkoper"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Verkopers"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Beheerdersaccount aanmaken"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Weergegeven verkopers"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Verkoper wijzigen"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Beheerdersaccount is niet aangemaakt. Het e-maildres behoort al tot een andere gebruiker. U kunt de beheerder voor deze verkoper handmatig toevoegen."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Beheerdersaccount is niet aangemaakt. De gebruikersnaam behoort tot een andere gebruiker. Wijzig de naam om verder te gaan."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Er bestaat al een verkoper met het e-mailadres wat je hebt ingevoerd. Probeer een ander e-mailadres."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Uitgaven"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Inkomsten"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Beheer verkopers"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Nieuwe beheerder is succesvol aangemaakt."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Nieuwe verkoper"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Melden aan verkoper"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Melden aan verkopers per e-mail"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Uitbetalingen beheren"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Verkopers beheren"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Uitbetalingen bekijken"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Verkopers bekijken"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Verkopers"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Verkoopperiode"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Totaal verkoopperiode"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Zoek op verkoper"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sorteer alfabetisch: A tot Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sorteer alfabetisch: Z tot A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Uw profiel is gewijzigd. Zodra uw wijzigingen zijn goedgekeurd worden uw bedrijfsgegevens weergegeven in de webwinkel."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Uw aanvraag voor verkoper [company] is goedgekeurd."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Nieuwe beheerder is aangemaakt. U kunt de beheerpagina [link] bereiken door met de volgende gegevens in te loggen:<br />Gebruikersnaam: [login]<br />Wachtwoord: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Uw account [login] is omgezet naar een beheerders-account. U kunt nu inloggen als beheerder via: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Uw aanvraag om verkoper te worden is goedgekeurd."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Uw aanvraag om met uw bedrijf [company] verkoper te worden is afgekeurd."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Uw aanvraag om verkoper te worden is afgekeurd."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gefeliciteerd. Uw aanvraag om verkoper te worden is goedgekeurd. Zodra we uw account-gegevens hebben gecontroleerd zullen we deze publiceren op onze website."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Uw bedrijf wacht op goedkeuring."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Uw profielwijzigingen voor verkoper [company] zijn goedgekeurd."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Fout tijdens de aanvraag."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Nieuwe betaling is aangemaakt"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Er zijn verkopers die wachten op uw goedkeuring. <a href=\"[link]\">Volg deze link</a> om de verkopers te controleren."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Volledige toegang tot alle functies gedurende de proefperiode van 30-dagen, vanaf het moment van activeren. <br /><br />Na de 30-dagen proefperiode is deze modus niet meer beschikbaar.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Uw aanvraag is ingediend. U ontvangt later per e-mail een antwoord op uw aanvraag."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Totaal bedrag"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Totaal uitbetaling verkoopperiode"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Totaal niet uitbetaald"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Tijdens het innen van betaaltoeslag bij verkopers worden belastingen niet meegerekend"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Het is niet mogelijk om deze verkoper te verwijderen, omdat er bestellingen in de database aanwezig zijn die producten bevatten van deze verkoper. Om deze verkoper te verwijderen dient u eerst deze bestellingen te verwijderen."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Verkoper"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Verkopers"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Gesorteerde lijst van verkopers in de webwinkel."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Account saldo"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Nieuwe aanvraag tot verkoper"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Commissie voor de verkoper"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "Verkoper ID"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Naam verkoper"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Pagina's verkoper"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Verkopers paneel"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Bekijk bestellingen van verkoper"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Bekijk producten van verkoper"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Bekijk gebruikers van verkoper"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "U kunt de accountdetails nu aanpassen."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Verkopers"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Verkopers per pagina"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Gebruikers mogen een aanvraag indien om verkoper te worden"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Maak automatisch een beheerders-account aan voor een nieuwe verkoper. (indien \"Gebruikers mogen een aanvraag indien om verkoper te worden\" is ingeschakeld)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Aanvraagformulier om verkoper te worden"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "De verzendkosten meerekenen in de commissie voor de verkoper"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Betaaltoeslag innen bij verkopers"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Commissies"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Toon product verkoper"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Indien ingeschakeld is de betaaltoeslag niet zichtbaar voor de klant en wordt deze niet toegepast op het totaalbedrag"
+

@@ -1,0 +1,9 @@
+<IfModule php5_module>
+	php_flag engine off
+</IfModule>
+
+<Files ~ "\.([tT][pP][lL]|[pP][hH][pP].?)$">
+  deny from all
+</Files>
+Allow from all
+Options -Indexes

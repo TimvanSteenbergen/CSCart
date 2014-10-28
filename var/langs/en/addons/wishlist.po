@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Wish List"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Lets customers store items in personal wish lists"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Add to wish list"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Clear wish list"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "View wish list"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Wish list content"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Wish list"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Go to your wishlist"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Failed to add the certificate. Make sure the summary amount is not zero."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "The gift certificate has been added to the wish list"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "The product was added to your Wish list"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "This product is already in the wish list"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Wish list products"

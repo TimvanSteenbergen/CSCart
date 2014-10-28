@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "قائمة الأمنيات"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "اتح للعملاء إضافة المنتجات لقائمة الأمنيات الشخصية"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "أضف لقائمة الأمنيات"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "مسح قائمة الأمنيات"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "عرض قائمة الأمنيات"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "محتوى قائمة الأمنيات"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "قائمة الأمنيات"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "اذهب لقائمة أمنياتك"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "فضل في إضافة شهادة الهدية. تأكد من أن المجموع غير مساوي للصفر."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "شهادة الهدية تمت اضافتها لقائمة أمنياتك"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "تمت إضافة المنتج لقائمة أمنياتك"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "المنتج موجود في قائمة أمنياتك"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "المنتجات في قائمة أمنياتك"
+

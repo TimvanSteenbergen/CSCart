@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "إضافة باعة"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "إضافة الباعة وإغلاق"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "إضافة بائع"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "إضافة أدمن البائع"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "أدمن الباعة"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "حسابات أدمن الباعة"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "قائمة حسابات الأدمن للأعضاء الذين يمتلكون حساب بائع."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "السلام عليكم,<br/><br/>لديكم طلب الاشتراك كبائع في المتجر. سيظل حساب البائع بالانتظار حتى تقوموا بالموافقة عليه. <a>انقر هنا لعرض تفاصيل الحساب</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "اذهب للوحة تحكم البائع"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "إحصائيات الدخل والإنفاق (الإجمالي ولكل بائع وبواسطة الفترة)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "دمج البائع"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "اختر مالك جديد لبيانات بروفايل هذه الشركة:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "عند دمج حسابين الشركتين, سيتم حذف [company_name] من قاعدة البيانات, وسيتم نقل كل بيانات البروفايل (المنتجات والطلبات وطرق الشحن والأعضاء والترويجات, إلخ..) إلى حساب هذه الشركة"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "كل الباعة"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "طلب الانضمام كبائع"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "متاح للبائع"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "الرصيد المرحل"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "الباعة"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "تحصيل لحساب البائع"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "الباعة"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "إنشاء حساب أدمن"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "المتاجر المعروضة"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "تحرير المتجر"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "لم يتم إنشاء حساب الأدمن. الإيميل مرتبط بعضو آخر! يمكنكم إضافة أدمن هذه الشركة يدوياً."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "لم يتم إنشاء حساب الأدمن. اسم المستخدم مرتبط بعضوية أخرى. يتوجب عليكم تغيير اسم حساب أدمن البائع."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "توجد شركة بنفس الإيميل, يرجى إدخال إيميل آخر."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "الإنفاق"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "الدخل"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "إدارة الباعة"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "تم إنشاء حساب الأدمن الجديد بنجاح."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "متجر جديد"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "إبلاغ صاحب المتجر"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "إبلاغ الباعة عبر الإيميل"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "إدارة المدفوعات"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "إدارة الباعة"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "عرض المدفوعات"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "عرض الباعة"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "المتاجر"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "فترة المبيعات"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "إجمالي فترة المبيعات"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "بحث بواسطة المتجر"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "ترتيب أبجدي: من أ إلى ي"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "ترتيب أبجدي: من ي إلى أ"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "تم تغيير برفايلك, بمجرد اعتماد التغييرات, سيتم عرض معلومات متجركم في واجهة الزوار إن شاء الله."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "تم اعتماد طلبكم الانضمام كبائع باسم [company]."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "تم إنشاء حساب أدمن جديد. يمكنكم الوصول للوحة تحكم الأدمن عبر: [link] باستخدام البيانات التالية:<br />المعرف: [login]<br />كلمة المرور: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "تم تغيير نوع حسابكم [login] إلى أدمن. يمكنكم الآن تسجيل الدخول للوحة تحكم الأدمن: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "تم اعتماد طلب انضمامكم كبائع."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "تم رفض طلب انضمامكم كبائع باسم [company]."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "تم رض طلب انضمامكم كبائع."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "تهانينا, تم اعتماد حساب البائع الجديد الخاص بكم. بمجرد مراجعة معلومات حسابكم سيتم عرضه في واجهة الزوار إن شاء الله."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "شركتكم بانتظار الموافقة."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "تم الموافقة على تغييرات بروفايل شركتكم [company]."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "حدث خطأ أثناء إضافة الطلب."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "تم إنشاء مدفوع جديد"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "لديكم باعة بانتظار الاعتماد. <a href=\"[link]\">انقر هنا</a> لمراجعتهم."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "وصول كامل لكل الخصائص والمميزات خلال ثلاثون يوماً تجريبيون بدءاً من تاريخ التنشيط.<br /><br />بعد إنتهاء الثلاثون يوماً, سيصبح هذا الوضع غير متاح, وسيتم تنشيط الوضع المجاني تلقائياً.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "تم استلام طلبكم بنجاح. سنقوم بمراسلتكم بالرد قريباً إن شاء الله."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "إجمالي المبلغ المستحق"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "إجمالي مدفوع فترة المبيعات"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "إجمالي الرصيد الغير مدفوع"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "لا يتم إحتساب الضريبة إذا كان الباعة يدفعوا ضريبة إضافية"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "لا يمكن حذف هذا المتجر لأنه توجد طلبات تحتوي على منتجات هذه الشركة في قاعدة البيانات. لحذف الحساب, يرجى حذف كل الطلبات المرتبطة به أولاً."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "المتجر"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "المتاجر"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "قائمة مرتبة بحسابات الشركات المسجلون في المتجر."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "رصيد الحساب"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "طلب الانضمام كبائع جديد"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "عمولة البائع"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "معرف المتجر"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "اسم المتجر"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "صفحات المتجر"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "لوحة تحكم البائع"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "عرض طلبات المتجر"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "عرض منتجات المتجر"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "عرض أعضاء المتجر"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "يمكنكم تحرير تفاصيل الحساب أدناه."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "الباعة"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "عدد الباعة بالصفحة"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "السماح للأعضاء بطلب الانضمام كبائع"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "إنشاء حساب أدمن البائع المعتمد الجديد تلقائياً. (إذا كان خيار \"السماح للأعضاء بطلب الانضمام كبائع\" مفعل)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "نموذج الانضمام كبائع"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "تضمين تكلفة الشحن في عمولة الباعة"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "لو مفعلة, لن يتمكن العملاء من مشاهدة الضرائب الإضافية ولن تُطبق على إجمالي قيمة الطلب"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "العمولات"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "عرض منتجات البائع"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "لو مفعلة, لن يتمكن العملاء من مشاهدة الضرائب الإضافية ولن تُطبق على إجمالي قيمة الطلب"
+

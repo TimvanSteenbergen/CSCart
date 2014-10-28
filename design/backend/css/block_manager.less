@@ -1,0 +1,610 @@
+.add-block:hover {
+    .add-block-menu {
+        display: block;
+    }
+}
+
+.tabs_content_blocks {
+    letter-spacing: -1px;
+}
+
+.block-header {
+    position: relative;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 1px solid #fff !important;
+    min-height: 40px;
+    height: 40px;
+    background-color: #fff;
+    .block-header-title {
+        color: #636363;
+        font: 400 13px sans-serif;
+        overflow: hidden;
+        padding: 2px 20px 0 40px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 80px;
+    }
+}
+
+.bm-external-render {
+    float: left;
+    width: 250px;
+    border: 1px solid #AEAEAE;
+    .border-radius(5px);
+}
+
+.select-block-box {
+    border: 2px solid #bfbfbf;
+    .border-radius(4px);
+    #gradient > .vertical(#f4f4f4, #e8e8e8);
+    float: left;
+    height: 43px;
+    margin: 3px 10px 22px 0;
+    padding: 5px 0px 0px 10px;
+    width: 39px;
+}
+
+.grid {
+    background: @BlockManagerGrid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 82px;
+    .border-radius(0 0 6px 6px);
+    position: relative;
+    padding-bottom: 25px;
+    .grid-control-menu {
+        padding-left: 13px;
+        cursor: @BlockManagerOpenhand , move;
+    }
+    &:hover > .grid-control-menu .grid-control-menu-actions {
+        visibility: visible;
+    }
+    .grid-control-menu-actions.open {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.grid.level-1.alpha {
+    margin-left: 10px;
+}
+.grid.level-1.alpha {
+    margin-right: 10px;
+}
+
+.grid-off, .container-off {
+    .block .exicon-off, .grid .exicon-trash, .grid .exicon-cog, .grid .icon-plus {
+        opacity: 0.2 !important;
+    }
+    .block-off .exicon-off, .grid .exicon-off {
+        display: none;
+    }
+    background: #e7e7e7;
+    .grid-control-menu {
+        background-color: #fafafa;
+    }
+    .grid-control-title {
+        color: #dcdcdc;
+    }
+    .grid-control-menu-actions {
+        visibility: visible !important;
+    }
+    .level-2 {
+        background: #dfdfdf;
+    }
+    .level-3 {
+        background: #d0d0d0;
+    }
+    .level-4 {
+        background: #b8b8b8;
+    }
+    .level-5 {
+        background: #8c8c8c;
+    }
+}
+.container-off {
+    .grid .exicon-off, .grid .exicon-trash, .grid .exicon-cog, .grid .icon-plus {
+        display: none;
+    }
+}
+
+.action-control-menu:hover {
+    background-position: -77px -40px;
+}
+
+.block-header-icon {
+    left: 7px;
+    top: 5px;
+    position: absolute;
+}
+
+.grid-prop {
+    background: #DDD;
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin: auto 0;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.grid-menu a, .bm-external-render .action-properties {
+    text-decoration: none;
+}
+
+.add-block {
+    background: #FFF;
+    border: 1px dotted #000;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    float: right;
+    font-weight: 700;
+    padding: 3px;
+    text-align: center;
+    .add-block-menu {
+        display: none;
+    }
+}
+
+.icon-remove-circle {
+    height: 15px;
+    visibility: hidden;
+    width: 15px;
+    float: right;
+    margin-top: 5px;
+}
+
+.ui-hover-block {
+    height: 66px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    min-width: 140px;
+}
+
+.grid-control-title {
+    color: #464646;
+    font: 600 13px sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bm-full-menu .grid-control-title {
+    color: #464646;
+    font: 400 13px sans-serif;
+    text-align: center;
+    text-transform: none;
+    margin: 5px 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hover-element {
+    background: #CFC;
+}
+
+.add-block:hover, .add-block-menu div:hover, .grid-menu div:hover {
+    background: #000;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.grid-menu {
+    background: #DDD;
+    border: 1px solid #000;
+    border-radius: 5px;
+    left: 300px;
+    padding-right: 18px;
+    position: absolute;
+    top: 500px;
+    div {
+        background: #FFF;
+        border: 1px dotted #000;
+        border-radius: 5px;
+        color: #000;
+        cursor: pointer;
+        font-weight: 700;
+        margin: 5px;
+        padding: 3px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.action-control-menu {
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin: 0 0 0 2px;
+    position: relative;
+    width: 20px;
+
+}
+
+.container_12 {
+    background: @BlockManagerGrid12Col repeat-y #FFF;
+}
+
+.select-block-description {
+    float: left;
+    width: 150px;
+    strong {
+        padding-right: 15px;
+    }
+    p {
+        color: gray;
+    }
+}
+
+.grid_1 {
+    .ui-hover-block {
+        min-width: 30px;
+    }
+}
+
+.grid-control-menu {
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    margin: 10px 0px 0px 0px;
+    clear: both;
+    width: auto;
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    margin-bottom: -3px;
+    position: absolute;
+    right: 0;
+}
+
+.bm-full-width > .ui-hover-block.pull-right, .bm-full-width > .ui-hover-block.pull-left {
+    float: none;
+}
+
+.select-block {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+    padding: 0 2px;
+    width: 276px;
+    letter-spacing: 0;
+    &:hover [class^="bmicon-"], [class*=" bmicon-"] {
+        opacity: 1;
+    }
+    &:hover .select-block-box {
+        #gradient > .vertical(#f4f4f4, #dddddd);
+        border-color: #b4b3b3;
+    }
+}
+
+.grid_2 .ui-hover-block {
+    min-width: 90px;
+}
+
+.add-block-menu {
+    background: #FFF;
+    border: 1px dotted #000;
+    border-radius: 5px;
+    left: 260px;
+    margin-top: -18px;
+    position: absolute;
+    width: 300px;
+    div {
+        border: 1px dashed #000;
+        border-radius: 5px;
+        clear: both;
+        margin: 10px;
+        padding: 5px;
+        width: 89%;
+    }
+}
+
+.grid_3 {
+    .ui-hover-block {
+        margin-bottom: 11px;
+    }
+}
+
+.grid-block {
+    background-color: #000;
+    height: 2000px;
+    left: 0;
+    opacity: 0.5px;
+    position: fixed;
+    top: 0;
+    width: 2000px;
+    z-index: 1;
+}
+
+.container_16 {
+    background: @BlockManagerGrid16Col repeat-y #FFF;
+}
+
+.hr {
+    background-color: #999;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.bm-full-width .block {
+    max-width: none !important;
+}
+
+.container {
+    height: auto !important;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    min-height: 150px;
+    padding-bottom: 30px;
+    position: relative;
+    .droptop {
+        top: 20px;
+    }
+    &:hover > .grid-control-menu .grid-control-menu-actions {
+        visibility: visible;
+    }
+    .block {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #aeaeae;
+        border-radius: 5px;
+        cursor: @BlockManagerOpenhand , move;
+        height: 68px;
+        margin: 5px 3px 5px 3px;
+        min-height: 50px;
+        min-width: 30px;
+        max-width: 145px;
+        .btn-group {
+            visibility: hidden;
+        }
+        &:hover .btn-group {
+            visibility: visible;
+        }
+        &:hover .block-header {
+            background: #fafafa;
+        }
+        .block-control-menu {
+            .border-radius(0 0 3px 3px);
+        }
+    }
+    .block.block-off {
+        border: 1px solid #dfdfdf;
+        .block-header {
+            .block-header-title {
+                color: #e2e2e2 !important;
+            }
+            .block-header-icon {
+                opacity: 0.2;
+            }
+            background: #ffffff !important;
+        }
+        .block-control-menu {
+            background-color: #fafafa !important;
+            border-top: 1px solid #f2f2f2 !important;
+            [class^="exicon-"], [class*=" exicon-"] {
+                background-image: url('images/exicons.png');
+            }
+        }
+        .exicon-cog, .exicon-trash {
+            opacity: 0.2;
+        }
+    }
+    .ui-draggable-block {
+        cursor: @BlockManagerClosedhand , auto;
+        opacity: 0.8 !important;
+        border: 1px dotted #949494 !important;
+        .box-shadow (0px 0px 13px #696969);
+    }
+}
+
+#blocks_menu {
+    background: #FFF;
+    border: 1px solid #ccc;
+    left: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 260px;
+    width: 250px;
+    z-index: 1;
+    .hover-element {
+        background: none;
+    }
+    .block {
+        height: auto;
+        width: auto;
+    }
+}
+
+.container-lock {
+    height: 80px !important;
+    min-height: 80px !important;
+    p {
+        color: #717171;
+        background: #fcfcfc;
+        margin: 14px 14px 20px;
+        padding: 10px;
+    }
+    h4.grid-control-title a {
+        display: none;
+    }
+}
+
+.action-properties {
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin: 5px 0 0 5px;
+    width: 20px;
+}
+
+.select-block:hover {
+    strong {
+        color: #0088cc;
+    }
+    p {
+        color: #0088cc;
+    }
+    .icon-remove-circle {
+        visibility: visible;
+    }
+}
+
+.block-control-menu, .grid-control-menu {
+    background-color: #eeeeee;
+    border-top: 1px solid #e1e1e1;
+    height: 26px;
+    .border-radius(0 0 1px 1px);
+    padding: 0px 5px 0px 8px;
+    .btn-group.action {
+        float: left;
+        margin-top: -10px;
+        .dropdown-menu {
+            margin: 16px 0 0;
+        }
+    }
+    .action {
+        margin-top: 5px;
+        padding: 5px 3px 3px 0px;
+        cursor: pointer;
+        opacity: 0.6;
+        float: left;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .btn-group.action.open {
+        opacity: 1;
+        visibility: visible;
+    }
+    .exicon-trash {
+        float: right !important;
+    }
+}
+
+.block-control-menu {
+    background-color: #08c;
+    [class^="exicon-"], [class*=" exicon-"] {
+        background-image: url('images/exicons_white.png');
+    }
+}
+
+.grid-control-menu-actions {
+    visibility: hidden;
+}
+
+#block_selection .tabs, #block_managing .tabs {
+    margin-bottom: 20px;
+}
+
+.grid_1, .grid_2, .grid_3 {
+    .block, .ui-hover-block {
+        float: none !important;
+    }
+
+}
+
+.select-block-title {
+    font-weight: 700;
+}
+
+[class^="bmicon-"],
+[class*=" bmicon-"] {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    *margin-right: .3em; //line-height: 14px;
+    vertical-align: text-top;
+    background-image: @BlockManagerIconsSprite;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    opacity: 0.7;
+}
+
+.bmicon-product-filters {
+    background-position: 0 0px;
+}
+
+.bmicon-shipping-methods {
+    background-position: 0 -570px;
+}
+
+.bmicon-languages {
+    background-position: 0 -210px;
+}
+
+.bmicon-categories {
+    background-position: 0 -240px;
+}
+
+.bmicon-payment-methods {
+    background-position: 0 -420px;
+}
+
+.bmicon-news {
+    background-position: 0 -540px;
+}
+
+.bmicon-my-account {
+    background-position: 0 -60px;
+}
+
+.bmicon-cart-content {
+    background-position: 0 -510px;
+}
+
+.bmicon-html-block {
+    background-position: 0 -270px;
+}
+
+.bmicon-pages {
+    background-position: 0 -360px;
+}
+
+.bmicon-logo {
+    background-position: 0 -120px;
+}
+
+.bmicon-search {
+    background-position: 0 -150px;
+}
+
+.bmicon-vendors {
+    background-position: 0 -450px;
+}
+
+.bmicon-products {
+    background-position: 0 -330px;
+}
+
+.bmicon-mail-list {
+    background-position: 0 -480px;
+}
+
+.bmicon-currencies {
+    background-position: 0 -180px;
+}
+
+.bmicon-menu {
+    background-position: 0 0px;
+}
+
+.bmicon-breadcrumbs {
+    background-position: 0 -390px;
+}
+
+.bmicon-checkout {
+    background-position: 0 -90px;
+}

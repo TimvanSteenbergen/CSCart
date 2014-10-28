@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Szavazások"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Egyedi szavazások létrehozása az oldalon"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Központi"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Oldaldoboz"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Válaszok hozzászólásokkal"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Korábban már szavazott."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Összes szavazat"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Szavazások"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Új szavazás"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Szavazás szerkesztése"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Szavazások"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Korábban már szavazott"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Szavazások"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Szavazás"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Kérdések"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Szavazás statisztikái"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Szavazások hozzáadása és bezárás"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Szavazások hozzáadása"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Minden kötelező kérdésre válaszolni kell"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Köszönjük, hogy részt vett a szavazásban."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Szavazás eredménye látható"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "senki"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "szavazott felhasználók"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "mindenkinek (felugró ablakban)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Szavazás fejléce"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Szavazás lábléce"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Szavazás üzenet"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Új kérdés"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Kérdés hozzáadása"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Kérdés szerkesztése"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Szavazás hozzáadása"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Elküldött szavazások teljes száma"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Teljsen kitöltött szavazási űrlapok száma"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Első beküldött szavazás"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Utolsó beküldött szavazás"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Statisztikák kérdésenként"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Válaszok megtekintése"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Szavazatok"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Válaszok"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Kérdés szövege"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Egyetlen választási lehetőség"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Több választási lehetőség"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Szöveges válaszlehetőség"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Szöveges válasz"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Szövegdoboz"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Üzenet, mely a szavazást követően jelenik meg."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Szavazatok az oldalon"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Válaszok az oldalon"
+

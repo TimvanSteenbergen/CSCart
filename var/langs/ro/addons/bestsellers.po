@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Cele mai bine vândute produse & produse la promotie"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Colectează cele mai bune vânzări & produse la promoție şi adaugă bloc pentru a arăta astfel de produse"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sortare după cel mai bine vândut: de la mic la mare"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sortare după cel mai bine vândut"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sortare după discount : de la mic la mare"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sortare după discount : de la mare la mic"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Suma de vânzări"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Cele mai vândute"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Promoție"
+

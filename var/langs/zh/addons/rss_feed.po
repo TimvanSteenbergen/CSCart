@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "RSS订阅"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products, news and pages"
+msgstr "为产品,新闻和页面生成RSS订阅"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "RSS订阅"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "订阅标题"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "订阅描述"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "项目排序"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "显示SKU"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "显示图片"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "显示毛价"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "显示网络价格"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "显示添加购物车按钮"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "创建"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "更新"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "RSS订阅"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "RSS订阅图标"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "内容编辑"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "在每个目录中显示RSS订阅"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "每个目录最多产品数"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "输入内容编辑器的电子邮件和真实的名字,例如 john@example.com (John Doe)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "RSS图标靠近目录标题."
+

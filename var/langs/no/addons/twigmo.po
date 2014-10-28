@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::twigmo"
+msgid "Twigmo"
+msgstr "Twigmo"
+
+msgctxt "Addons::description::twigmo"
+msgid "Connect your store to the Twigmo service to create a mobile version and get an admin mobile application"
+msgstr "Koble din butikk til tjenesten Twigmo for å opprette en mobil utgave av nettsiden og også kunne bruke en admin app på din iPhone"
+
+msgctxt "SettingsSections::twigmo::service"
+msgid "Twigmo account"
+msgstr "Twigmo konto"
+
+msgctxt "SettingsSections::twigmo::storefront"
+msgid "Mobile Storefront"
+msgstr "Mobil butikkforside"
+
+msgctxt "SettingsSections::twigmo::addon"
+msgid "Upgrade"
+msgstr "Oppgrader"
+
+msgctxt "SettingsSections::twigmo::admin_app"
+msgid "Admin app"
+msgstr "Admin app"
+
+msgctxt "Languages::twgadmin_access_id"
+msgid "Access ID"
+msgstr "Adgangs ID"
+
+msgctxt "Languages::twgadmin_more_than_year"
+msgid "More than a year"
+msgstr "Mer enn ett år"
+
+msgctxt "Languages::twgadmin_error_cannot_connect_store"
+msgid "Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistance."
+msgstr "Kan ikke koble til tjenesten Twigmo for øyeblikket. Vennligst prøv igjen senere. Hvis problemet fortsatter, kan du gå til <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistanse."
+
+msgctxt "Languages::twgadmin_text_store_connected"
+msgid "Your store was connected to Twigmo service successfully!"
+msgstr "Butikken ble vellykket koblet til tjenesten Twigmo!"
+
+msgctxt "Languages::twgadmin_connect_your_store"
+msgid "Connect your store to the Twigmo service"
+msgstr "Koble din butikk til tjenesten Twigmo"
+
+msgctxt "Languages::twgadmin_connect"
+msgid "Connect"
+msgstr "Koble til"
+
+msgctxt "Languages::tt_addons_twigmo_settings_settings_twgadmin_home_page_content"
+msgid "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+msgstr "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+
+msgctxt "Languages::twgadmin_manage_settings"
+msgid "Service account infomation"
+msgstr "Service konto infomasjon"
+
+msgctxt "Languages::twgadmin_manage_storefront_settings"
+msgid "Mobile Storefront settings"
+msgstr "Innstillinger for mobil butikkforside"
+
+msgctxt "Languages::twgadmin_wrong_api_object_data"
+msgid "Wrong [object] data"
+msgstr "Feil [object] data"
+
+msgctxt "Languages::twgadmin_wrong_api_data"
+msgid "Wrong API data"
+msgstr "Feil API data"
+
+msgctxt "Languages::twgadmin_wrong_shipping_info"
+msgid "Failed to place order: wrong shipping data"
+msgstr "Mislyktes i å plassere ordren: feil frakt data"
+
+msgctxt "Languages::twgadmin_wrong_payment_info"
+msgid "Failed to place order: wrong payment data"
+msgstr "Mislyktes i å plassere ordren: feil betalings data"
+
+msgctxt "Languages::twgadmin_object_was_not_found"
+msgid "The [object] data were not found"
+msgstr "Data til [object] ble ikke funnet"
+
+msgctxt "Languages::twgadmin_fail_create_user"
+msgid "Failed to create user"
+msgstr "Kan ikke opprette brukeren"
+
+msgctxt "Languages::twgadmin_fail_post_order"
+msgid "Failed to place order"
+msgstr "Mislyktes i å plassere ordren"
+
+msgctxt "Languages::twg_post_request_fail"
+msgid "Failed to post request"
+msgstr "Kan ikke legge inn forespørsel"
+
+msgctxt "Languages::twgadmin_error_validator_required"
+msgid "The '[field]' field is mandatory"
+msgstr "Feltet '[field]' er obligatorisk"
+
+msgctxt "Languages::twgadmin_mobile_version"
+msgid "Mobile version"
+msgstr "Mobil versjon"
+
+msgctxt "Languages::twgadmin_text_updates_available"
+msgid "A new version of Twigmo add-on is available! <a href=\"[link]\">Click here to upgrade to it</a>."
+msgstr "En ny versjon av Twigmo er tilgjengelig! <a href=\"[link]\">Klikk her for å oppgradere</a>."
+
+msgctxt "Languages::twgadmin_home_page_content"
+msgid "Home page content"
+msgstr "Hjemmeside innhold"
+
+msgctxt "Languages::twgadmin_use_mobile_frontend_for"
+msgid "Show mobile version for"
+msgstr "Vis mobilversjonen for"
+
+msgctxt "Languages::twgadmin_phones"
+msgid "Phones"
+msgstr "Telefoner"
+
+msgctxt "Languages::twgadmin_tablets"
+msgid "Tablets"
+msgstr "Nettbrett"
+
+msgctxt "Languages::twgadmin_home_page_blocks"
+msgid "Desktop home page blocks"
+msgstr "Desktop forside blokker"
+
+msgctxt "Languages::twgadmin_tw_home_page_blocks"
+msgid "Twigmo home page blocks"
+msgstr "Twigmo forside blokker"
+
+msgctxt "Languages::twgadmin_homepage"
+msgid "Twigmo home page"
+msgstr "Twigmo forside"
+
+msgctxt "Languages::twgadmin_edit_these_blocks"
+msgid "Edit these blocks"
+msgstr "Rediger disse blokkene"
+
+msgctxt "Languages::twgadmin_select_skin"
+msgid "Skin"
+msgstr "Mal"
+
+msgctxt "Languages::twgadmin_hide_header"
+msgid "Hide header"
+msgstr "Skjul header"
+
+msgctxt "Languages::twg_btn_load_more_items"
+msgid "Load More"
+msgstr "Last inn mer"
+
+msgctxt "Languages::twg_btn_log_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Logg inn for å sjekke ut"
+
+msgctxt "Languages::twg_lbl_copy_from_billing"
+msgid "Ship to the same address"
+msgstr "Send til den samme adressen"
+
+msgctxt "Languages::twg_msg_date_invalid"
+msgid "Please enter a valid date."
+msgstr "Angi en gyldig dato."
+
+msgctxt "Languages::twg_msg_dateiso_invalid"
+msgid "Please enter a valid date (YYYY-MM-DD)."
+msgstr "Angi en gyldig dato (ÅÅÅÅ-MM-DD)."
+
+msgctxt "Languages::twg_msg_digits_required"
+msgid "Please enter only digits."
+msgstr "Skriv inn bare tall."
+
+msgctxt "Languages::twg_msg_email_invalid"
+msgid "Please enter a valid email address."
+msgstr "Skriv inn en gyldig e-post-adresse."
+
+msgctxt "Languages::twg_msg_extension_invalid"
+msgid "Please enter a value with a valid extension."
+msgstr "Skriv inn en verdi med en gyldig endelse."
+
+msgctxt "Languages::twg_msg_field_required"
+msgid "This field is required."
+msgstr "Dette feltet er obligatorisk."
+
+msgctxt "Languages::twg_msg_fill_required_fields"
+msgid "Please fill in all the required fields."
+msgstr "Fyll ut alle obligatoriske felt."
+
+msgctxt "Languages::twg_msg_field_invalid"
+msgid "Please fix this field."
+msgstr "Fiks dette feltet."
+
+msgctxt "Languages::twg_msg_max_length"
+msgid "Please enter no more than {0} characters."
+msgstr "Skriv ikke inn mer enn {0} tegn."
+
+msgctxt "Languages::twg_msg_max_value"
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Skriv inn en verdi som er mindre enn eller lik {0}."
+
+msgctxt "Languages::twg_msg_min_length"
+msgid "Please enter at least {0} characters."
+msgstr "Skriv inn minst {0} tegn."
+
+msgctxt "Languages::twg_msg_min_value"
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Skriv inn en verdi større enn eller lik {0}."
+
+msgctxt "Languages::twg_msg_number_invalid"
+msgid "Please enter a valid number."
+msgstr "Skriv inn et gyldig tall."
+
+msgctxt "Languages::twg_msg_order_was_placed"
+msgid "Your order has been placed!<br />The order ID is"
+msgstr "Din ordre er blitt plassert!<br />Ordre nummeret er"
+
+msgctxt "Languages::twg_msg_orders_were_placed"
+msgid "Your orders have been placed!<br />The order IDs are"
+msgstr "Din ordre har blitt plassert!<br />Ordre nummeret er"
+
+msgctxt "Languages::twg_msg_cc_invalid"
+msgid "Please enter a valid credit card number."
+msgstr "Angi et gyldig kredittkortnummer."
+
+msgctxt "Languages::twg_msg_range_length"
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Skriv inn en verdi mellom {0} og {1} tegn langt."
+
+msgctxt "Languages::twg_msg_range_value"
+msgid "Please enter a value between {0} and {1}."
+msgstr "Angi en verdi mellom {0} og {1}."
+
+msgctxt "Languages::twg_msg_same_value_required"
+msgid "Please enter the same value again."
+msgstr "Angi samme verdi på nytt."
+
+msgctxt "Languages::twg_msg_url_invalid"
+msgid "Please enter a valid URL."
+msgstr "Angi en gyldig URL-adresse."
+
+msgctxt "Languages::twg_cart_info"
+msgid "[amount] ([total])"
+msgstr "[amount] ([total])"
+
+msgctxt "Languages::twg_share"
+msgid "Share"
+msgstr "Del"
+
+msgctxt "Languages::twg_facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::twg_twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::twg_desktop_site"
+msgid "Desktop site"
+msgstr "Desktop versjon"
+
+msgctxt "Languages::twgadmin_connect_to_first_ult"
+msgid "Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it."
+msgstr "Butikken er ikke koblet til tjenesten Twigmo ennå. Be butikkens administrator om å gjøre det."
+
+msgctxt "Languages::twgadmin_mobile_logo"
+msgid "Mobile Storefront logo"
+msgstr "Mobil butikk logo"
+
+msgctxt "Languages::twgadmin_mobile_favicon"
+msgid "iOS device home screen icon"
+msgstr "iOS enhetens hjem ikon"
+
+msgctxt "Languages::twgadmin_url_for_facebook"
+msgid "URL of your Facebook page"
+msgstr "URL-adressen til din Facebook-side"
+
+msgctxt "Languages::twgadmin_url_for_twitter"
+msgid "URL of your Twitter page"
+msgstr "URL-adressen til din Twitter-side"
+
+msgctxt "Languages::twgadmin_only_req_profile_fields"
+msgid "Show only user profile fields marked as required"
+msgstr "Vis bare brukerprofil felt merket som obligatoriske"
+
+msgctxt "Languages::twgadmin_reinstall"
+msgid "The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it."
+msgstr "Denne versjonen av Twigmo samsvarer ikke med den i databasen din, så den mobile versjonen av butikken er deaktivert. Vennligst re-installer Twigmo tillegget (Klikk avinstaller, deretter installer på siden for tillegg) for å aktivere den."
+
+msgctxt "Languages::twg_view_cart_checkout"
+msgid "View cart & checkout"
+msgstr "Vis handlevogn og sjekk ut"
+
+msgctxt "Languages::twg_sign_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Logg inn for å sjekke ut"
+
+msgctxt "Languages::twg_only_via_desktop"
+msgid "This product can be added to cart only via the [linkOpen]desktop website[linkClose]."
+msgstr "Dette produktet kan bare legges i handlevognen fra [linkOpen]desktop versjonen av nettbutikken[linkClose]."
+
+msgctxt "Languages::twg_share_on_social"
+msgid "Share on social networks"
+msgstr "Del på sosiale nettverk"
+
+msgctxt "Languages::twgadmin_order_via_twigmo"
+msgid "[This order was placed via Twigmo Mobile Storefront]"
+msgstr "[Denne ordren ble plassert via Twigmo Mobil butikk]"
+
+msgctxt "Languages::twgadmin_on_social"
+msgid "Twigmo on social media"
+msgstr "Twigmo på sosiale medier"
+
+msgctxt "Languages::twg_contact_twigmo_support"
+msgid "Contact Twigmo support"
+msgstr "Kontakt Twigmo kundestøtte"
+
+msgctxt "Languages::twgadmin_enable_geolocation"
+msgid "Enable geolocation"
+msgstr "Aktiver geolocation"
+
+msgctxt "Languages::tt_addons_twigmo_settings_settings_twgadmin_enable_geolocation"
+msgid "If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages."
+msgstr "Hvis aktivert, fylles adressefeltene for frakt og fakturering med adressen som bestemmes av en geolocation tjeneste på utsjekking sidene."
+
+msgctxt "Languages::twg_billing_is_the_same"
+msgid "Billing address is the same"
+msgstr "Fakturaadressen er den samme"
+
+msgctxt "Languages::twgadmin_upgrade_addon"
+msgid "Twigmo add-on upgrade has started."
+msgstr "Twigmo oppgraderingen har startet."
+
+msgctxt "Languages::twgadmin_download_twigmo"
+msgid "Downloading Twigmo upgrade package. Please wait..."
+msgstr "Laster ned Twigmo oppgraderingspakke. Vennligst vent..."
+
+msgctxt "Languages::twgadmin_checking_permissions"
+msgid "Done.</br>Checking file permissions..."
+msgstr "Ferdig.</br>Kontrollerer filer..."
+
+msgctxt "Languages::twgadmin_no_files_permissions"
+msgid "Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server)."
+msgstr "Feil: Kan ikke overskrive de eksisterende Twigmo tilleggs filene. Vennligs sjekk og korriger fil tillatetelser manuelt eller [link]gi oss FTP-tilgang[/link] (hvis de sendes, vennligst kontroller at denne brukeren har rettigheter til å endre filer på serveren)."
+
+msgctxt "Languages::twgadmin_backup_files"
+msgid "Backing up Twigmo files..."
+msgstr "Sikkerhetskopierer Twigmo filer..."
+
+msgctxt "Languages::twgadmin_backup_settings"
+msgid "Backing up Twigmo add-on settings..."
+msgstr "Sikkerhetskopierer Twigmo tilleggets innstillinger..."
+
+msgctxt "Languages::twgadmin_uninstall_addon"
+msgid "Uninstalling Twigmo add-on..."
+msgstr "Avinstallerer Twigmo tillegget..."
+
+msgctxt "Languages::twgadmin_restore_settings"
+msgid "Restoring Twigmo add-on settings..."
+msgstr "Gjenoppretter Twigmo tilleggets innstillinger..."
+
+msgctxt "Languages::twg_min_product_quantity"
+msgid "Minimum order quantity"
+msgstr "Minste bestillingsantall"
+
+msgctxt "Languages::twg_checkout_terms_n_conditions"
+msgid "I accept Terms and Conditions"
+msgstr "Jeg godtar vilkårene"
+
+msgctxt "Languages::twgadmin_cant_create_file"
+msgid "Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin)."
+msgstr "Kan ikke opprette en fil [file]. Vennligst opprett den manuellt [path] (bare dersom du ønsker å endre den valgte Twigmo mobil malen)."
+
+msgctxt "Languages::twg_visit_our_mobile_store"
+msgid "Visit our mobile site"
+msgstr "Besøk vår mobilside"
+
+msgctxt "Languages::twg_app_for_android"
+msgid "App for Android"
+msgstr "App for Android"
+
+msgctxt "Languages::twg_app_for_iphone"
+msgid "App for iPhone"
+msgstr "App for iPhone"
+
+msgctxt "Languages::twg_app_for_ipad"
+msgid "App for iPad"
+msgstr "App for iPad"
+
+msgctxt "Languages::twgadmin_url_on_appstore"
+msgid "URL of your app on iTunes App Store"
+msgstr "URL-adressen til din app på iTunes App Store"
+
+msgctxt "Languages::twgadmin_url_on_googleplay"
+msgid "URL of your app on Google Play"
+msgstr "URL-adressen til din app Google Play"
+
+msgctxt "Languages::twg_product_added_to_cart"
+msgid "Product Added to Cart"
+msgstr "Produktet bla lagt i handlevognen"
+
+msgctxt "Languages::twg_configurable_via_desktop"
+msgid "This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose]."
+msgstr "Dette er et konfigurerbart produkt. Det kan bare konfigureres via [linkOpen]desktop versjonen av nettbutikken[linkClose]."
+
+msgctxt "Languages::twg_requrring_via_desktop"
+msgid "This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose]."
+msgstr "Dette er et abonnement produkt. Abonnementet kan bare velges via [linkOpen]desktop versjonen av nettbutikken[linkClose]."
+
+msgctxt "Languages::twgadmin_check_for_updates"
+msgid "Check for updates"
+msgstr "Se etter oppdateringer"
+
+msgctxt "Languages::twgadmin_basic_skin"
+msgid "Basic skin"
+msgstr "Standard mal"
+
+msgctxt "Languages::twgadmin_connect_notification"
+msgid "The <a href=\"[addon_link]\">Twigmo add-on</a> is not connected to the <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android."
+msgstr "Tillegget for <a href=\"[addon_link]\">Twigmo</a> er ikke koblet opp mot <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Sett den opp for å muliggjøre en mobil versjon av din nettbutikk for iOS og Android."
+
+msgctxt "Languages::twgadmin_phpmod_required"
+msgid "PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it."
+msgstr "PHP extension modulen [php_module_name] er nødvendig for forsvarlig drift av Twigmo tillegget. Installer den på din server."
+
+msgctxt "Languages::twgadmin_select_store"
+msgid "Please select a store first"
+msgstr "Velg en butikk først"
+
+msgctxt "Languages::twg_is_logged_in"
+msgid "logged in."
+msgstr "pålogget."
+
+msgctxt "Languages::twg_review_and_place_order"
+msgid "Review and place order"
+msgstr "Se gjennom og plasser ordre"
+
+msgctxt "Languages::twg_login_to_add_to_cart"
+msgid "This product cannot be added to the cart because you are not logged in."
+msgstr "Dette produktet kan ikke legges i handlevognen fordi du ikke er innlogget."
+
+msgctxt "Languages::twgadmin_disconnected"
+msgid "Disconnected"
+msgstr "Frakoblet"
+
+msgctxt "Languages::twgadmin_connected"
+msgid "Connected"
+msgstr "Koblet til"
+
+msgctxt "Languages::twgadmin_terms"
+msgid "Terms and conditions"
+msgstr "Vilkår og betingelser"
+
+msgctxt "Languages::twgadmin_accept_terms_n_conditions"
+msgid "I accept the <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Terms and Conditions</a>."
+msgstr "Jeg godtar <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Vilkår og betingelser</a>."
+
+msgctxt "Languages::twgadmin_stores"
+msgid "Stores"
+msgstr "Butikker"
+
+msgctxt "Languages::twgadmin_curl_error"
+msgid "Couldn't get HTTP response from the Twigmo server. Please make sure that your server supports executing HTTP requests either through curl or sockets."
+msgstr "Kan ikke hente HTTP-svar fra serveren til Twigmo. Kontroller at serveren din støtter å utføre HTTP-forespørsler enten via curl eller sockets."
+
+msgctxt "Languages::twgadmin_open_te"
+msgid "Visual Editor"
+msgstr "Visuell Redigerer"
+
+msgctxt "Languages::twgadmin_open_cp"
+msgid "Twigmo Control Panel"
+msgstr "Twigmo Kontrollpanel"
+
+msgctxt "Languages::twgadmin_no_token_recieved"
+msgid "Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]"
+msgstr "Twigmo kunne ikke hente token for godkjennelse. [linkOpen]Gå tilbake[linkClose]"
+
+msgctxt "Languages::twg_buy_only_via_desktop"
+msgid "This product can be purchased via [linkOpen]the desktop website[linkClose]."
+msgstr "Dette produktet kan bare kjøpes via [linkOpen]desktop versjonen av nettbutikken[linkClose]."
+
+msgctxt "Languages::tt_addons_twigmo_settings_connect_email"
+msgid "Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified)."
+msgstr "Skriv inn e-post-adressen til din Twigmo konto. Hvis du ikke har en Twigmo konto, vil det bli opprettet en for deg automatisk (e-postadressen din må bekreftes)."
+
+msgctxt "Languages::tt_addons_twigmo_settings_connect_password"
+msgid "Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you."
+msgstr "Skriv inn ditt passord for Twigmo. Hvis du ikke har en Twigmo konto - skriv inn et sikkert passord, og vi vil opprette en ny Twigmo konto for deg."
+
+msgctxt "Languages::tt_addons_twigmo_settings_connect_twgadmin_stores"
+msgid "Select stores that are to be connected to the Twigmo service."
+msgstr "Velg butikker som skal kobles til tjenesten Twigmo."
+
+msgctxt "Languages::twg_cannot_redirect_to_desktop"
+msgid "The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device."
+msgstr "Desktop siden kan ikke vises i denne modusen, men koblingen fungerer fint på en ekte mobil enhet."
+
+msgctxt "Languages::twgadmin_about"
+msgid "About Twigmo"
+msgstr "Om Twigmo"
+
+msgctxt "Languages::twgadmin_addon_version"
+msgid "Add-on version"
+msgstr "Tillegg versjon"
+
+msgctxt "Languages::twgadmin_disconnect"
+msgid "Disconnect"
+msgstr "Koble fra"
+
+msgctxt "Languages::twgadmin_disconnect_whole"
+msgid "Disconnect whole addon"
+msgstr "Koble fra hele tillegget"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "Betalingsplan"
+
+msgctxt "Languages::twgadmin_upgrade_completed"
+msgid "Upgrade completed"
+msgstr "Oppgraderingen er fullført"
+
+msgctxt "Languages::twg_placed"
+msgid "placed"
+msgstr "plassert"
+
+msgctxt "Languages::twgadmin_mobile_admin_application"
+msgid "Twigmo Mobile Admin application"
+msgstr "Twigmo Mobil Admin app"
+
+msgctxt "Languages::twgadmin_download_app"
+msgid "Download the app"
+msgstr "Last ned appen"
+
+msgctxt "Languages::twgadmin_download_app_hint"
+msgid "This app is available on the <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a> only."
+msgstr "Denne appen er kun tilgjengelig på <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a>."
+

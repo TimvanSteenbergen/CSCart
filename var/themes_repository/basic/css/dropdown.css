@@ -1,0 +1,499 @@
+/**
+ * @link        http://www.lwis.net/
+ * @copyright    2006-2008 Live Web Institute. All Rights Reserved.
+ */
+
+/* Logic */
+ul.dropdown, ul.dropdown li, ul.dropdown ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.dropdown {
+    position: relative;
+    z-index: 100;
+    padding-top: 1px;
+}
+ul.dropdown li {
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    line-height: 130%;
+    zoom: 1;
+}
+ul.dropdown li.hover, ul.dropdown li:hover {
+    position: relative;
+    z-index: 200;
+    cursor: default;
+}
+ul.dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    display: none;
+    width: 100%;
+}
+ul.dropdown ul li {
+    float: none;
+}
+ul.dropdown ul ul, ul.dropdown-vertical ul, ul.dropdown-vertical ul ul {
+    top: 1px;
+    left: 100%;
+    margin-top: -7px;
+}
+ul.dropdown li:hover > ul, ul.dropdown li:hover > span > ul {
+    display: block;
+}
+
+/* For vertical menu */
+ul.dropdown-vertical li {
+    float: none;
+}
+/* /For vertical menu */
+
+/* For right to left orientation */
+ul.dropdown-vertical.rtl a {
+    text-align: right;
+}
+ul.dropdown-vertical.rtl ul {
+    right: 100%;
+    left: auto;
+    margin-right: 0;
+}
+/* /For right to left orientation */
+/* /Logic */
+
+/* Decoration */
+ul.dropdown-vertical a, ul.dropdown-vertical a:visited, ul.dropdown-vertical a:active {
+    color: #444;
+    text-decoration: none;
+}
+ul.dropdown-vertical ul {
+    margin: -2px 0 0 -4px;
+    padding: 5px 0;
+    width: 180px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    border-radius: 0 5px 5px 5px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.20);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.20);
+}
+ul.dropdown-vertical ul ul {
+    margin-left: 0;
+}
+ul.dropdown-vertical a {
+    display: block;
+    padding: 10px 20px 8px 10px;
+    position: relative;
+    z-index: 530;
+}
+ul.dropdown-vertical i {
+    color: #ccc;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+}
+ul.dropdown-vertical .icon-left-open {
+    display: none;
+}
+ul.dropdown-vertical ul *.dir i {
+    top: 7px;
+}
+ul.dropdown-vertical *.dir:hover > i {
+    color: #333;
+}
+ul.dropdown-vertical ul *.dir:hover {
+    background-color: #fff;
+    background-position: right -62px;
+}
+ul.dropdown-vertical > li:hover {
+    margin-top: -1px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+ul.dropdown-vertical ul li:hover > a {
+    text-decoration: underline;
+}
+ul.dropdown-vertical > li.active {
+    border-bottom: 1px dotted #ccc;
+    background-color: #fff;
+}
+ul.dropdown-vertical ul li a {
+    padding: 5px 10px 5px;
+}
+.hide-border {
+    position: absolute;
+    right: 0;
+    z-index: 300;
+    display: none;
+    padding: 0 2px;
+    height: 100%;
+    background-color: #fff;
+}
+ul.dropdown-vertical > li:hover .hide-border {
+    display: block;
+}
+ul.dropdown-vertical > li:hover ul .hide-border {
+    display: none;
+    margin-top: -6px;
+    margin-right: -1px;
+    padding: 4px 2px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+ul.dropdown-vertical.rtl > li:hover ul .hide-border {
+    margin-right: -7px;
+}
+ul.dropdown-vertical > li:hover ul li:hover > .hide-border {
+    display: block;
+}
+
+.tygh-header ul.dropdown, 
+.tygh-header ul.dropdown-vertical {
+    z-index: 600;
+}
+.tygh-header ul.dropdown li:hover, 
+.tygh-header ul.dropdown-vertical li:hover {
+    z-index: 610;
+}
+.tygh-header ul.dropdown li a, 
+.tygh-header ul.dropdown-vertical li a {
+    z-index: 620;
+}
+
+/* Separator */
+ul.dropdown-vertical > li {
+    border-bottom: 1px solid transparent;
+}
+ul.dropdown-vertical > li.b-border {
+    border-bottom: 1px dotted #ccc;
+}
+ul.dropdown-vertical > li:hover {
+    border-bottom: 1px solid #ccc;
+}
+ul.dropdown-vertical ul .b-border {
+    border: none;
+}
+/* /Separator */
+
+/* Decoration for right to left orientation*/
+.right-column ul.dropdown-vertical ul {
+    top: 1px;
+    right: 100%;
+    left: auto;
+}
+ul.dropdown-vertical.rtl *.dir i {
+    left: 3px;
+}
+ul.dropdown-vertical.rtl .icon-left-open {
+    display: inline-block;
+}
+ul.dropdown-vertical.rtl .icon-right-open {
+    display: none;
+}
+ul.dropdown-vertical.rtl .hide-border {
+    right: 100%;
+    left: auto;
+    margin-right: -6px;
+}
+ul.dropdown-vertical.rtl ul {
+    -webkit-border-radius: 5px 0 5px 5px;
+    -moz-border-radius: 5px 0 5px 5px;
+    border-radius: 5px 0 5px 5px;
+}
+/* /Decoration for right to left orientation*/
+/* /Decoration */
+
+/* Multicolumns dropdown */
+.wrap-dropdown-multicolumns {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    *z-index: 1;
+}
+ul.dropdown-multicolumns {
+    margin: 0px auto 0px auto;
+    padding: 0px 9px;
+    min-height: 40px;
+    list-style: none;
+}
+ul.dropdown-multicolumns li {
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+ul.dropdown-multicolumns li:last-child {
+    margin-right: 0;
+} 
+ul.dropdown-multicolumns > li.active {
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+ul.dropdown-multicolumns > li:hover {
+    z-index: 500;
+    border-bottom: none;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -khtml-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    background: #fff;
+}
+ul.dropdown-multicolumns > li.nodrop:hover {
+    margin-bottom: 1px;
+    padding: 9px 10px 5px 10px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #fff;
+}
+ul.dropdown-multicolumns li.nodrop:hover > a {
+    padding: 0px;
+}
+ul.dropdown-multicolumns li a {
+    display: block;
+    padding: 9px 10px 7px 10px;
+    outline: 0;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+ul.dropdown-multicolumns li a.drop, ul.dropdown-multicolumns li.nodrop a {
+    text-transform: uppercase;
+    font-size: 90%;
+    line-height: 14px;
+    font-weight: bold;
+}
+ul.dropdown-multicolumns li:hover a {
+    position: relative;
+    z-index: 600;
+    padding: 9px 10px 6px 10px;
+    border-bottom: 1px solid #fff;
+    text-shadow: none;
+}
+ul.dropdown-multicolumns li:hover div a {
+    display: inline;
+}
+ul.dropdown-multicolumns li .drop {
+    padding-right: 27px;
+}
+ul.dropdown-multicolumns li:hover .drop {
+    padding-right: 27px;
+}
+/* Right aligned menu item */
+ul.dropdown-multicolumns .right {
+    right: 0;
+    float: right;
+    margin-right: 0px;
+}
+ul.dropdown-multicolumns li.right:hover {
+    margin-right: -1px;
+}
+/* /Right aligned menu item */
+
+.dropdown-1column, 
+.dropdown-2columns, 
+.dropdown-3columns, 
+.dropdown-4columns,
+.dropdown-5columns,
+.dropdown-fullwidth {
+    position: absolute;
+    top: 25px;
+    left: -1px;
+    display: none;
+    visibility: hidden;
+    z-index: 510;
+    margin: 4px auto;
+    padding: 20px 0 0;
+    border: 1px solid #444444;
+    -webkit-border-radius: 0px 3px 3px 3px;
+    -khtml-border-radius: 0px 3px 3px 3px;
+    -moz-border-radius: 0px 3px 3px 3px;
+    border-radius: 0px 5px 5px 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Drop downs sizes */
+.dropdown-1column {width: 163px;}
+.dropdown-2columns {width: 318px;}
+.dropdown-3columns {width: 473px;}
+.dropdown-4columns {width: 628px;}
+.dropdown-5columns {width: 783px;}
+.dropdown-fullwidth {
+    width: 938px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.dropdown-multicolumns li .first-fullwidth {
+    -webkit-border-radius: 0px 3px 3px 3px;
+    -moz-border-radius: 0px 3px 3px 3px;
+    border-radius: 0px 3px 3px 3px;
+}
+/* /Drop downs sizes */
+
+/* Drop to right */
+.dropdown-multicolumns li:hover .dropdown-1column, 
+.dropdown-multicolumns li:hover .dropdown-2columns, 
+.dropdown-multicolumns li:hover .dropdown-3columns,
+.dropdown-multicolumns li:hover .dropdown-4columns,
+.dropdown-multicolumns li:hover .dropdown-5columns,
+.dropdown-multicolumns li:hover .dropdown-fullwidth {
+    display: block;
+    visibility: visible;
+}
+/* /Drop to right */
+
+/* Drop to left */
+.dropdown-multicolumns li .drop-left {
+    right: -1px;
+    left: auto;
+    -webkit-border-radius: 3px 0px 3px 3px;
+    -moz-border-radius: 3px 0px 3px 3px;
+    border-radius: 3px 0px 3px 3px;
+}
+.dropdown-multicolumns li.right:hover .dropdown-fullwidth {
+    visibility: visible;
+    display: block;
+    top: 33px;
+    right: 18px;
+}
+/* /Drop to left */
+
+/* Columns Sizes */
+.dropdown-multicolumns .col-1,
+.dropdown-multicolumns .col-2,
+.dropdown-multicolumns .col-3,
+.dropdown-multicolumns .col-4,
+.dropdown-multicolumns .col-5,
+.dropdown-multicolumns .col-6 {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.dropdown-multicolumns .col-1 {width: 145px;}
+.dropdown-multicolumns .col-2 {width: 300px;}
+.dropdown-multicolumns .col-3 {width: 455px;}
+.dropdown-multicolumns .col-4 {width: 610px;}
+.dropdown-multicolumns .col-5 {width: 765px;}
+.dropdown-multicolumns .col-6 {width: 920px;}
+
+.dropdown-multicolumns .firstcolumn {/* Use the firstcolumn class for the items that stick to the left edge of the dropdown */
+    clear: left;
+    margin-left: 9px;
+}
+/* /Columns Sizes */
+
+.dropdown-multicolumns .lastcolumn {
+    margin-right: 9px;
+}
+
+/* Content styles */
+ul.dropdown-multicolumns h3 {
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 100%;
+}
+ul.dropdown-multicolumns li h3 a {
+    font-weight: bold;
+}
+ul.dropdown-multicolumns li:hover div a {
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-shadow: none;
+}
+ul.dropdown-multicolumns .pusher { /* Use this pucher if you want to give more vertical spacing between your rows of content */
+    margin-top: 18px;
+}
+
+ul.dropdown-multicolumns li ul {
+    margin: 0 0 12px 0;
+    padding: 0;
+    list-style: none;
+}
+ul.dropdown-multicolumns li ul li {
+    position: relative;
+    float: left;
+    margin: 3px 0 5px;
+    padding: 0;
+    width: 135px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #ffffff;
+    font-size: 90%;
+    line-height: 125%;
+}
+ul.dropdown-multicolumns li ul li a {
+    padding: 0;
+}
+ul.dropdown-multicolumns li ul li:hover {
+    margin: 3px 0 5px;
+    padding: 0;
+    border: none;
+}
+.dropdown-bottom {
+    clear: left;
+    padding: 10px 20px;
+    border-top: 1px solid #e6e6e6;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    background-color: #f1f1f1;
+    text-align: right;
+}
+.dropdown-bottom a {
+    text-transform: uppercase;
+    font-size: 85%;
+}
+ul.dropdown-multicolumns {
+    padding-bottom: 1px;
+    border: 1px solid #444;
+    border-bottom: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+ul.dropdown-multicolumns li:hover div a {
+    color: #444;
+}
+ul.dropdown-multicolumns li:hover div a:hover {
+    text-decoration: underline;
+}
+ul.dropdown-multicolumns li ul li a:hover {
+    text-decoration: underline;
+}
+ul.dropdown-multicolumns li .drop, ul.dropdown-multicolumns li:hover .drop {
+    position: relative;
+    padding-right: 20px;
+}
+ul.dropdown-multicolumns li .drop i {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    text-shadow: none;
+}
+ul.dropdown-multicolumns h3 {
+    min-height: 25px;
+    line-height: 100%;
+}
+/* /Content styles */
+/* /Multicolumns dropdown */

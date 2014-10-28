@@ -1,0 +1,13 @@
+.rating:not(:checked) > label,
+.rating > input:checked ~ label {
+    color: @links;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: lighten(@links, 20%);
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>tags</id>
+    <version>1.0</version>
+    <priority>200</priority>
+    <position>200</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="tags_for_products">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="tags_for_pages">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item>DROP TABLE IF EXISTS ?:tag_links;</item>
+        <item>DROP TABLE IF EXISTS ?:tags;</item>
+        <item>
+            CREATE TABLE `?:tag_links` (
+                `tag_id` mediumint(8) unsigned NOT NULL,
+                `object_type` char(1) NOT NULL default 'P',
+                `object_id` mediumint(8) unsigned NOT NULL,
+                `user_id` mediumint(8) unsigned NOT NULL,
+                PRIMARY KEY  (`object_type`,`object_id`,`user_id`,`tag_id`),
+                KEY `tag_id` (`tag_id`),
+                KEY `user_id` (`user_id`),
+                KEY `ids` (`tag_id`,`user_id`,`object_type`,`object_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE `?:tags` (
+                `tag_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `tag` varchar(255) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'P',
+                PRIMARY KEY  (`tag_id`),
+                UNIQUE KEY `tag` (`tag`, `company_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:tag_links;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:tags;</item>
+    </queries>
+</addon>

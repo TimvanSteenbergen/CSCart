@@ -1,0 +1,22 @@
+/*  hybrid_auth */
+
+.hybrid-auth-icon {
+    margin-right: 3px
+}
+
+.unlink-provider i {
+    margin-top: -5px;
+    margin-left: -15px;
+
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+}
+
+.link-unlink-provider img {
+    opacity:0.25;
+    filter:alpha(opacity=25);
+}
+
+/* hybrid_auth */

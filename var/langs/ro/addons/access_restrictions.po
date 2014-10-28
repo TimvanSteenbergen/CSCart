@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Restricții acces"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Vă permite să limitați accesul în zona de afisare a paginii magazinului și administrare la anumite adrese IP cu diferite opțiuni"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Restricții acces"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Adăugați IP-uri noi"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "IP-urile noi"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Adăugați noi domenii"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Domeniile noi"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Adăugaţi adresele de e-mail"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Adăugați adrese de e-mail noi"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Carte de credit noua"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Adaugare carte de credit"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Gestionați restricțiile de acces"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Domeniu"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "Adresa IP introduseă <b>[entered_ip]</b> interzice accesul către panoul de administrare (IP-ul dvs. este <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Numărul cardului de credit <b>[cc_number]</b> este blocat de către administrator. Vă rugăm contactați administratorul site-ului și încercați altul."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> nu este o adresă IP validă."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> nu este un domeniu valid."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "Numărul de cardului de credit <b>[cc_number]</b> nu este valid."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Adresa de e-mail <b>[email]</b> este blocată de către administrator. Vă rugăm contactați administratorul magazinului și încercați alta."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Nu vă este permis accesul în această zonă"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "IP-ul a fost blocat după [number] încercări nereușite"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Adresa IP a dvs. este blocată."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Administratorul magazinului"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "IP-ul dvs. ,<b>[ip]</b> a fost adăugați la tabelul cu restricții."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "IP-ul dvs. , <b>[ip]</b> a fost activat în tabelul cu restricționarea accesului."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "IP-ul dvs. , <b>[ip]</b> a fost șters din tabelul cu restricționarea accesului."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP de la"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP către"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "Puteți folosi wildcard-uri pentru \"Domeniu\", \"E-mail\" și \"Card de credit\" : <br /><b>*</b> - poate reprezenta orice număr de caractere, inclusiv zero<br /><b>?</b> - poate reprezenta orice alt caracter unic."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP-uri"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Marcați ca permanent"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Numărul cardului de credit"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Informatii generale"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Setări Panou de administrare"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Autentificare la panoul de administrare doar de la IP-urile specificate"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blochează IP-ul după nu anumit număr de autentificări nereușite"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Numărul de încercări nereușite"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Timpul dintre încercările de autentificare nereușite (secunde)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Timpul pentru care un IP să fie blochat (ore)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Setări Client"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blochează IP-ul după o serie de autentificări nereușite"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Numărul de încercări nereușite"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Timpul dintre încercările de autentificare nereușite (secunde)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Timpul pentru care un IP să fie blochat (ore)"
+

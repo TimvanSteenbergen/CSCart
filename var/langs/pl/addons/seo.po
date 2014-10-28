@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::seo"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "Addons::description::seo"
+msgid "Adds Search engine-friendly URLs support"
+msgstr "Wspiera generowanie przyjaznych linków w programie"
+
+msgctxt "Languages::seo_rules_menu_description"
+msgid "Use this section to define global rules for the URLs rewritten in your store."
+msgstr "W tej sekcji możesz zdefiniować globalne zasady przepisywania adresów URL w sklepie."
+
+msgctxt "Languages::seo.redirects_manager_menu_description"
+msgid "Manages redirect rules from old URLs"
+msgstr "Zarządza regułami przekierowań ze starych URL"
+
+msgctxt "Languages::controller_description"
+msgid "If you want to specify a SEO-name for the URL, e.g. http://example.com/index.php?dispatch=<b>categories.catalog</b>, you need to enter the \"<b>categories.catalog</b>\" value into the \"<b>The value of the \"dispatch\" parameter from the URL</b>\" field and specify the SEO name in the \"<b>SEO name</b>\" field."
+msgstr "Część adresu URL będzie zamieniona na przyjazną wyszukiwarkom (np. <b>auth.login_form</b> dla adresu URL index.php?dispatch=<b>auth.login_form</b>)"
+
+msgctxt "Languages::seo_name"
+msgid "SEO name"
+msgstr "Nazwa SEO"
+
+msgctxt "Languages::warning_seo_urls_disabled"
+msgid "SEO-friendly URLs are disabled. Check your web server and URL manipulation engine settings."
+msgstr "Przyjazne linki (URL) w tej chwili nie działają - zostały wyłączone. Proszę sprawdź ustawienia silnika manipulowania linkami na swoim serwerze."
+
+msgctxt "Languages::dispatch_value"
+msgid "Dispatch value"
+msgstr "Wartość dispatch"
+
+msgctxt "Languages::url_dispatch_part"
+msgid "The value of the \"dispatch\" parameter from the URL"
+msgstr "Wartość parametru \"wysyłki\" z URL"
+
+msgctxt "Languages::new_rule"
+msgid "New rule"
+msgstr "Nowa reguła"
+
+msgctxt "Languages::seo_rules"
+msgid "SEO rules"
+msgstr "Reguły SEO"
+
+msgctxt "Languages::seo_page_title"
+msgid "page [n]"
+msgstr "Strona [n]"
+
+msgctxt "Languages::privileges.manage_seo_rules"
+msgid "Manage SEO rules and 301 redirects"
+msgstr "Zarządzanie regułami SEO"
+
+msgctxt "Languages::privileges.view_seo_rules"
+msgid "View SEO rules and 301 redirects"
+msgstr "Przeglądanie reguł SEO"
+
+msgctxt "Languages::seo.redirects_manager"
+msgid "301 redirects"
+msgstr "Przekierowania 301"
+
+msgctxt "Languages::seo.old_url"
+msgid "Old URL"
+msgstr "Stary adres URL"
+
+msgctxt "Languages::seo.new_url"
+msgid "New URL"
+msgstr "Nowy adres URL"
+
+msgctxt "Languages::seo.new_redirect"
+msgid "New Redirect"
+msgstr "Nowe przekierowanie"
+
+msgctxt "Languages::seo.error_old_url_exists"
+msgid "The URL you're redirecting from is already exist"
+msgstr "Adres URL na który zostałeś przekierowany już istnieje"
+
+msgctxt "Languages::seo.rich_snippets"
+msgid "Google rich snippets preview"
+msgstr "Podgląd Google rich snippets"
+
+msgctxt "Languages::seo.rich_snippets_rating"
+msgid "Rating"
+msgstr "Ocena"
+
+msgctxt "Languages::seo.rich_snippets_reviews"
+msgid "[n] review|[n] reviews"
+msgstr "[n] Opinia|[n] Opinie"
+
+msgctxt "Languages::seo.create_redirect"
+msgid "Create redirect from old URL"
+msgstr "Stwórz przekierowanie ze starego URL"
+
+msgctxt "Languages::seo.error_incorrect_url"
+msgid "Incorrect format for <b>[url]</b> URL. For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Nieprawidłowy format URL <b>[url]</b>. Na przykład jeśli adres URL jest <b>http://example.com/path/to/object</b>, trzeba wpisać<b>/path/to/object</b>"
+
+msgctxt "Languages::tt_addons_seo_views_seo_redirects_manage_seo.old_url"
+msgid "For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Na przykład jeśli adres URL jest <b>http://example.com/path/to/object</b>, trzeba wpisać<b>/path/to/object</b>"
+
+msgctxt "SettingsSections::seo::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::seo::seo_product_type"
+msgid "Product SEO URL format"
+msgstr "Format SEO URL produktu"
+
+msgctxt "SettingsOptions::seo::seo_category_type"
+msgid "Category SEO URL format"
+msgstr "Format SEO URL kategorii"
+
+msgctxt "SettingsOptions::seo::seo_page_type"
+msgid "Page SEO URL format"
+msgstr "Format SEO URL strony"
+
+msgctxt "SettingsOptions::seo::seo_other_type"
+msgid "Other SEO URL format"
+msgstr "Format SEO URL innych elementów"
+
+msgctxt "SettingsOptions::seo::seo_language"
+msgid "Show language in the URL"
+msgstr "Pokaż język w adresie URL"
+
+msgctxt "SettingsOptions::seo::single_url"
+msgid "Use single URL for all languages"
+msgstr "Użyj jednego adresu URL dla wszystkich języków"
+
+msgctxt "SettingsOptions::seo::non_latin_symbols"
+msgid "Allow non-latin symbols in URL"
+msgstr "Pozwalaj na nie-łacińskie symbole w URL"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file_nohtml"
+msgid "/product-name"
+msgstr "/product-name"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file"
+msgid "/product-name.html"
+msgstr "/product-name.html"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category_nohtml"
+msgid "/category-name/[subcategory-name/]product-name"
+msgstr "/category-name/[subcategory-name/]product-name"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category"
+msgid "/category-name/[subcategory-name/]product-name.html"
+msgstr "/category-name/[subcategory-name/]product-name.html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category_nohtml"
+msgid "/parent-category/category/[page2/]"
+msgstr "/parent-category/category/[page2/]"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category"
+msgid "/parent-category/category/[page2/].html"
+msgstr "/parent-category/category/[page2/].html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::root_category"
+msgid "/category/[page2/]"
+msgstr "/category/[page2/]"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page"
+msgid "/parent-page/page.html"
+msgstr "/parent-page/page.html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page_nohtml"
+msgid "/parent-page/page/"
+msgstr "/parent-page/page/"
+
+msgctxt "SettingsVariants::seo::seo_page_type::root_page"
+msgid "/page/"
+msgstr "/page/"
+
+msgctxt "SettingsVariants::seo::seo_other_type::directory"
+msgid "/item"
+msgstr "/item"
+
+msgctxt "SettingsVariants::seo::seo_category_type::file"
+msgid "/category[-page2].html"
+msgstr "/category[-page2].html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::file"
+msgid "/page.html"
+msgstr "/page.html"
+
+msgctxt "SettingsVariants::seo::seo_other_type::file"
+msgid "/item.html"
+msgstr "/item.html"
+

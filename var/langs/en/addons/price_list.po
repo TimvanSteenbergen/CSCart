@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Price list"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Generates configurable price list in PDF or XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Price list"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Selected fields"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "Use this link to download the price list in XLS (MS Excel) format"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "Use this links to download the price list in XLS (MS Excel) format"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "Use this link to download the price list in PDF format"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "Use this links to download the price list in PDF format"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Generating PDF. Please, be patient..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Generating XLS. Please, be patient..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "Please, note: the prices in XLS will be indicated in base currency."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "Table layout"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Fields"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Group by category"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Include product options"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "XLS layout"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "XLS url"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "PDF layouts"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "PDF url"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "Clear cache"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Clear cache"

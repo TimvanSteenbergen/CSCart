@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::barcode"
+msgid "Order barcode"
+msgstr "订单条码"
+
+msgctxt "Addons::description::barcode"
+msgid "Makes it possible to configure and attach barcodes to orders"
+msgstr "可以配置和附加条码到订单"
+
+msgctxt "Languages::please_enable_the_add_on_to_see_barcode"
+msgid "Please enable the add-on to see a code example."
+msgstr "请启用附加查看一个代码示例."
+
+msgctxt "SettingsSections::barcode::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::barcode::elm_image"
+msgid "Image"
+msgstr "图像"
+
+msgctxt "SettingsOptions::barcode::elm_image_info"
+msgid "Example Image"
+msgstr "图像范例"
+
+msgctxt "SettingsOptions::barcode::elm_configs"
+msgid "Configs"
+msgstr "配置"
+
+msgctxt "SettingsOptions::barcode::type"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "SettingsOptions::barcode::output"
+msgid "Output"
+msgstr "输出"
+
+msgctxt "SettingsOptions::barcode::text"
+msgid "Text"
+msgstr "文本"
+
+msgctxt "SettingsOptions::barcode::height"
+msgid "Height,px"
+msgstr "高度,px"
+
+msgctxt "SettingsOptions::barcode::width"
+msgid "Width,px"
+msgstr "宽度,px"
+
+msgctxt "SettingsOptions::barcode::resolution"
+msgid "Resolution"
+msgstr "分辨率"
+
+msgctxt "SettingsOptions::barcode::text_font"
+msgid "Text Font"
+msgstr "文本字体"
+
+msgctxt "SettingsOptions::barcode::prefix"
+msgid "Barcode prefix"
+msgstr "条形码前缀"
+
+msgctxt "SettingsOptions::barcode::elm_specification"
+msgid "Specification"
+msgstr "规格"
+
+msgctxt "SettingsOptions::barcode::elm_spec_descr"
+msgid "Spec Description"
+msgstr "规格描述"
+
+msgctxt "SettingsVariants::barcode::type::C128A"
+msgid "Code 128-A"
+msgstr "128-A 码"
+
+msgctxt "SettingsVariants::barcode::type::C128B"
+msgid "Code 128-B"
+msgstr "128-B 码"
+
+msgctxt "SettingsVariants::barcode::type::C128C"
+msgid "Code 128-C"
+msgstr "128-C 码"
+
+msgctxt "SettingsVariants::barcode::type::I25"
+msgid "Interleaved 2 of 5"
+msgstr "交叉二五条形码"
+
+msgctxt "SettingsVariants::barcode::type::C39"
+msgid "Code 39"
+msgstr "39码"
+
+msgctxt "SettingsVariants::barcode::output::png"
+msgid "Portable Network Graphics (PNG)"
+msgstr "可移植网络图形 (PNG)"
+
+msgctxt "SettingsVariants::barcode::output::jpeg"
+msgid "Joint Photographic Experts Group (JPEG)"
+msgstr "静止图像的编码标准 (JPEG)"
+
+msgctxt "SettingsVariants::barcode::text::N"
+msgid "Disabled"
+msgstr "禁用"
+
+msgctxt "SettingsVariants::barcode::text::Y"
+msgid "Enabled"
+msgstr "启用"
+
+msgctxt "SettingsVariants::barcode::resolution::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::resolution::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::resolution::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::text_font::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::text_font::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::barcode::text_font::5"
+msgid "5"
+msgstr "5"
+

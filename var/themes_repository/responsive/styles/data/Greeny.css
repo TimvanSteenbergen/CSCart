@@ -1,0 +1,70 @@
+.ui-dialog .ui-dialog-titlebar {
+	background: #888;
+}
+div.ui-dialog .ui-dialog-title {
+	color: white;
+}
+.tygh-top-panel {
+	padding: 7px 0px;
+}
+.ty-dropdown-box__title.open {
+	border: 1px solid #959595;
+	border-bottom: 0px;
+}
+.ty-currencies__item:hover {
+	background: transparent;
+	text-decoration: none;
+}
+.ty-social-link a:hover {
+	color: white;
+	text-decoration: none;
+}
+.ty-btn.ty-btn__text {
+	text-transform: none;
+	text-shadow: none;
+	font-weight: normal;
+}
+.top-quick-links a:hover {
+	text-decoration: none;
+}
+.ty-menu__item .ty-menu__item-link {
+	font-family: 'Fjalla One';
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.ty-sidebox {
+	border: 1px solid #EAE9E5;
+	padding: 10px;
+}
+.ty-product-filters__wrapper {
+	margin: 0px -10px;
+}
+
+.ty-sidebox__title {
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+.ty-btn__big {
+	padding: 6px 20px;
+}
+.ty-product-filters__wrapper {
+	background: transparent;
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.ty-menu__item .ty-menu__item-link {
+		padding: 14px 11px;
+	}
+	.ty-price-slider__input-text {
+		width: 62px;
+	}
+}
+
+@media (max-width: 768px) {
+	.ty-sidebox__title-toggle {
+		right: -8px;
+	}
+	.ty-sidebox__body {
+		margin-top: 10px;
+	}
+}

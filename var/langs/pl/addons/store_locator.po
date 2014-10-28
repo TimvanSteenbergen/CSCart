@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Położenie sklepu"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Pozwala umieścić lokalne sklepy na mapie miasta i poinformować klientów o najbliższych lokalizacjach sklepów"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Zobacz na mapie"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Uzyskaj klucz API"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Położenie sklepu"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Blok położenia sklepu"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Adres nie znaleziony"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Wybierz koordynaty"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Ustaw"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Edycja lokalizacji sklepu"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Nowa lokalizacja sklepu"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Dodaj lokalizację sklepu"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Koordynaty"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "szerokość geograficzna"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "długość geograficzna"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Wszystkie sklepy"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Przybliżenie mapy"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "Kontrola MapType"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Sterowanie zoomem"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Kontrola skali"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Dostawca map"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Mapa"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

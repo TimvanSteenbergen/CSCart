@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::seo"
+msgid "SEO"
+msgstr "SEO (απαιτείται μηχανή χειραγώγησης URL  - mod_rewrite ή isapi_rewrite)"
+
+msgctxt "Addons::description::seo"
+msgid "Adds Search engine-friendly URLs support"
+msgstr "Προσθέτει υποστήριξη φιλικών SEO URLs "
+
+msgctxt "Languages::seo_rules_menu_description"
+msgid "Use this section to define global rules for the URLs rewritten in your store."
+msgstr "Χρησιμποείσε αυτό το τμήμα για να προσδιορίσεις τους γενικούς κανόνες για την επανεγγραφή των URL του καταστήματός σου."
+
+msgctxt "Languages::seo.redirects_manager_menu_description"
+msgid "Manages redirect rules from old URLs"
+msgstr "Διαχείρηση κανόνων ανακατευθύνσεων από παλια URLs"
+
+msgctxt "Languages::controller_description"
+msgid "If you want to specify a SEO-name for the URL, e.g. http://example.com/index.php?dispatch=<b>categories.catalog</b>, you need to enter the \"<b>categories.catalog</b>\" value into the \"<b>The value of the \"dispatch\" parameter from the URL</b>\" field and specify the SEO name in the \"<b>SEO name</b>\" field."
+msgstr "Εάν θέλετε να καθορίσετε ένα SEO-όνομα για τη URL http://example.com/index.php?dispatch=<b>categories.catalog</b>, πρέπει να εισάγετε την  \"<b>categories.catalog</b>\" αξία μέσα  στο \"<b>The value of the \"dispatch\" parameter from the URL</b>\" πεδίο και καθορίστε το όνομα SEO στο\"<b>SEO name</b>\" πεδίο."
+
+msgctxt "Languages::seo_name"
+msgid "SEO name"
+msgstr "Όνομα SEO"
+
+msgctxt "Languages::warning_seo_urls_disabled"
+msgid "SEO-friendly URLs are disabled. Check your web server and URL manipulation engine settings."
+msgstr "SEO-friendly URLs είναι απενεργοποιημένες. Ελέγξτε τον διαδικτυακό σας διακομιστή και τις ρυθμίσεις χειραγώγησης της URL engine."
+
+msgctxt "Languages::dispatch_value"
+msgid "Dispatch value"
+msgstr "Αξία αποστολής"
+
+msgctxt "Languages::url_dispatch_part"
+msgid "The value of the \"dispatch\" parameter from the URL"
+msgstr "Η αξία της \"dispatch\" παραμέτρου από την URL"
+
+msgctxt "Languages::new_rule"
+msgid "New rule"
+msgstr "Νέος κανόνας"
+
+msgctxt "Languages::seo_rules"
+msgid "SEO rules"
+msgstr "Κανόνες SEO"
+
+msgctxt "Languages::seo_page_title"
+msgid "page [n]"
+msgstr "σελίδα [n]"
+
+msgctxt "Languages::privileges.manage_seo_rules"
+msgid "Manage SEO rules and 301 redirects"
+msgstr "Διαχείρηση κανόνων SEO και 301 ανακατευθύνσεων"
+
+msgctxt "Languages::privileges.view_seo_rules"
+msgid "View SEO rules and 301 redirects"
+msgstr "Προβολή κανόνων SEO και 301 ανακατευθύνσεων"
+
+msgctxt "Languages::seo.redirects_manager"
+msgid "301 redirects"
+msgstr "301 Ανακατευθύνσεις"
+
+msgctxt "Languages::seo.old_url"
+msgid "Old URL"
+msgstr "Παλιο Url"
+
+msgctxt "Languages::seo.new_url"
+msgid "New URL"
+msgstr "Νεο URL"
+
+msgctxt "Languages::seo.new_redirect"
+msgid "New Redirect"
+msgstr "Νέα ανακατεύθυνση"
+
+msgctxt "Languages::seo.error_old_url_exists"
+msgid "The URL you're redirecting from is already exist"
+msgstr "Η διεύθυνση URL απ' όπου ανακατευθύνετε υπάρχει ήδη."
+
+msgctxt "Languages::seo.rich_snippets"
+msgid "Google rich snippets preview"
+msgstr "Προεπισκόπηση Google rich snippets"
+
+msgctxt "Languages::seo.rich_snippets_rating"
+msgid "Rating"
+msgstr "Βαθμολογία"
+
+msgctxt "Languages::seo.rich_snippets_reviews"
+msgid "[n] review|[n] reviews"
+msgstr "[n] σχόλιο|[n] σχόλια"
+
+msgctxt "Languages::seo.create_redirect"
+msgid "Create redirect from old URL"
+msgstr "Δημιουργία ανακατεύθυνσης από παλιό URL"
+
+msgctxt "Languages::seo.error_incorrect_url"
+msgid "Incorrect format for <b>[url]</b> URL. For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Εσφαλμένη μορφή για τη διεύθυνση URL <b>[url]</b>. Για παράδειγμα, εάν η διεύθυνση URL είναι <b>http://example.com/path/to/object</b>, πρέπει να εισάγετε  <b>/path/to/object</b>"
+
+msgctxt "Languages::tt_addons_seo_views_seo_redirects_manage_seo.old_url"
+msgid "For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Για παράδειγμα, εάν η διεύθυνση URL είναι <b>http://example.com/path/to/object</b>, πρέπει να εισάγετε  <b>/path/to/object</b>"
+
+msgctxt "SettingsSections::seo::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::seo::seo_product_type"
+msgid "Product SEO URL format"
+msgstr "Μορφή Προϊόντος SEO URL"
+
+msgctxt "SettingsOptions::seo::seo_category_type"
+msgid "Category SEO URL format"
+msgstr "Κατηγορία SEO μορφής URL"
+
+msgctxt "SettingsOptions::seo::seo_page_type"
+msgid "Page SEO URL format"
+msgstr "Μορφή SEO URL Σελίδας"
+
+msgctxt "SettingsOptions::seo::seo_other_type"
+msgid "Other SEO URL format"
+msgstr "Μορφή SEO URL Αλλου"
+
+msgctxt "SettingsOptions::seo::seo_language"
+msgid "Show language in the URL"
+msgstr "Προβολή γλώσσας στην διεύθυνση URL"
+
+msgctxt "SettingsOptions::seo::single_url"
+msgid "Use single URL for all languages"
+msgstr "Χρήση μονής URL για όλες τις γλώσσες"
+
+msgctxt "SettingsOptions::seo::non_latin_symbols"
+msgid "Allow non-latin symbols in URL"
+msgstr "Να επιτρέπονται μη λατινικά σύμβολα στο URL"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file_nohtml"
+msgid "/product-name"
+msgstr "/Product-name"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file"
+msgid "/product-name.html"
+msgstr "/product-name.html"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category_nohtml"
+msgid "/category-name/[subcategory-name/]product-name"
+msgstr "/category-name/[subcategory-name/]product-name"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category"
+msgid "/category-name/[subcategory-name/]product-name.html"
+msgstr "/category-name/[subcategory-name/]product-name.html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category_nohtml"
+msgid "/parent-category/category/[page2/]"
+msgstr "/parent-category/category/[page2/]"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category"
+msgid "/parent-category/category/[page2/].html"
+msgstr "/parent-category/category/[page2/].html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::root_category"
+msgid "/category/[page2/]"
+msgstr "/category/[page2/]"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page"
+msgid "/parent-page/page.html"
+msgstr "/parent-page/page.html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page_nohtml"
+msgid "/parent-page/page/"
+msgstr "/parent-page/page/"
+
+msgctxt "SettingsVariants::seo::seo_page_type::root_page"
+msgid "/page/"
+msgstr "/page/"
+
+msgctxt "SettingsVariants::seo::seo_other_type::directory"
+msgid "/item"
+msgstr "/item"
+
+msgctxt "SettingsVariants::seo::seo_category_type::file"
+msgid "/category[-page2].html"
+msgstr "/category[-page2].html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::file"
+msgid "/page.html"
+msgstr "/page.html"
+
+msgctxt "SettingsVariants::seo::seo_other_type::file"
+msgid "/item.html"
+msgstr "/item.html"
+

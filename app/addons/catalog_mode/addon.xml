@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>catalog_mode</id>
+    <version>1.0</version>
+    <priority>4200</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <conflicts>buy_together,gift_certificates,product_configurator</conflicts>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="main_store_mode">
+                        <type>radiogroup</type>
+                        <default_value>catalog</default_value>
+                        <variants>
+                            <item id="catalog">
+                            </item>
+                            <item id="store">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="add_to_cart_empty_buy_now_url">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE `?:products` ADD `buy_now_url` varchar(255) NOT NULL</item>
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `buy_now_url`</item>
+    </queries>
+</addon>

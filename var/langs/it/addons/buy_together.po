@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Acquista insieme"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Consente di impostare sconti condivisi su alcune combinazioni di prodotto"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Acquista insieme"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Specificare le opzioni"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Prezzo di listino totale"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Prezzo per tutti"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Aggiungi tutto al carrello"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Modifica combinazione"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Prezzo totale: [total_price], sconto: [discount], prezzo combinazione: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Visualizza in promozioni"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Combinazione prodotti"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Sconto condiviso"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator addon"
+msgstr "[product_name] non può essere aggiunto alla combinazione. L'Acquista Insieme non è compatibile con l'addon di configuratore di prodotto"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing addon"
+msgstr "[product_name] non può essere aggiunto alla combinazione. L'Acquista Insieme non è compatibile con l'add-on di fatturazione ricorrente"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "La combinazione non può essere aggiunta al carrello"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] non aveva abbastanza disponibilità ([amount]) ed è stato rimosso dal carrello"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Si prega di specificare opzioni di prodotto prima di aggiungere questa combinazione al carrello."
+

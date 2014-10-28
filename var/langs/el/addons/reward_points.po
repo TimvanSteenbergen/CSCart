@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Πόντοι επιβράβευσης"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Επιτρέπει στους πελάτες να κερδίσουν και να ξοδέψουν  πόντους για αγορές"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Πόντοι επιβράβευσης"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Σύνδεση πόντων επιβράβευσης"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Εκχώρηση γενικών πόντων ανταμοιβής στο κατάστημά σας."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Πόντοι στον λογαριασμό χρήστη"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Πόντοι"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Πόντοι σε χρήση"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "Πόντοι σε χρήση"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "Πόντοι"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Πόντοι για χρήση"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Πληρωμή πόντου"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Τιμή σε πόντους"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "Τα σημεία που χρησιμοποιούνται κατά σειρά που προστέθηκαν στο λογαριασμό χρήστη."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "Οι πόντοι χρησιμοποιήθηκαν στήν παραγγελία"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "Ο αριθμός των πόντων στο λογαριασμό σας είναι"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Δυνατότητα πληρωμής με πόντους"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Παράκαμωη γενικού PER"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Παράκαμψη γενικής/κατηγορίας πόντων"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "Ο αριθμός των πόντων που έχει εισαχθεί από εσάς, υπερβαίνει τον αριθμό των πόντων στο λογαριασμό σας."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "Ο αριθμός των πόντων που έχουν εισαχθεί από εσάς υπερβαίνει τον αριθμό των σημείων που μπορούν να εφαρμοστούν σε αυτή τη σειρά."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Οι πόντοι δεν μπορούν να εφαρμοστού, διότι το υποσύνολο έχει εξαργυρωθεί."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "Δυστυχώς, δεν μπορείτε να εφαρμόσετε τους πόντους σε αυτή τη παραγγελία, διότι το συνολικό κόστος είναι μηδενικό."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "Δυστυχώς, δεν μπορείτε να εφαρμόσετε τους πόντους σε αυτή τη παραγγελία, καθώς δεν έχετε πόντους σε αυτόν τον λογαριασμό."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "Η κατάσταση της παραγγελίας δεν έχει αλλάξει, επειδή ο χρήστης δεν διέθετε αρκετούς πόντους."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Η τιμή στους πόντους έχει αυξηθεί κατά"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Η τιμή στους πόντους έχει μειωθεί κατά"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Πόντοι που κερδήθηκαν ανά προϊόν"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Παράκαμωη όλων των γενικών πόντων για αυτά τα προϊόντα στην κατηγορία"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Τύπος ποσότητας"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Μέγιστο"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Μετατροπέας κερδισμένων πόντων"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Παράκαμψη γενικής/κατηγορίας τιμής πόντων για αυτό το προϊόν"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "Προβολή πόντοι του χρήστη"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Σύνδεση"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Αφαίρεση"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Πόντοι αλλαγής"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Προσθήκη/αφαίρεση πόντων"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Εκκαθάριση μητρώου"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "Θα θέλαμε να σας ενημερώσουμε ότι"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "have been added to your account."
+msgstr "έχουν προστεθεί στο λογαριασμό σας."
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "have been subtracted from your account."
+msgstr "έχουν αφαιρεθεί από το λογαριασμό σας."
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Διαχείριση σύστηματος πόντων ανταμοιβής"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Πόντοι Συναλλαγματικών Ισοτιμιών (PER - ο αριθμός των σημείων ίσο με 1 συμβατικό μονάδα)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"Price in points\" υπολογίζεται αυτόματα με  τη βάση PER"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"Price in points\" υπολογίζεται εκ νέου λαμβάνοντας υπόψη τις εκπτώσεις για λογαριασμό"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"Points\"υπολογίζεται εκ νέου λαμβάνοντας υπόψη τις εκπτώσεις της παραγγελίας"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"Price in points\" υπολογίζεται εκ νέου λαμβάνοντας υπόψη τις εκπτώσεις της παραγγελίας"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"Points\" υπολογίζεται εκ νέου λαμβάνοντας υπόψη τις εκπτώσεις της παραγγελίας"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "Εάν το προϊόν και η κατηγορία του προϊόντος δεν έχουν καθορισμένους πόντους ανταμοιβής, αλλά η κατηγορία υψηλότερου επιπέδου έχει τέτοιους πόντους ανταμοιβής, εξάγετε τα  δεδομένα από το"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "Εάν μπορούν να εφαρμοστούν πολλοί πόντοι ανταμοιβής,σειρά"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Εφαρμογή μηδενικών τιμων ανταμοιβής"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Γραμμές καταγραφής ανα σελίδα"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "Θα πρέπει να ληφθούν υπόψιν οι κανόνες πόντων ανταμοιβής με τις μηδενικές τιμές"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Απόλυτη ελάχιστη τιμή"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Αξια Ελάχιστου ποσοστου"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Απόλυτα μέγιστη τιμή"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Αξια Μέγιστου ποσοστου"
+

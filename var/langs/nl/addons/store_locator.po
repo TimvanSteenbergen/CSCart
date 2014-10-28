@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Winkel zoeker"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Plaats je lokale winkels op de kaart en informeer klanten over hun dichtstbijzijnde winkels of afhaalpunt"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Bekijk op kaart"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Verkrijgen van een API-sleutel"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Winkel zoeker"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Winkel zoeker blok"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Adres niet gevonden"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Selecteer coördinaten"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Stel in"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Winkel locatie aanpassen"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Nieuwe winkel locatie"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Winkel locatie toevoegen"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Coördinaten"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "breedte"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "lengte"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Alle winkels"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Kaart zoom"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "MapType controle"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Zoom controle"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Schaal controle"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Kaart provider"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Kaart"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Instellingen"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

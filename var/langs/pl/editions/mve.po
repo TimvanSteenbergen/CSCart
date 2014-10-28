@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Dodaj sklep"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Dodaj sklep i zamknij"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Dodaj sklep"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Dodaj administratora sprzedawcy"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Administrator sprzedawcy"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Administratorzy sprzedawcy"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Lista administratorów sprzedawcy, zarejestrowanych użytkowników jako konta sprzedawcy."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Witaj,<br/><br/>Masz nowego kandydata na sprzedawcę. To konto sprzedawcy czeka dopóki go nie zatwierdzisz. Kliknij w <a>ten adres URL, aby wyświetlić informacje o koncie</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Przejdź do panelu sprzedawcy"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Statystyki przychodów i rozchodów (w sumie, na sprzedawcę, za okres)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Połącz sprzedawców"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Wybierz nowego właściciela profilu tej firmy:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Łączenie dwóch kont sprzedawców usunie [company_name] z bazy danych, a wszystkie dane profilu (produkty, zamówienia, metody wysyłki, użytkownicy, promocje, itd.) zostaną przeniesione"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Wszyscy sprzedawcy"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Aplikuj o konto sprzedawcy"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Available for store"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Saldo do przeniesienia"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Koszt do konta dostawcy"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Stwórz konto administratora"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Wyświetlani sprzedawcy"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Edycja witryny sklepowej"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Konto administratora nie zostało stworzone. Adres e-mail należy do innego użytkownika. Możesz dodać administratora dla tej firmy ręcznie."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Konto administratora nie zostało stworzone. Nazwa użytkownika należy do innego użytkownika. Należy zmienić nazwę konta administratora."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "The company with e-mail you have chosen already exists, please try another."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Rozchód"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Przychód"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Zarządzanie sprzedawcami"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Nowe konto administratora zostało poprawnie stworzone."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Nowy sklep"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Powiadom sprzedawcę"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Powiadom sprzedawcę przez e-mail"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Zarządzanie wypłatami"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Zarządzanie sprzedawcami"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Zobacz wypłaty"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Zobacz sprzedawców"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Okres sprzedaży"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Suma za okres sprzedaży"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Szukaj w sklepie"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sortowanie alfabetyczne: od A do Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sortowanie alfabetyczne: od Z do A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Twój profil został zmieniony i jeśli zmiany zostaną zatwierdzone, informacje o Twojej firmie pojawią się w sklepie."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Twoja aplikacja na sprzedawcę [company] została zatwierdzona."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Nowy administrator został stworzony. Możesz przejść do panelu administracyjnego: [link] używając danych logowania:<br />Nazwa użytkownika: [login]<br />Hasło: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Typ twojego konta [login] został zmieniony na administratora. Możesz się zalogować do strefy administratorskiej: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Twoje aplikacja na sprzedawcę została zatwierdzona."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Twoja aplikacja na sprzedawcę [company] została odrzucona."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Twoja aplikacja na sprzedawcę została odrzucona."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gratulacje, wniosek o uzyskanie konta sprzedawcy został zatwierdzony. Po weryfikacji danych informacje zostaną opublikowane na naszej stronie internetowej."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Twoja firma czeka na zatwierdzenie."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Twoje zmiany profilu dla sprzedawcy [company] zostały zatwierdzone."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Wystąpił błąd podczas dodawania zgłoszenia."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Nowa płatność została stworzona."
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Masz sprzedawców, którzy wymagają zatwierdzenia. Proszę kliknij <a href=\"[link]\">w ten link</a> żeby przejrzeć sprzedawców."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable, and the Free mode will be activated automatically.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Twoje zgłoszenie zostało dodane. Później otrzymasz emaila z odpowiedzią na nie."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Suma oczekujących wypłat"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Suma wypłat za okres sprzedaży"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Suma należności"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Jeśli dopłata do płatności jest pobierana od dostawców, podatki nie są obliczane"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Unable to delete this store because there are orders containing the products of this company in the store database. To delete the account, please delete all such orders first."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Sklep"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Posortowana lista sklepów, zarejestrowanych w systemie."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Stan konta"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Nowa aplikacja o konto sprzedawcy."
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Prowizja sprzedawcy"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID Sklepu"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Nazwa sprzedawcy"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Store pages"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Panel sprzedawcy"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Pokaż zamówienia w sklepie"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Pokaż produkty w sklepie"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Pokaż klientów w sklepie"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Teraz możesz edytować dane konta."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Ilość sprzedawców na stronę"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Aplikuj o konto sprzedawcy"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Automatyczne tworzenie konta administratora dla nowego sprzedawcy. (Jeśli opcja \"Zezwalaj użytkownikom na aplikowanie na konto dostawcy\" jest włączona)"
+
+msgctxt "SettingsOptions::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Formularz aplikacji o konto sprzedawcy"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Wliczaj koszty wysyłki w prowizję sprzedawców"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Pobieranie dopłaty do płatności od sprzedawców"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Prowizje"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Wyświetlaj produkty sprzedawcy"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Jeśli opcja jest włączona, klienci nie będą widzieli dopłaty do płatności i nie będzie ona doliczana do zamówienia"
+

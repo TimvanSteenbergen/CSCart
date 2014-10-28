@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>watermarks</id>
+    <version>1.0</version>
+    <priority>3000</priority>
+    <position>140</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <dependencies/>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="watermark">
+                        <type>header</type>
+                    </item>
+                    <item id="watermark_settings">
+                        <type>template</type>
+                        <default_value>watermark.tpl</default_value>
+                    </item>
+                    <item id="apply_to_product">
+                        <type>header</type>
+                    </item>
+                    <item id="use_for_product_icons">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_for_product_detailed">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="apply_to_categories">
+                        <type>header</type>
+                    </item>
+                    <item id="use_for_category_icons">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_for_category_detailed">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="images_access_info">
+                        <type>info</type>
+                        <handler>fn_watermarks_images_access_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE ?:images ADD KEY `image_path` (`image_path`);</item>
+        <item for="uninstall">ALTER TABLE ?:images DROP KEY `image_path`;</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_clear_watermarks</item>
+    </functions>
+</addon>

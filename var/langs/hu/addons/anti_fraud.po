@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Csalásszűrő"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Maxmind fizetős szolgáltatásán keresztül csalásszűrés, és egyéb biztonsági beállítások konfigurálását teszi lehetővé"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Rendelés végösszege meghaladja a megengedett maximális értéket"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Az ország nem egyezik meg az IP címmel"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Vevőnek sikertelen megrendelései vannak"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Vevőnek sikeres megrendelései vannak"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Magas kockázatú ország"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Kockázati tényező túllépi a meghatározott értéket"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Nem sikerült azonosítani az ügyfél IP címét"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Az ügyfél biztonságos távolságon túl van"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Kockázati tényező elfogadható"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "A megrendelés sikeresen feladva. Most épp egy extra ellenőrzésen esik át. Amint az adminisztrátorok befejezik az ellenőrzést, felvesszük Önnel a kapcsolatot."
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Kockázati tényező"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "nincs adat"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Határozat"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Rendelést nem hagyták jóvá, mivel a kockázati tényező meghaladja a legnagyobb kockázati tényező értékét"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Rendelését jóváhagyták"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Csalás kockázat"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Csalásszűrés alatt"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Maxmind licenszkulcs"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Biztonságos távolság (km)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Maximális rendelés végösszeg"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Legnagyobb kockázati tényező (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Rendelés státusza"
+

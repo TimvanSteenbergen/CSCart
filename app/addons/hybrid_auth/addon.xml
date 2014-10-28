@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>hybrid_auth</id>
+    <version>4.2.2</version>
+    <priority>4200</priority>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <default_language>en</default_language>
+
+    <dependencies/>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="icons_pack">
+                        <type>selectbox</type>
+                        <default_value>flat_32x32</default_value>
+                    </item>
+                    <item id="autogen_email">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:hybrid_auth_users;</item>
+        <item>DROP TABLE IF EXISTS ?:hybrid_auth_providers;</item>
+        <item>
+            CREATE TABLE `?:hybrid_auth_users` (
+            `user_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `provider_id` mediumint(8) unsigned NOT NULL,
+            `identifier` varchar(128) NOT NULL default '',
+            `timestamp` int(11) unsigned NOT NULL default '0',
+            PRIMARY KEY  (`user_id`, `provider_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:hybrid_auth_providers` (
+            `provider_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `company_id` int(11) unsigned NOT NULL default '0',
+            `provider` varchar(32) NOT NULL,
+            `position` smallint NOT NULL default '0',
+            `app_id` varchar(255) NOT NULL default '',
+            `app_secret_key` varchar(255) default '',
+            `app_public_key` varchar(255) default '',
+            `app_params`  text NOT NULL default '',
+            `status` char default 'D',
+            PRIMARY KEY  (`provider_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:hybrid_auth_users;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:hybrid_auth_providers;</item>
+    </queries>
+</addon>

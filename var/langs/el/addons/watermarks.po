@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Υδατογραφήματα"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Σας επιτρέπει να προσθέσετε υδατογράφημα σε εικόνες προϊόντων και κατηγοριων"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Υδατογραφήματα"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Υδατογράφημα με γραφικό"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Υδατογράφημα με κείμενο"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Κατακόρυφη θέση υδατογραφήματος"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Οριζόντια θέση του υδατογραφήματος"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Θέση υδατογραφηματος"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Εικόνα Υδατογραφήματος"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Κείμενο Υδατογραφήματος"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Γραμματοσειρα"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Χρώμα γραμματοσειράς"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Μέγεθος γραμματοσειράς (μικρογραφία)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Μέγεθος γραμματοσειράς (μεγαλύτερη εικόνα)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Υδατογράφημα στις φωτογραφίες"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Υδατογράφημα μεγάλης εικόνας αναδυόμενου παραθυρου"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Απέτυχε να εφαρμοστεί το υδατογράφημα σε [image_type]. Το υδατογράφημα εικόνας δεν έχει προστεθεί."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "μικρογραφίες"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "Μεγάλες Εικόνες Αναδυόμενου Παραθύρου"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Για να απαγορεύσετε την προσβαση στις αρχικές εικόνες σας, προσθέστε τις παρακάτω οδηγίες στο αρχείο '.htaccess' στον κατάλογο 'images' της εγκατάστασης σας. Θα προστατεύσει τις αρχικές εικόνες. Ακόμα κι αν ανοιχθεί μια πρωτότυπη εικόνα, το αντίστοιχο υδατόσημο θα εμφανιστεί πάνω στην εικόνα"
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Για να δημιουργήσετε αυτόματα εικόνες με Υδατογραφημα, ακόμη και αν δεν απαιτουνται από τις σελίδες του καταστήματός  σας, παρακαλώ προσθέστε το αρχείο '.htaccess' με τις ακόλουθες οδηγίες στον κατάλογο 'images/watermarked' της εγκατάστασης σας."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Παρακαλείστε να σημειώσετε ότι εάν απενεργοποιήσετε ή να απεγκαταστήσετε το add-on \"Υδατογραφήματα\", θα πρέπει να καταργήσετε αυτές τις οδηγίες από '.htaccess' αρχείο με μη αυτόματο τρόπο. Διαφορετικά οι εικόνες κατηγοριων και προϊόντων  δε θα είναι διαθέσιμες."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Η Δημιουργία υδατογραφήματος είναι απενεργοποιημένη. Εάν υπάρχουν Rewrite watermarks rules στο αρχείο \"images/.htaccess\" , θα πρέπει να τα καταργήσετε με μη αυτόματο τρόπο. Διαφορετικά οι εικόνες κατηγοριών και προϊοντων δε θα είναι διαθέσιμες."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Πρόσβαση σε εικόνες"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Υδατογράφημα"
+
+msgctxt "SettingsOptions::watermarks::watermark_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Υδατογραφημα Προϊόντων"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Εικόνες με αλλαγμένο μέγεθος"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Εικόνες με αρχικό μέγεθος"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Υδατογραφήματα κατηγοριών"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Εικόνες με αλλαγμένο μέγεθος"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Εικόνες με αρχικό μέγεθος"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Πρόσβαση σε εικόνες"
+

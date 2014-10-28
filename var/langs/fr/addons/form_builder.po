@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Générateur de formulaires"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nouveau formulaire"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Édition d'un formulaire"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Générateur de formulaires"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Texte de soumission de formulaire"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Email à"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Le formulaire est sécurisé (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Ajouter un formulaire"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Cases multiple à cocher"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Listes de sélection multiple"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Entête"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Séparateur"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Special"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Liste des pays"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Liste des départements"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referer"
+

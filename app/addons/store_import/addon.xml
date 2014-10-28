@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT">
+    <id>store_import</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>10000</priority>
+    <status>active</status>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="si_data">
+                        <type>hidden</type>
+                        <default_value>a:1:{s:11:"import_date";s:0:"";}</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

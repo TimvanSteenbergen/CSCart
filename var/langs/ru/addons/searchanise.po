@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Поиск от Searchanise"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "Подключение к сервису быстрого поиска <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a>"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "Каталог товаров добавлен в очередь на синхронизацию с сервисом Searchanise."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: Необходима реиндексация (нажмите на кнопку <strong>Force re-indexation</strong> в панели управления <a href=\"[link]\">Searchanise</a>)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: Новый поисковый движок для магазина [store] создан. Начат импорт каталога."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "Если вы изменяли настройки модуля SEO, пожалуйста, запустите <a href=\"link\">синхронизацию</a> каталога товаров с сервисом Searchanise повторно, чтобы обновились URL товаров."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Произошла ошибка при регистрации в сервисе Searchanise. Пожалуйста, повторите попытку позже."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "Идет синхронизация каталога товаров."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Каталог товаров успешно синхронизирован с сервисом Searchanise."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Каталог товаров еще не синхронизирован с сервисом Searchanise. Пожалуйста, нажмите «Синхронизировать»."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "Обратите внимание, что данные на сервере Searchanise обновляются с задержкой в 2-3 минуты после внесения изменений в магазин."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Нажмите на кнопку ниже, чтобы подключить магазин к сервису Searchanise."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Поздравляем, вы успешно подключили магазин к сервису Searchanise!"
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Магазин подключен к сервису Searchanise."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "Данные были восстановлены из дампа базы данных. Если в дампе содержались данные о товарах, запустите <a href=\"link\">синхронизацию</a> каталога товаров с сервисом Searchanise повторно."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Только главный администратор может подключить магазин к сервису Searchanise."
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Возможно, вы имели в виду"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "ID товара"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Название"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "URL продукта"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Цена"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Количество"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Код товара"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "URL картинки"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "ID категории"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "ID групп пользователей с доступом к категории"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "ID групп пользователей"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "ID витрины"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Без категорий"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Цена для ID группы пользователей ([Id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "Параметр «[id]»"
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Релевантность"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Подсказки"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Сортировать по релевантности"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API-ключ"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Приватный ключ"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::searchanise::template"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::api_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::private_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::parent_private_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::import_status"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::last_request"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::last_resync"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::use_navigation"
+msgid ""
+msgstr ""
+""
+

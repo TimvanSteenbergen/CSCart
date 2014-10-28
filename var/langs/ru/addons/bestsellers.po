@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Бестселлеры и распродажи"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Отображение товаров со скидкой и самых продаваемых товаров в блоке на витрине"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Сортировать по покупаемости: Наименее покупаемые в начале"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Сортировать по покупаемости"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Сортировать по размеру скидки: Более высокие скидки в начале"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Сортировать по размеру скидки: высокие скидки в конце"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Количество продаж"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Хиты продаж"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Товары со скидкой"
+

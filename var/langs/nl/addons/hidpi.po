@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::hidpi"
+msgid "HiDPI displays support"
+msgstr "HiDPI weergegeven ondersteuning"
+
+msgctxt "Addons::description::hidpi"
+msgid "Support for Retina displays"
+msgstr "Ondersteuning voor Retina weergave"
+
+msgctxt "Languages::text_hidpi_support_enabled"
+msgid "HiDPI support is enabled"
+msgstr "HiDPI  ondersteuning is ingeschakeld"
+
+msgctxt "Languages::text_hidpi_support_tooltip"
+msgid "What does HiDPI stand for?HiDPI stands for High resolution Dots Per Inch when referring to displays. For example, the Retina displays found on the iPhone, iPad, and MacBook Pro are HiDPI."
+msgstr "Waar staat HiDPI voor? HiDPI staat voor hoge resolutie Dots Per Inch wanneer wordt verwezen naar weergave. Bijvoorbeeld, de Retina weergave gevonden op de iPhone, iPad, en MacBook Pro zijn HiDPI."
+
+msgctxt "Languages::text_hidpi_install"
+msgid "All newly uploaded images will be automatically shrinked to improve loading time on non-HiDPI devices. Existing images are not changed. It is recommended to upload high-definition images."
+msgstr "Alle nieuw geüploade afbeeldingen worden automatisch verkleind om de laadtijd op niet-HiDPI apparaten te verbeteren. Bestaande afbeeldingen worden niet gewijzigd. Het wordt aanbevolen om hoge kwaliteits afbeeldingen te uploaden."
+
+msgctxt "Languages::text_hidpi_uninstall"
+msgid "Some images may be shrinked to improve loading time on non-HiDPI devices. You may want to re-upload the images with better resolution."
+msgstr "Sommige afbeeldingen kunnen verkleinen voor de laadtijd op niet-HiDPI apparaten te verbeteren. U kunt met een betere resolutie de afbeeldingen opnieuw uploaden."
+

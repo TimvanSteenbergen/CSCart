@@ -1,0 +1,37 @@
+/* News and Emails */
+.news-item {
+    margin-bottom: 32px;
+}
+.news h1 {
+    font-size: 19px;
+    color: #404040;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 8px;
+    padding: 0 0 6px;
+}
+.news h1 span {
+    float: right;
+    font-size: 13px;
+    color: #b1b1b1;
+    line-height: 26px;
+}
+.news-content p {
+    padding-top: 0;
+}
+.news-sidebox-list li {
+    border-bottom: 1px dotted #bfbfbf;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.news-sidebox-list li p {
+    display: block;
+    color: #919191;
+    font-size: 11px;
+    padding: 0;
+}
+.subscribe-block .subscribe-notice {
+    margin-top: 10px;
+    font-size: 85%;
+    line-height: 150%;
+}
+/* /News and Emails */

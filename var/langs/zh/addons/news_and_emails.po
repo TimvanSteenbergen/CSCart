@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "新闻&邮件"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "让您管理站点的新闻和配置时事通讯发送"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "网站新闻"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "创建和发送时事通讯给您的客户."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "管理已发布到前台商店站点新闻页中的新闻."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Plain"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "注册我们的时事通讯!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "News & emails: Newsletter subscription form"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "新闻"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "新闻 & 邮件"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "取消订阅链接"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "从用户列表中添加订阅者"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> 已在订阅帐户中"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "输入文件中部分邮件列表在数据库中没有找到. 某些导入的订阅者将缺少赋值."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "订阅者"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "新闻列表页面"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "新闻页面"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "时事通讯订阅"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "新闻"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "时事通讯订阅电子邮件字段"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "View news"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Manage news"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "时事通讯没有被发送,因为没有符合选定条件的收信人."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "新闻邮件已成功发送."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail cannot be empty"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "发邮件给 [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "您的电子邮件已经成功添加到我们的免费电子邮件更新列表中"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "您的电子邮件已经订阅."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "您的电子邮件已经成功从我们的免费电子邮件更新列表中移除"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "已成功激活您的电子邮件"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "链接将显示在实时通讯中"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "时事通讯"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "模板"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "自动回覆"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "竞选运动"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "发送"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "添加新闻"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "添加新闻并关闭"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "订阅数量"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "编辑邮件清单"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "来自名称"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "来自邮件"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "回复给"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "邮件确认"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "不自动回覆"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "在结帐显示"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "注册时显示"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "分页显示"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "编辑新闻"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "最新新闻"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "活动统计"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "添加竞选运动"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "新的竞选"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "新闻稿模板"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "新闻稿自动回覆"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "主题"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "添加新闻稿"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "添加模板"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "添加自动回覆"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "随机主题 (每行一个)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML正文"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "没有模板"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "加载"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "竞选运动"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "发送给"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "从用户添加收件人"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "弃置的客户"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "购物车或收藏列表"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "已有"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "天"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "发送测试邮件"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "保存并发送"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "新闻稿"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "新闻稿模板"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "新闻稿自动回覆"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "邮件列表"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "已确认"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "订阅 [num] 列表"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "订阅的"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "您已成功订阅我们的免费电子邮件更新和促销活动!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "我们尊重您的隐私不会向相应的用户发送未经请求的电子邮件.您收到这封电子邮件，因为您请求接收我们的免费更新和促销活动.<br /><br /> 如果您想要取消订阅，请按照下面的链接:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "更新和促销订阅"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Shared with:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "发件人的电子邮件."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "发件人的名字 (e.g. 公司名)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "电子邮件的答复将发送给."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "如果指定了几个主题,电子邮件主题将随机从该列表中选择."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "如果消息文本包含取消订阅链接,它将清除这些用户."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "添加邮件列表"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "添加订阅者"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "新邮件列表"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "新订阅者"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "货到付款(经济而已)"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "高级邮件服务选项"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "货到付款(仅注册的邮件)"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP服务器设置"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP主机"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP用户名"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP密码"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "使用SMTP验证"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Sendmail设置"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Sendmail程序的路径"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "通过SMTP服务器"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "通过php邮件功能"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "通过sendmail程序"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "使用默认设置"
+

@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Importazione negozio"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "Consente di importare dati da qualsiasi versione esistente di CS-Cart da 2.2.4 (ad eccezione per la Community edition) nella versione corrente."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Percorso completo della cartella di installazione del negozio"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Avviare una nuova importazione"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Seleziona il negozio"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Convalida e importa"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Non è possibile connettersi al database"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Non è possibile avviare l'aggiornamento dei dati a causa di cambiamenti nello Storefront/Venditore"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>L'importazione del negozio è stato completato!</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Per andare on-line, si dovrebbe procedere come segue:</p><ul><li>Sovrascrivere la cartella del negozio esistente con quella nuova.</li><li>Impostare i valori corretti per le seguenti variabili: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Impostare l'URL corretto di Storefront in Amministrazione -> Negozi.</li></ul><p>Per avviare un'altra importazione negozio, fare click su <b>Avvia nuova importazione.</b></p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Per andare on-line, si dovrebbe procedere come segue:</p><ul><li>Sovrascrivere la cartella del negozio esistente con quella nuova.</li><li>Impostare i valori corretti delle seguenti variabili: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>Per avviare un'altra importazione negozio, fare click su <b>Avvia nuova importazione.</b></p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>L'ultima importazione di dati è stata effettuata il <b>[date]</b> da <b>CS-Cart [version] [edition].</b></p><p>Per aggiornare i dati dall'ultima importazione, fare click su <b>Aggiorna dati</b> (verranno mantenute solo le impostazioni di Design). Questo processo può essere eseguito più volte. Quando l'aggiornamento sarà completato verrà mostrata nuovamente questa pagina.</p><p>Quando sei pronto per andare on-line o avviare una nuova importazione fai click su <b>Importazione Completa Negozio</b></p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Aggiorna dati"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Importa da"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Importazione Completa Negozio"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Importa dati"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Procedere con l'aggiornamento dei dati"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "URL del pannello di amministrazione"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Numero di vetrine"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Importazione negozio"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Percorso negozio"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Convalida"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Immettere il percorso completo alla cartella principale di installazione del negozio da cui si desidera importare i dati. Per esempio '/ var/www/examplestore' su sistemi basati su UNIX o 'C:\\examplestore' per sistemi Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Configura il tuo negozio"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Completa l'importazione del negozio"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "URL Vetrina"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "URL Vetrina sicuro"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Host del database"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Nome del database"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Utente del database"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Prefisso tabelle"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>Verifica i dati qui sotto prima di procedere con l'importazione dei dati.</p><p><b>ATTENZIONE!</b> L'importazione dei dati durante questa fase <b>sovrascriverà tutto (incluse le impostazioni esistenti, prodotti, design e layout)</b><br />Inoltre, verranno rimossi tutti i registri e le statistiche.</p><p><b>Prestare attenzione</b> che i componenti aggiuntivi di <b>Affiliati, Statistiche, Fatturazione ricorrente, Configuratori prodotto e registro buoni regalo</b> non sono più supportati, perciò nessuno dei dati relativi verrà importato dal tuo vecchio negozio nella nuova installazione.</p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>Si noti che le impostazioni originali del core e di design non verranno trasferite, fatta eccezione per le impostazioni Add-ons e i blocchi personalizzati sotto la posizione \"Prodotti\" nella pagina Layout con <i>Contenuto: Prodotti</i> e con <i> Riempimento: manuale</i>. Durante il prossimo passo sarai in grado di individuarli nella posizione \"Prodotti\" sotto il blocco di contenuto principale.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Da:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "A: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Lìimportazione da questa edizione non è supportata"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Test di configurazione non riuscito"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Le tabelle negozio con il prefisso specificato non sono presenti nel database specificato."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "La cartella specificata non esiste. Si prega di controllare che il percorso immesso sia corretto."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "La cartella specificata non è una cartella principale di installazione valida."
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>I dati del negozio vecchio sono stati importati con successo.</h4><br/>Ora siete liberi di abbandonare lo strumento di Importazione Negozi e personalizzare le impostazioni e l'aspetto del tuo negozio. Prima di tutto, fare quanto segue:</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Quando si è pronti alla personalizzazione, sarai in grado di aggiornare i dati andando nuovamente nello strumento di Importazione Negozi e procedere direttamente al passo successivo. A differenza dell'importazione iniziale, l'aggiornamento dei dati manterrà tutte le impostazioni, progettazione e aspetto.</p><p><strong>Attenzione!</strong> L'aggiornamento dei dati sarà impossibile se modifichi, rimuovi o aggiungi nuovi [storefronts_vendors]. In questo caso, dovrai riavviare l'importazione del negozio dal primo passaggio.</p>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per un'azienda.</li><li>Vai nella sezione <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Le impostazioni erano impostate predefinite.</li><li>Le impostazioni azienda erano impostate su predefinite.</li><li>L'aspetto (tema, stili e disposizione) è stato impostato su predefinito.</li><li>Tutti i blocchi personalizzati nella posizione \"Prodotti\" della Gestione Blocchi con <i>Contenuto: Prodotti</i> e con <i>Riempimento: Manuale</i> sono stati spostati nella posizione \"Prodotti\" sotto il blocco di contenuto principale.</li><li>Tutte le schede prodotto personalizzate (tranne le schede prodotto aggiunte dai componenti aggiuntivi) non sono state trasferite.</li><li>Le schede \"Descrizione\", \"Caratteristiche\" e \"File\" sono state aggiunte alla sezione \"Schede prodotto\".</li><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per un'azienda.</li><li>Vai nella sezione <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Le impostazioni erano impostate predefinite.</li><li>Le impostazioni azienda erano impostate su predefinite.</li><li>L'aspetto (tema, stili e disposizione) è stato impostato su predefinito.</li><li>Tutti i blocchi personalizzati nella posizione \"Prodotti\" della Gestione Blocchi con <i>Contenuto: Prodotti</i> e con <i>Riempimento: Manuale</i> sono stati spostati nella posizione \"Prodotti\" sotto il blocco di contenuto principale.</li><li>Tutte le schede prodotto personalizzate (tranne le schede prodotto aggiunte dai componenti aggiuntivi) non sono state trasferite.</li><li>Le schede \"Descrizione\", \"Caratteristiche\" e \"File\" sono state aggiunte alla sezione \"Schede prodotto\".</li><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[stores_section_link]\">Negozi</a> e imposta il corretto <b>URL di Vetrina</b> per ogni azienda.</li><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai in <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Le impostazioni erano impostate predefinite.</li><li>Le impostazioni azienda erano impostate su predefinite.</li><li>L'aspetto (tema, stili e disposizione) è stato impostato su predefinito.</li><li>Tutti i blocchi personalizzati nella posizione \"Prodotti\" della Gestione Blocchi con <i>Contenuto: Prodotti</i> e con <i>Riempimento: Manuale</i> sono stati spostati nella posizione \"Prodotti\" sotto il blocco di contenuto principale.</li><li>Tutte le schede prodotto personalizzate (tranne le schede prodotto aggiunte dai componenti aggiuntivi) non sono state trasferite.</li><li>Le schede \"Descrizione\", \"Caratteristiche\" e \"File\" sono state aggiunte alla sezione \"Schede prodotto\".</li><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Vai nella sezione <a href=\"[manage_languages_link]\">lingue</a> e imposta il valore corretto del <b>Paese</b> per ogni lingua.</li></ul><p>Si prega di prestare attenzione a quanto segue:</p><ul><li>Le impostazioni erano impostate predefinite.</li><li>Le impostazioni azienda erano impostate su predefinite.</li><li>L'aspetto (tema, stili e disposizione) è stato impostato su predefinito.</li><li>Tutti i blocchi personalizzati nella posizione \"Prodotti\" della Gestione Blocchi con <i>Contenuto: Prodotti</i> e con <i>Riempimento: Manuale</i> sono stati spostati nella posizione \"Prodotti\" sotto il blocco di contenuto principale.</li><li>Tutte le schede prodotto personalizzate (tranne le schede prodotto aggiunte dai componenti aggiuntivi) non sono state trasferite.</li><li>Le schede \"Descrizione\", \"Caratteristiche\" e \"File\" sono state aggiunte alla sezione \"Schede prodotto\".</li><li>Il <b>Menù rapido</b> è stato impostato su predefinito.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Aggiornamento a [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Aggiornamento dati"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Conversione ordini"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Importazione negozio fallita"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Duplicazione database"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Aggiornamento lingue"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Fatto"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "L'importazione da questa edizione non è supportata"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating addons"
+msgstr "Aggiornamento add-ons"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Aggiornamento completato"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Aggiornamento fallito"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Siamo spiacenti, l'importazione dei dati è impossibile: nessun abbonamento valido per gli aggiornamenti trovato (per saperne di più circa i <a target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">requisiti di licenza</a> per un'importazione negozio).<br /><br />Contattaci scrivendo a <a href=\"mailto:ecommerce@business-click.it\">ecommerce@business-click.it</a>."
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "L'importazione Negozio è stata annullata per prevenire la perdita dei dati. Impossibile connettersi al database importato. Contattare il supporto tecnico <a href=\"mailto:ecommerce@business-click.it\">ecommerce@business-click.it</a>."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "L'importazione Negozio è stata annullata per prevenire la perdita dei dati. Impossibile connettersi al database importato. Contattare il supporto tecnico <a href=\"mailto:ecommerce@business-click.it\">ecommerce@business-click.it</a>."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Importazione dati negozio"
+

@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Enquêtes"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Voegt een mogelijkheid toe om op maat gemaakte polls toe te voegen aan de site"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Centraal"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Zijvak"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Antwoorden met reacties"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "U hebt deze poll al voltooid."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Totaal aantal stemmen"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Polls"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Nieuwe poll"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Poll bewerken"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Polls"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "U hebt deze poll al voltooid"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Polls"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Poll"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Vragen"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Poll statistieken"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Plaats polls en sluiten"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Polls toevoegen"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "U moet alle verplichte vragen beantwoorden"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Dank u voor deel te nemen aan deze poll."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Poll resultaten zichtbaar voor"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "niemand"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "gestemde gebruikers"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "iedereen (in een pop-up)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Poll header"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Poll footer"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Poll bericht"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Nieuwe vraag"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Vraag toevoegen"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Vraag bewerken"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Poll toevoegen"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Totaal aantal ingediende poll formulieren"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Aantal poll formulieren volledig ingevuld"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Eerste poll formulier ingediend"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Laatste poll formulier ingediend"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Statistieken"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Antwoorden bekijken"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Stemmen"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Antwoorden"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Tekst vraag"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Selecteer één optie"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Selecteer een of meer opties"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Zorg voor een tekstueel antwoord"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Antwoord tekst"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Tekst box"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Bericht dat getoond wordt als de enquête beëindigd is."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Stemmen op pagina"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Antwoorden op pagina"
+

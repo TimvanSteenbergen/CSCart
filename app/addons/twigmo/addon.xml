@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon scheme="2.0">
+    <id>twigmo</id>
+    <name>Twigmo</name>
+    <description>Adds the mobile admin support</description>
+    <priority>100500</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="service" edition_type="ROOT">
+                <name>Twigmo account</name>
+                <items>
+                    <item id="connect">
+                        <type>template</type>
+                        <default_value>connect.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="storefront" edition_type="ROOT,ULT:VENDOR">
+                <name>Mobile Storefront</name>
+                <items>
+                    <item id="settings">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="admin_app" edition_type="ROOT">
+                <name>Admin app</name>
+                <items>
+                    <item id="admin_app">
+                        <type>template</type>
+                        <default_value>admin_app.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="addon" edition_type="ROOT">
+                <name>Upgrade</name>
+                <items>
+                    <item id="upgrade">
+                        <type>template</type>
+                        <default_value>upgrade.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <language_variables>
+        <item lang="en" id="twgadmin_access_id">Access ID</item>
+        <item lang="ru" id="twgadmin_access_id">ID доступа</item>
+        <item lang="zh" id="twgadmin_access_id">访问ID</item>
+
+        <item lang="en" id="twgadmin_more_than_year">More than a year</item>
+        <item lang="ru" id="twgadmin_more_than_year">Больше года</item>
+        <item lang="zh" id="twgadmin_more_than_year">超过1年</item>
+
+        <item lang="en" id="twgadmin_error_cannot_connect_store"><![CDATA[Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href="http://support.twigmo.com" target="_blank">Twigmo Support Portal</a> for assistance.]]></item>
+        <item lang="ru" id="twgadmin_error_cannot_connect_store"><![CDATA[Невозможно подключиться к сервису Твигмо. Пожалуйста, повторите попытку позже. Если эта ошибка не исчезает длительное время, пожалуйста, посетите <a href="http://support.twigmo.com" target="_blank">сайт поддержки Твигмо</a>.]]></item>
+        <item lang="zh" id="twgadmin_error_cannot_connect_store">现在无法连接到Twigmo服务.请等下再试.</item>
+
+        <item lang="en" id="twgadmin_text_store_connected">Your store was connected to Twigmo service successfully!</item>
+        <item lang="ru" id="twgadmin_text_store_connected">Ваш магазин был успешно подключен к сервису Твигмо!</item>
+        <item lang="zh" id="twgadmin_text_store_connected">您的商店已成功连接到Twigmo服务!</item>
+
+        <item lang="en" id="twgadmin_connect_your_store">Connect your store to the Twigmo service</item>
+        <item lang="ru" id="twgadmin_connect_your_store">Подключение к сервису Твигмо</item>
+        <item lang="zh" id="twgadmin_connect_your_store">连接您的商店到Twigmo服务</item>
+
+        <item lang="en" id="twgadmin_connect">Connect</item>
+        <item lang="ru" id="twgadmin_connect">Подключиться</item>
+        <item lang="zh" id="twgadmin_connect">连接</item>
+
+        <item lang="en" id="tt_addons_twigmo_settings_settings_twgadmin_home_page_content">If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page.</item>
+        <item lang="ru" id="tt_addons_twigmo_settings_settings_twgadmin_home_page_content">Если выбрано 'Блоки домашней страницы от полной версии', то на домашней странице мобильной версии будут показаны все поддерживаемые блоки, заданные для показа на полной версии магазина. Если выбрано 'Блоки домашней страницы для мобильной версии', будет показан специальный набор блоков, заданный на странице 'Дизайн'->'Блоки'->'Домашняя страница Твигмо'. Если выбрана категория, то только её продукты будут показаны на домашней странице мобильной версии магазина.</item>
+        <item lang="zh" id="tt_addons_twigmo_settings_settings_twgadmin_home_page_content">如果'桌面主页块'被选,所有桌面主页块支持的类型会显示在手机前端的主页上.如果 'Twigmo主页块'被选, Twigmo主页块会显示(配置在'设计'->'版块'->'Twigmo主页').如果目录被选,仅在手机前端的主页上显示产品.</item>
+
+        <item lang="en" id="twgadmin_manage_settings">Service account infomation</item>
+        <item lang="ru" id="twgadmin_manage_settings">Информация об аккаунте</item>
+        <item lang="zh" id="twgadmin_manage_settings">服务帐户信息</item>
+
+        <item lang="en" id="twgadmin_manage_storefront_settings">Mobile Storefront settings</item>
+        <item lang="ru" id="twgadmin_manage_storefront_settings">Настройки мобильной версии</item>
+        <item lang="zh" id="twgadmin_manage_storefront_settings">手机前端设置</item>
+
+        <item lang="en" id="twgadmin_wrong_api_object_data">Wrong [object] data</item>
+        <item lang="ru" id="twgadmin_wrong_api_object_data">Неверные данные объекта [object]</item>
+
+        <item lang="en" id="twgadmin_wrong_api_data">Wrong API data</item>
+        <item lang="ru" id="twgadmin_wrong_api_data">Неверные данные API</item>
+        <item lang="zh" id="twgadmin_wrong_api_data">API资料错误</item>
+
+        <item lang="en" id="twgadmin_wrong_shipping_info">Failed to place order: wrong shipping data</item>
+        <item lang="ru" id="twgadmin_wrong_shipping_info">Ошибка при размещении заказа: некорректные данные о доставке</item>
+        <item lang="zh" id="twgadmin_wrong_shipping_info">下单失败: 配送资料错误</item>
+
+        <item lang="en" id="twgadmin_wrong_payment_info">Failed to place order: wrong payment data</item>
+        <item lang="ru" id="twgadmin_wrong_payment_info">Ошибка при размещении заказа: некорректные платежные данные</item>
+        <item lang="zh" id="twgadmin_wrong_payment_info">下单失败: 支付资料错误</item>
+
+        <item lang="en" id="twgadmin_object_was_not_found">The [object] data were not found</item>
+        <item lang="ru" id="twgadmin_object_was_not_found">[object] не был найден</item>
+        <item lang="zh" id="twgadmin_object_was_not_found">此[object]资料没有找到</item>
+
+        <item lang="en" id="twgadmin_fail_create_user">Failed to create user</item>
+        <item lang="ru" id="twgadmin_fail_create_user">Не удалось создать пользователя</item>
+        <item lang="zh" id="twgadmin_fail_create_user">用户创建失败</item>
+
+        <item lang="en" id="twgadmin_fail_post_order">Failed to place order</item>
+        <item lang="ru" id="twgadmin_fail_post_order">Не удалось разместить заказ</item>
+        <item lang="zh" id="twgadmin_fail_post_order">下单失败</item>
+
+        <item lang="en" id="twg_post_request_fail">Failed to post request</item>
+        <item lang="ru" id="twg_post_request_fail">Не удалось отправить запрос</item>
+        <item lang="zh" id="twg_post_request_fail">发贴请求失败</item>
+
+        <item lang="en" id="twgadmin_error_validator_required">The '[field]' field is mandatory</item>
+        <item lang="ru" id="twgadmin_error_validator_required">Поле '[field]' обязательно для заполнения</item>
+        <item lang="zh" id="twgadmin_error_validator_required">此'[field]'区域是强制性的</item>
+
+        <item lang="en" id="twgadmin_mobile_version">Mobile version</item>
+        <item lang="ru" id="twgadmin_mobile_version">Мобильная версия</item>
+        <item lang="zh" id="twgadmin_mobile_version">手机版本</item>
+
+        <item lang="en" id="twgadmin_text_updates_available"><![CDATA[A new version of Twigmo add-on is available! <a href="[link]">Click here to upgrade to it</a>.]]></item>
+        <item lang="ru" id="twgadmin_text_updates_available"><![CDATA[Вышла новая версия модуля Твигмо! <a href="[link]">Нажмите сюда, чтобы установить её</a>.]]></item>
+        <item lang="zh" id="twgadmin_text_updates_available"><![CDATA[有Twigmo插件新版本可用! <a href="[link]">点击这里升级</a>.]]></item>
+
+        <item lang="en" id="twgadmin_home_page_content">Home page content</item>
+        <item lang="ru" id="twgadmin_home_page_content">Содержимое домашней страницы</item>
+        <item lang="zh" id="twgadmin_home_page_content">主页内容</item>
+
+        <item lang="en" id="twgadmin_use_mobile_frontend_for">Show mobile version for</item>
+        <item lang="ru" id="twgadmin_use_mobile_frontend_for">Показывать мобильную версию для</item>
+
+        <item lang="en" id="twgadmin_phones">Phones</item>
+        <item lang="ru" id="twgadmin_phones">Телефонов</item>
+
+        <item lang="en" id="twgadmin_tablets">Tablets</item>
+        <item lang="ru" id="twgadmin_tablets">Планшетов</item>
+
+        <item lang="en" id="twgadmin_home_page_blocks">Desktop home page blocks</item>
+        <item lang="ru" id="twgadmin_home_page_blocks">Блоки домашней страницы от полной версии</item>
+        <item lang="zh" id="twgadmin_home_page_blocks">桌面主页块</item>
+
+        <item lang="en" id="twgadmin_tw_home_page_blocks">Twigmo home page blocks</item>
+        <item lang="ru" id="twgadmin_tw_home_page_blocks">Блоки домашней страницы для мобильной версии</item>
+        <item lang="zh" id="twgadmin_tw_home_page_blocks">Twigmo主页块</item>
+
+        <item lang="en" id="twgadmin_homepage">Twigmo home page</item>
+        <item lang="ru" id="twgadmin_homepage">Домашняя страница Твигмо</item>
+        <item lang="zh" id="twgadmin_homepage">Twigmo主页</item>
+
+        <item lang="en" id="twgadmin_edit_these_blocks">Edit these blocks</item>
+        <item lang="ru" id="twgadmin_edit_these_blocks">Редактировать эти блоки</item>
+        <item lang="zh" id="twgadmin_edit_these_blocks">编辑这些块</item>
+
+        <item lang="en" id="twgadmin_select_skin">Skin</item>
+        <item lang="ru" id="twgadmin_select_skin">Внешний вид</item>
+        <item lang="zh" id="twgadmin_select_skin">风格</item>
+
+        <item lang="en" id="twgadmin_hide_header">Hide header</item>
+        <item lang="ru" id="twgadmin_hide_header">Скрыть заголовок</item>
+        <item lang="zh" id="twgadmin_hide_header">隐藏头部</item>
+
+        <item lang="en" id="twg_btn_load_more_items">Load More</item>
+        <item lang="ru" id="twg_btn_load_more_items">Показать еще</item>
+        <item lang="zh" id="twg_btn_load_more_items">加载更多</item>
+
+        <item lang="en" id="twg_btn_log_in_to_checkout">Sign in to checkout</item>
+        <item lang="ru" id="twg_btn_log_in_to_checkout">Авторизоваться перед покупкой</item>
+        <item lang="zh" id="twg_btn_log_in_to_checkout">登录结帐</item>
+
+        <item lang="en" id="twg_lbl_copy_from_billing">Ship to the same address</item>
+        <item lang="ru" id="twg_lbl_copy_from_billing">Доставлять на этот адрес</item>
+        <item lang="zh" id="twg_lbl_copy_from_billing">配送到同一地址</item>
+
+        <item lang="en" id="twg_msg_date_invalid">Please enter a valid date.</item>
+        <item lang="ru" id="twg_msg_date_invalid">Пожалуйста, введите корректную дату.</item>
+        <item lang="zh" id="twg_msg_date_invalid">请输入有效日期.</item>
+
+        <item lang="en" id="twg_msg_dateiso_invalid">Please enter a valid date (YYYY-MM-DD).</item>
+        <item lang="ru" id="twg_msg_dateiso_invalid">Пожалуйста, введите корректную дату (в формате ГГГГ-ММ-ДД).</item>
+        <item lang="zh" id="twg_msg_dateiso_invalid">请输入有效日期 (YYYY-MM-DD).</item>
+
+        <item lang="en" id="twg_msg_digits_required">Please enter only digits.</item>
+        <item lang="ru" id="twg_msg_digits_required">Пожалуйста, введите только цифры.</item>
+        <item lang="zh" id="twg_msg_digits_required">请只输入数字.</item>
+
+        <item lang="en" id="twg_msg_email_invalid">Please enter a valid email address.</item>
+        <item lang="ru" id="twg_msg_email_invalid">Пожалуйста, введите корректный адрес эл. почты.</item>
+        <item lang="zh" id="twg_msg_email_invalid">请输入有效邮件地址.</item>
+
+        <item lang="en" id="twg_msg_extension_invalid">Please enter a value with a valid extension.</item>
+        <item lang="ru" id="twg_msg_extension_invalid">Пожалуйста, введите значение с корректным расширением.</item>
+        <item lang="zh" id="twg_msg_extension_invalid">请输入一个有效的扩展名与值.</item>
+
+        <item lang="en" id="twg_msg_field_required">This field is required.</item>
+        <item lang="ru" id="twg_msg_field_required">Это обязательное поле.</item>
+        <item lang="zh" id="twg_msg_field_required">此区域是必需的.</item>
+
+        <item lang="en" id="twg_msg_fill_required_fields">Please fill in all the required fields.</item>
+        <item lang="ru" id="twg_msg_fill_required_fields">Пожалуйста, заполните все обязательные поля.</item>
+
+        <item lang="en" id="twg_msg_field_invalid">Please fix this field.</item>
+        <item lang="ru" id="twg_msg_field_invalid">Пожалуйста, исправьте значение этого поля.</item>
+        <item lang="zh" id="twg_msg_field_invalid">请修复此区域.</item>
+
+        <item lang="en" id="twg_msg_max_length">Please enter no more than {0} characters.</item>
+        <item lang="ru" id="twg_msg_max_length">Пожалуйста, введите не более чем {0} символ(-ов).</item>
+        <item lang="zh" id="twg_msg_max_length">请输入不超过{0}个字符.</item>
+
+        <item lang="en" id="twg_msg_max_value">Please enter a value less than or equal to {0}.</item>
+        <item lang="ru" id="twg_msg_max_value">Пожалуйста, введите {0} символ(-ов) или меньше.</item>
+        <item lang="zh" id="twg_msg_max_value">请输入值少于或等于{0}.</item>
+
+        <item lang="en" id="twg_msg_min_length">Please enter at least {0} characters.</item>
+        <item lang="ru" id="twg_msg_min_length">Пожалуйста, введите минимум {0} символ(-ов).</item>
+        <item lang="zh" id="twg_msg_min_length">请至少输入{0}个字符.</item>
+
+        <item lang="en" id="twg_msg_min_value">Please enter a value greater than or equal to {0}.</item>
+        <item lang="ru" id="twg_msg_min_value">Пожалуйста, введите значение, равное или превышающее число {0}.</item>
+        <item lang="zh" id="twg_msg_min_value">请输入值大于或等于{0}.</item>
+
+        <item lang="en" id="twg_msg_number_invalid">Please enter a valid number.</item>
+        <item lang="ru" id="twg_msg_number_invalid">Пожалуйста, введите корректное число.</item>
+        <item lang="zh" id="twg_msg_number_invalid">请输入一个有效的数字.</item>
+
+        <item lang="en" id="twg_msg_order_was_placed">Your order has been placed!<![CDATA[<br />]]>The order ID is </item>
+        <item lang="ru" id="twg_msg_order_was_placed">Ваш заказ был успешно размещен!<![CDATA[<br />]]>Номер заказа </item>
+        <item lang="zh" id="twg_msg_order_was_placed">您已下单!<![CDATA[<br />]]>订单ID是</item>
+
+        <item lang="en" id="twg_msg_orders_were_placed">Your orders have been placed!<![CDATA[<br />]]>The order IDs are </item>
+        <item lang="ru" id="twg_msg_orders_were_placed">Ваш заказы были успешно размещены!<![CDATA[<br />]]>Номера заказов </item>
+        <item lang="zh" id="twg_msg_orders_were_placed">您已下的单!<![CDATA[<br />]]>订单ID是</item>
+
+        <item lang="en" id="twg_msg_cc_invalid">Please enter a valid credit card number.</item>
+        <item lang="ru" id="twg_msg_cc_invalid">Пожалуйста, введите корректный номер банковской карты.</item>
+        <item lang="zh" id="twg_msg_cc_invalid">请输入一个有效的信用卡号码.</item>
+
+        <item lang="en" id="twg_msg_range_length">Please enter a value between {0} and {1} characters long.</item>
+        <item lang="ru" id="twg_msg_range_length">Пожалуйста, введите значение длиной между {0} и {1} символом(-ами).</item>
+        <item lang="zh" id="twg_msg_range_length">请输入值介于{0}和{1}的之间字符.</item>
+
+        <item lang="en" id="twg_msg_range_value">Please enter a value between {0} and {1}.</item>
+        <item lang="ru" id="twg_msg_range_value">Пожалуйста, введите значение между {0} и {1}.</item>
+        <item lang="zh" id="twg_msg_range_value">请输入值介于{0}和{1}之间.</item>
+
+        <item lang="en" id="twg_msg_same_value_required">Please enter the same value again.</item>
+        <item lang="ru" id="twg_msg_same_value_required">Пожалуйста, введите такое же значение еще раз.</item>
+        <item lang="zh" id="twg_msg_same_value_required">请再次输入同样的值.</item>
+
+        <item lang="en" id="twg_msg_url_invalid">Please enter a valid URL.</item>
+        <item lang="ru" id="twg_msg_url_invalid">Пожалуйста, введите корректный URL.</item>
+        <item lang="zh" id="twg_msg_url_invalid">请输入一个有效的URL.</item>
+
+        <item lang="en" id="twg_cart_info">[amount] ([total])</item>
+        <item lang="ru" id="twg_cart_info">[amount] ([total])</item>
+        <item lang="zh" id="twg_cart_info">[amount] ([total])</item>
+
+        <item lang="en" id="twg_share">Share</item>
+        <item lang="ru" id="twg_share">Поделиться</item>
+        <item lang="zh" id="twg_share">共享</item>
+
+        <item lang="en" id="twg_facebook">Facebook</item>
+        <item lang="ru" id="twg_facebook">Фейсбук</item>
+
+        <item lang="en" id="twg_twitter">Twitter</item>
+        <item lang="ru" id="twg_twitter">Твиттер</item>
+
+        <item lang="en" id="twg_desktop_site">Desktop site</item>
+        <item lang="ru" id="twg_desktop_site">Полная версия</item>
+        <item lang="zh" id="twg_desktop_site">桌面地点</item>
+
+        <item lang="en" id="twgadmin_connect_to_first_ult">Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it.</item>
+        <item lang="ru" id="twgadmin_connect_to_first_ult">Ваш магазин еще не подключен к сервису Твигмо. Обратитесь за помощью к главному администратору магазина.</item>
+        <item lang="zh" id="twgadmin_connect_to_first_ult">您的商店没有连接到Twigmo服务.请询问根管理员处理.</item>
+
+        <item lang="en" id="twgadmin_mobile_logo">Mobile Storefront logo</item>
+        <item lang="ru" id="twgadmin_mobile_logo">Логотип мобильной версии</item>
+        <item lang="zh" id="twgadmin_mobile_logo">手机前端标志</item>
+
+        <item lang="en" id="twgadmin_mobile_favicon">iOS device home screen icon</item>
+        <item lang="ru" id="twgadmin_mobile_favicon">Иконка для рабочего стола iOS устройств</item>
+        <item lang="zh" id="twgadmin_mobile_favicon">iOS 设备的主屏图标</item>
+
+        <item lang="en" id="twgadmin_url_for_facebook">URL of your Facebook page</item>
+        <item lang="ru" id="twgadmin_url_for_facebook">URL вашей страницы на Facebook</item>
+        <item lang="zh" id="twgadmin_url_for_facebook">您Facebook的URL页面</item>
+
+        <item lang="en" id="twgadmin_url_for_twitter">URL of your Twitter page</item>
+        <item lang="ru" id="twgadmin_url_for_twitter">URL вашей страницы в Twitter</item>
+        <item lang="zh" id="twgadmin_url_for_twitter">您Twitter的URL页面</item>
+
+        <item lang="en" id="twgadmin_only_req_profile_fields">Show only user profile fields marked as required</item>
+        <item lang="ru" id="twgadmin_only_req_profile_fields">Показывать только обязательные поля профиля покупателя</item>
+        <item lang="zh" id="twgadmin_only_req_profile_fields">只显示用户资料区域标记为必填项</item>
+
+        <item lang="en" id="twgadmin_reinstall">The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it.</item>
+        <item lang="ru" id="twgadmin_reinstall">Версия файлов в модуле Твигмо не совпадает с той, что указана в вашей базе данных, поэтому мобильная версия вашего магазина была отключена. Пожалуйста, переустановите модуль Твигмо (на списке модулей кликните 'Удалить', затем 'Установка'), чтобы включить её вновь.</item>
+        <item lang="zh" id="twgadmin_reinstall">此Twigmo插件的版本文件与数据库中的不匹配,所以您商店的手机版本已禁用.请重新安装Twigmo插件(点击卸载,然后在插件表中安装)并启用它.</item>
+
+        <item lang="en" id="twg_view_cart_checkout"><![CDATA[View cart & checkout]]></item>
+        <item lang="ru" id="twg_view_cart_checkout">Оформить заказ</item>
+        <item lang="zh" id="twg_view_cart_checkout">查看购物车 </item>
+
+        <item lang="en" id="twg_sign_in_to_checkout">Sign in to checkout</item>
+        <item lang="ru" id="twg_sign_in_to_checkout">Авторизоваться перед покупкой</item>
+        <item lang="zh" id="twg_sign_in_to_checkout">登录结帐</item>
+
+        <item lang="en" id="twg_only_via_desktop">This product can be added to cart only via the [linkOpen]desktop website[linkClose].</item>
+        <item lang="ru" id="twg_only_via_desktop">Этот продукт можно добавить в корзину только через [linkOpen]полную версию сайта[linkClose].</item>
+        <item lang="zh" id="twg_only_via_desktop">此产品仅可通[linkOpen]桌面站点[linkClose]添加到购物车</item>
+
+        <item lang="en" id="twg_share_on_social">Share on social networks</item>
+        <item lang="ru" id="twg_share_on_social">Поделиться</item>
+        <item lang="zh" id="twg_share_on_social">在本地网络共享</item>
+
+        <item lang="en" id="twgadmin_order_via_twigmo">[This order was placed via Twigmo Mobile Storefront]</item>
+        <item lang="ru" id="twgadmin_order_via_twigmo">[Этот заказ был размещен через мобильную версию сайта (Твигмо)]</item>
+        <item lang="zh" id="twgadmin_order_via_twigmo">[此订单是通过Twigmo手机前端下单的]</item>
+
+        <item lang="en" id="twgadmin_on_social">Twigmo on social media</item>
+        <item lang="ru" id="twgadmin_on_social">Twigmo в социальных сетях</item>
+        <item lang="zh" id="twgadmin_on_social">Twigmo 社交媒体</item>
+
+        <item lang="en" id="twg_contact_twigmo_support">Contact Twigmo support</item>
+        <item lang="ru" id="twg_contact_twigmo_support">Обратиться в службу технической поддержки "Твигмо"</item>
+        <item lang="zh" id="twg_contact_twigmo_support">联系Twigmo支持</item>
+
+        <item lang="en" id="twgadmin_enable_geolocation">Enable geolocation</item>
+        <item lang="ru" id="twgadmin_enable_geolocation">Включить геолокацию</item>
+        <item lang="zh" id="twgadmin_enable_geolocation">启用几何定位</item>
+
+        <item lang="en" id="tt_addons_twigmo_settings_settings_twgadmin_enable_geolocation">If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages.</item>
+        <item lang="ru" id="tt_addons_twigmo_settings_settings_twgadmin_enable_geolocation">Если включено, то на странице регистрации и оплаты адрес доставки и платежный адрес покупателя будут автоматически заполнены значениями, определяемыми с помощью сервиса геолокации.</item>
+        <item lang="zh" id="tt_addons_twigmo_settings_settings_twgadmin_enable_geolocation">如果启用,配送和帐单地址区域将在注册和结帐页面填入的地址决定于位置定位服务.</item>
+
+        <item lang="en" id="twg_billing_is_the_same">Billing address is the same</item>
+        <item lang="ru" id="twg_billing_is_the_same">Адрес плательщика тот же</item>
+        <item lang="zh" id="twg_billing_is_the_same">帐单地址相同</item>
+
+        <item lang="en" id="twgadmin_upgrade_addon">Twigmo add-on upgrade has started.</item>
+        <item lang="ru" id="twgadmin_upgrade_addon">Запущен процесс обновления модуля Твигмо.</item>
+        <item lang="zh" id="twgadmin_upgrade_addon">Twigmo插件升级已开始.</item>
+
+        <item lang="en" id="twgadmin_download_twigmo">Downloading Twigmo upgrade package. Please wait...</item>
+        <item lang="ru" id="twgadmin_download_twigmo">Скачивается новая версия модуля. Пожалуйста, подождите...</item>
+        <item lang="zh" id="twgadmin_download_twigmo">正在下载Twigmo升级包.请等待......</item>
+
+        <item lang="en" id="twgadmin_checking_permissions"><![CDATA[Done.</br>Checking file permissions...]]></item>
+        <item lang="ru" id="twgadmin_checking_permissions"><![CDATA[Загрузка окончена.</br>Идет проверка прав доступа к файлам...]]></item>
+        <item lang="zh" id="twgadmin_checking_permissions"><![CDATA[Done.</br>检查文件权限......]]></item>
+
+        <item lang="en" id="twgadmin_no_files_permissions">Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server).</item>
+        <item lang="ru" id="twgadmin_no_files_permissions">Ошибка: Нет прав на обновление файлов модуля Твигмо. Пожалуйста, проверьте и выставьте права на запись вручную или [link]укажите данные вашего FTP аккаунта[/link] (если они уже заполнены на той странице, убедитесь, что у указанного FTP аккаунта есть права на модификацию файлов на сервере).</item>
+        <item lang="zh" id="twgadmin_no_files_permissions">错误: 无法重写Twigmo插件已存在的文件.请检查并手动确认文件权限或[link]提供您的FTP访问资料[/link] (如果他们提供，请确保此 FTP 用户具有足够的权限修改服务器上的文件).</item>
+
+        <item lang="en" id="twgadmin_backup_files">Backing up Twigmo files...</item>
+        <item lang="ru" id="twgadmin_backup_files">Идет резервное копирование файлов модуля Твигмо...</item>
+        <item lang="zh" id="twgadmin_backup_files">备份Twigmo文件......</item>
+
+        <item lang="en" id="twgadmin_backup_settings">Backing up Twigmo add-on settings...</item>
+        <item lang="ru" id="twgadmin_backup_settings">Идет резервное копирование настроек модуля Твигмо...</item>
+        <item lang="zh" id="twgadmin_backup_settings">备份Twigmo插件设置......</item>
+
+        <item lang="en" id="twgadmin_uninstall_addon">Uninstalling Twigmo add-on...</item>
+        <item lang="ru" id="twgadmin_uninstall_addon">Идет удаление модуля Твигмо...</item>
+        <item lang="zh" id="twgadmin_uninstall_addon">卸载Twigmo插件......</item>
+
+        <item lang="en" id="twgadmin_restore_settings">Restoring Twigmo add-on settings...</item>
+        <item lang="ru" id="twgadmin_restore_settings">Идет восстановление настроек модуля Твигмо...</item>
+        <item lang="zh" id="twgadmin_restore_settings">恢复Twigmo插件的设置......</item>
+
+        <item lang="en" id="twg_min_product_quantity">Minimum order quantity</item>
+        <item lang="ru" id="twg_min_product_quantity">Мин. количество для заказа</item>
+        <item lang="zh" id="twg_min_product_quantity">最小订购数量</item>
+
+        <item lang="en" id="twg_checkout_terms_n_conditions">I accept Terms and Conditions</item>
+        <item lang="ru" id="twg_checkout_terms_n_conditions">Я принимаю Условия</item>
+        <item lang="zh" id="twg_checkout_terms_n_conditions">我接受条款和条件</item>
+
+        <item lang="en" id="twgadmin_cant_create_file">Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin).</item>
+        <item lang="ru" id="twgadmin_cant_create_file">Не могу создать файл [file]. Пожалуйста, создайте его вручную в директории [path] (только если вам требуется изменить внешний вид выбранного скина мобильной версии вашего сайта).</item>
+
+        <item lang="en" id="twg_visit_our_mobile_store">Visit our mobile site</item>
+        <item lang="ru" id="twg_visit_our_mobile_store">Мобильный сайт</item>
+
+        <item lang="en" id="twg_app_for_android">App for Android</item>
+        <item lang="ru" id="twg_app_for_android">Android-приложение</item>
+
+        <item lang="en" id="twg_app_for_iphone">App for iPhone</item>
+        <item lang="ru" id="twg_app_for_iphone">iPhone-приложение</item>
+
+        <item lang="en" id="twg_app_for_ipad">App for iPad</item>
+        <item lang="ru" id="twg_app_for_ipad">iPad-приложение</item>
+
+        <item lang="en" id="twgadmin_url_on_appstore">URL of your app on iTunes App Store</item>
+        <item lang="ru" id="twgadmin_url_on_appstore">URL приложения в iTunes App Store</item>
+
+        <item lang="en" id="twgadmin_url_on_googleplay">URL of your app on Google Play</item>
+        <item lang="ru" id="twgadmin_url_on_googleplay">URL приложения в Google Play</item>
+
+        <item lang="en" id="twg_product_added_to_cart">Product Added to Cart</item>
+        <item lang="ru" id="twg_product_added_to_cart">Продукт был добавлен в корзину</item>
+
+        <item lang="en" id="twg_configurable_via_desktop">This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose].</item>
+        <item lang="ru" id="twg_configurable_via_desktop">Это конфигурируемый продукт. Его можно сконфигурировать только в [linkOpen]полной версии сайта[linkClose].</item>
+
+        <item lang="en" id="twg_requrring_via_desktop">This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose].</item>
+        <item lang="ru" id="twg_requrring_via_desktop">Этот продукт распространяется по подписке. Для выбора плана воспользуйтесь [linkOpen]полной версией сайта[linkClose].</item>
+
+        <item lang="en" id="twgadmin_check_for_updates">Check for updates</item>
+        <item lang="ru" id="twgadmin_check_for_updates">Проверить наличие обновлений</item>
+
+        <item lang="en" id="twgadmin_basic_skin">Basic skin</item>
+        <item lang="ru" id="twgadmin_basic_skin">Basic skin</item>
+
+        <item lang="en" id="twgadmin_connect_notification"><![CDATA[The <a href="[addon_link]">Twigmo add-on</a> is not connected to the <a href="http://www.twigmo.com" target="_blank">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android.]]></item>
+        <item lang="ru" id="twgadmin_connect_notification"><![CDATA[В настоящий момент <a href="[addon_link]">модуль Твигмо</a> не подключен к <a href="http://www.twigmo.com" target="_blank">сервису Твигмо</a>. Настройте этот модуль, чтобы показывать мобильную версию вашего магазина для устройств на iOS и Android.]]></item>
+
+        <item lang="en" id="twgadmin_phpmod_required">PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it.</item>
+        <item lang="ru" id="twgadmin_phpmod_required">Для работы аддона Твигмо требуется модуль расширения PHP [php_module_name]. Пожалуйста, установите его.</item>
+
+        <item lang="en" id="twgadmin_select_store">Please select a store first</item>
+        <item lang="ru" id="twgadmin_select_store">Пожалуйста, выберите сначала магазин</item>
+
+        <item lang="en" id="twg_is_logged_in">logged in.</item>
+        <item lang="ru" id="twg_is_logged_in">авторизован!</item>
+        <item lang="zh" id="twg_is_logged_in">登录.</item>
+
+        <item lang="en" id="twg_review_and_place_order">Review and place order</item>
+        <item lang="ru" id="twg_review_and_place_order">Просмотреть и разместить заказ</item>
+        <item lang="zh" id="twg_review_and_place_order">评论并下单</item>
+
+        <item lang="en" id="twg_login_to_add_to_cart">This product cannot be added to the cart because you are not logged in.</item>
+        <item lang="ru" id="twg_login_to_add_to_cart">Этот товар не может быть добавлен в корзину, так как Вы не авторизованы.</item>
+
+        <item lang="en" id="twgadmin_disconnected">Disconnected</item>
+        <item lang="ru" id="twgadmin_disconnected">Отключен</item>
+
+        <item lang="en" id="twgadmin_connected">Connected</item>
+        <item lang="ru" id="twgadmin_connected">Подключен</item>
+
+        <item lang="en" id="twgadmin_terms">Terms and conditions</item>
+        <item lang="ru" id="twgadmin_terms">Условия</item>
+
+        <item lang="en" id="twgadmin_accept_terms_n_conditions"><![CDATA[I accept the <a href="//www.twigmo.com/terms/" target="_blank">Terms and Conditions</a>.]]></item>
+        <item lang="ru" id="twgadmin_accept_terms_n_conditions"><![CDATA[Я принимаю <a href="//www.twigmo.com/terms/" target="_blank">Условия использования</a>.]]></item>
+
+        <item lang="en" id="twgadmin_stores">Stores</item>
+        <item lang="ru" id="twgadmin_stores">Магазины</item>
+
+        <item lang="en" id="twgadmin_curl_error">Couldn't get HTTP response from the Twigmo server. Please make sure that your server supports executing HTTP requests either through curl or sockets.</item>
+        <item lang="ru" id="twgadmin_curl_error">Не удалось получить HTTP ответ от сервера Твигмо. Пожалуйста убедитесь, что ваш сервер поддерживает выполнение HTTP запросов с помощью curl либо с помощью сокетов.</item>
+
+        <item lang="en" id="twgadmin_open_te">Visual Editor</item>
+        <item lang="ru" id="twgadmin_open_te">Визуальный редактор</item>
+
+        <item lang="en" id="twgadmin_open_cp">Twigmo Control Panel</item>
+        <item lang="ru" id="twgadmin_open_cp">Личный кабинет Твигмо</item>
+
+        <item lang="en" id="twgadmin_no_token_recieved">Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]</item>
+        <item lang="ru" id="twgadmin_no_token_recieved">Не удалось получить токен доступа с сервера Твигмо. [linkOpen]Вернуться назад[linkClose]</item>
+
+        <item lang="en" id="twg_buy_only_via_desktop">This product can be purchased via [linkOpen]the desktop website[linkClose].</item>
+        <item lang="ru" id="twg_buy_only_via_desktop">Для покупки воспользуйтесь [linkOpen]полной версией сайта[linkClose].</item>
+
+        <item lang="en" id="tt_addons_twigmo_settings_connect_email">Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified).</item>
+        <item lang="ru" id="tt_addons_twigmo_settings_connect_email">Введите адрес электронной почты вашего Твигмо аккаунта. Если у вас нет такого аккаунта, он будет автоматически для вас создан (вам понадобится подтвердить ваш адрес электронной почты).</item>
+
+        <item lang="en" id="tt_addons_twigmo_settings_connect_password">Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you.</item>
+        <item lang="ru" id="tt_addons_twigmo_settings_connect_password">Введите пароль вашего Твигмо аккаунта. Если у вас нет такого аккаунта, то, пожалуйста, введите безопасный пароль, и мы создадим для вас новый Твигмо аккаунт.</item>
+
+        <item lang="en" id="tt_addons_twigmo_settings_connect_twgadmin_stores">Select stores that are to be connected to the Twigmo service.</item>
+        <item lang="ru" id="tt_addons_twigmo_settings_connect_twgadmin_stores">Выберите магазины, которые требуется подключить к сервису Твигмо.</item>
+
+        <item lang="en" id="twg_cannot_redirect_to_desktop">The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device.</item>
+        <item lang="ru" id="twg_cannot_redirect_to_desktop">Невозможно отобразить полную версию сайта в этом режиме, но на реальном мобильном устройстве эта ссылка будет работать.</item>
+
+        <item lang="en" id="twgadmin_about">About Twigmo</item>
+        <item lang="ru" id="twgadmin_about">О Твигмо</item>
+
+        <item lang="en" id="twgadmin_addon_version">Add-on version</item>
+        <item lang="ru" id="twgadmin_addon_version">Версия модуля</item>
+
+        <item lang="en" id="twgadmin_disconnect">Disconnect</item>
+        <item lang="ru" id="twgadmin_disconnect">Отключить</item>
+
+        <item lang="en" id="twgadmin_disconnect_whole">Disconnect whole addon</item>
+        <item lang="ru" id="twgadmin_disconnect_whole">Отключить весь аддон</item>
+
+        <item lang="en" id="plan">Plan</item>
+        <item lang="ru" id="plan">План</item>
+
+        <item lang="en" id="twgadmin_failed_to_decompress_files">Failed to extract files from the archive</item>
+        <item lang="ru" id="twgadmin_failed_to_decompress_files">Не удалось извлечь файлы из архива</item>
+
+        <item lang="en" id="twgadmin_upgrade_completed">Upgrade completed</item>
+        <item lang="ru" id="twgadmin_upgrade_completed">Обновление завершено</item>
+
+        <item lang="en" id="twapp_stats">Statistics</item>
+        <item lang="ru" id="twapp_stats">Статистика</item>
+
+        <item lang="en" id="twapp_timeline">Timeline</item>
+        <item lang="ru" id="twapp_timeline">История</item>
+
+        <item lang="en" id="twapp_manage_accounts">Manage accounts</item>
+        <item lang="ru" id="twapp_manage_accounts">Редактировать аккаунты</item>
+
+        <item lang="en" id="twapp_low_stock">Low stock</item>
+        <item lang="ru" id="twapp_low_stock">Заканчивающиеся</item>
+
+        <item lang="en" id="twapp_low_stock_products">Low stock products</item>
+        <item lang="ru" id="twapp_low_stock_products">Заканчивающиеся продукты</item>
+
+        <item lang="en" id="twapp_all_low_stock_products">All low stock products</item>
+        <item lang="ru" id="twapp_all_low_stock_products">Все заканчивающиеся продукты</item>
+
+        <item lang="en" id="twapp_delete_account">Delete account</item>
+        <item lang="ru" id="twapp_delete_account">Удалить аккаунт</item>
+
+        <item lang="en" id="twapp_app_account_info">Enter the store root admin credentials to sign in.</item>
+        <item lang="ru" id="twapp_app_account_info">Укажите логин и пароль главного администратора магазина.</item>
+
+        <item lang="en" id="twapp_login_or_email">Login/Email</item>
+        <item lang="ru" id="twapp_login_or_email">Логин/Email</item>
+
+        <item lang="en" id="twapp_latest_orders">Latest orders</item>
+        <item lang="ru" id="twapp_latest_orders">Последние заказы</item>
+
+        <item lang="en" id="twapp_back">Back</item>
+        <item lang="ru" id="twapp_back">Назад</item>
+
+        <item lang="en" id="twapp_users_statistics">Users statistics</item>
+        <item lang="ru" id="twapp_users_statistics">Статистика пользователей</item>
+
+        <item lang="en" id="twapp_configurable">Configurable</item>
+        <item lang="ru" id="twapp_configurable">Конфигурируемый</item>
+
+        <item lang="en" id="twg_lbl_out_of_stock">Out of stock</item>
+        <item lang="ru" id="twg_lbl_out_of_stock">Нет на складе</item>
+        <item lang="zh" id="twg_lbl_out_of_stock">缺货</item>
+
+        <item lang="en" id="twapp_signing_in">Signing in...</item>
+        <item lang="ru" id="twapp_signing_in">Авторизуюсь...</item>
+
+        <item lang="en" id="twapp_two_days_sales">Sales for the last 2 days</item>
+        <item lang="ru" id="twapp_two_days_sales">Продажи за 2 дня</item>
+
+        <item lang="en" id="twapp_two_weeks_sales">Sales for the last 2 weeks</item>
+        <item lang="ru" id="twapp_two_weeks_sales">Продажи за 2 недели</item>
+
+        <item lang="en" id="twapp_two_month_sales">Sales for the last 2 months</item>
+        <item lang="ru" id="twapp_two_month_sales">Продажи за 2 месяца</item>
+
+        <item lang="en" id="twapp_stat_day_1">12am</item>
+        <item lang="ru" id="twapp_stat_day_1">00:00</item>
+
+        <item lang="en" id="twapp_stat_day_2">4am</item>
+        <item lang="ru" id="twapp_stat_day_2">04:00</item>
+
+        <item lang="en" id="twapp_stat_day_3">8am</item>
+        <item lang="ru" id="twapp_stat_day_3">08:00</item>
+
+        <item lang="en" id="twapp_stat_day_4">12pm</item>
+        <item lang="ru" id="twapp_stat_day_4">12:00</item>
+
+        <item lang="en" id="twapp_stat_day_5">4pm</item>
+        <item lang="ru" id="twapp_stat_day_5">16:00</item>
+
+        <item lang="en" id="twapp_stat_day_6">8pm</item>
+        <item lang="ru" id="twapp_stat_day_6">20:00</item>
+
+        <item lang="en" id="twapp_stat_week_1">Mo</item>
+        <item lang="ru" id="twapp_stat_week_1">Пн</item>
+
+        <item lang="en" id="twapp_stat_week_2">Tu</item>
+        <item lang="ru" id="twapp_stat_week_2">Вт</item>
+
+        <item lang="en" id="twapp_stat_week_3">We</item>
+        <item lang="ru" id="twapp_stat_week_3">Ср</item>
+
+        <item lang="en" id="twapp_stat_week_4">Th</item>
+        <item lang="ru" id="twapp_stat_week_4">Чт</item>
+
+        <item lang="en" id="twapp_stat_week_5">Fr</item>
+        <item lang="ru" id="twapp_stat_week_5">Пт</item>
+
+        <item lang="en" id="twapp_stat_week_6">Sa</item>
+        <item lang="ru" id="twapp_stat_week_6">Сб</item>
+
+        <item lang="en" id="twapp_stat_week_7">Su</item>
+        <item lang="ru" id="twapp_stat_week_7">Вс</item>
+
+        <item lang="en" id="twapp_stat_month_1">w1</item>
+        <item lang="ru" id="twapp_stat_month_1">нед1</item>
+
+        <item lang="en" id="twapp_stat_month_2">w2</item>
+        <item lang="ru" id="twapp_stat_month_2">нед2</item>
+
+        <item lang="en" id="twapp_stat_month_3">w3</item>
+        <item lang="ru" id="twapp_stat_month_3">нед3</item>
+
+        <item lang="en" id="twapp_stat_month_4">w4</item>
+        <item lang="ru" id="twapp_stat_month_4">нед4</item>
+
+        <item lang="en" id="twapp_stat_month_5">w5</item>
+        <item lang="ru" id="twapp_stat_month_5">нед5</item>
+
+        <item lang="en" id="twapp_net_error_title">No network connection</item>
+        <item lang="ru" id="twapp_net_error_title">Нет подключения к сети</item>
+
+        <item lang="en" id="twapp_net_error_message">Cannot load data. Please check your network connection.</item>
+        <item lang="ru" id="twapp_net_error_message">Не удается загрузить данные. Пожалуйста, проверьте подключение к сети.</item>
+
+        <item lang="en" id="twapp_in_stock_lowercase">in stock</item>
+        <item lang="ru" id="twapp_in_stock_lowercase">в наличии</item>
+
+        <item lang="en" id="twapp_receive_push">Push notifications</item>
+        <item lang="ru" id="twapp_receive_push">Push-уведомления</item>
+
+        <item lang="en" id="twapp_will_affect_all_stores">Updating this field will affect all stores</item>
+        <item lang="ru" id="twapp_will_affect_all_stores">Обновление этого поля будет сделано во всех витринах</item>
+
+        <item lang="en" id="twapp_data_lang">Data lang.</item>
+        <item lang="ru" id="twapp_data_lang">Язык данных</item>
+
+        <item lang="en" id="twg_placed">Placed</item>
+        <item lang="ru" id="twg_placed">Размещён</item>
+
+        <item lang="en" id="twgadmin_mobile_admin_application">Twigmo Mobile Admin application</item>
+        <item lang="ru" id="twgadmin_mobile_admin_application">Мобильное Твигмо приложение администратора</item>
+
+        <item lang="en" id="twgadmin_download_app">Download the app</item>
+        <item lang="ru" id="twgadmin_download_app">Скачать приложение</item>
+
+        <item lang="en" id="twgadmin_download_app_hint"><![CDATA[This app is available on the <a href="http://www.twigmo.com/pricing/" target="_blank">selected Twigmo plans</a> only.]]></item>
+        <item lang="ru" id="twgadmin_download_app_hint"><![CDATA[Это приложение доступно только на <a href="http://www.twigmo.com/pricing/" target="_blank">некоторых тарифных планах Твигмо</a>.]]></item>
+    </language_variables>
+    <translations>
+        <item for="name" lang="ru">Твигмо</item>
+        <item for="description" lang="en">Connect your store to the Twigmo service to create a mobile version and get an admin mobile application</item>
+        <item for="description" lang="ru">Подключает к сервису Твигмо, генерирующему мобильную версию магазина для покупателей и предоставляющему мобильное приложение для администратора</item>
+        <item for="description" lang="zh">连接到Twigmo服务为您的商店启用手机版本并获得手机应用管理</item>
+    </translations>
+
+    <functions>
+        <item for="install">fn_twg_check_for_upgrade</item>
+    </functions>
+
+    <queries>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:twigmo_ua_stat` (
+                `section` varchar(50) CHARACTER SET utf8 NOT NULL,
+                `value` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `count` int(10) unsigned NOT NULL DEFAULT '0',
+                `month` date,
+                PRIMARY KEY (`section`,`value`,`month`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:twigmo_stores` (
+                `company_id` int(10) unsigned NOT NULL DEFAULT '0',
+                `type` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'C' COMMENT 'May be ''A'' for admin or ''C'' for customer',
+                `access_id` char(6) CHARACTER SET utf8 NOT NULL,
+                `url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `home_page_content` VARCHAR(255) CHARACTER SET utf8 NOT NULL DEFAULT  'home_page_blocks',
+                `url_for_twitter` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_for_facebook` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `logo_url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `favicon_url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_on_appstore` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_on_googleplay` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `geolocation` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'N',
+                `only_req_profile_fields` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'N',
+                `use_for_phones` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'Y',
+                `use_for_tablets` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'Y',
+                `plan_display_name` VARCHAR(255) CHARACTER SET utf8 NOT NULL,
+                `repo_revision` int(11) unsigned NOT NULL,
+                PRIMARY KEY (`company_id`, `type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:twigmo_stores
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:twigmo_settings` (
+                `name` varchar(255) NOT NULL,
+                `value` text NOT NULL,
+                PRIMARY KEY (`name`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:twigmo_settings
+        </item>
+    </queries>
+
+</addon>

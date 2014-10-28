@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 05:00-0400\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Comentarios y análisis"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Customer comments and reviews on products, categories, orders, etc."
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Comentarios"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Libro de invitados"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Manage the testimonials from your store visitors."
+
+msgctxt "Languages::discussion_title_news"
+msgid "Comments"
+msgstr "Comentarios"
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "Comunicado"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Comentarios"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Comentarios"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "Dejar comunicado"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Ningún comentario encontrado"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Tu puntuación"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Comentarios y análisis"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Recomendaciones"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Reviews"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "Comunicado"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Grado"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Thread can not be found."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Usted ya ha comentado en esta discusión"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Gracias por su comentario"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Su comentario sera comprobado antes de ser publicado."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Comentarios y análisis"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Este es la notificación del nuevo post a"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Este comentario tiene que ser aprobado."
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "Últimos comentarios y análisis"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Comment by"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "Y"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Add post"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "No aprobado"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Comentarios y análisis"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Recomendaciones"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "View comments and reviews"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Manage comments and reviews"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Testimonials"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "User testimonials"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Sort by rating: Low to High"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Sort by rating"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "review|reviews"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Write a review"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Productos"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Categorias"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Pedidos"
+
+msgctxt "SettingsSections::discussion::news"
+msgid "News"
+msgstr "Noticias"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Gift registry"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Páginas"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Recomendaciones"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Vendors"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send notifications to vendor"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Share discussion with product"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Permitir al cliente iniciar la discusión"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send notifications to vendor"
+
+msgctxt "SettingsOptions::discussion::news_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::news_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::news_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::news_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::news_share_discussion"
+msgid "Share discussion with news"
+msgstr "Share discussion with news"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send notifications to vendor"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Share discussion with page"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Comentarios por página"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Recomendaciones"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Show testimonials from all stores"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Reviews"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Allow to post only for the customers who has bought somethins from the vendor"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Posts per page"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrador debe aprobar comentarios presentados por"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Solo un comentario por IP permitido"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Enviar notificaciones a este E-Mail"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Send notifications to vendor"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Cualquier cliente"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Solo clientes anónimos"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No se requiere aprobación"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "Comunicado Y Grado"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "Comunicado"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Grado"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Desactivado"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Any customer"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Only anonymous customers"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No approval needed"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Any customer"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Only anonymous customers"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No approval needed"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::any"
+msgid "Any customer"
+msgstr "Any customer"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Only anonymous customers"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No approval needed"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Any customer"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Only anonymous customers"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No approval needed"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Any customer"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Only anonymous customers"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "No approval needed"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "Communication and Rating"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "Communication"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Rating"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Disabled"
+

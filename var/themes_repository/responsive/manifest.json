@@ -1,0 +1,8 @@
+{
+    "title": "Responsive theme",
+    "description": "Responsive theme lets your store shine on all screen sizes, from phones to tablets to PCs, by adapting page layout on the fly. The theme has minimalistic look & feel sweetened with great typography and driven by the latest web design trends.",
+    "logo": "media/images/cart.png",
+    "developer": "Simtech",
+    "favicon": "media/images/icons/favicon.ico",
+    "parent_theme": "responsive"
+}

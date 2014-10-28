@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-06 11:00-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Enables product tags"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Manage product and content page tags."
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "My tag cloud"
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "Popular tags"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Sign in to enter tags"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Tag cloud"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "My tags"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "My tags summary"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Product tags"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "add a tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "Items marked by the tag \"[tag]\":"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "My items marked by the tag \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Tag"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "New tag"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Add tag"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tags for products"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tags for pages"
+

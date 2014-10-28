@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Utvider Data Feed tillegget ved å integrere det med Google Base og oppretter et eksempel på en slik data feed"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p> Merk: Aktiver denne innstillingen hvis du trenger flerspråkelige Google kategorier installert. Støtter fransk, tysk, italiensk, spansk og engelsk. Vær oppmerksom på at dette kan ta lang tid.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Start import"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Generell info"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Installer flere språk for Google kategorier"
+

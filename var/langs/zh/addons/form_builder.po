@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "表单生成器"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "允许您自定义表单(如. 联系我们或是申请合作)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "新的表单"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "编辑表"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "表单生成"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "表单提交文本"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "发邮件给"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "表单加密(SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "添加表单"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "基于"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "多个复选框"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "多个选择框"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "标头"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "分隔符"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "特殊的"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "国家列表"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "州/省份列表"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "提交者"
+

@@ -1,0 +1,110 @@
+div[id^="content_twigmo"] .control-group > label{
+    display: inline-block;
+    float: left;
+}
+
+div[id^="content_twigmo"] label{
+    display: inline;
+}
+
+div[id^="content_twigmo"] .facebook-btn {
+    width: 161px;
+    height: 28px;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+div[id^="content_twigmo"] .twitter-btn {
+    width: 161px;
+    height: 28px;
+    display: block;
+}
+
+div[id^="content_twigmo"] #social_links > a{
+    float: left;
+}
+
+div[id^="content_twigmo"] .cm-failed-label {
+    color: #b94a48 !important;
+}
+
+div[id^="content_twigmo"] input[type=checkbox].cm-failed-field {
+    outline: 1px dashed #cc0;
+    background-color: #fdd;
+}
+
+div[id^="content_twigmo"] .control-group .help-inline {
+    display: block;
+}
+
+div[id^="content_twigmo"] .float-left{
+    float: left;
+}
+
+div[id^="content_twigmo"] .fileuploader {
+    margin-right: 20px;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+div[id^="content_twigmo"] .radio,
+div[id^="content_twigmo"] .checkbox{
+    min-height: 0;
+}
+
+#id_accept_terms{
+    margin-top: 0;
+}
+
+#id_accept_terms_error_message{
+    position: absolute;
+    color: #b94a48 !important;
+}
+
+div[id^="content_twigmo"] .float-right{
+    float: right;
+}
+
+div[id^="content_twigmo"] .controls input[type="text"],
+div[id^="content_twigmo"] .controls select,
+div[id^="content_twigmo"] .controls input[type="password"]{
+    margin-right: 5px;
+}
+
+div[id^="content_twigmo"] .checkbox-wrapper{
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.twg-stores .checkbox{
+    margin: 0;
+}
+
+.twg-connected {
+    color: green;
+}
+
+.twg-disconnected {
+    color: red;
+}
+
+.twg-app-store-btn {
+    width: 212px;
+    height: 64px;
+    margin: 0 20px 0 0px;
+    display: block;
+}
+
+.twg-google-play-btn {
+    width: 184px;
+    height: 64px;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+.twg-app-label {
+    clear: both;
+    padding-top: 10px;
+}
+

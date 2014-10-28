@@ -1,0 +1,19 @@
+/* Janrain styles */
+#janrainModal {
+    z-index: 1022 !important;
+}
+.janrain-wrap {
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.checkout-buttons .janrain-wrap {
+    padding-top: 0;
+    margin-top: 0;
+}
+.janrain-wrap span {
+    font-size: 85%;
+    text-transform: uppercase;
+}
+/* /Janrain styles */

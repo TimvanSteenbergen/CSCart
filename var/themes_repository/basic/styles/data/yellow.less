@@ -1,0 +1,215 @@
+.button-submit.button-wrap-left,
+.button.button-wrap-left,
+.go-button {
+    .gradient (@secondary_button,@secondary_button);
+    .inner-shadow(0,0,0,0,1);
+    border-color: @secondary_button;
+}
+.button-submit.button-wrap-left:hover,
+.button.button-wrap-left:hover,
+.go-button:hover  {
+    .gradient (darken(@secondary_button, 10%), darken(@secondary_button, 10%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@secondary_button, 10%);
+}
+.button-submit.button-wrap-left:hover:active,
+.button.button-wrap-left:hover:active,
+.go-button:active {
+    .gradient (darken(@secondary_button, 15%), darken(@secondary_button, 15%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@secondary_button, 15%);
+}
+.button-action.button-wrap-left,
+.button-submit-action.button-wrap-left,
+.button-submit-big.button-wrap-left,
+.button-big.button-wrap-left {
+    .gradient (@primary_button, @primary_button);
+    .inner-shadow(0,0,0,0,1);
+    border-color: (@primary_button);
+}
+.button-action.button-wrap-left:hover,
+.button-submit-action.button-wrap-left:hover,
+.button-submit-big.button-wrap-left:hover,
+.button-big.button-wrap-left:hover {
+    .gradient (darken(@primary_button, 5%), darken(@primary_button, 5%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@primary_button, 5%);
+}
+.button-action.button-wrap-left:hover:active,
+.button-submit-action.button-wrap-left:hover:active,
+.button-submit-big.button-wrap-left:hover:active,
+.button-big.button-wrap-left:hover:active {
+    .gradient (darken(@primary_button, 6%), darken(@primary_button, 6%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@primary_button, 6%);
+}
+.buttons-container, .buttons-container-item, .checkout-buttons, .ui-dialog .ui-dialog-content, .product-notification-buttons, .box, .buttons-container.wrap, .login .body-bc, .details-block-box, .entry-page-countries li a:hover, .pagination-helper-container {
+    background-color: lighten(@base, 48%);
+}
+.form-wrap, .payment-methods-wrap { //f7f7f7
+    .box-shadow(inset 0 0px 0 0 lighten(@decorative, 8%));
+}
+.dropdown-multicolumns, .sidebox-important-wrapper .sidebox-title, .step-title-active span.float-left, .notification-content-extended h1, .cm-paging-dots a.active i, .cm-paging-dots a.active:hover i {
+   .gradient (@menu, @menu);
+   color: darken(@menu, 100%);
+}
+.ui-slider .ui-slider-range.ui-widget-header {
+    .gradient (@menu, @menu);
+    .inner-shadow (0, 1px, 0, 0, 0.25);
+    border-color: @menu;
+    border-top-color: lighten(@menu, 20%);
+}
+
+.sidebox-title.logged > a, .sidebox-title > span{
+    font-family: @headings_font;
+    font-size: @body_font_size;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    text-decoration: @headings_font_decoration;
+}
+
+ul.dropdown-multicolumns li a.drop, ul.dropdown-multicolumns li.nodrop a {
+    font-family: @headings_font;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    text-decoration: @headings_font_decoration;
+    text-shadow: 0 0 @menu;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    .gradient (@base, @base);
+}
+
+.button-submit.button-wrap-left,
+.button.button-wrap-left,
+.go-button {.button_text (@primary_button)}
+
+ul.dropdown-multicolumns {
+    border-color: @menu;
+}
+
+a:hover {
+    color: @primary_button;
+}
+
+.footer-menu p span, p.bottom-copyright {
+    color: @top_panel_text;
+}
+
+.select-wrap.languages a.active-element, .select-wrap.currencies a.active-element {
+    background-color: @background;  
+}
+
+.button_text (@b) when (lightness(@b) >= 30%) {
+    input, a {
+  color: darken(@b, 45%);
+  text-shadow: 0px 0px 0px lighten(@b, 50%);
+  }
+  i {
+  color: darken(@b, 40%);
+  text-shadow: 0px 0px 0px lighten(@b, 50%);
+  }
+}
+.button_text (@b) when (lightness(@b) < 70%) {
+  input, a {
+  color: lighten(@b, 70%);
+  text-shadow: 0px 0px 0px darken(@b, 15%);
+  }
+  i {
+  color: lighten(@b, 80%);
+  text-shadow: 0px 0px 0px darken(@b, 15%);
+  }
+}
+
+.helper-container .search-input{
+    border: 2px solid darken(@header_bg_color, 15%);
+}    
+
+.helper-container input.search-input:focus {
+    border: 2px solid darken(@header_bg_color, 15%);
+}
+
+@rounded_corners: off;
+@links: #489edd;
+@menu_links: #434343;
+@menu: #f3f3f3;
+@base: #7d7c7a;
+@font: #6f6f6f;
+@primary_button: #ffb320;
+@secondary_button: #4ba8ec;
+@sidebar: #faf9f5;
+@price: #2482c5;
+@discount_label: #f0b138;
+@in_stock: #64b4ee;
+@out_of_stock: #d6474e;
+@top_panel_links: #8b5f0b;
+@top_panel_text: #8b5f0b;
+@footer_text: #ffffff;
+@decorative: #ecf4fb;
+@general_bg_color: #fffbea;
+@general_bg_image: transparent;
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+@top_panel_bg_color: #f9dd73;
+@top_panel_bg: transparent;
+@top_panel_bg_grad_stop: #f9dd73;
+@top_panel_bg_full: transparent;
+@top_panel_bg_color_full: #f9dd73;
+@top_panel_bg_grad_stop_full: #f9dd73;
+@header_bg_color: #fab737;
+@header_bg: transparent;
+@header_bg_grad_stop: #fab737;
+@header_bg_full: transparent;
+@header_bg_color_full: #fab737;
+@header_bg_grad_stop_full: #fab737;
+@content_bg_color: #ffffff;
+@content_bg: transparent;
+@content_bg_full: transparent;
+@content_bg_color_full: transparent;
+@content_bg_grad_stop_full: transparent;
+@footer_bg_color: #fab737;
+@footer_bg: repeat scroll;
+@footer_bg_grad_stop: #fab737;
+@footer_bg_full: transparent;
+@footer_bg_color_full: #fab737;
+@footer_bg_grad_stop_full: #fab737;
+@body_font: Arial,Helvetica,sans-serif;
+@body_font_size: 14px;
+@body_font_style: normal;
+@body_font_weight: normal;
+@headings_font: Arial,Helvetica,sans-serif;
+@headings_font_size: 24px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: normal;
+@links_font: Arial,Helvetica,sans-serif;
+@links_font_size: 14px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+@price_font: Arial,Helvetica,sans-serif;
+@price_font_size: 24px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: normal;
+@buttons_font: Arial,Helvetica,sans-serif;
+@buttons_font_size: 14px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: bold;
+
+/*CUSTOMCSS*/
+
+/*/CUSTOMCSS*/
+
+
+
+
+
+
+
+
+
+
+
+

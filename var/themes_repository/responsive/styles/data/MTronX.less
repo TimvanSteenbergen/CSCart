@@ -1,0 +1,821 @@
+// ========================================================== ##Common
+
+a{
+  &:hover{
+    color: darken(@links, 20%)
+  }
+}
+
+.tygh-content{
+  margin-top: 1px;
+  border-top: 1px solid darken(@general_bg_color, 10%);
+  .box-shadow(0 0 0 1px @general_bg_color);
+}
+
+// ======================================================= ##Top panel
+
+.tygh-top-panel {
+  border-bottom: 1px solid lighten(@top_panel_bg, 15%);
+  .box-shadow(0 0 0 1px darken(@top_panel_bg, 15%));
+  position: relative;
+}
+
+.top-links-grid{
+  .top-currencies,
+  .top-languages{
+    a{
+      color: @top_panel_links;
+      &[class*="__active"],
+      &.open,
+      &:hover{
+        background: darken(@top_panel_bg, 10%);
+        .border-radius(0);
+      }
+    }
+    .ty-select-block{
+      background: @top_panel_bg;
+      border-color: darken(@top_panel_bg, 10%)
+    }
+
+    [class*="ty-icon"]{
+      color: @top_panel_links;
+    }
+  }
+
+  .ty-text-links{
+    &__active{
+      a{
+        color: @top_panel_links;
+      }
+    }
+    &__a:hover{
+      color: lighten(@top_panel_bg, 30%);
+    }
+  }
+
+  .ty-dropdown-box__title{
+    .ty-icon-down-micro,
+    a{
+      color: @top_panel_links;
+    }
+
+    &:hover, &.open{
+      background: transparent;
+    }
+  }
+}
+
+// ======================================================== ##Minicart
+
+.top-cart-content{
+  .ty-dropdown-box{
+    &__title,
+    &__title.open {
+      padding: 10px 11px 10px 8px;
+      .box-shadow(1px 1px 3px -1px darken(@header_bg, 25%));
+      .border-radius(5px);
+      #gradient .vertical(@primary_button, darken(@primary_button, 10%));
+
+      .ty-minicart-title,
+      .ty-minicart__icon,
+      .ty-icon-down-micro{
+        color: @links;
+      }
+
+      .ty-minicart__icon{
+        top: 10px;
+      }
+    }
+
+    &__content{
+      border-color: darken(@base, 20%);
+      margin-top: 3px;
+      .border-radius(0);
+
+      .ty-cart-items__list-item a{
+        color: darken(@links, 10%)
+      }
+    }
+  }
+}
+
+.ty-dropdown-box__content{
+  .ty-text-links{
+    margin: 0;
+  }
+
+  .ty-text-links__item {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .ty-text-links__a{
+    display: block;
+    padding: 6px 10px;
+    color: @links;
+
+    &:hover{
+      color: white;
+      background: @links;
+    }
+  }
+}
+
+.top-links-grid .ty-dropdown-box {
+  margin: 0;
+}
+
+.ty-cart-content__buttons{
+  background: white;
+  border-top: 1px solid @base;
+}
+
+.ty-text-links-btn{
+  color: @top_panel_links;
+
+  &.open{
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ty-text-links__item{
+    display: block;
+  }
+
+  .ty-text-links .ty-text-links__a{
+    color: @links;
+
+    &:hover{
+      color: darken(@links, 20%)
+    }
+  }
+}
+
+// ====================================================== ##Top search
+
+.ty-search-magnifier{
+  #gradient .vertical(@primary_button, darken(@primary_button, 10%));
+  height: 33px;
+  width: 33px;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  color: @header_bg;
+}
+
+.top-search{
+  padding: 7px;
+  margin-top: -2px;
+
+  .border-radius(5px);
+  .box-shadow(1px 1px 3px -1px darken(@header_bg, 15%));
+  #gradient .vertical(lighten(@header_bg, 5%), @header_bg);
+}
+
+input.ty-search-block__input{
+  .rounded_corners(5px);
+  border: none;
+
+  &:focus{
+    border: none;
+  }
+}
+
+// ======================================================== ##Top menu
+
+.no-touch .ty-menu__item:hover .ty-menu__item-link,
+.is-hover-menu .ty-menu__item-link,
+.is-hover-menu.ty-menu__item-active .ty-menu__item-link{
+  color: @links;
+}
+
+.ty-menu{
+  &__item{
+    border-right: 1px solid darken(@menu, 10%);
+
+    &.visible-phone{
+      border-right: none;
+    }
+
+    &-toggle{
+      color: @links;
+    }
+  }
+
+  &__submenu-item-header &__submenu-link{
+    color: @font;
+  }
+
+  &__items{
+    .border-bottom-radius(0);
+    #gradient .vertical(@menu, darken(@menu, 3%));
+  }
+}
+
+@media screen and (min-width: 747px) and (max-width: 1000px){
+  .ty-menu__item .ty-menu__item-link{
+    padding: 13px 10px;
+  }
+}
+
+.ty-menu__submenu .ty-menu__submenu-items .ty-menu__submenu-item-active a{
+  background: transparent;
+  color: @price;
+  padding: 0;
+}
+
+@media screen and (max-width: 747px){
+  .ty-menu__item-toggle:hover{
+    color: darken(@links, 10%);
+  }
+
+  .ty-menu__submenu .ty-top-mine__submenu-col .ty-menu__submenu-item-header{
+    text-transform: none;
+  }
+
+  .ty-menu__submenu-item-header .ty-menu__submenu-link {
+    font-weight: normal;
+  }
+}
+
+// ===================================================== ##Breadcrumbs
+
+.ty-breadcrumbs{
+  &__a{
+    color: @links;
+
+    &:hover{
+      color: @price;
+    }
+  }
+
+  &__current{
+    color: @font;
+  }
+}
+
+.ty-mainbox-title,
+.ty-mainbox-simple-title{
+  color: @price;
+}
+
+// ============================================ ##Grid category layout
+
+.ty-grid-list{
+  &__item-name{
+    max-width: 100%;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+
+    .product-title {
+      color: @links;
+
+      &:hover{
+        color: @price;
+      }
+    }
+  }
+
+  &__price{
+    max-width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  &__image img{
+    .transition(transform 0.2s);
+  }
+
+  &__item{
+    .ty-grid-list__image img:hover{
+      transform: matrix(1.1,0,0,1.1,0,0);
+    }
+  }
+}
+
+.grid-list__rating{
+  text-align: center;
+
+  .ty-stars{
+    margin-right: 0;
+  }
+}
+
+.ty-price-num {
+  font-weight: normal;
+}
+
+.ty-list-price {
+  font-size: @body_font_size;
+  color: @price;
+}
+
+.ty-discount-label{
+  left: 5px;
+  right: auto;
+  top: 5px;
+  .border-radius(5px);
+
+  &__item{
+    color: @font;
+  }
+}
+
+// ========================================================= ##Buttons
+
+.ty-btn{
+  padding: 6px 18px;
+  text-transform: none;
+  line-height: 17px;
+  .border-radius(4px);
+
+  &__big{
+    padding: 11px 20px;
+    font-size: 17px;
+    line-height: 14px;
+  }
+
+  &__primary{
+    background: @primary_button;
+    border: 1px solid @primary_button;
+    color: darken(@font, 25%);
+    padding: 8px 15px;
+
+    &:hover{
+      background: @base;
+      border: 1px solid darken(@base, 10%);
+      color: darken(@font, 25%);
+    }
+  }
+
+  &__secondary{
+    #gradient .vertical(@secondary_button, darken(@secondary_button, 10%));
+    border: 1px solid darken(@secondary_button, 10%);
+    .box-shadow(inset 0 5px 5px -5px lighten(@secondary_button, 30%));
+
+    &:hover{
+      border: 1px solid lighten(@secondary_button, 10%);
+      .box-shadow(inset 0 5px 5px -5px darken(@secondary_button, 10%));
+    }
+  }
+
+  &__tertiary{
+    color: @links;
+    border: 1px solid white;
+
+    &:hover{
+      color: @links;
+      background: @primary_button;
+    }
+  }
+
+
+  &__text{
+    padding: 0;
+  }
+}
+
+// ================================================= ##Product filters
+
+.ty-product-filters{
+  &__wrapper{
+    background: transparent;
+  }
+
+  &__item {
+    color: @links;
+    &:hover{
+      color: @price;
+    }
+  }
+
+  &__switch{
+    padding-right: 25px;
+
+    &> i{
+      margin-right: -18px;
+    }
+  }
+}
+
+.ty-product-filters__item.disabled,
+.ty-product-filters__item.checked.disabled,
+.ty-product-filters__item.disabled:hover{
+  color: lighten(@font, 55%);
+}
+
+.ty-range-slider {
+  .ui-slider-handle{
+    #gradient .vertical(@primary_button, darken(@primary_button, 10%));
+    .border-radius(3px);
+    border: 1px solid darken(@primary_button, 10%);
+  }
+}
+
+@media screen and (min-width: 747px) and(max-width: 1000px) {
+  .ty-range-slider__num{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ty-sort-dropdown__wrapper{
+    font-size: 12px;
+  }
+}
+
+// ======================================================= ##Sideboxes
+
+.ty-sidebox{
+  &__title{
+    #gradient .vertical(@base, darken(@base, 5%));
+    .border-top-radius(5px);
+    .box-shadow(inset 0 2px 0 -1px lighten(@base, 20%));
+    padding: 2px 30px 7px 12px;
+    border: 1px solid darken(@base, 10%);
+    margin: 0;
+
+    &-wrapper,
+    a,
+    span{
+      color: @font;
+      font-weight: normal;
+    }
+  }
+
+  &__body{
+    border: 1px solid darken(@base, 10%);
+    border-top: none;
+    padding: 10px 12px;
+  }
+}
+
+.ty-mainbox-title{
+  color: @price;
+}
+
+// ============================================================ ##Tabs
+
+.ty-tabs{
+  border-bottom: 2px solid darken(@base, 3%);
+
+  &__item{
+    #gradient .vertical(@base, darken(@base, 3%));
+    border: 1px solid darken(@base, 10%);
+    border-bottom: none;
+
+    &.active,
+    &:hover{
+      #gradient .vertical(@secondary_button, darken(@secondary_button, 5%));
+      border-color: darken(@secondary_button, 10%);
+      .box-shadow(inset 0 2px 1px -1px lighten(@secondary_button, 10%));
+
+      .ty-tabs__a{
+        color: white;
+      }
+    }
+  }
+
+  &__a{
+    padding: 10px 23px 8px 20px;
+    font-size: 18px;
+    height: 27px;
+    color: @font;
+  }
+}
+
+.ty-tabs__content{
+  border: 1px solid darken(@base, 3%);
+  border-top: none;
+  padding: 15px 10px;
+}
+
+// ========================================================== ##Popups
+
+.ui-widget-content.ui-dialog {
+  .border-radius(0);
+}
+
+.ui-widget-header .ui-dialog-titlebar-close.ui-state-hover span:before {
+  color: @secondary_button;
+}
+
+// ==================================================== ##Product page
+
+.ty-product-block{
+  &-title{
+    color: @price;
+    padding-bottom: 5px;
+    border-bottom: 1px solid darken(@content_bg, 10%);
+  }
+
+  .ty-list-price{
+    color: lighten(@font, 30%);
+  }
+
+  &__button .ty-btn {
+    margin-right: 10px;
+
+    &+ .ty-btn{
+      margin-left: 0;
+    }
+  }
+}
+
+.ty-qty-in-stock,
+.ty-qty-out-of-stock{
+  font-weight: normal;
+}
+
+.content-description{
+  line-height: 1.7em;
+}
+
+// ============================================================ ##Cart
+
+.ty-cart-content__left-buttons{
+  line-height: 42px;
+}
+
+.ty-cart-content__right-buttons{
+  .ty-btn__primary {
+    background: @price;
+    color: white;
+    border: 1px solid lighten(@price, 1%);
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 35px;
+    font-size: 16px;
+
+    &:hover{
+      background: @base;
+      border-color: darken(@base, 10%);
+      color: darken(@base, 50%);
+    }
+  }
+}
+
+// ======================================================== ##Checkout
+
+.ty-step{
+  &__title,
+  &__title-active,
+  &__title-complete{
+    padding: 8px;
+    border: 1px solid darken(@base, 10%);
+
+    .ty-step__title-txt{
+      color: @font;
+    }
+
+    .ty-btn{
+      background: none;
+      border: none;
+      padding: 0;
+      color: @links;
+      .box-shadow(none);
+    }
+  }
+
+  &__title-left{
+    padding: 0px 5px;
+    font-size: 14px;
+    .border-radius(0);
+    border: 1px solid;
+    color: @font;
+    background: darken(@base, 10%)
+  }
+
+  &__title-complete{
+    .ty-step__title-left{
+      border: none;
+    }
+  }
+
+  &__title-arrow{
+    color: @secondary_button;
+    text-shadow: 0 1px 0 darken(@secondary_button, 10%);
+    display: none;
+  }
+
+  &__title-active{
+    background: @secondary_button;
+    border: 1px solid darken(@secondary_button, 10%);
+
+    .ty-step__title-txt{
+      color: @content_bg;
+    }
+  }
+
+  &__title-txt{
+    font-size: 14px;
+  }
+
+  &__container-active{
+    .ty-step__title-left{
+      color: @content_bg;
+      background: lighten(@secondary_button, 10%);
+    }
+  }
+
+  &__container-active{
+    background: transparent;
+
+  }
+
+  &__body-active{
+    margin-top: -10px;
+    border: 1px solid @base;
+  }
+}
+
+.ty-checkout-buttons{
+  background: transparent;
+  border: none;
+  padding: 17px 20px;
+
+  .ty-btn__secondary{
+    #gradient .vertical(@primary_button, darken(@primary_button, 10%));
+    color: @font;
+    border: none;
+    .box-shadow(none);
+
+    &:hover{
+      color: @font;
+    }
+  }
+}
+
+// ========================================================= ##Modules
+
+.ty-cr-phone-number-link .ty-cr-phone,
+.ty-cr-phone-number-link .ty-cr-phone-prefix {
+  color: @top_panel_links;
+}
+
+.ty-cr-link a {
+  color: @top_panel_links;
+  &:hover {
+    color: lighten(@links, 20%);
+  }
+}
+
+.ty-cart-total {
+  background: lighten(@base, 3%);
+}
+
+.ty-cart-statistic__total-list{
+  margin: 15px -20px -17px;
+  padding: 0 20px 9px;
+  background: @base;
+  border-top-color: white;
+}
+
+.ty-cart-statistic__title{
+  color: @font;
+}
+
+.ty-cart-statistic__value{
+  color: @price;
+}
+
+.ty-cart-statistic__total-title,
+.ty-cart-statistic__total{
+  color: @font;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ty-cart-statistic__total{
+  color: @price;
+}
+
+.ty-sidebox__body .bottom-copyright{
+  color: @font;
+}
+
+.ty-compare-menu__elem{
+  background: @links;
+}
+
+// ========================================================== ##Footer
+
+.ty-footer-menu{
+  &__header{
+    font-weight: normal;
+    color: @font;
+  }
+
+  &__item a{
+    color: @links;
+
+    &:hover{
+      color: @price;
+    }
+  }
+}
+
+.footer-copyright{
+  background: @header_bg;
+  border-top: 1px solid darken(@header_bg, 20%);
+  .box-shadow(inset 0 2px 0 -1px lighten(@header_bg, 10%));
+
+  a:hover{
+    color: lighten(@top_panel_bg, 30%);
+  }
+}
+
+.footer-stay-connected{
+  a:hover{
+    color: white;
+  }
+}
+
+.ty-footer-menu__header{
+  font-size: 18px;
+}
+
+/*GFONTS*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot);
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot) format('embedded-opentype'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+/*/GFONTS*/
+
+// ======================================================= ##Variables
+
+@rounded_corners: true;
+@links: #2271b2;
+@menu_links: #0f0f0f;
+@menu: #efefef;
+@base: #EDEFF1;
+@font: #4a4d4f;
+@primary_button: #ffe422;
+@secondary_button: #2271b2;
+@tertiary_button: #E4E4E4;
+@sidebar: #ffffff;
+@price: #cf082e;
+@discount_label: #f1f1f1;
+@in_stock: #cf082e;
+@out_of_stock: #cf082e;
+@top_panel_links: #ffffff;
+@top_panel_text: #ffffff;
+@footer_text: #ffffff;
+@decorative: #e3e3e3;
+
+@general_bg_color: #ffffff;
+@general_bg_image: transparent;
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+
+@top_panel_bg: #124375;
+@top_panel_bg_full: true;
+@top_panel_bg_transparent: false;
+@top_panel_bg_grad_stop: #073763;
+
+@header_bg: #1e5792;
+@header_bg_full: true;
+@header_bg_transparent: false;
+@header_bg_grad_stop: #1e5792;
+
+@content_bg: #ffffff;
+@content_bg_full: false;
+@content_bg_transparent: false;
+
+@footer_bg: #eeeeee;
+@footer_bg_full: true;
+@footer_bg_transparent: false;
+@footer_bg_grad_stop: #eeeeee;
+
+@body_font: Open Sans;
+@body_font_size: 14px;
+@body_font_style: normal;
+@body_font_weight: normal;
+@headings_font: Open Sans;
+@headings_font_size: 20px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: normal;
+@links_font: Open Sans;
+@links_font_size: 14px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+@price_font: Open Sans;
+@price_font_size: 20px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: normal;
+@buttons_font: Open Sans;
+@buttons_font_size: 14px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: normal;

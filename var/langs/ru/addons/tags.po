@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Теги для товаров и контентных страниц"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Редактирование тегов товаров и контентных страниц."
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "Мое облако тегов"
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "Популярные теги"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Войдите, чтобы добавить теги"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Облако тегов"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "Мои теги"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "Мои теги"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Теги товаров"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "добавить тег"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "Элементы, обозначенные тегом «[tag]»:"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "Мои элементы, помеченные тегом «[tag]»:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Тег"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "Новый тег"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Добавить тег"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Теги для товаров"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Теги для страниц"
+

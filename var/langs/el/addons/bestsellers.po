@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Best Sellers & προϊόντα με έκπτωση"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Συλλέγει Best Sellers Προίόντα & προιόντα με έκπτωση και προσθέτει περιεχόμενο σε μπλοκ για να δείξει αυτά τα προϊόντα"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Ταξινόμηση κατά Best Seller: Άυξουσα"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Ταξινόμηση κατά Best Seller"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Ταξινόμηση κατά έκπτωση: Μικρότερη σε Μεγαλύτερη"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Ταξινόμηση κατά έκπτωση: Μεγαλύτερη σε μικρότερη"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Ποσό πωλήσεων"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Καλύτεροι πωλητές"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Σε έκπτωση"
+

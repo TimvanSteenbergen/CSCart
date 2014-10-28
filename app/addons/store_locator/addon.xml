@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>store_locator</id>
+    <version>2.0</version>
+    <priority>1200</priority>
+    <position>10</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="provider">
+                        <type>header</type>
+                    </item>
+                    <item id="map_provider">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="google">
+                            </item>
+                        </variants>
+                        <default_value>google</default_value>
+                    </item>
+                    <item id="settings">
+                        <type>header</type>
+                    </item>
+                    <item id="store_locator_settings">
+                        <type>template</type>
+                        <default_value>map_provider_settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS `?:store_locations`;</item>
+        <item>DROP TABLE IF EXISTS `?:store_location_descriptions`;</item>
+        <item>
+            CREATE TABLE `?:store_locations` (
+                `store_location_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `position` smallint(5) NOT NULL default '0',
+                `country` char(2) NOT NULL default '',
+                `latitude` double NOT NULL default '0',
+                `longitude` double NOT NULL default '0',
+                `localization` varchar(255) NOT NULL default '',
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`store_location_id`),
+                KEY `status` (`status`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:store_location_descriptions` (
+                `store_location_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `name` varchar(80) NOT NULL default '',
+                `description` varchar(255) NOT NULL default '',
+                `city` varchar(60) NOT NULL default '',
+                PRIMARY KEY  (`store_location_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:store_locations`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:store_location_descriptions`;</item>
+    </queries>
+</addon>

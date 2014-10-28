@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::rma"
+msgid "RMA"
+msgstr "RMA"
+
+msgctxt "Addons::description::rma"
+msgid "Adds a return management system"
+msgstr "Adds a return management system"
+
+msgctxt "Languages::returned_products"
+msgid "Returned products"
+msgstr "Returned products"
+
+msgctxt "Languages::rma_return"
+msgid "Return"
+msgstr "Return"
+
+msgctxt "Languages::no_return_requests_found"
+msgid "No return requests found"
+msgstr "No return requests found"
+
+msgctxt "Languages::returned_product"
+msgid "Returned product"
+msgstr "Returned product"
+
+msgctxt "Languages::returns"
+msgid "Returns"
+msgstr "Returns"
+
+msgctxt "Languages::returns_info"
+msgid "Returns info"
+msgstr "Returns info"
+
+msgctxt "Languages::return_info"
+msgid "Return information"
+msgstr "Return information"
+
+msgctxt "Languages::order_returns"
+msgid "Order returns"
+msgstr "Order returns"
+
+msgctxt "Languages::return_registration"
+msgid "Request a replacement or a refund"
+msgstr "Request a replacement or a refund"
+
+msgctxt "Languages::return_requests"
+msgid "Return requests"
+msgstr "Return requests"
+
+msgctxt "Languages::return_requests_menu_description"
+msgid "View and process return requests from orders placed on your web site."
+msgstr "View and process return requests from orders placed on your web site."
+
+msgctxt "Languages::return_status"
+msgid "Return status"
+msgstr "Return status"
+
+msgctxt "Languages::return_period"
+msgid "Return period"
+msgstr "Return period"
+
+msgctxt "Languages::what_you_would_like_to_do"
+msgid "What would you like to do"
+msgstr "What would you like to do"
+
+msgctxt "Languages::rma_notify_supplier"
+msgid "Notify supplier"
+msgstr "Notify supplier"
+
+msgctxt "Languages::add_reason"
+msgid "Add reason"
+msgstr "Add reason"
+
+msgctxt "Languages::new_reason"
+msgid "New reason"
+msgstr "New reason"
+
+msgctxt "Languages::type_comment"
+msgid "Type comments here"
+msgstr "Type comments here"
+
+msgctxt "Languages::return_requests_note"
+msgid "Go to the list of your return requests"
+msgstr "Go to the list of your return requests"
+
+msgctxt "Languages::privileges.manage_rma"
+msgid "Manage RMA system"
+msgstr "Manage RMA system"
+
+msgctxt "Languages::text_return_change_warning"
+msgid "The status of return #[return_id] will be changed"
+msgstr "The status of return #[return_id] will be changed"
+
+msgctxt "Languages::returnable"
+msgid "Returnable"
+msgstr "Returnable"
+
+msgctxt "Languages::returnable_product"
+msgid "Returnable product"
+msgstr "Returnable product"
+
+msgctxt "Languages::rma_request_statuses"
+msgid "RMA request statuses"
+msgstr "RMA request statuses"
+
+msgctxt "Languages::return_products_information"
+msgid "Return products information"
+msgstr "Return products information"
+
+msgctxt "Languages::declined_products_information"
+msgid "Declined products information"
+msgstr "Declined products information"
+
+msgctxt "Languages::rma_reasons"
+msgid "RMA reasons"
+msgstr "RMA reasons"
+
+msgctxt "Languages::rma_actions"
+msgid "RMA actions"
+msgstr "RMA actions"
+
+msgctxt "Languages::rma"
+msgid "RMA"
+msgstr "RMA"
+
+msgctxt "Languages::return_period_days"
+msgid "Return period (days)"
+msgstr "Return period (days)"
+
+msgctxt "Languages::all_actions"
+msgid "All actions"
+msgstr "All actions"
+
+msgctxt "Languages::order_total_will_changed"
+msgid "The order total will be changed by"
+msgstr "The order total will be changed by"
+
+msgctxt "Languages::shipping_costs_will_changed"
+msgid "Shipping costs will be changed by"
+msgstr "Shipping costs will be changed by"
+
+msgctxt "Languages::decline_products"
+msgid "Decline products"
+msgstr "Decline products"
+
+msgctxt "Languages::create_gift_certificate"
+msgid "Create gift certificate"
+msgstr "Create gift certificate"
+
+msgctxt "Languages::accept_products"
+msgid "Accept products"
+msgstr "Accept products"
+
+msgctxt "Languages::recalculate_order"
+msgid "Recalculate order"
+msgstr "Recalculate order"
+
+msgctxt "Languages::manually_recalculate_order"
+msgid "Recalculate the order manually"
+msgstr "Recalculate the order manually"
+
+msgctxt "Languages::dont_recalculate_order"
+msgid "Do not recalculate order"
+msgstr "Do not recalculate order"
+
+msgctxt "Languages::delete_this_return"
+msgid "Delete this return"
+msgstr "Delete this return"
+
+msgctxt "Languages::update_totals_and_inventory"
+msgid "Update totals and inventory"
+msgstr "Update totals and inventory"
+
+msgctxt "Languages::request_statuses"
+msgid "request statuses"
+msgstr "request statuses"
+
+msgctxt "SettingsSections::rma::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::rma::display_product_return_period"
+msgid "Display product return period"
+msgstr "Display product return period"
+
+msgctxt "SettingsOptions::rma::dont_take_weekends_into_account"
+msgid "Do not take weekends into account when calculating product return period"
+msgstr "Do not take weekends into account when calculating product return period"
+

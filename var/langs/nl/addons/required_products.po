@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::required_products"
+msgid "Required products"
+msgstr "Benodigde producten"
+
+msgctxt "Addons::description::required_products"
+msgid "Makes it possible to specify products required for purchase"
+msgstr "Maakt het mogelijk om vereiste producten op te geven bij aankoop van een bepaald product"
+
+msgctxt "Languages::required_products"
+msgid "Required products"
+msgstr "Benodigde producten"
+
+msgctxt "Languages::required_products_added"
+msgid "The following required product(s) were added to your cart"
+msgstr "De volgende vereiste product(en) werden toegevoegd aan uw winkelwagen"
+
+msgctxt "Languages::required_products_out_of_stock"
+msgid "This product cannot be added to your cart, because following required product(s) are out of stock:"
+msgstr "Dit product kan niet worden toegevoegd aan uw winkelwagen omdat de volgende vereiste product(en) niet op voorraad zijn:"
+

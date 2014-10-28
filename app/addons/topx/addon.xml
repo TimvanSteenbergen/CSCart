@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+	<id>topx</id>
+	<name>Top X</name>
+	<description>Top X</description>
+	<version>1.0</version>
+	<priority>100500</priority>
+	<status>active</status>
+	<queries>
+        <item for="install">DROP TABLE IF EXISTS ?:topx_data;</item>
+		<item for="install">
+            CREATE TABLE `?:topx_data` (
+				`user_id` int(11) unsigned NOT NULL DEFAULT 0,
+				`categories` text NOT NULL DEFAULT '',
+				PRIMARY KEY (`user_id`)
+			) Engine=MyISAM DEFAULT CHARSET UTF8;
+		</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:topx_data;</item>
+	</queries>
+</addon>

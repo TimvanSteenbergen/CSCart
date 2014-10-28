@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "אימות גיל"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "החלפת מצב גיל הגבלת כללים עבור מוצרים וקטגוריות"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "אימות גיל"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "עליך לוודא את גילך כדי לצפות במוצר זה."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "הגיל שלך"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "ודא"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "יום הולדת"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "הגבלת גיל"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "שנים"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "הודעת אזהרה"
+

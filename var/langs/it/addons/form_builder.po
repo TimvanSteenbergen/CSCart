@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Generatore di moduli"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Consente di creare moduli personalizzati (p.e. Contatti o Diventa un affiliato)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nuovo form"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Modifica forma"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Costruttore form"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Testo pulsante di invio"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail a"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Form sicuro (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Aggiungi form"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Select multiple"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Select multiple"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Titolo"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separatore"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciale"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Lista paesi"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista Province"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referente"
+

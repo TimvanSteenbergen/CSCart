@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_changes"
+msgid "My changes"
+msgstr "My changes"
+
+msgctxt "Addons::description::my_changes"
+msgid "A dummy add-on for easier hook design editing"
+msgstr "A dummy add-on for easier hook design editing"

@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Kreator formularzy"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Pozwala na tworzenie niestandardowych formularzy (np. kontakt z nami lub zostań naszym partnerem)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nowy formularz"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Edycja formularza"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Kreator formularzy"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Tekst na przycisku wysłania formularza"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail do"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formularz jest zabezpieczony (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Dodaj formularz"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Baza"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Wiele checkbox'ów"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Lista wielokrotnego wyboru"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Nagłówek"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separator"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Specjalne"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Lista państw"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista stanów"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referer"
+

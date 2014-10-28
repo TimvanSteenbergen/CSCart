@@ -1,0 +1,129 @@
+/* RMA */
+.rma {
+    position: relative;
+}
+.rma .buttons-container {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding: 17px 20px;
+}
+.rma .tabs-content {
+    padding: 0;
+}
+.rma .price,.rma .reason {
+    width: 13%;
+}
+.rma .products {
+    width: 60%;
+}
+.rma .qty {
+    text-align: center;
+    width: 5%;
+}
+.rma .rma-options {
+    margin: 15px 0 -4px 0;
+}
+.rma .tabs {
+    margin-top: 27px;
+}
+.rma-actions {
+    float: left;
+    margin-top: 5px;
+}
+.rma-actions .text-button {
+    height: 16px;
+    margin-right: 20px;
+    padding: 2px 0;
+    font-size: 85%;
+}
+.rma-actions span i {
+    font-size: 120%;
+}
+.rma-actions span {
+    display: inline-block;
+}
+.rma-comments {
+    margin-top: 50px;
+}
+.rma-comments-body {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    line-height: 19px;
+    margin-top: 19px;
+    padding: 15px;
+    position: relative;
+}
+.rma-date {
+    color: #999;
+    font-size: 13px;
+    font-style: normal;
+}
+.rma-register .table {
+    margin-top: 19px;
+}
+.rma-register .table input[type="checkbox"] {
+    margin: 3px 0 0;
+}
+.rma-register .table td {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.rma-register .reason-select {
+    min-width: 170px;
+}
+.rma-register-action {
+    line-height: 27px;
+    padding-right: 3px;
+}
+.rma-return-comments {
+    margin-top: 56px;
+}
+.rma-return-comments .input-textarea-long {
+    display: block;
+    margin-top: 3px;
+    width: 57%;
+}
+.rma-return-table tbody td {
+    padding-bottom:12px;
+}
+.rma-search .input-text {
+    width: 172px;
+}
+.rma-search .status td {
+    padding: 0 32px 1px 0;
+}
+.rma-status {
+    float: right;
+    padding-top: 13px;
+}
+.rma-status em {
+    color: #404040;
+    display: block;
+    font-size: 13px;
+    font-style: normal;
+    padding-bottom: 3px;
+    text-align: right;
+}
+.rma-toggle {
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    margin-top: 18px;
+    padding: 10px;
+}
+.rma-toggle span {
+    color: #404040;
+    font-weight: 700;
+    padding-right: 14px;
+    text-decoration: none;
+}
+.rma-toggle i {
+    padding-left: 5px;
+}
+/* /RMA*/

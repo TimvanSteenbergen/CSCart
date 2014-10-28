@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "谷歌导出"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "扩展数据源插件配合谷歌Base并创建此类数据源的例子"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>注意: 切换这个设置您若需要安装谷歌分类多语言,支持法语,德语,意大利语,西班牙语,和英国英语. 请注意此操作可能需要很长的时间.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "开始导入"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "常规信息"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "为谷歌分类安装其它语言"
+

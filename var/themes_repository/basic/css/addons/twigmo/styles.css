@@ -1,0 +1,89 @@
+.mobile-avail-notice {
+    width: 100%;
+    /*min-height: 120px;*/
+    margin: auto;
+    background: #dbf1ff;
+    min-width: 10px !important;
+    /*float: left;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-avail-notice a,
+.mobile-avail-notice a,
+.mobile-avail-notice a:visited,
+.mobile-avail-notice a:active {
+    display: block;
+    background: #36b8f4;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 10px 0;
+    padding: 5% 1%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.mobile-avail-notice .close {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    line-height: 34px;
+    background: white;
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: 3px solid;
+    color: #36b8f4;
+    font-family: monospace;
+}
+
+.mobile-avail-notice div.buttons-container {
+    position: relative;
+    /*top: 8px;*/
+    white-space: nowrap;
+}
+
+.mobile-avail-notice div.buttons-container span.mobile-store-link {
+    margin: 0 0 0 20px;
+    display: inline-block;
+    margin: 0 0 0 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 40%;
+}
+
+.mobile-avail-notice div.buttons-container span.app-download-link {
+    margin: 0 0 0 16px;
+    display: inline-block;
+    margin: 0 0 0 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 40%;
+}
+
+.mobile-avail-notice span span {
+    background: #36b8f4 !important;
+    border-radius: 10px;
+    height: 100px;
+}
+
+span.mobile-store-link a, span.app-download-link a {
+    position: relative;
+    top: 18px;
+    color: white;
+    font: 30pt Arial;
+    text-transform: none !important;
+    background: transparent;
+}

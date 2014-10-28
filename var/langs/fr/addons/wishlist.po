@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Liste de souhaits"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Lets customers store items in personal wish lists"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Ajouter à la liste de souhaits"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Effacer liste de souhaits"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "View wish list"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Contenu de la liste de souhaits"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Liste de souhaits"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Go to your wishlist"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "L'addition des bons-cadeaux a échoué. Prenez garde à ce que le total ne soit pas à zéro."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Le bon-cadeau a été ajouté à liste de souhaits"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Produits ajoutés dans votre liste de souhaits"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "This product is already in the wish list"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Wish list products"
+

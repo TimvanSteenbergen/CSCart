@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "水印"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "允许您给产品和目录图片添加水印"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "水印"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "图片水印"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "文本水印"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "水印竖直位置"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "水印水平位置"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "水印位置"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "水印图片"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "水印文本"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "z字体"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "字体颜色"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "字体大小 (缩略图)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "字体大小 (大图片)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "水印缩略图"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "弹出大图片的水印"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "应用水印[image_type]失败. 此水印图片没有添加."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "缩略图"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "弹出大图片"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "为拒绝访问您的原始图像,请添加以下指令到您的安装'图片'目录的'.htaccess'中,它会保护您的原始图像.即使是一个原始图像打开,相应的水印图像将会代替显示."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "为自动生成水印图片即使他们没有从您的商店页面请求,请把以下指令添加到您的安装的'images/wateramarked' 目录的'.htaccess'文件中."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "请注意,如果您禁止或卸载了'水印'插件,您必须从'.htaccess'文件中手动移除这些指令. 否则目录和产品图片将不可以用."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "水印创建已禁止.如果有任何\"重写水印规则\"指令在\"images/.htaccess\" 文件中,您必须手动移除这些指令. 否则目录和产品图片将不可以用."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "图片访问"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "水印"
+
+msgctxt "SettingsOptions::watermarks::watermark_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "产品水印"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "调整大小后的图像"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "原始图片尺寸"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "目录水印"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "调整大小后的图像"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "原始图片尺寸"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "图片访问"
+

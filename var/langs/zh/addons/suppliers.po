@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::suppliers"
+msgid "Suppliers"
+msgstr "Suppliers"
+
+msgctxt "Addons::description::suppliers"
+msgid "Adds supplier assignment support to products"
+msgstr "Adds supplier assignment support to products"
+
+msgctxt "Languages::search_by_supplier"
+msgid "Search by supplier"
+msgstr "按供应商搜索"
+
+msgctxt "Languages::notify_supplier"
+msgid "Notify supplier"
+msgstr "通知供应商"
+
+msgctxt "Languages::view_supplier_products"
+msgid "View supplier products"
+msgstr "查看供应商产品"
+
+msgctxt "Languages::supplier"
+msgid "Supplier"
+msgstr "Supplier"
+
+msgctxt "Languages::supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "以下产品在我们的商店中已购买并需要派送."
+
+msgctxt "Languages::suppliers_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "注册在商店中的供应商帐户的排序列表."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "亲爱的先生"
+
+msgctxt "Languages::add_supplier"
+msgid "Add supplier"
+msgstr "添加供应商"
+
+msgctxt "Languages::available_for_supplier"
+msgid "Available for supplier"
+msgstr "现有的供应商"
+
+msgctxt "Languages::editing_supplier"
+msgid "Editing supplier"
+msgstr "编辑供应商"
+
+msgctxt "Languages::supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "Supplier has been deleted successfully."
+
+msgctxt "Languages::privileges.manage_suppliers"
+msgid "Manage suppliers"
+msgstr "Manage suppliers"
+
+msgctxt "SettingsSections::suppliers::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::suppliers::display_supplier"
+msgid "Display product supplier company"
+msgstr "Display product supplier company"
+
+msgctxt "SettingsOptions::suppliers::display_shipping_methods_separately"
+msgid "Display shipping methods to each supplier separately"
+msgstr "Display shipping methods to each supplier separately"
+

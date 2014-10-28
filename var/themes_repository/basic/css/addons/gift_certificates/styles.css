@@ -1,0 +1,140 @@
+/* Gift certificate */
+#gift_cert_data {
+    min-width: 650px;
+}
+.gift .buttons-container {
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #ddd;
+    margin: 15px 0 28px -21px;
+    padding: 17px 20px;
+    width: 100%;
+}
+.gift .form-field-desc {
+    color: #a6a6a6;
+    padding-top: 2px;
+}
+.gift .input-text,.gift .input-textarea,.gift-verify-table {
+    width: 100%;
+}
+.gift .input-text-short {
+    width: 112px;
+}
+.gift .no-items {
+    display: none;
+}
+.gift .icon-plus {
+    float: left;
+    margin: 2px 5px 0 0;
+}
+.gift .product-options {
+    padding-right: 0;
+}
+.gift .product-options .text-button {
+    padding: 0;
+}
+.gift .table {
+    margin-bottom: 15px;
+}
+.gift-history ol li {
+    margin-left: 5px;
+}
+.gift-history ol li span {
+    color: gray;
+}
+.gift-send {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    height: 15px;
+    margin: 12px 0 18px -21px;
+    padding: 15px 20px;
+    width: 100%;
+}
+.gift-send-left {
+    float: right;
+    margin-left: 15px;
+}
+.gift-send-right {
+    font-weight: 700;
+}
+.gift-validate {
+    margin-top: 42px;
+}
+.gift-validate .control-group {
+    width: 235px;
+}
+.gift-validate h4 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 17px;
+    text-align: right;
+}
+.gift-validate .icon-gift {
+    float: left;
+    font-size: 27px;
+    line-height: 27px;
+    color: #ddd;
+}
+.gift-validate .input-text {
+    width: 200px;
+    margin: 0;
+    float: right;
+}
+.gift-validate-error {
+    max-width: 250px;
+}
+.gift-verify {
+    width: 600px;
+}
+.gift-verify .subheader {
+    padding: 0 0 10px;
+}
+.gift-verify .table {
+    margin-top: 0;
+}
+.gift-verify-table td {
+    padding: 7px 13px;
+}
+.gift-cert-amount .help-inline {
+    display: none;
+}
+.error .form-field-desc {
+    color: #b94a48;
+}
+.info-field-body {
+    overflow: visible;
+    padding: 0 0 10px;
+}
+.info-field-body .address_2 {
+    margin-top: -4px;
+}
+.info-field-body .country,
+.info-field-body .state {
+    margin: 2px 0 18px 0;
+}
+.info-field-body .country {
+    width: 52%;
+}
+.info-field-body .state {
+    width: 30%;
+}
+.gift-image {
+    display: block;
+    position: relative;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    color: #c8c8c8;
+    cursor: default;
+}
+.gift-image i {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -16px 0 0 -16px;
+    font-size: 32px;
+    line-height: 32px;
+}
+/* /Gift certificate */

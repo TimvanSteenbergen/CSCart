@@ -1,0 +1,165 @@
+.button-submit.button-wrap-left,
+.button.button-wrap-left,
+.go-button {
+    .gradient (@secondary_button,@secondary_button);
+    .inner-shadow(0,0,0,0,1);
+    border-color: @secondary_button;
+}
+.button-submit.button-wrap-left:hover,
+.button.button-wrap-left:hover,
+.go-button:hover  {
+    .gradient (darken(@secondary_button, 10%), darken(@secondary_button, 10%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@secondary_button, 10%);
+}
+.button-submit.button-wrap-left:hover:active,
+.button.button-wrap-left:hover:active,
+.go-button:active {
+    .gradient (darken(@secondary_button, 15%), darken(@secondary_button, 15%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@secondary_button, 15%);
+}
+.button-action.button-wrap-left,
+.button-submit-action.button-wrap-left,
+.button-submit-big.button-wrap-left,
+.button-big.button-wrap-left {
+    .gradient (@primary_button, @primary_button);
+    .inner-shadow(0,0,0,0,1);
+    border-color: (@primary_button);
+}
+.button-action.button-wrap-left:hover,
+.button-submit-action.button-wrap-left:hover,
+.button-submit-big.button-wrap-left:hover,
+.button-big.button-wrap-left:hover {
+    .gradient (darken(@primary_button, 10%), darken(@primary_button, 10%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@primary_button, 10%);
+}
+.button-action.button-wrap-left:hover:active,
+.button-submit-action.button-wrap-left:hover:active,
+.button-submit-big.button-wrap-left:hover:active,
+.button-big.button-wrap-left:hover:active {
+    .gradient (darken(@primary_button, 16%), darken(@primary_button, 16%));
+    .inner-shadow(0,0,0,0,1);
+    border-color: darken(@primary_button, 16%);
+}
+.buttons-container, .buttons-container-item, .checkout-buttons, .ui-dialog .ui-dialog-content, .product-notification-buttons, .box, .buttons-container.wrap, .login .body-bc, .details-block-box, .entry-page-countries li a:hover, .pagination-helper-container {
+    background-color: lighten(@base, 48%);
+}
+.form-wrap, .payment-methods-wrap { //f7f7f7
+    .box-shadow(inset 0 0px 0 0 lighten(@decorative, 8%));
+}
+.dropdown-multicolumns, .sidebox-important-wrapper .sidebox-title, .step-title-active span.float-left, .notification-content-extended h1, .cm-paging-dots a.active i, .cm-paging-dots a.active:hover i {
+   .gradient (@menu, @menu);
+   color: lighten(@menu, 70%);
+}
+.ui-slider .ui-slider-range.ui-widget-header {
+    .gradient (@menu, @menu);
+    .inner-shadow (0, 1px, 0, 0, 0.25);
+    border-color: @menu;
+    border-top-color: lighten(@menu, 20%);
+}
+
+.sidebox-title.logged > a, .sidebox-title > span{
+    font-family: @headings_font;
+    font-size: @headings_font_size;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    text-decoration: @headings_font_decoration;
+}
+
+ul.dropdown-multicolumns li a.drop, ul.dropdown-multicolumns li.nodrop a {
+    font-family: @headings_font;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    text-decoration: @headings_font_decoration;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    .gradient (@base, @base);
+}
+
+.button.button-wrap-left,
+.go-button {
+    .button_text (@secondary_button)
+}
+
+ul.dropdown-multicolumns {
+    border-color: @menu;
+}
+
+.footer-menu p span {
+    color: lighten(@menu, 20%);
+}
+
+@rounded_corners: off;
+@links: #00caff;
+@menu_links: #f3f3f3;
+@menu: #0dc1e8;
+@base: #7d7c7a;
+@font: #343434;
+@primary_button: #ce232a;
+@secondary_button: #d9d9d9;
+@sidebar: #faf9f5;
+@price: #ce232a;
+@discount_label: #e0365d;
+@in_stock: #68bd43;
+@out_of_stock: #999999;
+@top_panel_links: #d9d9d9;
+@top_panel_text: #d9d9d9;
+@footer_text: #777777;
+@decorative: #f2f0ed;
+@general_bg_color: #403429;
+@general_bg_image: url(../media/images/patterns/Dark_blue/general_bg_image.png);
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+@top_panel_bg_color: transparent;
+@top_panel_bg: transparent;
+@top_panel_bg_grad_stop: transparent;
+@top_panel_bg_full: transparent;
+@top_panel_bg_color_full: transparent;
+@top_panel_bg_grad_stop_full: transparent;
+@header_bg_color: #ffffff;
+@header_bg: transparent;
+@header_bg_grad_stop: #ffffff;
+@header_bg_full: transparent;
+@header_bg_color_full: transparent;
+@header_bg_grad_stop_full: transparent;
+@content_bg_color: #ffffff;
+@content_bg: transparent;
+@content_bg_full: transparent;
+@content_bg_color_full: transparent;
+@content_bg_grad_stop_full: transparent;
+@footer_bg_color: #221919;
+@footer_bg: repeat scroll;
+@footer_bg_grad_stop: #221919;
+@footer_bg_full: transparent;
+@footer_bg_color_full: transparent;
+@footer_bg_grad_stop_full: transparent;
+@body_font: Trebuchet MS,Helvetica,sans-serif;
+@body_font_size: 13px;
+@body_font_style: normal;
+@body_font_weight: normal;
+@headings_font: Trebuchet MS,Helvetica,sans-serif;
+@headings_font_size: 14px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: normal;
+@links_font: Trebuchet MS,Helvetica,sans-serif;
+@links_font_size: 13px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+@price_font: Georgia,serif;
+@price_font_size: 26px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: normal;
+@buttons_font: Trebuchet MS,Helvetica,sans-serif;
+@buttons_font_size: 13px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: bold;
+/*CUSTOMCSS*/
+/*/CUSTOMCSS*/
+

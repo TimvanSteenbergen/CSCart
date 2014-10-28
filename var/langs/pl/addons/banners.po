@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "Zarządzanie banerami"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "Pozwala na tworzenie tekstowych i graficznych banerów"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "Nowy banner"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "Edytowanie baner"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Dodaj baner"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Baner"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "Banery"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "Tworzenie graficznych i tekstowych banerów, które następnie mogą być umieszczone w sklepie."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "Kod bannera"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "Kod bannera do niektórych produktów"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "Zarządzanie banerami"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "Banery"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "Graficzne i tekstowe banery"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "Zobacz banery"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "Zarządzanie banerami"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "Dodaj bannery"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "Dodaj bannery i zamknij"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "Banner graficzny"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "Tekstowy baner"
+
+msgctxt "Languages::banners_statistics"
+msgid "Banners statistics"
+msgstr "Statystyki banerów"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "Widoki"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "Konwersja"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "Po utworzeniu bannera, należy użyć <strong>Edytora szablonów</strong> aby dodać go do sklepu. < br / > < br / > Przejdź do <a href=\"[layouts_href]\" target=\"_blank\"> Projektowanie → Bloki</a>, przejdź do lokacji, gdzie chcesz wstawić banner i dodaj nowy blok typu <strong>bannery</strong>. < br / > < br / > W ustawieniach tego bloku, przejdź na zakładkę <strong>Zawartość</strong>, wybierz wypełnienie<strong>Manulanie</strong> i kliknij na przycisk <strong>Dodaj banery</strong>. < br / > < br / > Zobaczysz listę wszystkich banerów w sklepie. Wybrać te które chcesz umieścic i kliknij przycisk <strong>Dodaj bannery i zamknij</strong>. < br / > < br / > Na koniec, kliknij przycisk <strong>Stwórz</strong>, aby zapisać zmiany."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "Włącz wielojęzykowe obrazki/adresy URL"
+

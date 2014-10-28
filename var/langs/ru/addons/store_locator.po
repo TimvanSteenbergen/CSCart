@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Поиск ближайших магазинов"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Отметки физических магазинов на карте и уведомления покупателей о ближайших магазинах"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Посмотреть на карте"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Получение API-ключа"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Поиск ближайших магазинов"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Блок поиска ближайших магазинов"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Адрес не найден"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Выбрать координаты"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Установить"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Редактирование местоположения магазина"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Новое местоположение магазина"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Добавить местоположение магазина"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Координаты"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "широта"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "долгота"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Все магазины"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Масштаб"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "Управление типом карты"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Управление масштабированием"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Управление масштабом"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Источник карт"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Карта"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

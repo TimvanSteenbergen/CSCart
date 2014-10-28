@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Περιορισμοί πρόσβασης"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Σάς επιτρέπει να περιορίσετε την πρόσβαση στην περιοχή του καταστήματος και της  διαχείρσης  σε συγκεκριμένες διευθύνσεις IP με διαφορετικές επιλογές"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Περιορισμοί πρόσβασης"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Προσθήκη νέας IP"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "Νέες IP"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Προσθήκη νέου ονόματος χώρου"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Νέα Domain"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Προσθήκη Διευθύνσεων e-mail"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Προσθήκη νέας διεύθυνσης e-mail"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Νέα πιστωτική κάρτα"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Προσθήκη πιστωτικής κάρτας"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Διαχείριση των περιορισμών πρόσβασης"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Τομέας"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "H διεύθυνση IP που εισήχθη <b>[entered_ip]</b>  (your IP is <b>[your_ip]</b>)απαγορεύει την πρόσβαση στον πίνακα διαχείρισης από τον υπολογιστή σας."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Ο αριθμός της πιστωτικής κάρτας <b>[cc_number]</b> έχει αποκλειστεί από το διαχειριστή. Παρακαλούμε επικοινωνήστε με τον διαχειρηστή του καταστήματος ή δοκιμάστε μια άλλη."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> δεν είναι έγκυρη ip διεύθυνση"
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b>δεν είναι έγκυρο domain όνομα."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> δεν είναι έγκυρος αριθμός πιστωτικής κάρτας."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Η διεύθυνση e-mail <b> [email] </ b> έχει αποκλειστεί από το διαχειριστή. Παρακαλούμε επικοινωνήστε με τον  διαχειριστή του κατάστημα ή δοκιμάστε έναν άλλο."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Δεν επιτρέπεται η πρόσβαση σε αυτόν τον τομέα"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "Η IP αποκλείστηκε μετά από [number] αποτυχημένες συνδέσεις"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Η διεύθυνση IP σας είναι αποκλεισμένη."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Διαχειριστής καταστήματος"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Η διεύθυνση της IP σας<b>[ip]</b> έχει προστεθεί από τον πίνακα πρόσβασης περιορισμών."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Η διεύθυνση της IP σας<b>[ip]</b>έχει αφαιρεθεί από τον πίνακα πρόσβασης περιορισμών."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Η διεύθυνση της IP σας <b>[ip]</b> έχει αφαιρεθεί από τον πίνακα πρόσβασης περιορισμών."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP από"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP σε"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b></b> - can represent any single character."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "Ips"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Καθιστώ  μόνιμο"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Αριθμός πιστωτικής κάρτας"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Ρυθμίσεις του πίνακα επιλογών διαχειριστή"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Είσοδος στον πίνακα επιλογών του διαχειρηστή από τις προκαθορισμένες διευθύνσεις IP μόνο"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Αποκλεισμός IP μετά από μια σειρά αποτυχημένων προσπαθειών"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Αριθμός ανεπιτυχών προσπαθειών"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Χρόνος μεταξύ ανεπιτυχών προσπάθειών σύνδεσης (δευτερόλεπτα)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Διάστημα για το οποίο IP θα πρέπει να αποκλειστεί (σε ώρες)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Ρυθμίσεις πελάτη"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Αποκλεισμός της IP μετά από μια σειρά αποτυχημένων προσπαθειών"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Αριθμός ανεπιτυχών προσπαθειών"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Χρόνος μεταξύ ανεπιτυχών προσπάθειών σύνδεσης (δευτερόλεπτα)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Διάστημα για το οποίο IP θα πρέπει να αποκλειστεί (σε ώρες)"
+

@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "Noutăți & e-mail-uri"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Lets you manage site news and configure newsletter sending"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "Noutăți site"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Create and send newsletters to your customer."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Manage news that is published in News box on the storefront."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Simplu"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Înscrieți-vă la newsletter-ul nostru"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "News & emails: Newsletter subscription form"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "Noutăți"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "Noutăți & e-mail-uri"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Link-ul dezabonării"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Adăugați abonați din lista de utilizatori"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> este deja în lista de abonați"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Subscribers"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "News list page"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "News page"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Newsletter subscription"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "News"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Email field for newsletter subscription"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "View news"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Manage news"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Newsletter-ul nu a fost trimis pentru că nu a fost găsit nici un destinatar care să se potrivească cu criteriile selectate."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Newsletter-ul(urile) au fost trimise cu succes"
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail cannot be empty"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Se trimite e-mail lui [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "E-mail-ul dvs. a fost adăugat cu succes la lista cu actualizări gratuite"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Adresa dvs. de e-mail este deja abonată."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Adresa dvs. a fost ștearsă cu succes din lista cu actualizări gratuite"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "E-mail-ul dvs. a fost activat cu succes"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Link-ul va fi afișat într-un buletin de știri live"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Buletine informative"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Șabloane"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Răspunzători în mod automat"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Campanii"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Trimite"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Adăugați noutăți"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Adăugați noutăți și închideți"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Numărul de abonați"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Editare listă de discuții"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Numele expeditorului"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "E-mailul expeditorului"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Răspune-ți la"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "E-mail-ul de confirmare"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Nici un răspunzător automat"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Afișează la evaluator"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Afișează în înregistrare"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Afișează pe pagini separate"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Editare noutăți"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "Știri noi"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Statisticile de campanie"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Adăugați o campanie"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Campanie nouă"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Șabloanele buletinului informativ"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Răspunzătoare automate a buletinului informativ"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Subiect"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Adăugați buletin de știri"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Adăugați un template nou"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Adăugați un răspunzător automat"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Subiecte aleatorii (câte unu pe linie)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "Sistemul HTML"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Nici un șablon"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Încărcați"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Campanie"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Trimiteți către"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Adăugați destinatari de la utilizatori"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Customers with abandoned"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Cart or Wishlist"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "which is"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "days old"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Trimiteți un e-mail de test"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Salvați și trimiteți"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Buletin informativ"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Șablonul buletinului informativ"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Răspunzătorul automat al buletinului informativ"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Listă de adrese"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Confirmat"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Abonat la lista [num]"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Abonat"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "V-ați abonat cu succes la actualizări și promoții!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Noi respectăm politica de confidențialitate a datelor dvs. și nu trimitem corespondențe nesolicitate. Ați primit acest e-mail pentru că ați solicitat să primiți actualizări gratuite și promoții.<br /><br /> Dacă doriți să vă dezabonați, vă rugăm să urmați link-ul următor:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "abonament actualizări şi promoţii"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Shared with:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "E-mail-ul expeditorului."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Numele expeditorului (ex: nume companie)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "E-mail-ul la care vor fi trimise răspunsurile."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Dacă mai multe subiecte sunt specificate, e-mail-ul subiectului va fi luat în mod aleatoriu din această listă."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "If the message text contains the unsubscribe link, it will be empty for these users."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Adăugați listele de discuții"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Adăugați abonați"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "New mailing list"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "Adăugați noi abonați"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Buletine de știri trimise per pas"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Setări avansate ale serverului de e-mail"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Modalitatea de trimite a e-mail-urilor"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Setări server SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "Host SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "Utilizator SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "Parolă SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Folosește autenficiare SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Setări program Sendmail"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Rădăcină către programul sendmail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "prin server SMTP"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "prin funcția mail a php-ului"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "prin intermediul unui program de trimite a e-mail-urilor"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "folosește setările predefinite"
+

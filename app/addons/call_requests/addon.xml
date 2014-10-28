@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>call_requests</id>
+    <version>1.0</version>
+    <priority>2300</priority>
+    <position>120</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="info">
+                        <type>info</type>
+                        <handler>fn_call_requests_info</handler>
+                    </item>
+                    <item id="phone">
+                        <type>input</type>
+                    </item>
+                    <item id="phone_prefix_length">
+                        <type>input</type>
+                        <default_value>7</default_value>
+                    </item>
+                    <item id="buy_now_with_one_click">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">
+            CREATE TABLE `?:call_requests` (
+                `request_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `company_id` mediumint(8) unsigned NOT NULL default '0',
+                `order_id` mediumint(8) unsigned NOT NULL default '0',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `status` enum('new', 'in_progress', 'completed', 'no_answer') NOT NULL default 'new',
+                `name` varchar(250) NOT NULL default '',
+                `phone` varchar(128) NOT NULL default '',
+                `time_from` varchar(32) NOT NULL default '',
+                `time_to` varchar(32) NOT NULL default '',
+                `notes` text NOT NULL,
+                `cart_products` text NOT NULL COMMENT 'Serialized data',
+                PRIMARY KEY  (`request_id`),
+                KEY `user_id` (`company_id`,`user_id`),
+                KEY `timestamp` (`timestamp`),
+                KEY `status` (`status`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:call_requests;
+        </item>
+        
+        <item for="install" editions="MULTIVENDOR,ULTIMATE">
+            REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_call_requests', 'Y', 'addons');
+        </item>
+        <item for="install" editions="MULTIVENDOR,ULTIMATE">
+            REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_call_requests', 'Y', 'addons');
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">
+            DELETE FROM ?:privileges WHERE privilege IN ('manage_call_requests', 'view_call_requests');
+        </item>
+
+    </queries>
+
+    <functions>
+        <item for="install">fn_call_requests_addon_install</item>
+    </functions>
+
+</addon>

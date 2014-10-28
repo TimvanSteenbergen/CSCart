@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::ebay"
+msgid "eBay synchronization"
+msgstr "eBay synkronisering"
+
+msgctxt "Addons::description::ebay"
+msgid "Synchronizes products and orders with an eBay account."
+msgstr "Synkroniserer produkter og ordrer med en eBay-konto."
+
+msgctxt "Languages::paypal_required_and_selected"
+msgid "For the selected eBay category PayPal payment method is required. It is selected automatically."
+msgstr "For den valgte eBay kategorien er PayPal betalingsmetode påkrevd. Den er valgt automatisk."
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Wait for shippings cached. Mean time to 3 minutes"
+msgstr "Wait for shippings cached. Mean time to 3 minutes"
+
+msgctxt "Languages::ebay_duration"
+msgid "Listing duration"
+msgstr "Oppføringens varighet"
+
+msgctxt "Languages::list_products_on"
+msgid "List products on"
+msgstr "List produkter på"
+
+msgctxt "Languages::private_listing"
+msgid "Private listing"
+msgstr "Privat liste"
+
+msgctxt "Languages::use_as_default"
+msgid "Use as default"
+msgstr "Bruk som standard"
+
+msgctxt "Languages::ebay_root_category"
+msgid "eBay Root category"
+msgstr "eBay root kategori"
+
+msgctxt "Languages::ebay_category"
+msgid "eBay Category"
+msgstr "eBay kategori"
+
+msgctxt "Languages::ebay_root_sec_category"
+msgid "eBay Secondary root category"
+msgstr "eBay sekundær root kategori"
+
+msgctxt "Languages::ebay_sec_category"
+msgid "eBay Secondary category"
+msgstr "eBay sekundær kategori"
+
+msgctxt "Languages::quantity_to_sell"
+msgid "Quantity to sell"
+msgstr "Antall å selge"
+
+msgctxt "Languages::just_one"
+msgid "Just one"
+msgstr "Bare én"
+
+msgctxt "Languages::more_than_one"
+msgid "More than one"
+msgstr "Mer enn én"
+
+msgctxt "Languages::use_main_image"
+msgid "Export product images"
+msgstr "Eksporter produktbilder"
+
+msgctxt "Languages::selling_method"
+msgid "Selling method"
+msgstr "Salgsmetode"
+
+msgctxt "Languages::online_auction"
+msgid "Online auction"
+msgstr "Online auksjon"
+
+msgctxt "Languages::buy_it_now"
+msgid "Buy it now"
+msgstr "Kjøp den nå"
+
+msgctxt "Languages::ebay_requests"
+msgid "eBay requests"
+msgstr "eBay forespørsler"
+
+msgctxt "Languages::log_type_ebay_requests"
+msgid "eBay requests"
+msgstr "eBay forespørsler"
+
+msgctxt "Languages::errors"
+msgid "Errors"
+msgstr "Feil"
+
+msgctxt "Languages::log_action_all"
+msgid "All"
+msgstr "Alle"
+
+msgctxt "Languages::error_code"
+msgid "Error code"
+msgstr "Feilmelding"
+
+msgctxt "Languages::editing_ebay_template"
+msgid "Editing eBay template"
+msgstr "Redigerer eBay mal"
+
+msgctxt "Languages::new_ebay_template"
+msgid "New eBay template"
+msgstr "Ny eBay mal"
+
+msgctxt "Languages::ebay_templates"
+msgid "eBay templates"
+msgstr "eBay maler"
+
+msgctxt "Languages::ebay_registration_notice"
+msgid "In order to get this information you need first to register your Developer account <a href=\"https://developer.ebay.com/join/\">here</a>.<br /><br />After you registered, you will receive the \"DevID\", \"AppID\" and \"CertID\" keys. So you have to generate the special \"Token\" in order to use this API. In order to generate the \"Token\", please click the \"Get a User Token\" link at the bottom of \"My account\" page (tools box) or follow <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">this link</a>.<br /><br />Please complete this form with the given credentials."
+msgstr "For å få denne informasjonen må du først registrere din Developer konto <a href=\"https://developer.ebay.com/join/\">here</a>.<br /><br />Etter at du har registrert deg, vil du motta \"DevID\", \"AppID\" og \"CertID\" nøkler. Så må du generere en spesiell \"Token\" for å kunne bruke denne API-en. For å generate en \"Token\", vennligst klikk \"Get a User Token\" linken i bunnen av \"My account\" siden (tools box) eller følg <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">denne linken</a>.<br /><br />Fyll ut dette skjemaet med de gitte attester."
+
+msgctxt "Languages::add_ebay_template"
+msgid "Add eBay template"
+msgstr "Legg til eBay mal"
+
+msgctxt "Languages::shipping_type"
+msgid "Shipping type"
+msgstr "Frakt type"
+
+msgctxt "Languages::flat"
+msgid "Flat"
+msgstr "Flat"
+
+msgctxt "Languages::calculated"
+msgid "Calculated"
+msgstr "Beregnet"
+
+msgctxt "Languages::domestic_shipping_service"
+msgid "Domestic shipping service"
+msgstr "Innenriks frakt service"
+
+msgctxt "Languages::international_shipping_service"
+msgid "International shipping service"
+msgstr "Internasjonal frakt service"
+
+msgctxt "Languages::dispatch_days"
+msgid "Dispatch days"
+msgstr "Forsendelse dager"
+
+msgctxt "Languages::ebay_payment_methods"
+msgid "eBay payment methods"
+msgstr "eBay betalingsmetoder"
+
+msgctxt "Languages::paypal_email"
+msgid "PayPal email"
+msgstr "PayPal e-post"
+
+msgctxt "Languages::ebay_category_condition"
+msgid "eBay category condition"
+msgstr "eBay kategori tilstand"
+
+msgctxt "Languages::export_to_ebay"
+msgid "Export to eBay"
+msgstr "Eksporter til eBay"
+
+msgctxt "Languages::ebay_template"
+msgid "eBay template"
+msgstr "eBay mal"
+
+msgctxt "Languages::ebay_orders"
+msgid "eBay orders"
+msgstr "eBay ordrer"
+
+msgctxt "Languages::get_ebay_orders"
+msgid "Get eBay orders"
+msgstr "Hent eBay ordrer"
+
+msgctxt "Languages::ebay"
+msgid "eBay"
+msgstr "eBay"
+
+msgctxt "Languages::wait_for_categories_cached"
+msgid "Wait for categories cached. Mean time to 3 minutes"
+msgstr "Vent til kategorier er ferdig bufret. Gjennomsnittlig tid 3 minutter"
+
+msgctxt "Languages::Some_parameters_is_missing"
+msgid "Some parameters is missing. Please check ebay addon settings"
+msgstr "Det mangler noen parametere. Kontroller ebay addon innstillingene"
+
+msgctxt "Languages::ebay_export_error"
+msgid "An error occurred during product export."
+msgstr "Det oppstod en feil under produkteksporten."
+
+msgctxt "Languages::ebay_success_products_notice"
+msgid "Products have been successfully exported."
+msgstr "Produktene er eksportert."
+
+msgctxt "Languages::ebay_success_orders_notice"
+msgid "Orders have been successfully imported."
+msgstr "Ordrene er importert."
+
+msgctxt "Languages::ebay_failed_orders_notice"
+msgid "An error occurred during order import."
+msgstr "Det oppstod en feil under import av ordre."
+
+msgctxt "Languages::exporting_products_to_ebay"
+msgid "Exporting products to eBay."
+msgstr "Eksporterer produktene til eBay."
+
+msgctxt "Languages::ebay_default_template_not_found"
+msgid "Default template for the [company_name] was not found."
+msgstr "Standardmalen for [company_name] ble ikke funnet."
+
+msgctxt "Languages::delete_this_template"
+msgid "Delete this template"
+msgstr "Slett denne malen"
+
+msgctxt "Languages::test_version"
+msgid "You're using a test version of this module, the validity of which ended on December 7th, 2013. After the end of the test period, the functions of the module will not be available. You can purchase the full version via a <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+msgstr "Du bruker en testversjon av denne modulen gyldigheten endte den 7 desember 2013. Etter slutten av testperioden, vil funksjonene i modulen ikke være tilgjengelig. Du kan kjøpe fullversjonen via  <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+
+msgctxt "Languages::list_product_on_tooltip"
+msgid "Choose the region of the ebay auction for which your site will work"
+msgstr "Velg den regionen for ebay auksjonen hvor nettstedet ditt vil fungere"
+
+msgctxt "Languages::use_as_default_tooltip"
+msgid "Use this template for products with no template defined"
+msgstr "Bruk denne malen for produkter uten definert mal"
+
+msgctxt "Languages::ebay_root_category_tooltip"
+msgid "The product root category at eBay"
+msgstr "Root produktkategorien på eBay"
+
+msgctxt "Languages::ebay_secondary_root_category_tooltip"
+msgid "The additional product root category at ebay"
+msgstr "Ekstra root produktkategori på ebay"
+
+msgctxt "Languages::ebay_second_category_tooltip"
+msgid "The additional product subcategory at ebay"
+msgstr "Den ekstra produkt underkategorien på ebay"
+
+msgctxt "Languages::shipping_type_tooltip"
+msgid "Choose whether to use calculated or flat shipping type. Calculated - shipping will be calculated according to the customers ZIP address, the weight of the package, and the type of shipping services you offer; Flat - shipping rate will be fixed"
+msgstr "Velg om du vil bruke beregnede eller flat frakt type. Beregnet - frakt vil bli beregnet i henhold til de kundene postnummer, vekten av pakken, og den type frakt-tjeneste du tilbyr; Flat - fraktpris vil være fast"
+
+msgctxt "Languages::domestic_shipping_service_tooltip"
+msgid "Choose the shipping service that will be used for delivering products in the domestic region"
+msgstr "Velg frakt tjeneste som vil bli brukt for å levere produkter i den innenlandske regionen"
+
+msgctxt "Languages::international_shipping_service_tooltip"
+msgid "Choose the shipping service that will be used for delivering products worldwide"
+msgstr "Velg frakt tjeneste som vil bli brukt for å levere produkter over hele verden"
+
+msgctxt "Languages::dispatch_days_tooltip"
+msgid "The period of product delivery to a customer  (in days)"
+msgstr "Perioden for produkt levering til kunde (i dager)"
+
+msgctxt "Languages::ebay_payment_method_tooltip"
+msgid "Payment method(s), available for a template"
+msgstr "Betalingsmåte(er), som er tilgjengelig for en mal"
+
+msgctxt "Languages::paypal_email_tooltip"
+msgid "Define login of the PayPal account"
+msgstr "Definer innlogging på PayPal-kontoen"
+
+msgctxt "Languages::eBay_category_condition_tooltip"
+msgid "Define login of the PayPal account"
+msgstr "Definer innlogging på PayPal-kontoen"
+
+msgctxt "Languages::free_shipping_tooltip"
+msgid "Choose, if you want free shipping to be applied to products in a template"
+msgstr "Velg, hvis du ønsker at gratis frakt skal brukes på produkter i en mal"
+
+msgctxt "Languages::shipping_cost_tooltip"
+msgid "Fixed shipping price for one item (if shipping type is Flat). The Shipping and handling setting at eBay."
+msgstr "Fast frakt pris for ett produkt (hvis frakttypen er Flat). Frakt og håndtering innstilling på eBay."
+
+msgctxt "Languages::shipping_cost_additional_tooltip"
+msgid "Shipping price for each additional item in an order (the Each additional item setting at eBay)"
+msgstr "Frakt prisen for hver ekstra produkt i en rekkefølge (Hvert ekstra element innstilling på eBay)"
+
+msgctxt "Languages::shipping_cost_additional"
+msgid "Shipping cost additional"
+msgstr "Ytterligere frakt kostnader"
+
+msgctxt "Languages::text_ult_ebay_template_store_field_tooltip"
+msgid "The storefront, for which a template will be created"
+msgstr "Butikk forsiden, som en mal opprettes"
+
+msgctxt "Languages::shipping_cost_cannot_be_null"
+msgid "Shipping cost must be non-zero"
+msgstr "Frakt kostnaden kan ikke være null"
+
+msgctxt "Languages::ebay_title"
+msgid "eBay product title"
+msgstr "eBay produkttittel"
+
+msgctxt "Languages::ebay_title_tooltip"
+msgid "eBay title the title of the product to be used at eBay"
+msgstr "eBay tittel tittelen på produktet som skal brukes på eBay"
+
+msgctxt "Languages::ebay_description"
+msgid "eBay product description"
+msgstr "eBay Produktbeskrivelse"
+
+msgctxt "Languages::ebay_description_tooltip"
+msgid "eBay description the description of the product to be used at eBay"
+msgstr "eBay beskrivelse beskrivelsen av produktet som brukes på eBay"
+
+msgctxt "Languages::override"
+msgid "Override title and description"
+msgstr "Overstyr tittel og beskrivelse"
+
+msgctxt "Languages::override_tooltip"
+msgid "Choose, if you want the original product name and description to be replaced with that, specified in the ebay product title and the ebay product description fields"
+msgstr "Velg, hvis du vil at det opprinnelige produktnavnet og beskrivelsen skal å bli erstattet med det, spesifisert i ebay produktnavnet og ebay produktbeskrivelsen"
+
+msgctxt "Languages::return_policy"
+msgid "Return Policy"
+msgstr "Returrett"
+
+msgctxt "Languages::return_policy_tooltip"
+msgid "Choose whether returns are allowed or not for products grouped under this template"
+msgstr "Velg om retur er tillatt eller ikke for produkter gruppert under denne malen"
+
+msgctxt "Languages::returns_accepted"
+msgid "Returns Accepted"
+msgstr "Retur akseptert"
+
+msgctxt "Languages::no_returns_accepted"
+msgid "No returns accepted"
+msgstr "Ingen retur godtas"
+
+msgctxt "Languages::contact_time"
+msgid "After receiving the item, your buyer should contact you within"
+msgstr "Etter motatt vare, skal kjøperen kontakte deg innen"
+
+msgctxt "Languages::contact_time_tooltip"
+msgid "Choose the period of time within that the buyer must contact you to approve the purchase reception"
+msgstr "Velg tidsrommet innen kjøperen må kontakte deg for å godkjenne kjøpsmottaket"
+
+msgctxt "Languages::refund_method"
+msgid "Refund will be given as"
+msgstr "Refusjon skal gis som"
+
+msgctxt "Languages::refund_method_tooltip"
+msgid "Choose the action that will replace the return, if it is not allowed"
+msgstr "Velg handlingen som skal erstatte retur, hvis det ikke er tillatt"
+
+msgctxt "Languages::money_back"
+msgid "Money Back"
+msgstr "Pengene tilbake"
+
+msgctxt "Languages::money_back_or_replace"
+msgid "Money back or replacement (buyer's choice)"
+msgstr "Pengene tilbake eller erstatning (kjøpers valg)"
+
+msgctxt "Languages::money_back_or_exchange"
+msgid "Money back or exchange (buyer's choice)"
+msgstr "Pengene tilbake eller bytte (kjøpers valg)"
+
+msgctxt "Languages::cost_paid_by"
+msgid "Return shipping will be paid by"
+msgstr "Returfrakt betales av"
+
+msgctxt "Languages::cost_paid_by_tooltip"
+msgid "Choose, who will pay for the shipping of the return purchase - the seller or the buyer"
+msgstr "Velg, som skal betale for frakt av returvarer - selger eller kjøper"
+
+msgctxt "Languages::seller"
+msgid "Seller"
+msgstr "Selger"
+
+msgctxt "Languages::buyer"
+msgid "Buyer"
+msgstr "Kjøper"
+
+msgctxt "Languages::return_policy_descr"
+msgid "Policy description"
+msgstr "Salgsbeskrivelse"
+
+msgctxt "Languages::return_policy_descr_tooltip"
+msgid "Write the detailed description of your return policy here"
+msgstr "Skrive en detaljert beskrivelse av returrett her"
+
+msgctxt "Languages::large_envelope"
+msgid "Large envelope"
+msgstr "Stor konvolutt"
+
+msgctxt "Languages::large_package"
+msgid "Large package"
+msgstr "Stor pakke"
+
+msgctxt "Languages::package_type_tooltip"
+msgid "If you don't know your package type, select the \"Large package\" option. To ensure the most accurate cost, you will be asked to enter exact package dimensions."
+msgstr "vis du ikke vet pakketype, velger du \"Stor pakke\" alternativet. For å sikre den mest nøyaktige kostnaden, vil du bli bedt om å oppgi eksakte pakke dimensjoner."
+
+msgctxt "Languages::product_out_of_weight"
+msgid "Products with the [ids] id were not exported because their weight equals zero."
+msgstr "Produkter med [ids] id ble ikke eksportert fordi vekten er lik null."
+
+msgctxt "Languages::exported_to_ebay"
+msgid "Exported to eBay"
+msgstr "Eksportert til eBay"
+
+msgctxt "Languages::revised_after_the_latest_export"
+msgid "Revised after the latest export"
+msgstr "Revidert etter siste eksport"
+
+msgctxt "Languages::exporting_images_to_ebay"
+msgid "Exporting images to Ebay"
+msgstr "Eksporterer bilder til Ebay"
+
+msgctxt "Languages::ebay_package"
+msgid "Package/thick envelope"
+msgstr "Pakke/tykk konvolutt"
+
+msgctxt "Languages::ebay_cant_remove_template"
+msgid "You don't have permissions to remove some of the templates as they belong to another owner."
+msgstr "Du har ikke tillatelser til å fjerne noen av malene da de tilhører en annen eier."
+
+msgctxt "Languages::ebay_addon_license_invalid"
+msgid "The current licence number is invalid. The \"Ebay\" add-on was disabled. To re-activate it, please check the add-on license number."
+msgstr "Det nåværende lisensnummer er ugyldig. Tillegget for \"Ebay\" ble deaktivert. For å re-aktivere, vennligst sjekk lisensnummeret for tillegget."
+
+msgctxt "Languages::ebay_commercial_using_title"
+msgid "Activate add-on"
+msgstr "Aktiver tillegg"
+
+msgctxt "Languages::ebay_commercial_using_text"
+msgid "You have installed a commercial add-on. To activate it, enter an add-on license number on the add-on settings page."
+msgstr "Du har installert et kommersiell tillegg. For å aktivere den, må du angi et lisensnummer på tillegg-siden."
+
+msgctxt "Languages::ebay_empty_license_number"
+msgid "The add-on license number is empty."
+msgstr "Lisensnummeretet for tillegget er tomt."
+
+msgctxt "Languages::ebay_templates_not_found"
+msgid "Ebay templates not found"
+msgstr "EBay maler ikke funnet"
+
+msgctxt "SettingsSections::ebay::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::ebay::ebay_license_number"
+msgid "The eBay add-on license number"
+msgstr "Lisensnummer for eBay-tillegget"
+
+msgctxt "SettingsOptions::ebay::notice"
+msgid "Notice"
+msgstr "Melding"
+
+msgctxt "SettingsOptions::ebay::dev_id"
+msgid "eBay DevID"
+msgstr "eBay DevID"
+
+msgctxt "SettingsOptions::ebay::app_id"
+msgid "eBay AppID"
+msgstr "eBay AppID"
+
+msgctxt "SettingsOptions::ebay::cert_id"
+msgid "eBay CertID"
+msgstr "eBay CertID"
+
+msgctxt "SettingsOptions::ebay::token"
+msgid "eBay User Token"
+msgstr "eBay User Token"
+
+msgctxt "SettingsOptions::ebay::listing_mode"
+msgid "Sandbox / Production"
+msgstr "Sandbox / produksjon"
+
+msgctxt "SettingsOptions::ebay::site_id"
+msgid "Default site"
+msgstr "Standardområdet"
+
+msgctxt "SettingsOptions::ebay::ebay_timestamp"
+msgid "eBay timestamp"
+msgstr "eBay tidsstempel"
+
+msgctxt "SettingsVariants::ebay::listing_mode::S"
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgctxt "SettingsVariants::ebay::listing_mode::P"
+msgid "Production"
+msgstr "Produksjon"
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Please wait, shipping information is loaded."
+msgstr "Vennligst vent, fraktinformasjon lastes."
+
+msgctxt "SettingsSections::ebay::license_info"
+msgid "License info"
+msgstr "Lisens informasjon"
+
+msgctxt "Languages::ebay_license_notice"
+msgid "This add-on requires a license to work. You can purchase an eBay add-on license on <a href=\"[ebay_license_url]\" target=\"_blank\">eBay Synchronization</a> page."
+msgstr "Dette tillegget krever en lisens for at det skal fungere. Du kan kjøpe en lisens på denne siden: <a href=\"[ebay_license_url]\" target=\"_blank\">eBay Syynkronisering</a>."
+
+msgctxt "Languages::privileges.view_ebay_templates"
+msgid "View eBay templates"
+msgstr "Vis eBay maler"
+
+msgctxt "Languages::privileges.manage_ebay_templates"
+msgid "Manage eBay templates"
+msgstr "Administrer eBay maler"
+

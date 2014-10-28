@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Call requests"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Adds a call-requests system"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Przepisz telefon"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Phone prefix length"
+msgstr "Długość prefiksu numeru telefonu"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Enable the \"Buy now with one click\" option"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Status zamówienia"
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Zarządzanie żądaniami połączeń"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Przeglądanie żądań połączeń"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Call requests"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Manage customer call requests"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Request call"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Kup teraz przez jedno kliknięcie"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Please enter your email or phone number"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "We have received your request! Our manager will contact you soon."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Phone from settings"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Please enter your phone number or email (for our manager to contact you)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Nowy"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "W trakcie"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Kompletne"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Brak odpowiedzi"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Odpowiedzialny"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Wiadomość"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Żądany produkt"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Сonvenient time"
+msgstr "Сonvenient time"
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Awaiting call"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Zamówienie istnieje"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Nazwa i telefon"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Nie określono nazwy"
+

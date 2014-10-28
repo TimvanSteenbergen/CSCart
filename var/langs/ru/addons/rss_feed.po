@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "RSS-лента"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products, news and pages"
+msgstr "RSS-лента товаров, контентных страниц и новостей"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "RSS-лента"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "Заголовок ленты"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "Описание ленты"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "Сортировать элементы по"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "Показывать код товара"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "Показывать изображение"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "Показывать цену брутто (без надбавок и скидок)"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "Показывать цену нетто (со всеми надбавками и вычетами)"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "Показывать кнопку «В корзину»"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "Создана"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "Обновлена"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "RSS-лента"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "Иконка подписки на RSS-ленту"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "Редактор контента"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "Показывать RSS-ленту для каждой категории"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "Максимальное кол-во товаров в категории"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "Введите эл. почту и полное имя контент-менеджера, например, john@example.com (John Doe)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "Иконка RSS напротив названия категории."
+

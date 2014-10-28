@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Butikk beliggenhet"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Lar deg plassere lokale butikker på kart og informere kundene om de nærmeste butikkene"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Vis på kart"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Skaffer en API-nøkkel"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Butikk beliggenhet"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Butikk beliggenhet blokk"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Adresse ikke funnet"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Velg koordinater"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Sett"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Redigerer butikk beliggenhet"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Ny butikk beliggenhet"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Legg til butikk beliggenhet"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Koordinater"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "breddegrad"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "lengdegrad"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Alle butikker"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Kart-zoom"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "Kart-type kontroll"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Zoom-kontroll"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Skaleringskontroll"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Kartleverandør"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Kart"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Innstillinger"
+
+msgctxt "SettingsOptions::store_locator::store_locator_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

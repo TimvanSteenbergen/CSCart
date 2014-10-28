@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "年龄核实"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "切换年龄限制规则的产品和分类"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "年龄验证"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "您应该验证您的年龄才可以查看此产品."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "您的年龄"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "验证"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "生日"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "年龄显示"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "岁"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "警告消息"
+

@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Formulieren maken"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Zelf formulieren maken (bijvoorbeeld een contactformulier)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nieuw formulier"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Formulier aanpassen"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Formulieren maken"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Bevestigingstekst formulier"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail aan"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formulier is beveiligd (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Formulier toevoegen"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Basis"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Meerkeuze-checkboxen"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Meerkeuze-selectbox"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Kop"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Scheidingsteken"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciaal"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Landenlijst"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Provincielijst"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Verwijzend"
+

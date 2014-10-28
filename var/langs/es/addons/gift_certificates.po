@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "Certificados de regalo"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "Adds a built-in gift certificate system"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "Certificado de regalo"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "Certificados de regalo"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "View and manage the gift certificates that customers have purchased."
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "Gift certificate info"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "Verificación de certificado de regalo"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "Código de certificado de regalo"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "Saldo deudor"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "From"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "a"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "Gift certificate"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "Compre un Certificado de Regalo"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "Logo for <b>gift certificates</b>"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "Amount should be between [min] and [max]"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "El certificado de regalo se ha eliminado correctamente."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "EL código del certificado de regalo introducido es invalido. Por favor inténtelo de nuevo."
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "Add products for a gift"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "Message"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "Validar/Anular certificado de regalo"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "Información detalle"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "Historia"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "Estados de certificados de regalo"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "Gift certificate has been applied"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "El certificado de regalo ya está en uso"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "El certificado de regalo no puede ser aplicado. Por favor póngase en contacto con la administración de la tienda."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "Código del certificado de regalo no valido"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "Gift certificate amount has been changed."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "Comprado"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "Usado"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "Cree certificado de regalo para este cliente"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "Certificados de regalo relacionados"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "Add gift certificate"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "Estado de certificado de regalo"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "Valor actual"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "Correo"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "Estados"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "New certificate"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "Editing certificate"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "Compre ahora"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "Gift Certificate"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "Gift certificate or promo code"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "Gift certificate was added to your cart"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Gift certificate verification"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Gift certificate verification"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "Gift certificate input and validation"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "To"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "From"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "Amount should not be higher than [max] and less than [min]"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "Manage gift certificate system"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Cambiar estado del certificado de regalo a"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "Cantidad mínima"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "Cantidad máxima"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "GC Code prefix"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "Certificados de regalo por página"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "Permitir usar productos gratis"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "Permitir amortizar los gastos de envío con el certificado de regalo"
+

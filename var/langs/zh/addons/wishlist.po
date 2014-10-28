@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Wish List"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Lets customers store items in personal wish lists"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "添加到收藏夹"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "清空收藏夹"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "查看收藏夹"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "收藏夹内容"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "查看收藏夹"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Go to your wishlist"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "添加证书失败.确保汇总金额不为零."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "礼卷已添加到收藏列表"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "该产品已添加到您的收藏夹"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "该产品已经在收藏夹中"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "收藏夹产品"
+

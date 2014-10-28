@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-11 14:00-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Construtor de formulários"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Permite que você crie formulários personalizados (por exemplo, contate-nos ou aplique para parceria)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Novo formulário"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editando formulário"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Construtor de formulário"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Text de submissão de formulário"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Mande e-mail para"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formulário é seguro (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Adicionar formulário"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Caixas de seleção múltipla"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Campo de seleção múltiplo"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Cabeçalho"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separador"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Especial"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Lista de países"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista de Estados"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referência"
+

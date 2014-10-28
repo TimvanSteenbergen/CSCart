@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "Gestionare bannere"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "Vă permite să creaţi text şi bannere vizuale"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "Banner nou"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "Editare banner"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Adăugați un banner"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Banner"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "Bannere"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "Creati bannere grafice şi textuale care pot fi apoi amplasate pe pagina web."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "Codul banner-ului"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "Codul banner-ului pentru câteva din produse"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "Gestionați banere"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "Bannere"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "Bannere vizuale şi textuale"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "Vizualizaţi bannere"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "Gestionaţi bannere"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "Adăugați bannere"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "Adăugați bannere și închideți"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "Baner grafic"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "Text baner"
+
+msgctxt "Languages::banners_statistics"
+msgid "Banners statistics"
+msgstr "Statistici Bannere"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "Vizualizări"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "Conversia"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "După ce creaţi un banner aici, ar trebui să utilizaţi <strong>editorul</strong> să-l adăugaţi în magazin. < br / >< br / > Du-te la <a href=\"[layouts_href]\" target=\"_blank\"> Design → Machete</a>, schimbă locaţia unde doriţi banner-ul să apară, şi adăugaţi un bloc nou cu tip <strong>Bannere</strong>.< br / >< br / > în acest setări de bloc, du-te la fila <strong>Conţinut</strong>, alege <strong>Manual</strong> umplere, şi faceţi clic pe butonul <strong>Adaugă bannere</strong>.< br / >< br / > Veţi vedea lista cu toate bannerele în magazin. Alege unul (e) de care aveţi nevoie şi faceţi clic pe <strong>Adauga bannere şi închide</strong> buton. < br / >< br / > În cele din urmă, faceţi clic pe butonul <strong>Creare</strong> pentru a salva modificările."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "Activaţi imagini/URL-uri multi-limbaj"
+

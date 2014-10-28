@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rma</id>
+    <version>1.0</version>
+    <priority>1600</priority>
+    <position>220</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="display_product_return_period">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="dont_take_weekends_into_account">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item>DROP TABLE IF EXISTS ?:rma_property_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_properties;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_return_products;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_returns;</item>
+        <!--
+        /********************
+        *
+        * field "type" in
+        * R - RMA Reason
+        * A - RMA Action
+        *
+        */
+        -->
+        <item>
+            CREATE TABLE `?:rma_properties` (
+                `property_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default '',
+                `type` char(1) NOT NULL default 'R',
+                `update_totals_and_inventory` char(1) NOT NULL default 'N',
+                PRIMARY KEY  (`property_id`),
+                KEY `c_status` (`property_id`,`status`),
+                KEY `status` (`status`,`type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:rma_property_descriptions` (
+                `property_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `property` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`property_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <!--
+        /*********************
+        *
+        * field "type" in
+        * A - Accepted product
+        * D - Declined product
+        *
+        */
+        -->
+        <item>
+            CREATE TABLE `?:rma_return_products` (
+                `return_id` mediumint(8) unsigned NOT NULL default '0',
+                `item_id` int(11) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `reason` mediumint(8) unsigned NOT NULL default '0',
+                `amount` mediumint(8) unsigned NOT NULL default '0',
+                `type` char(1) NOT NULL default 'A',
+                `price` decimal(12,2) NOT NULL default '0.00',
+                `product_options` text,
+                `product` VARCHAR( 255 ) NOT NULL default '',
+                PRIMARY KEY  (`return_id`,`item_id`,`type`),
+                KEY `reason` (`reason`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:rma_returns` (
+                `return_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `order_id` mediumint(8) unsigned NOT NULL default '0',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `action` mediumint(8) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'O',
+                `total_amount` mediumint(8) unsigned NOT NULL default '0',
+                `comment` text,
+                `extra` text,
+                PRIMARY KEY  (`return_id`),
+                KEY `order_id` (`order_id`),
+                KEY `timestamp` (`timestamp`),
+                KEY `user_id` (`user_id`),
+                KEY `status` (`status`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item lang="en" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('R', 'R', 'Requested', 'has been requested successfully.', 'Your return has been requested successfully.', 'en');
+        </item>
+        <item lang="en" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('A', 'R', 'Approved', 'has been approved.', 'Your return has been approved.', 'en');
+        </item>
+        <item lang="en" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('D', 'R', 'Declined', 'has been declined.', 'Your return has been declined. Please contact shop administration.', 'en');
+        </item>
+        <item lang="en" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (status, type, description, email_subj, email_header, lang_code) VALUES ('C', 'R', 'Completed', 'has been completed.', 'Your return has been completed. Thank you for choosing us.', 'en');
+        </item>
+        <item lang="ru" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', '&#x412;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;', '&#x431;&#x44B;&#x43B; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;', '&#x412;&#x430;&#x448; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;. &#x421;&#x43F;&#x430;&#x441;&#x438;&#x431;&#x43E;, &#x447;&#x442;&#x43E; &#x432;&#x44B;&#x431;&#x440;&#x430;&#x43B;&#x438; &#x43D;&#x430;&#x441;.', 'ru');
+        </item>
+        <item lang="ru" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', '&#x420;&#x430;&#x441;&#x441;&#x43C;&#x430;&#x442;&#x440;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x439;', '&#x431;&#x44B;&#x43B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;.', '&#x412;&#x430;&#x448; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;.', 'ru');
+        </item>
+        <item lang="ru" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', '&#x41F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x436;&#x434;&#x435;&#x43D;', '&#x431;&#x44B;&#x43B; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;', '&#x412;&#x430;&#x448; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;', 'ru');
+        </item>
+        <item lang="ru" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', '&#x41E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x435;&#x43D;', '&#x431;&#x44B;&#x43B; &#x43E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x435;&#x43D;', '&#x412;&#x430;&#x448; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x442; &#x431;&#x44B;&#x43B; &#x43E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x435;&#x43D;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x441;&#x432;&#x44F;&#x436;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x441; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x435;&#x439; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430;.', 'ru');
+        </item>
+        <item lang="da" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', 'Anmodning', 'Din anmoding er blevet godkendt', 'Din anmodning er blevet godkendt', 'da');
+        </item>
+        <item lang="da" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', 'Godkendt', 'Er blevet godkendt', 'Din RMA er blevet godkendt', 'da');
+        </item>
+        <item lang="da" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', 'Afvist', 'Er blevet afvist', 'Din RMA er blevet afvist. Kontakt venligst butikkens administration', 'da');
+        </item>
+        <item lang="da" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', 'F&#xE6;rdig behandlet', 'Er f&#xE6;rdig behandlet', 'Din RMA er afsluttet. Tak fordi du valgte os', 'da');
+        </item>
+        <item lang="el" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', '&#x396;&#x3AE;&#x3C4;&#x3B7;&#x3C3;&#x3B7;', '&#x3B6;&#x3B7;&#x3C4;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5; &#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3C5;&#x3C7;&#x3CE;&#x3C2;.', '&#x397; &#x3B1;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B6;&#x3B7;&#x3C4;&#x3AE;&#x3B8;&#x3B7;&#x3BA;&#x3B5; &#x3B5;&#x3C0;&#x3B9;&#x3C4;&#x3C5;&#x3C7;&#x3CE;&#x3C2;.', 'el');
+        </item>
+        <item lang="el" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', '&#x395;&#x3B3;&#x3BA;&#x3C1;&#x3B9;&#x3C3;&#x3B7;', '&#x3B5;&#x3B3;&#x3BA;&#x3C1;&#x3AF;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B1;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B5;&#x3B3;&#x3BA;&#x3C1;&#x3AF;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', 'el');
+        </item>
+        <item lang="el" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', '&#x391;&#x3C0;&#x3CC;&#x3C1;&#x3C1;&#x3B9;&#x3C8;&#x3B7;', '&#x3B1;&#x3C0;&#x3BF;&#x3C1;&#x3C1;&#x3AF;&#x3C6;&#x3C4;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B1;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3B1;&#x3C0;&#x3BF;&#x3C1;&#x3AF;&#x3C6;&#x3B8;&#x3B7;&#x3BA;&#x3B5;. &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3BA;&#x3B1;&#x3BB;&#x3BF;&#x3CD;&#x3BC;&#x3B5; &#x3B5;&#x3C0;&#x3B9;&#x3BA;&#x3BF;&#x3B9;&#x3BD;&#x3C9;&#x3BD;&#x3AE;&#x3C3;&#x3C4;&#x3B5; &#x3BC;&#x3B5; &#x3C4;&#x3BF;&#x3BD; &#x3B4;&#x3B9;&#x3B1;&#x3C7;&#x3B5;&#x3B9;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3AE; &#x3C4;&#x3BF;&#x3C5; &#x3BA;&#x3B1;&#x3C4;&#x3B1;&#x3C3;&#x3C4;&#x3AE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;..', 'el');
+        </item>
+        <item lang="el" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', '&#x39F;&#x3BB;&#x3BF;&#x3BA;&#x3BB;&#x3AE;&#x3C1;&#x3C9;&#x3C3;&#x3B7;', '&#x3BF;&#x3BB;&#x3BF;&#x3BA;&#x3BB;&#x3B7;&#x3C1;&#x3CE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;.', '&#x397; &#x3B1;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C3;&#x3B1;&#x3C2; &#x3BF;&#x3BB;&#x3BF;&#x3BA;&#x3BB;&#x3B7;&#x3C1;&#x3CE;&#x3B8;&#x3B7;&#x3BA;&#x3B5;. &#x395;&#x3C5;&#x3C7;&#x3B1;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3CD;&#x3BC;&#x3B5; &#x3C0;&#x3BF;&#x3C5; &#x3BC;&#x3B1;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3AD;&#x3BE;&#x3B1;&#x3C4;&#x3B5;.', 'el');
+        </item>
+        <item lang="es" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', 'Solicitada', 'ha sido solicitada con &#xE9;xito.', 'Su petici&#xF3;n de devoluci&#xF3;n ha sido solicitada con &#xE9;xito.', 'es');
+        </item>
+        <item lang="es" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', 'Aceptada', 'ha sido aceptada.', 'Su petici&#xF3;n de devoluci&#xF3;n ha sido aprobada.', 'es');
+        </item>
+        <item lang="es" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', 'Rechazada', 'ha sido rechazada.', 'Su petici&#xF3;n de devoluci&#xF3;n ha sido rechazada. Por favor contacta con la administraci&#xF3;n de la tienda.', 'es');
+        </item>
+        <item lang="es" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', 'Completada', 'ha sido completada.', 'Su petici&#xF3;n de devoluci&#xF3;n ha sido completada. Gracias por elegirnos.', 'es');
+        </item>
+         <item lang="ro" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', 'Solicitat', 'a fost solicitat cu success.', 'Cererea dvs. de returnare a fost depus&#x103; cu succes.', 'ro');
+        </item>
+        <item lang="ro" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', 'Aprobat', 'a fost aprobat.', 'Solicitarea dvs. de returnare a fost aprobat&#x103;.', 'ro');
+        </item>
+        <item lang="ro" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', 'Respins', 'a fost respins.', 'Solicitarea dvs. de returnare a fost respins&#x103;. V&#x103; rug&#x103;m contacta&#x21B;i administra&#x21B;ia magazinului.', 'ro');
+        </item>
+        <item lang="ro" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', 'Complet&#x103;', 'a fost finalizat.', 'Solicitarea dvs. de returnare a fost finalizat&#x103;. V&#x103; mul&#x21B;umim c&#x103; ne-a&#x21B;i ales.', 'ro');
+        </item>
+         <item lang="sl" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('R', 'R', 'Zahteva', 'zahteva je bila uspe&#x161;na', 'Va&#x161;a vrnitev je bila zahtevana uspe&#x161;no.', 'sl');
+        </item>
+        <item lang="sl" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('A', 'R', 'Odobreno', 'je bilo odobreno.', 'Va&#x161;a vrnitev je bila odobrena.', 'sl');
+        </item>
+        <item lang="sl" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('D', 'R', 'Zavrnjeno', 'je bilo zavrnjeno', 'Va&#x161;a vrnitev je bila zavrnjena. Prosimo, kontaktirajte administratorja.', 'sl');
+        </item>
+        <item lang="sl" table="status_descriptions">
+            REPLACE INTO ?:status_descriptions (`status`, `type`, `description`, `email_subj`, `email_header`, `lang_code`) VALUES ('C', 'R', 'Kon&#x10D;ano', 'je bilo kon&#x10D;ano.', 'Va&#x161;e vra&#x10D;ilo je bilo kon&#x10D;ano. Hvala, ker ste nas izbrali.', 'sl');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('R', 'R', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('A', 'R', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('D', 'R', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:statuses (status, type, is_default) VALUES ('C', 'R', 'Y');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('A', 'R', 'inventory', 'I');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('C', 'R', 'inventory', 'I');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('D', 'R', 'inventory', 'D');
+        </item>
+        <item>
+            REPLACE INTO ?:status_data (status, type, param, value) VALUES ('R', 'R', 'inventory', 'I');
+        </item>
+        <item for="uninstall">DELETE FROM ?:status_descriptions WHERE type = 'R'</item>
+        <item for="uninstall">DELETE FROM ?:status_data WHERE type = 'R'</item>
+        <item for="uninstall">DELETE FROM ?:statuses WHERE type = 'R'</item>
+
+        <item type="file">database/data.sql</item>
+        <item type="file" lang="en" table="rma_property_descriptions">database/lang_en.sql</item>
+        <item type="file" lang="ru" table="rma_property_descriptions">database/lang_ru.sql</item>
+        <item type="file" lang="es" table="rma_property_descriptions">database/lang_es.sql</item>
+        <item type="file" lang="el" table="rma_property_descriptions">database/lang_el.sql</item>
+        <item type="file" lang="da" table="rma_property_descriptions">database/lang_da.sql</item>
+        <item type="file" lang="ro" table="rma_property_descriptions">database/lang_ro.sql</item>
+        <item type="file" lang="sl" table="rma_property_descriptions">database/lang_sl.sql</item>
+
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('manage_rma', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_rma'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_property_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_properties;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_return_products;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_returns;</item>
+    </queries>
+    
+</addon>

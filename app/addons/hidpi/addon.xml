@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>hidpi</id>
+    <version>1.0</version>
+    <priority>1</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <functions>
+        <item for="install">fn_hidpi_install</item>
+        <item for="uninstall">fn_hidpi_uninstall</item>
+    </functions>
+</addon>

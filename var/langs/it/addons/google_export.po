@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Esportazione Google"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Espande l'add-on di feed di dati per lavorare con Google Base e crea un esempio di tali feed di dati"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Nota: attivare o disattivare questa impostazione, se avete bisogno di categorie Google multilingue installate. Supporta, francese, tedesco, italiano, spagnolo e inglese britannico. Prestare attenzione che questa operazione può richiedere una notevole quantità di tempo.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Avviare l'importazione"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Informazioni generali"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Installare lingue aggiuntive per le categorie Google"
+

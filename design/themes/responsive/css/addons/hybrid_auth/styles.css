@@ -1,0 +1,12 @@
+/*  rus_hybrid_auth */
+
+.hybrid-auth-icon {
+    margin-right: 3px
+}
+
+.link-unlink-provider img {
+    opacity:0.25;
+    filter:alpha(opacity=25);
+}
+
+/* rus_hybrid_auth */

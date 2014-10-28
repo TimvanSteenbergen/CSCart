@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>bestsellers</id>
+    <version>1.0</version>
+    <priority>2300</priority>
+    <position>120</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item>DROP TABLE IF EXISTS ?:product_sales</item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:product_sales` (
+                `category_id` mediumint(8) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `amount` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`category_id`,`product_id`),
+                KEY `pa` (`product_id`,`amount`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:product_sales</item>
+    </queries>
+</addon>

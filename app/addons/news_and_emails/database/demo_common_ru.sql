@@ -1,0 +1,1 @@
+REPLACE INTO ?:common_descriptions (`object_id`, `object_type`, `description`, `lang_code`, `object`, `object_holder`) VALUES ('1', '', '', 'ru', 'Рассылка 1', 'mailing_lists');

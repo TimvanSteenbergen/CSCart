@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "ניהול באנרים"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "מאפשר לך ליצור טקסט וכרזות"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "באנר חדש"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "עריכת באנר"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "הוסף באנר"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "באנר"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "באנרים"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "יצירת באנרים גרפיקה וטקסט והצגתם בדף החנות."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "קוד הבאנר"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "באנר קוד עבור מוצרים מסוימים"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "נהל באנרים"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "באנרים"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "באנרים מראה וטקסט"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "תצוגת באנרים"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "נהל באנרים"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "הוסף באנרים"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "הוסף באנרים וסגור"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "באנר גרפיקה"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "באנר טקסט"
+
+msgctxt "Languages::banners_statistics"
+msgid "Banners statistics"
+msgstr "סטטיסטיקת באנרים"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "צפיות"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "המרה"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "כללי"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "אפשר תמונות/כתובות URL מרובות שפות"
+

@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "RSS feed"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products, news and pages"
+msgstr "Generates RSS feeds for products, news and pages"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "RSS feed"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "Feed title"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "Feed description"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "Sort items by"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "Display SKU"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "Display image"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "Display gross price"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "Display net price"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "Display add to cart button"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "Created"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "Updated"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "RSS feed"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "RSS feed subscription icon"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "Content editor"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "Show RSS feed for each category"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "Max product number per category"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "RSS icon near category title."

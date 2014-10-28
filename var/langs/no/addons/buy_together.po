@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Kjøp sammen"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Lar deg sette opp rabatter på enkelte produkt-kombinasjoner"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Kjøp sammen"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Angi alternativer"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Total listepris"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Prisen for alle"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Legge til alle i handlevognen"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Rediger kombinasjon"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Totalpris: [total_price], Rabatt: [discount], Kombinasjonen pris: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Vis i kampanjer"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Kombinasjonsprodukt"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Del rabatt"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator addon"
+msgstr "[product_name] kan ikke legges til kombinasjonen. Kjøp sammen er ikke kompatibel med Product configurator-tillegget"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing addon"
+msgstr "[product_name] kan ikke legges til kombinasjonen. Kjøp sammen er ikke kompatibel med Recurring billing-tillegget"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Kombinasjonen kan ikke legges til i handlevognen"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] hadde ikke nok mengde ([amount]) og ble fjernet fra handlevognen"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Angi produktalternativer før du legger til denne produktkombinasjon i handlevognen."
+

@@ -1,0 +1,23 @@
+{
+	"default_style": "satori",
+	"names": {
+		"reddish": "Reddish",
+		"satori": "Satori",
+		"dark_blue": "Dark Blue",
+		"greeny": "Greeny",
+		"yellow": "Yellow",
+		"facebook": "Facebook",
+		"ocean": "Ocean",
+		"woody": "Woody"
+	},
+	"default": {
+		"reddish": true,
+		"satori": true,
+		"dark_blue": true,
+		"greeny": true,
+		"yellow": true,
+		"facebook": true,
+		"ocean": true,
+		"woody": true
+	}
+}

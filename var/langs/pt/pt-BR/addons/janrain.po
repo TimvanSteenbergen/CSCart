@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-11 14:00-0400\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Acrescenta o recurso de login social. Com ele os clientes poderão fazer login na loja usando Facebook, Twitter, etc."
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Obtenha estas informações e configure o login social em <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Login social"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "O campo senha e outros campos obrigatórios estão vazios. Atualize o seu cadastro."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Infelizmente não foi possível criar o cadastro e fazer login na loja devido a um destes motivos:<br />- O cadastro já havia sido feito usando outro login social com o mesmo endereço de e-mail.<br />- O cadastro já havia sido feito na loja usando o endereço de e-mail.<br />Entre em contato conosco para resolver o problema."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Informações gerais"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "Chave de API"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Domínio do aplicativo"
+

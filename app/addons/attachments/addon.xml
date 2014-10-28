@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>attachments</id>
+    <version>1.0</version>
+    <priority>600</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:attachments;</item>
+        <item>DROP TABLE IF EXISTS ?:attachment_descriptions;</item>
+        <item>
+            CREATE TABLE `?:attachments` (
+                `attachment_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `object_type` varchar(30) NOT NULL default '',
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `type` char(1) NOT NULL default '',
+                `position` int(11) NOT NULL default '0',
+                `filename` varchar(100) NOT NULL default '',
+                `filesize` int(11) unsigned NOT NULL default '0',
+                `usergroup_ids` varchar(255) NOT NULL default '0',
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`attachment_id`),
+                KEY `object_type` (`object_type`,`object_id`),
+                KEY `type` (`type`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:attachment_descriptions` (
+                `attachment_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `description` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`attachment_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:attachments;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:attachment_descriptions;</item>
+    </queries>
+</addon>

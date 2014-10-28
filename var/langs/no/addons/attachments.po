@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Vedlegg"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Gjør det mulig å legge med vedlegg til produkter"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Vedlegg"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Nytt vedlegg"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Legg til vedlegg"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Redigerer vedlegg"
+

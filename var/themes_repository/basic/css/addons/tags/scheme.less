@@ -1,0 +1,14 @@
+.tag span {
+    background-color: lighten(@base, 40%);
+    color: darken(@base, 10%);
+    text-shadow: 0 1px 0 lighten(@base, 50%);
+}
+.tag span:before {
+    border-color:transparent lighten(@base, 40%) transparent transparent;
+}
+.tag:hover .delete-icon .icon-cancel-circle {
+    color: lighten(@base, 15%);
+}
+.tag:hover .delete-icon:hover .icon-cancel-circle {
+    color: darken(@base, 20%);
+}

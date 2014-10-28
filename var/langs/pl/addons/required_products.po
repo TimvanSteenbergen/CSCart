@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::required_products"
+msgid "Required products"
+msgstr "Wymagane produkty"
+
+msgctxt "Addons::description::required_products"
+msgid "Makes it possible to specify products required for purchase"
+msgstr "Dodatek umożliwia dodanie produktów, które są wymagane do złożenia zamówienia i zapłaty."
+
+msgctxt "Languages::required_products"
+msgid "Required products"
+msgstr "Wymagane produkty"
+
+msgctxt "Languages::required_products_added"
+msgid "The following required product(s) were added to your cart"
+msgstr "Następujące wymagane produkt(y) zostały dodane do twojego koszyka"
+
+msgctxt "Languages::required_products_out_of_stock"
+msgid "This product cannot be added to your cart, because following required product(s) are out of stock:"
+msgstr "Ten produkt nie może zostać dodany do twojego koszyka, ponieważ następujące wymagane produkt(y) nie znajdują się w magazynie:"
+

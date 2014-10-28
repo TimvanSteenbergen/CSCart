@@ -1,0 +1,14 @@
+/* Banners */
+.banners img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.banner-link {
+    display: block;
+}
+.ad-container .pict {
+    max-width: 100%;
+    height: auto;
+}
+/* /Banners */

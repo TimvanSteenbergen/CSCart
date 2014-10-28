@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "დანართები"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "შესაძლებელი იყოს დანართების მიმაგრება პროდუქტებთან"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "დანართები"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "ახალი დანართი"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "დანართის დამატება"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "დანართის რედაქტირება"
+

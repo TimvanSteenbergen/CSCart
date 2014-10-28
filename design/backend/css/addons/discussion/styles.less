@@ -1,0 +1,129 @@
+/* Comments & reviews add-on */
+.ufa .post-item input[type="text"] {
+	max-width: 909px !important;
+}
+.post-item {
+	margin-bottom: 20px;
+	padding: 6px 25px 10px 11px;
+	background: #fafafa;
+	.summary {
+		margin-bottom: 10px;
+		input, textarea {
+			width: 909px;
+			background: #fafafa;
+			border-color: #fafafa;
+			.box-shadow(none);
+		}
+		input[type="text"] {
+			margin-bottom: 4px;
+			width: 100%;
+			max-width: none !important;
+			font-weight: bold;
+			border-bottom-color: #e1e1e1;
+		}
+		textarea {
+			width: 100%;
+			max-width: none;
+			height: 66px;
+			min-height: 66px;
+		}
+        span {
+            &.shift-input {
+                display: block;
+                border-bottom: 1px solid #e1e1e1;
+                font-weight: bold;
+                padding-bottom: 4px;
+            }
+        }
+        .shift-input {
+            margin-bottom: 10px;
+        }
+	}
+	.tools {
+		overflow: hidden;
+		.hidden-tools a {
+			visibility: hidden;
+		}
+		input {
+			margin-right: 8px;
+		}
+		.label {
+			margin-right: 10px;
+		}
+		.muted {
+			margin-right: 10px;
+            float: left;
+		}
+	}
+	&:hover {
+		.input-hidden {
+			background: #fff;
+			border-color: #ccc;
+			.box-shadow(0 1px 1px rgba(0, 0, 0, 0.075) inset);
+		}
+		.hidden-tools a {
+			visibility: visible;
+		}
+	}
+	.post-object {
+        margin-left: 170px;
+        margin-right: 300px;
+        display: block;
+        width: 300px;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+	}
+}
+
+/* Rate stars */
+.controls .rating {
+    margin-top: 8px;
+    float: left;
+}
+.rating {
+    margin-top: 2px;
+    float:right;
+}
+.rating label {
+    display: block;
+    margin: 0;
+}
+.rating input {
+    float: left;
+}
+.rating:not(:checked) > input {
+    position: absolute;
+    left: -9999px;
+    clip: rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float: right;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.2;
+    margin-right: 3px;
+    text-indent: -9999px;
+    width: 14px;
+    height: 14px;
+    background: url("../media/images/lib/twitterbootstrap/glyphicons-halflings.png") no-repeat -144px 0;  
+    opacity: 0.7;
+}
+.rating > input:checked ~ label {
+    background-position: -120px 0;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    background-position: -120px 0;
+    opacity: 1;
+}
+/* /Rate stars */

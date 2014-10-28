@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Bestsellers & on sale products"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Collects best selling & on sale product data and adds block fillings to show such products"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "按畅销排序: 低到高"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "按畅销排序"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sort by discount: Low to High"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sort by discount: High to Low"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "销售金额"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "热销产品"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "On sale"
+

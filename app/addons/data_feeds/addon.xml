@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>data_feeds</id>
+    <version>1.0</version>
+    <priority>4000</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" lang="en" table="data_feed_descriptions">database/demo_data_feed_descriptions_en.sql</item>
+        <item for="demo" type="file" lang="ru" table="data_feed_descriptions">database/demo_data_feed_descriptions_ru.sql</item>
+        <item>DROP TABLE IF EXISTS `?:data_feeds`</item>
+        <item>
+            CREATE TABLE `?:data_feeds` (
+                `datafeed_id` int(11) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `categories` text NOT NULL default '',
+                `products` text NOT NULL default '',
+                `fields` text NOT NULL default '',
+                `export_location` char(1) NOT NULL default 'L',
+                `export_by_cron` char(1) NOT NULL default 'N',
+                `ftp_url` varchar(255) NOT NULL default '',
+                `ftp_user` varchar(50) NOT NULL default '',
+                `ftp_pass` varchar(50) NOT NULL default '',
+                `file_name` varchar(50) NOT NULL default '',
+                `enclosure` char(1) NOT NULL default '',
+                `csv_delimiter` char(1) NOT NULL default '',
+                `exclude_disabled_products` char(1) NOT NULL default 'N',
+                `export_options` text NOT NULL default '',
+                `save_dir` varchar(255) NOT NULL default '',
+                `status` char(1) NOT NULL default '',
+                PRIMARY KEY  (`datafeed_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:data_feeds`</item>
+        <item>DROP TABLE IF EXISTS `?:data_feed_descriptions`</item>
+        <item>
+            CREATE TABLE `?:data_feed_descriptions` (
+                `datafeed_id` int(11) unsigned NOT NULL default '0',
+                `datafeed_name` varchar(255) NOT NULL default '',
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`datafeed_id`, `lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:data_feed_descriptions`</item>
+    </queries>
+</addon>

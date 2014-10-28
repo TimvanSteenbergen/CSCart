@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Spørreundersøkelser"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Legger til mulighet for egendefinerte spørreundersøkelser på nettsiden"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Sentral"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Sideboks"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Svar med kommentarer"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Du har allerede fullført denne spørreundersøkelsen."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Totalt antall stemmer"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Spørreundersøkelser"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Ny spørreundersøkelse"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Redigerer spørreundersøkelse"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Spørreundersøkelser"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Du har allerede fullført denne spørreundersøkelsen"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Spørreundersøkelser"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Spørreundersøkelse"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Spørsmål"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Statistikk for spørreundersøkelse"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Legg til spørreundersøkelser og lukk"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Legg til Spørreundersøkelser"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Du må svare på alle de obligatoriske spørsmålene"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Takk for at du tok deg tid til å fullføre denne spørreundersøkelsen."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Resultatet fra spørreundersøkelsen synlig for"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "ingen"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "brukere som stemte"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "alle (i et pop-up-vindu)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Spørreundersøkelsens topptekst"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Spørreundersøkelsens bunntekst"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Melding for spørreundersøkelse"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Nytt spørsmål"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Legg til Spørsmål"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Redigerer spørsmål"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Legg til spørreundersøkelse"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Totalt antall innsendte spørreundersøkelsesskjemaer"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Antall spørreundersøkelsesskjemaer gjennomført i sitt fulle"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Første spørreundersøkelsesskjema avgitt"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Siste spørreundersøkelsesskjema sendt inn"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Statistikk etter spørsmål"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Vis svar"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Stemmer"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Svar"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Spørsmåltekst"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Velg ett alternativ"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Velg ett eller flere alternativer"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Gi et svar som tekst"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Svartekst"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Tekstboks"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Melding som vises på butikkforsiden etter at spørreundersøkelsen er fullført."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Stemmer på siden"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Svar på siden"
+

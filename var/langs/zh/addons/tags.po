@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "标签"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "启用产品标签"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Manage product and content page tags."
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "管理被添加到您商店中不同页面的标签."
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "热门标签"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "登录输入标签"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "标签云"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "我的标签"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "标签摘要"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "标签"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "标签"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "产品标签"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "add a tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "项目标记的标签 \"[tag]\":"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "我的项目标记的标签 \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "标签"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "新的标签"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "添加标签"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "产品标签"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "页面标签"
+

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>barcode</id>
+    <version>1.0</version>
+    <priority>2500</priority>
+    <position>4</position>
+    <default_language>en</default_language>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_image">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="elm_image_info">
+                        <type>info</type>
+                        <handler>fn_get_barcode_image</handler>
+                        <variants/>
+                    </item>
+                    <item id="elm_configs">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="type">
+                        <type>selectbox</type>
+                        <default_value>C128B</default_value>
+                        <variants>
+                            <item id="C128A">
+                            </item>
+                            <item id="C128B">
+                            </item>
+                            <item id="C128C">
+                            </item>
+                            <item id="I25">
+                            </item>
+                            <item id="C39">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="output">
+                        <type>selectbox</type>
+                        <default_value>png</default_value>
+                        <variants>
+                            <item id="png">
+                            </item>
+                            <item id="jpeg">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="text">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                        <variants>
+                            <item id="N">
+                            </item>
+                            <item id="Y">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="height">
+                        <type>input</type>
+                        <default_value>60</default_value>
+                        <variants/>
+                    </item>
+                    <item id="width">
+                        <type>input</type>
+                        <default_value>250</default_value>
+                        <variants/>
+                    </item>
+                    <item id="resolution">
+                        <type>radiogroup</type>
+                        <default_value>1</default_value>
+                        <variants>
+                            <item id="1">
+                            </item>
+                            <item id="2">
+                            </item>
+                            <item id="3">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="text_font">
+                        <type>radiogroup</type>
+                        <default_value>3</default_value>
+                        <variants>
+                            <item id="1">
+                            </item>
+                            <item id="2">
+                            </item>
+                            <item id="3">
+                            </item>
+                            <item id="4">
+                            </item>
+                            <item id="5">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="prefix">
+                        <type>input</type>
+                        <default_value>FF45CR99</default_value>
+                        <variants/>
+                    </item>
+                    <item id="elm_specification">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="elm_spec_descr">
+                        <type>info</type>
+                        <handler>fn_get_barcode_specification</handler>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

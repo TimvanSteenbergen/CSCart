@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::image_zoom"
+msgid "Image zoom"
+msgstr "Zoom de imagen"
+
+msgctxt "Addons::description::image_zoom"
+msgid "Shows zoomed image on product image hover"
+msgstr "Muestra la imagen ampliada del producto pasando el mouse sobre ella"
+
+msgctxt "SettingsSections::image_zoom::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::image_zoom::cz_opacity"
+msgid "Opacity"
+msgstr "Opacidad"
+
+msgctxt "SettingsOptions::image_zoom::cz_animation_time"
+msgid "Animation time"
+msgstr "Tiempo de la animación"
+
+msgctxt "SettingsOptions::image_zoom::cz_tint_color_picker"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_position"
+msgid "Zoom position"
+msgstr "Posición del zoom"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_size_mode"
+msgid "Zoom size mode"
+msgstr "Modo del tamaño del Zoom"
+
+msgctxt "SettingsOptions::image_zoom::cz_caption_position"
+msgid "Caption position"
+msgstr "Posición del subtítulo"
+
+msgctxt "SettingsOptions::image_zoom::cz_ease_time"
+msgid "Ease time"
+msgstr "Tiempo de suavizado"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_fly_out"
+msgid "Zoom fly out"
+msgstr "Disminuir Zoom sobre la imagen"
+
+msgctxt "SettingsTooltips::image_zoom::cz_opacity"
+msgid "Opacity of tint 0-1. If zero, no tint will be visible."
+msgstr "Opacidad de tinte 0-1. Si es cero, tinte no será visible."
+
+msgctxt "SettingsTooltips::image_zoom::cz_animation_time"
+msgid "Duration of the animation effects in milliseconds."
+msgstr "Duración de los efectos de animación en milisegundos."
+
+msgctxt "SettingsTooltips::image_zoom::cz_tint_color_picker"
+msgid "Color to use for the tint effect. Example: #ffffff."
+msgstr "Color que desea utilizar para el efecto del tinte. Ejemplo: #ffffff."
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_position"
+msgid "Specifies position of zoom window. If numeric (0-15), position is relative to page image as shown by the following key (blue squares represent zoom window). If a string is supplied, value will be used as a selector to pinpoint the exact position and size of an element in the page. If the value \"inside\" is specified, the zoom image will appear inside the page image.<br /><br /><img src=\"design/backend/media/images/addons/image_zoom/zoom-positions.png\" />"
+msgstr "Especifica la posición de la ventana de zoom. Si se entra un número (0-15), la posición es en relación con la imagen de la página como se muestra en la siguiente clave (cuadrados azules representan una ventana de zoom). Si se entra un valor específico se utilizará como un selector para localizar la posición exacta y el tamaño de un elemento en la página. Si se especifica el valor \"dentro\", la imagen zoom aparecerá dentro de la misma imagen. <br /><br /><img src=\"design/backend/media/images/addons/image_zoom/zoom-positions.png\" />"
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_size_mode"
+msgid "Defines the rule for sizing the zoom window and lens."
+msgstr "Define la regla para el dimensionamiento de la ventana de zoom y la lente."
+
+msgctxt "SettingsTooltips::image_zoom::cz_caption_position"
+msgid "Position of caption, \"top\" or \"bottom\"."
+msgstr "Posición del título, \"top\" o \"abajo\"."
+
+msgctxt "SettingsTooltips::image_zoom::cz_ease_time"
+msgid "Number of milliseconds of mouse easing movement of zoom image. The bigger the number, the more easing. Zero means no easing."
+msgstr "Número de milisegundos de permanencia del mouse para realizar el zoom de la imagen. Cunato mayor es el número, más suavizado. Cero significa que no se suaviza."
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_fly_out"
+msgid "Turns 'flying' zoom animation on or off."
+msgstr "Activa o desactiva la animación de salida del zoom."
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::0"
+msgid "Zoom position №0"
+msgstr "Posición de zoom nº0"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::1"
+msgid "Zoom position №1"
+msgstr "Posición de zoom nº1"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::2"
+msgid "Zoom position №2"
+msgstr "Posición de zoom nº2"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::3"
+msgid "Zoom position №3"
+msgstr "Posición de zoom nº3"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::4"
+msgid "Zoom position №4"
+msgstr "Posición de zoom nº4"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::5"
+msgid "Zoom position №5"
+msgstr "Posición de zoom nº5"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::6"
+msgid "Zoom position №6"
+msgstr "Posición de zoom nº6"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::7"
+msgid "Zoom position №7"
+msgstr "Posición de zoom nº7"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::8"
+msgid "Zoom position №8"
+msgstr "Posición de zoom nº8"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::9"
+msgid "Zoom position №9"
+msgstr "Posición de zoom nº9"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::10"
+msgid "Zoom position №10"
+msgstr "Posición de zoom nº10"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::11"
+msgid "Zoom position №11"
+msgstr "Posición de zoom nº11"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::12"
+msgid "Zoom position №12"
+msgstr "Posición de zoom nº12"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::13"
+msgid "Zoom position №13"
+msgstr "Posición de zoom nº13"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::14"
+msgid "Zoom position №14"
+msgstr "Posición de zoom nº14"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::15"
+msgid "Zoom position №15"
+msgstr "Posición de zoom nº15"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::inside"
+msgid "Inside position"
+msgstr "Posición dentro"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::image"
+msgid "Image"
+msgstr "Imagen"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::lens"
+msgid "Lens"
+msgstr "Lente"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::zoom"
+msgid "Zoom"
+msgstr "Zoom"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::full"
+msgid "Full"
+msgstr "Completo"
+
+msgctxt "SettingsVariants::image_zoom::cz_caption_position::top"
+msgid "Top"
+msgstr "Arriba"
+
+msgctxt "SettingsVariants::image_zoom::cz_caption_position::bottom"
+msgid "Bottom"
+msgstr "Debajo"
+

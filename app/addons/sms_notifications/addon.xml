@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sms_notifications</id>
+    <version>1.0</version>
+    <priority>2200</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="phone_number">
+                        <type>input</type>
+                        <variants/>
+                    </item>
+                    <item id="elm_clickatell_settings">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="clickatel_user">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="clickatel_api_id">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="clickatel_password">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="clickatel_unicode">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="clickatel_concat">
+                        <type>selectbox</type>
+                        <default_value>clickatel_concat_3</default_value>
+                        <variants>
+                            <item id="clickatel_concat_1">
+                            </item>
+                            <item id="clickatel_concat_2">
+                            </item>
+                            <item id="clickatel_concat_3">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="elm_send_sms_if">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="sms_new_order_placed">
+                        <type>checkbox</type>
+                        <variants/>
+                    </item>
+                    <item id="sms_new_cusomer_registered">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="sms_product_negative_amount">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="sms_send_min_amout">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                        <variants/>
+                    </item>
+                    <item id="sms_send_shipping">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                    <item id="elm_sms_content">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="sms_send_payment_info">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="sms_send_customer_email">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>seo</id>
+    <status>active</status>
+    <version>1.0</version>
+    <priority>1800</priority>
+    <position>160</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="seo_product_type">
+                        <type>selectbox</type>
+                        <default_value>product_category_nohtml</default_value>
+                        <variants>
+                            <item id="product_file_nohtml">
+                            </item>
+                            <item id="product_file">
+                            </item>
+                            <item id="product_category_nohtml">
+                            </item>
+                            <item id="product_category">
+                            </item>
+                        </variants>
+                    </item>
+
+                    <item id="seo_category_type">
+                        <type>selectbox</type>
+                        <default_value>category_nohtml</default_value>
+                        <variants>
+                            <item id="category">
+                            </item>
+                            <item id="category_nohtml">
+                            </item>
+                            <item id="file">
+                            </item>
+                            <item id="root_category">
+                            </item>
+                        </variants>
+                    </item>
+
+                    <item id="seo_page_type">
+                        <type>selectbox</type>
+                        <default_value>page_nohtml</default_value>
+                        <variants>
+                            <item id="page">
+                            </item>
+                            <item id="page_nohtml">
+                            </item>
+                            <item id="file">
+                            </item>                            
+                            <item id="root_page">
+                            </item>
+                        </variants>
+                    </item>
+
+                    <item id="seo_other_type">
+                        <type>selectbox</type>
+                        <default_value>directory</default_value>
+                        <variants>
+                            <item id="directory">
+                            </item>
+                            <item id="file">
+                            </item>                            
+                        </variants>
+                    </item>
+
+                    <item id="seo_language">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="single_url">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+
+                    <item id="non_latin_symbols">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:seo_names;</item>
+        <item>
+            CREATE TABLE `?:seo_names` (
+                `name` varchar(250) NOT NULL default '',
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `type` char(1) NOT NULL default '',
+                `dispatch` varchar(64) NOT NULL default '',
+                `path` varchar(255) NOT NULL default '',
+                `lang_code` char(2) not null default '',
+                PRIMARY KEY  (`object_id`,`type`,`dispatch`,`lang_code`, `company_id`),
+                KEY `name` (`name`,`lang_code`),
+                KEY `type` (`name`,`type`,`lang_code`),
+                KEY (dispatch)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>DROP TABLE IF EXISTS ?:seo_redirects;</item>
+        <item>
+            CREATE TABLE `?:seo_redirects` (
+                `redirect_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `src` varchar(255) not null default '',
+                `dest` varchar(255) not null default '',
+                `type` char(1) not null default 's', /* p, a, c, s, e */
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `lang_code` char(2) not null default '',
+                PRIMARY KEY  (`redirect_id`),
+                KEY (`src`,`company_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_seo_rules', 'Y', 'addons');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('view_seo_rules', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'view_seo_rules' OR privilege LIKE 'manage_seo_rules'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:seo_names;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:seo_redirects;</item>
+        <item for="install" type="file">database/demo.sql</item>
+        <item for="install" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_seo_install</item>
+    </functions>
+</addon>

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Vízjelek"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Vízjelek hozzáadása termék és kategória képekhez"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Vízjelek"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafikus vízjel"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Szöveges vízjel"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vízjel függőleges pozíciója"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Vízjel vízszintes pozíciója"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Vízjel pozíció"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Vízjel kép"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Vízjel szöveg"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Betűtípus"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Betűszín"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Betűméret (bélyegkép)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Betűméret (nagy kép)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Bélyegkép vízjel"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Nagy (popup) kép vízjele"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "A [image_type] kép vízjelezése sikertelen volt. A vízjel nem került rá a képre."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "bélyegképek"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "nagyobb (popup) képek"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Amennyiben le szeretné tiltani az eredeti képekhez a hozzáférést, kérjük, hogy az alábbi szöveget illessze be a '.htaccess' fájlba, ami az 'images' mappában található az Ön szerverén. Ez megvédi az eredeti képeit. Ha az eredeti képre van hivatkozás, a vízjelezett képre cserélődik."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Amennyiben szeretné, hogy a vízjelezett képek automatikusan elkészüljenek, még akkor is, ha nem az Ön webáruházából történik hivatkozás a képre, illessze be az 'images/watermarked' mappában található '.htaccess' fájlba az alábbi szöveget a szerverén."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Felhívjuk figyelmét, hogy amennyiben letiltja, vagy eltávolítja a Vízjel add-ont, mindenképp távolítsa el az alábbi szövegeket a '.htaccess' fájlból. Különben a kategóriához és a termékekhez tartozó képek elérhetetlenek lesznek!"
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "A vízjelezés letiltásra került. Amennyiben van extra vízjelezéshez kapcsolódó szabálya a webszerver beállításaiban, mindenképp távolítsa el az 'images/.htaccess' fájlból. Különben a kategóriához és a termékekhez tartozó képek elérhetetlenek lesznek!"
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Kép hozzáférés"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Vízjel"
+
+msgctxt "SettingsOptions::watermarks::watermark_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Termék vízjelek"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Átméretezett képek"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Eredeti méretű képek"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategória vízjelek"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Átméretezett képek"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Eredeti méretű képek"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Kép hozzáférés"
+

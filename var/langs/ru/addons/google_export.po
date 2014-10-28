@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Прайс-лист для Google Base"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Расширение модуля «Конструктор прайс-листов» для работы с сервисом Google Base"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Замечание: включите эту настройку, если вам необходимо, чтобы были установлены мультиязычные категории Google. Поддерживаются французский, немецкий, итальянский, испанский и британский английский языки. Обратите внимание, что данная операция может занять значительное время.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Начать импорт"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Общая информация"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Установить дополнительные языки для категорий Google"
+

@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Toegangsbeperkingen"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Beperk de toegang tot uw webwinkel en beheerderspagina's tot bepaalde IP-adressen met verschillende opties"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Toegangsbeperkingen"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "IP-adressen toevoegen"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "Nieuwe IP-adressen"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Domeinen toevoegen"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Nieuwe domeinen"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "E-mailadressen toevoegen"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Nieuwe e-mailadressen"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Nieuwe creditcard"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Creditcard toevoegen"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Toegangsbeperkingen beheren"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Domein"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "Het ingevoerde IP-adres <b>[entered_ip]</b> verbiedt toegang tot het Beheerderspaneel van uw computer (uw IP is <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Het creditcard nummer <b>[cc_number]</b> wordt geblokkeerd door de beheerder. Neem contact op met de beheerder of probeer een andere kaart."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> is geen geldig IP-adres."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> is geen geldige domeinnaam."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> is geen geldig creditcard nummer."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Het e-mailadres <b>[email]</b> is geblokkeerd door de beheerder. Neem contact op met de beheerder of probeer een ander e-mailadres."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "U heeft geen toegang tot deze pagina"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "Het IP is geblokkeerd na [number] mislukte aanmeldingen"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Uw IP-adres is geblokkeerd."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Beheerder"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Uw IP-adres <b>[ip]</b> is toegevoegd aan de tabel met toegangsbeperkingen."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Uw IP-adres <b>[ip]</b> is ingeschakeld in de tabel met toegangsbeperkingen."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Uw IP-adres <b>[ip]</b> is verwijderd uit de tabel met toegangsbeperkingen."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP-adres van"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP-adres naar"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "U kunt de wildcards gebruiken voor de tabbladen \"Domein\", \"E-mail\" en \"Creditcard\": < br / > <b>*</b> - kan een willekeurig aantal tekens weergeven, inclusief nul < br / > <b>?</b> - kan een willekeurig teken weergeven."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP-adressen"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Permanent maken"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Creditcard nummer"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Beheerdersinstellingen"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Laat aanmelden in het beheerdersgedeelte alleen toe voor bepaalde IP-adressen"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blokkeer het IP-adres na een aantal mislukte pogingen"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Aantal mislukte pogingen"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Tijd tussen mislukte aanmeld pogingen (seconden)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "De tijd waarvoor het IP-adres moet worden geblokkeerd (uren)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Instellingen klantgedeelte"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blokkeer een IP-adres na een aantal mislukte pogingen"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Aantal mislukte pogingen"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "De tijd tussen mislukte aanmeld pogingen (seconden)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "De tijd waarvoor het IP-adres moet worden geblokkeerd (uren)"
+

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>google_sitemap</id>
+    <version>1.0</version>
+    <priority>3500</priority>
+    <position>160</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="information">
+                        <type>header</type>
+                    </item>
+                    <item id="clear_url">
+                        <type>info</type>
+                        <handler>fn_google_sitemap_clear_url_info</handler>
+                    </item>
+                    <item id="site_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="site_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="site_priority">
+                        <type>selectbox</type>
+                        <default_value>1</default_value>
+                    </item>
+                    <item id="products_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="include_products">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="products_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="products_priority">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="categories_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="include_categories">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="categories_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="categories_priority">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="pages_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="include_pages">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="pages_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="pages_priority">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="news_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="include_news">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="news_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="news_priority">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="extended_setting">
+                        <type>header</type>
+                    </item>
+                    <item id="include_extended">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="extended_change">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="extended_priority">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="companies_setting" edition_type="MVE:ROOT">
+                        <type>header</type>
+                    </item>
+                    <item id="include_companies" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="companies_change" edition_type="MVE:ROOT">
+                        <type>selectbox</type>
+                        <default_value>daily</default_value>
+                    </item>
+                    <item id="companies_priority" edition_type="MVE:ROOT">
+                        <type>selectbox</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

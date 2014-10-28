@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-29 08:00-0400\n"
+
+msgctxt "Addons::name::quickbooks"
+msgid "Quickbooks"
+msgstr "Quickbooks"
+
+msgctxt "Addons::description::quickbooks"
+msgid "Integrates the Quickbooks accounting software with the store"
+msgstr "Ενσωματώνει το λογισμικό λογιστικής Quickbooks στο κατάστημα"
+
+msgctxt "Languages::export_to_quickbooks"
+msgid "Export to Quickbooks"
+msgstr "Εξαγωγή σε Quickbooks"
+
+msgctxt "SettingsSections::quickbooks::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::quickbooks::trns_class"
+msgid "Transaction class name"
+msgstr "Ονομα κατηγορίας συναλλαγής"
+
+msgctxt "SettingsOptions::quickbooks::accnt_tax"
+msgid "Account to track taxes. The type of this account should be INC."
+msgstr "Λογαριασμός για την παρακολούθηση του φόρου. Ο τύπος αυτού του λογαριασμού θα πρέπει να είναι INC."
+
+msgctxt "SettingsOptions::quickbooks::accnt_product"
+msgid "Account to track product sales. The type of this account should be INC."
+msgstr "Λογαριασμός για να παρακολουθείτε τις πωλήσεις του προϊόντος. Ο τύπος αυτού του λογαριασμού θα πρέπει να είναι INC."
+
+msgctxt "SettingsOptions::quickbooks::accnt_shipping"
+msgid "Account to track shipping cost. The type of this account should be INC."
+msgstr "Λογαριασμός για να παρακολουθείτε τα έξοδα αποστολής. Ο τύπος αυτού του λογαριασμού θα πρέπει να είναι INC."
+
+msgctxt "SettingsOptions::quickbooks::accnt_discount"
+msgid "Account to track discounts. The type of this account should be INC."
+msgstr "Λογαριασμός για να παρακολουθείτε τις εκπτώσεις. Ο τύπος αυτού του λογαριασμού θα πρέπει να  είναι INC."
+
+msgctxt "SettingsOptions::quickbooks::accnt_surcharge"
+msgid "Account to track the payment surcharge of your items sales (where applicable). The type of this account should be INC."
+msgstr "Λογαριασμός για να παρακολουθείτε την επιβάρυνση των πωλήσεων των αντικειμένων  σας (όπου εφαρμόζεται). Ο τύπος αυτού του λογαριασμού θα πρέπει να είναι  INC."
+
+msgctxt "SettingsOptions::quickbooks::accnt_asset"
+msgid "Account to track the value of your inventory. The type of this account should be OASSET."
+msgstr "Λογαριασμός για να παρακολουθείτε την αξία των αποθεμάτων σας. Ο τύπος αυτού του λογαριασμού θα πρέπει να OASSET."
+
+msgctxt "SettingsOptions::quickbooks::accnt_cogs"
+msgid "Account to track the cost of your items sales. The type of this account should be COGS."
+msgstr "Λογαριασμός για την παρακολούθηση του κόστους πωλήσεων των αντικειμένων σας. Ο τύπος αυτού του λογαριασμού θα πρέπει να είναι  COGS"
+

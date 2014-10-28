@@ -1,0 +1,45 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Age verification"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Toggles age restriction rules for products and categories"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Age verification"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "You should verify your age to view this product."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Your age"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Verify"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Birthday"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Age limit"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "years"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Warning message"

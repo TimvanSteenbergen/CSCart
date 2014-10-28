@@ -1,0 +1,1 @@
+<a class="hand btn cm-submit cm-tooltip cm-process-items cm-confirm {if $but_meta}{$but_meta}{/if}" data-ca-dispatch="{$but_name}" data-ca-target-form="{$but_form}" title="{__("delete_selected")}"><i class="icon-trash"></i></a>

@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Reward points"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Lets customers earn and spend points for purchases"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Reward points"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Reward points log"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Assign global reward points in your store."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Points on user account"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Points"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Points in use"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "points in use"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "points"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Points to use"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Point payment"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Price in points"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "The points used in the order were added to user account."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "Points were used in order"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "You have"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Allow payment by points"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Override global PER"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Override global/category points"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "The number of the points entered by you exceeds the number of points at your account."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "The number of points entered by you exceeds the number of points that can be applied to this order."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Points cannot be applied because the subtotal is completely redeemed."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "The order status has not been changed, because the user did not have enough points."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Price in points has been increased by"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Price in points has been decreased by"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Points earned per product"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Override global point value for all products in this category"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Amount type"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Maximum"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Earned point modifier"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Override global/category point value for this product"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "View user points"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Log"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Subtract"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Change points"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Add & subtract points"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Cleanup log"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "We would like to inform you that"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "have been added to your account."
+msgstr "have been added to your account."
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "have been subtracted from your account."
+msgstr "have been subtracted from your account."
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Manage reward points system"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"Price in points\" is calculated automatically on PER basis"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"Price in points\" is recalculated taking into account discounts"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"Points\" is recalculated taking into account discounts"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"Price in points\" is recalculated taking into account order discounts"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"Points\" is recalculated taking into account order discounts"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "If several reward points can be applied, set"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Apply zero reward point values"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Log lines per page"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "The reward points rules with the zero values should be considered"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Absolute minimal value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Minimal percentage value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Absolute maximal value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Maximal percentage value"
+

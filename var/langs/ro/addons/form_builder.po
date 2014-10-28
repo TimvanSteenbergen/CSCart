@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:01-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Constructorul de formulare"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Formular nou"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editare formular"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Constructorul de formulare"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Textul de trimite din formular"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail către"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formularul este securizat (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Adăugați un formular"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Bază"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Căsuțe de bifare multiple"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Căsuțe de selectare multiple"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Antet"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separator"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Special"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Listă țări"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista de state"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referer"
+

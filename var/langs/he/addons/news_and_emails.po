@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "חדשות & הודעות דואר אלקטרוני"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "מאפשר לך להגדיר שליחת ניוזלטר ולנהל את חדשות האתר"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "חדשות"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "צור ושלח ידיעונים אל הלקוחות שלך."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "נהל ידיעות המופיעות בחזית האתר."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "רגיל"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "הרשם לניוזלטר שלנו !"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "חדשות & דואל: טופס מנוי לידיעון"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "חדשות"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "חדשות & הודעות דואר אלקטרוני"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "לינק לביטול המינוי"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "להוסיף מנויים מתוך רשימת משתמשים"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> כבר נמצא ברשימת המנויים"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "מנויים"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "News list page"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "דף החדשות"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "הרשמה לניוזלטר"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "חדשות"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "שדה דואר אלקטרוני לצורך רישום לניוזלטר"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "צפה בידיעות"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "ניהול ידיעות"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "הידיעון לא נשלח מכיוון שלא נמצאו הנמענים התואמים את הקריטריונים שנבחרו."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "The newsletter(s) have been sent successfully."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "דואר אלקטרוני אינו יכול להשאר ריק"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "שליחת דואר אל [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "הדואר האלקטרוני שלך נוספה בהצלחה לרשימת העדכונים שלנו"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "הדואר האלקטרוני שלך כבר רשום כמנוי."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "הדואר האלקטרוני שלך הוסר בהצלחה מרשימת העדכונים שלנו"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "הדואל שלך הופעל בהצלחה"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "The link will be displayed in a live newsletter"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "ידיעונים"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "תבניות"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Autoresponders"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "קמפיינים"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "שלח"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "הוסף חדשות"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "הוסף חדשות וסגור"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "מספר מנויים"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "עריכת רשימת דיוור"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "שם"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "דואל"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "השב ל"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "מייל לאישור"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "ללא מענה אוטומתי"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "הצג בקופה"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "הצג בעת הרישום"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "הצג בדף נפרד"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "עריכת חדשות"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "חדשות חדשות"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Campaign statistics"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Add campaign"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "New campaign"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Newsletter templates"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Newsletter autoresponders"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Subject"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Add newsletter"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Add template"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Add autoresponder"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Random subjects (one per line)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML body"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "No template"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Load"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Campaign"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Send to"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Add recipients from users"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Customers with abandoned"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Cart or Wishlist"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "which is"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "days old"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Send to test email"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Save and send"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Newsletter template"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Newsletter autoresponder"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Mailing list"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Subscribed to [num] lists"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Subscribed"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "You have been successfully subscribed to our free e-mail updates and promotions!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "updates and promotions subscription"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Shared with:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Email of a sender."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Name of a sender (e.g. company name)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Email to send replies to."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "If several subjects are specified, email subject is randomly picked from this list."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "If the message text contains the unsubscribe link, it will be empty for these users."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Add mailing list"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Add subscribers"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "New mailing list"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "New subscribers"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Newsletters sent per step"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Advanced mailing server options"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "השיטה של שליחת הודעות דואר אלקטרוני"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "הגדרות שרת ה-SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "מארח ה-SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "שם משתמש ה-SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "הסיסמה ל-SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "השתמש באימות SMTP"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "הגדרות שליחת מייל"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Path to sendmail program"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "באמצעות שרת ה-SMTP"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "באמצעות פונקציית mail php"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "באמצעות תוכנית sendmail"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "השתמש בהגדרות ברירת המחדל"
+

@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>ebay</id>
+    <version>2.0</version>
+    <priority>2900</priority>
+    <position>180</position>
+    <status>disabled</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="notice">
+                        <type>info</type>
+                        <handler>fn_get_ebay_registration_notice</handler>
+                    </item>
+                    <item id="dev_id">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="app_id">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="cert_id">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="token">
+                        <type>textarea</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="listing_mode">
+                        <type>selectbox</type>
+                        <default_value>S</default_value>
+                        <variants>
+                            <item id="S">
+                            </item>
+                            <item id="P">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="site_id">
+                        <type>selectbox</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="ebay_timestamp">
+                        <type>hidden</type>
+                        <default_value>1381308577</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="license_info">
+                <items>
+                    <item id="license_notice">
+                        <type>info</type>
+                        <handler>fn_ebay_get_license_notice</handler>
+                    </item>
+                    <item id="ebay_license_number" edition_type="ROOT">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:ebay_cached_transactions;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_categories;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_shippings;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_sites;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_templates;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_template_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:ebay_template_products;</item>
+        
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_cached_transactions` (
+                `transaction_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT '0',
+                `user_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `session_id` varchar(255) NOT NULL DEFAULT '',
+                `status` char(1) NOT NULL DEFAULT 'A',
+                `type` varchar(255) NOT NULL,
+                `result` text NOT NULL,
+                `site_id` int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (`transaction_id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_categories` (
+                `category_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `site_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `parent_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `level` tinyint(2) unsigned NOT NULL DEFAULT '1',
+                `name` varchar(255) NOT NULL DEFAULT '',
+                `leaf` char(1) NOT NULL DEFAULT 'N',
+                `id_path` varchar(255) NOT NULL DEFAULT '',
+                `full_name` text NOT NULL,
+                PRIMARY KEY (`category_id`,`site_id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_shippings` (
+                `service_id` int(11) unsigned NOT NULL,
+                `site_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `name` varchar(255) NOT NULL,
+                `description` varchar(255) NOT NULL,
+                `service_type` varchar(255) NOT NULL,
+                `is_international` char(1) NOT NULL DEFAULT 'N',
+                `category` varchar(255) NOT NULL,
+                `ship_days_max` smallint(3) unsigned NOT NULL DEFAULT '0',
+                `ship_days_min` smallint(3) unsigned NOT NULL DEFAULT '0',
+                `package` varchar(255) NOT NULL,
+                `carrier` varchar(255) NOT NULL,
+                `weight_required` char(1) NOT NULL DEFAULT 'N',
+                `selling_flow` char(1) NOT NULL DEFAULT 'N',
+                `dimensions_required` char(1) NOT NULL DEFAULT 'N',
+                `surcharge_applicable` char(1) NOT NULL DEFAULT 'N',
+                `expedited_service` char(1) NOT NULL DEFAULT 'N',
+                `detail_version` int(11) unsigned NOT NULL,
+                `update_timestamp` int(11) unsigned NOT NULL,
+                PRIMARY KEY (`service_id`,`site_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_sites` (
+                `site_id` int(11) unsigned NOT NULL,
+                `site` varchar(255) NOT NULL,
+                PRIMARY KEY (`site_id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_templates` (
+                `template_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `status` char(1) NOT NULL DEFAULT 'A',
+                `site_id` int(11) unsigned NOT NULL,
+                `use_as_default` char(1) NOT NULL DEFAULT 'N',
+                `root_category` int(11) unsigned NOT NULL,
+                `category` int(11) unsigned NOT NULL,
+                `root_sec_category` int(11) unsigned NOT NULL,
+                `sec_category` int(11) unsigned NOT NULL,
+                `ebay_duration` varchar(255) NOT NULL,
+                `payment_methods` varchar(255) NOT NULL,
+                `paypal_email` varchar(255) NOT NULL,
+                `condition_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `dispatch_days` smallint(3) unsigned NOT NULL DEFAULT '0',
+                `shipping_type` char(1) NOT NULL DEFAULT 'C',
+                `shippings` varchar(255) NOT NULL,
+                `international_shippings` varchar(255) NOT NULL,
+                `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `free_shipping` varchar(1) DEFAULT 'Y',
+                `shipping_cost` double DEFAULT '0',
+                `shipping_cost_additional` double DEFAULT '0',
+                `return_policy` varchar(255),
+                `contact_time` varchar(255),
+                `refund_method` varchar(255),
+                `cost_paid_by` varchar(255),
+                `return_policy_descr` text,
+                PRIMARY KEY (`template_id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_template_descriptions` (
+                `template_id` int(11) unsigned NOT NULL,
+                `lang_code` char(2) NOT NULL,
+                `name` varchar(255) NOT NULL,
+                PRIMARY KEY (`template_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:ebay_template_products` (
+                `ebay_item_id` bigint(12) unsigned NOT NULL DEFAULT '0',
+                `template_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `product_id` int(11) unsigned NOT NULL DEFAULT '0',
+                `product_hash` varchar(255) NOT NULL,
+                PRIMARY KEY (`template_id`,`product_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            ALTER TABLE `?:products` ADD `ebay_template_id` int(11) unsigned NOT NULL DEFAULT '0', ADD `product_hash` varchar(255) not null default '';
+        </item>
+        <item>
+            ALTER TABLE `?:orders` ADD `ebay_order_id` varchar(255) NOT NULL;
+        </item>
+        <item>
+            ALTER TABLE `?:settings_vendor_values` CHANGE `value` `value` TEXT NOT NULL;
+        </item>
+        <item>
+            ALTER TABLE `?:settings_objects` CHANGE `value` `value` TEXT NOT NULL;
+        </item>
+        <item>
+            REPLACE INTO `?:ebay_sites` (site_id, site) VALUES (0,'US');
+        </item>
+        <item>
+            ALTER TABLE `?:product_descriptions` ADD `ebay_title` varchar(255);
+        </item>
+        <item>
+            ALTER TABLE `?:product_descriptions` ADD `ebay_description` TEXT;
+        </item>
+        <item>
+            ALTER TABLE `?:product_descriptions` ADD `override` varchar(1);
+        </item>
+        <item>
+            ALTER TABLE `?:products` ADD `package_type` varchar(255) DEFAULT 'Letter';
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:ult_product_descriptions` ADD `ebay_title` varchar(255), ADD `ebay_description` TEXT, ADD `override` varchar(1);
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_cached_transactions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_categories;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_shippings;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_sites;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_templates;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_template_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:ebay_template_products;</item>
+        <item for="uninstall" editions="ULTIMATE">
+            ALTER TABLE `?:ult_product_descriptions` DROP `ebay_title`, DROP `ebay_description`, DROP `override`;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products` DROP `package_type`;
+        </item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_ebay_templates', 'Y', 'addons')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_ebay_templates', 'Y', 'addons')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_cities'</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_cities'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_add_ebay_logs</item>
+        <item for="install">fn_add_ebay_commercial_info</item>
+    </functions>
+</addon>

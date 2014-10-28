@@ -1,0 +1,38 @@
+.ty-qty-in-stock,
+.ty-qty-out-of-stock{
+    font-weight: normal;
+}
+
+.ty-search-magnifier {
+    height: 33px;
+    width: 33px;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.top-search{
+    padding: 5px;
+    margin: -5px;
+}
+
+.ty-tabs__content{
+    border-top: none;
+    padding: 15px 10px;
+}
+
+.content-description{
+    line-height: 1.7em;
+}
+
+.ty-discount-label{
+    left: 5px;
+    right: auto;
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .ty-sidebox__title-toggle {
+       right: 14px;
+    }
+}

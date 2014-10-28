@@ -1,0 +1,28 @@
+/* form-wrap-default elements*/
+.object-container .form-wrap-default {
+    position: static;
+}
+.object-container .form-wrap-default .buttons-container {
+    margin: 0;
+}
+.form-wrap-default .buttons-container {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #ddd;
+    margin: 15px 0 28px -21px;
+    padding: 17px 20px;
+    width: 100%;
+}
+.form-wrap-default .input-text{
+    width: 100%;
+    max-width: 372px;
+}
+.form-wrap-default .input-textarea{
+    width: 372px;
+    max-width: 372px;
+}
+.form-wrap-default select,
+.form-wrap-default select.cm-location-billing{
+    width: 380px;
+    max-width: 380px;
+}

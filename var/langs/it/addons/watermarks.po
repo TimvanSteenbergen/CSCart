@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 13:00-0400\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Filigrane"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Consente di aggiungere le filigrane alle immagini prodotto e di categoria"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Filigrane"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafica filigrana"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Testo filigrana"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Posizione verticale filigrana"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Posizione orizzontale filigrana"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Posizione filigrana"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Filigrana immagine"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Testo filigrana"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Tipo di carattere"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Colore carattere"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Dimensione carattere (miniatura)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Grandezza carattere (immagine larga)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Filigrana miniatura"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Filigrana immagine grande in popup"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Applicazione filigrana all'immagine fallita. La filigrana non è stata aggiunta"
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "miniature"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "immagini più grandi in popup"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Per negare l'accesso alle immagini originali, si prega di aggiungere le seguenti istruzioni per il file '.htaccess' nella cartella 'immagini' dell'installazione. Esso protegge le immagini originali. Anche se l'immagine originale è aperta, la corrispondente immagine filigranata sarà mostrata al suo posto."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Per generare immagini filigranate anche se queste non sono richieste dalle pagine del tuo negozio, si prega di aggiungere il file '.htaccess' con le seguenti istruzioni nella cartella 'images/watermarked' del vostro negozio."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Nota bene: se vuoi disattivare o disinstallare l'add-on ''Filigrana'', è necessario rimuovere queste istruzioni dal file '.htaccess' manualmente. In caso contrario, le immagini di categoria e il prodotto non saranno disponibili."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Filigranatura disabilitata. Se ci sono alcune \"regole di Rewrite\" nel file .htaccess in \"images/.htaccess\",dovresti rimuoverle manualmente. Altrimenti non si vedranno le immagini prodotto e di categoria."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Accesso immagini"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Generale"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Filigrana"
+
+msgctxt "SettingsOptions::watermarks::watermark_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Filigrane sui prodotti"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Immagini ridimensionate"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Immagini di dimensioni originali"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Filigrane sulle categorie"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Immagini ridimensionate"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Immagini di dimensioni originali"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Accesso immagini"
+

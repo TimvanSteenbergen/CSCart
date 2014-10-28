@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "附件"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "可以将文件附加到产品"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "附件"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "新的附件"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "添加附件"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "编辑附件"
+

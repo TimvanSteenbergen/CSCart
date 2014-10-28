@@ -1,0 +1,55 @@
+ul.dropdown-multicolumns li a.drop, ul.dropdown-multicolumns li.nodrop a {
+    font-size: 13px;
+    text-shadow: none;
+}
+.multicolumns-list td:hover .product-cell-wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+}
+.sidebox-title span, .sidebox-title a:link, .sidebox-title a:visited, .sidebox-title a:hover {
+    color: #777777;
+    text-shadow: 0;
+}
+.sidebox-title {
+    padding-left: 4px;
+    background-image: none;
+}
+.sidebox-wrapper .sidebox-body {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #eAe9e5;
+}
+.statistic-list-wrap {
+    box-shadow: none;
+    background-color: #ffffff;
+}
+.logo-container .logo {
+    padding-bottom: 25px;
+}
+.no-items{
+    box-shadow: 0 0 0 #ffffff;
+}
+.product-cell-empty div {
+    box-shadow: 0 0 0 #ffffff;
+}
+@-moz-document url-prefix() {
+    .button-submit-big input {
+        min-height: 37px;
+    }
+    .sort-dropdown a {
+        height: 18px;
+    }
+}
+.actual-price, .actual-price .price span, .price-update, .price-num, .price-update .price span, .price-update {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+label.cm-required:after {
+    color: #EB340A;
+    font-size: 100%;
+}
+.tygh-top-panel {
+     padding: 0;
+}
+.top-menu {
+    margin-top: 0px;
+}

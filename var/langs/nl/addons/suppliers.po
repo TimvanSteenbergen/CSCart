@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-14 12:00-0400\n"
+
+msgctxt "Addons::name::suppliers"
+msgid "Suppliers"
+msgstr "Leveranciers"
+
+msgctxt "Addons::description::suppliers"
+msgid "Adds supplier assignment support to products"
+msgstr "Voegt leverancier opdracht ondersteuning toe aan producten"
+
+msgctxt "Languages::search_by_supplier"
+msgid "Search by supplier"
+msgstr "Zoek op leverancier"
+
+msgctxt "Languages::notify_supplier"
+msgid "Notify supplier"
+msgstr "Meld aan leverancier"
+
+msgctxt "Languages::view_supplier_products"
+msgid "View supplier products"
+msgstr "De producten van de leverancier bekijken"
+
+msgctxt "Languages::supplier"
+msgid "Supplier"
+msgstr "Leverancier"
+
+msgctxt "Languages::supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "De volgende producten zijn aangekocht in onze winkel en moeten verzonden worden."
+
+msgctxt "Languages::suppliers_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "Een lijst van leveranciers in de webwinkel."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "Geachte heer/mevrouw"
+
+msgctxt "Languages::add_supplier"
+msgid "Add supplier"
+msgstr "Leverancier toevoegen"
+
+msgctxt "Languages::available_for_supplier"
+msgid "Available for supplier"
+msgstr "Beschikbaar voor leverancier"
+
+msgctxt "Languages::editing_supplier"
+msgid "Editing supplier"
+msgstr "Leverancier aanpassen"
+
+msgctxt "Languages::supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "De leverancier is verwijderd."
+
+msgctxt "Languages::privileges.manage_suppliers"
+msgid "Manage suppliers"
+msgstr "Leveranciers beheren"
+
+msgctxt "SettingsSections::suppliers::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsOptions::suppliers::display_supplier"
+msgid "Display product supplier company"
+msgstr "Leverancier van het product weergeven"
+
+msgctxt "SettingsOptions::suppliers::display_shipping_methods_separately"
+msgid "Display shipping methods to each supplier separately"
+msgstr "Verzendmethoden van elke leverancier afzonderlijk weergeven"
+

@@ -1,0 +1,58 @@
+a:hover {
+    text-decoration: underline;
+}
+.ty-sidebox {
+	background: transparent;
+}
+.ty-sidebox {
+	border: 1px solid #EAE9E5;
+	padding: 10px;
+}
+.top-quick-links a:hover, .ty-currencies__item:hover {
+	text-decoration: none;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: #888;
+}
+div.ui-dialog .ui-dialog-title {
+	color: white;
+}
+.ty-dropdown-box__content .ty-account-info__name:hover {
+	background: transparent;
+}
+.tygh-footer > div {
+	margin: 0 auto;
+}
+.ty-social-link:hover a, .ty-pagination a {
+	text-decoration: none;
+}
+.ty-strike .ty-list-price {
+	display: inline;
+}
+.ty-product-block__button .ty-btn {
+	margin-right: 17px;
+}
+.ty-product-filters__wrapper {
+	background: transparent;
+}
+@media (max-width: 979px) and (min-width: 768px) {
+	.ty-menu__item .ty-menu__item-link {
+		padding: 14px 11px;
+	}
+	.ty-price-slider__input-text {
+		width: 62px;
+	}
+}
+
+@media (max-width: 768px) {
+	.ty-sidebox__title-toggle {
+		right: -8px;
+	}
+	.ty-sidebox__title {
+		margin-bottom: 0px;
+		border-bottom: 0px;
+	}
+	.ty-sidebox__body {
+		margin-top: 10px;
+	}
+}

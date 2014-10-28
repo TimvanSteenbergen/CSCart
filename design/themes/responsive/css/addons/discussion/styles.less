@@ -1,0 +1,131 @@
+/* ==========================================================================
+Discussion
+========================================================================== */
+
+/* Discussion post */
+/* Template: templates/addons/discussion/views/discussion/view.tpl */
+.ty-discussion-post__content {
+    margin-top: 20px;
+}
+.ty-discussion-post {
+    position: relative;
+    margin: 10px 0 45px 0;
+    padding: 15px;
+    border: 1px solid #ECF0F1;
+}
+.ty-discussion-post__author {
+    margin-left: 37px;
+    font-weight: bold;
+}
+.ty-discussion-post__date {
+    float: right;
+    right: 0;
+    color: #BDC3C7;
+}
+.ty-discussion-post__rating {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.ty-company-detail__top-links .ty-stars__icon {
+    font-size: 21px;
+}
+.ty-discussion__rating-wrapper {
+    margin-bottom: 10px;
+}
+.ty-discussion__rating-wrapper .ty-stars .ty-stars__icon {
+    font-size: 20px;
+    margin-right: 4px;
+}
+.ty-stars,
+.ty-discussion__review-a,
+.ty-discussion__review-write {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.ty-stars {
+    color: @links;
+}
+.ty-stars__icon {
+    vertical-align: middle;
+    margin-left: 2px;
+    font-size: 14px;
+}
+.ty-stars a:hover {
+    text-decoration: none;
+}
+
+.ty-product-list__rating {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+.ty-product-list__rating .ty-stars {
+    margin-right: 0;
+}
+
+/* Company rating */
+.ty-companies .ty-stars {
+    display: block;
+    margin: 5px 0 0;
+}
+
+/* Rate stars */
+/* Template: templates/addons/discussion/views/discussion/components/rate.tpl */
+.ty-rating {
+    float:left;
+    color: @links;
+}
+.ty-rating__label {
+    display: inline-block;
+}
+.ty-rating:not(:checked) > .ty-rating__check {
+    position: absolute;
+    left: -9999px;
+    clip: rect(0,0,0,0);
+}
+.ty-rating:not(:checked) > .ty-rating__label {
+    float: right;
+    width: 17px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.2;
+    margin-right: 2px;
+}
+.ty-rating:not(:checked) > .ty-rating__label:before {
+    font-family: 'glyphs';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 21px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e004";
+}
+.ty-rating:not(:checked) > .ty-rating__label:hover:before,
+.ty-rating:not(:checked) > .ty-rating__label:hover ~ .ty-rating__label:before {
+    content: "\e041";
+}
+.ty-rating > .ty-rating__check:checked ~ .ty-rating__label:before,
+.ty-rating > .ty-rating__check:checked + .ty-rating__label:hover:before,
+.ty-rating > .ty-rating__check:checked + .ty-rating__label:hover ~ .ty-rating__label:before,
+.ty-rating > .ty-rating__check:checked ~ .ty-rating__label:hover:before,
+.ty-rating > .ty-rating__check:checked ~ .ty-rating__label:hover ~ .ty-rating__label:before,
+.ty-rating > .ty-rating__label:hover ~ .ty-rating__check:checked ~ .ty-rating__label:before {
+    content: "\e041";
+}
+/* /Rate stars */
+
+.ty-template-small__item-description .ty-stars {
+    display: block;
+}
+
+/* /Discussion */

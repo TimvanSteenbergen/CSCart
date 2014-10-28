@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Znaki wodne"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Umożliwia dodawanie znaków wodnych do obrazków produktów i kategorii"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Znaki wodne"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Graficzny znak wodny"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Tekstowy znak wodny"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Pozycja pionowa znaku wodnego"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Pozycja pozioma znaku wodnego"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Pozycja znaku wodnego"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Obrazek znaku wodnego"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Tekst na znaku wodnym"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Czcionka"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Kolor czcionki"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Rozmiar czcionki (miniaturka)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Rozmiar czcionki (duży obrazek)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Znak wodny na miniaturze"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Znak wodny na dużym zdjęciu"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Nie można zastosować znaku wodnego do [image_type]. Znak wodny nie został dodany."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "Miniatury"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "Okienka popup dla większych zdjęć"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Żeby zablokować dostęp do oryginalnych zdjęć, należy dodać następujące instrukcje do pliku \".htaccess\" w katalogu \"images\". Będzie to stanowić ochronę dla oryginalnych zdjęć. Nawet jeśli oryginalne zdjęcie jest dostępne, zamiast niego będzie pokazywane odpowiadające mu zdjęcie ze znakiem wodnym."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Do automatycznego generowania obrazów ze znakiem wodnym, nawet jeśli nie są one wymagane ze stron sklepu, prosimy dodać plik \".htaccess\" plik z następującą zawartością do katalogu ''images\"."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Uwaga! Jeśli chcesz wyłączyć lub odinstalować dodatek \"Znaki wodne\", należy ręcznie usunąć naastępujące instrukcje z pliku \".htaccess\". W przeciwnym wypadku zdjęcia do  kategorii i produktów będą niedostępne."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Funkcjonalność tworzenia znaku wodnego jest wyłączona. Jeśli są jakieś instrukcje \"Zasady znaków wodnych\" w pliku \"images/.htaccess\", należy usunąć je ręcznie. W przeciwnym wypadku zdjęcia do  kategorii i produktów będą niedostępne."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Dostęp do zdjęć"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Znak wodny"
+
+msgctxt "SettingsOptions::watermarks::watermark_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Znaki wodne produktu"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Przeskalowane zdjęcia"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Oryginalny rozmiar zdjęć"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategorie znaków wodnych"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Przeskalowane zdjęcia"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Oryginalny rozmiar zdjęć"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Dostęp do zdjęć"
+

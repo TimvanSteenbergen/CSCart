@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Életkor igazolás"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Életkor igazolás és korlátozás termékekhez és kategóriákhoz"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Életkor igazolás"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "Igazolja az életkorát ezen termék megtekintéséhez."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Az Ön életkora"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Igazolás"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Születésnap"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Korhatár"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "év(ek)"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Figyelmeztető üzenet"
+

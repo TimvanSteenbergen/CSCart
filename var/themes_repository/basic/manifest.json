@@ -1,0 +1,6 @@
+{
+    "title" : "Basic theme",
+    "description" : "Basic theme with minimalistic design. Three style presets available out of the box: Satori (default,) Ocean, and Wooden. Highly customizable: you can modify color scheme and font style, change background images and favicon, turn on and off corner rounding. Customize your store appearance with no CSS or HTML knowledge required—it's easy!",
+    "logo" : "media/images/cart.png",
+    "favicon" : "media/images/icons/favicon.ico"
+}

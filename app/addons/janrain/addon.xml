@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>janrain</id>
+    <version>1.0</version>
+    <priority>4200</priority>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <conflicts>loginza,hybrid_auth</conflicts>
+    </compatibility>
+    <dependencies/>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general_info">
+                        <type>info</type>
+                        <handler>fn_janrain_generate_info</handler>
+                    </item>
+                    <item id="apikey">
+                        <type>input</type>
+                    </item>
+                    <item id="appdomain">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE `?:users` ADD `janrain_identifier` varchar(32) NOT NULL default ''</item>
+        <item for="uninstall">ALTER TABLE  `?:users` DROP `janrain_identifier`</item>
+    </queries>
+</addon>

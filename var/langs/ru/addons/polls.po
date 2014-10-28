@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Опросы и голосования"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Опросы пользователей и формы голосования для витрины"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "По центру"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "В колонке"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Ответы с комментариями"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Вы уже проголосовали."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Общее количество голосов"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Опросы"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Новый опрос"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Редактирование опроса"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Опросов"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Вы уже участвовали в этом опросе"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Опросы"
+
+msgctxt "Languages::block_polls_description"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Опрос"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Вопросы"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Статистика по опросам"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Добавить опросы и закрыть"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Добавить опросы"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Пожалуйста, ответьте на все обязательные вопросы"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Спасибо за участие в опросе."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Отображать результаты опроса"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "никому"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "проголосовавшим"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "всем (во всплывающем окне)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Заголовок опроса"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Текст в нижней часть опроса"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Сообщение после голосования"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Новый вопрос"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Добавить вопрос"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Редактирование вопроса"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Добавить опрос"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Общее количество заполненных форм"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Количество полностью заполненных форм"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Первая заполненная форма"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Последняя заполненная форма"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Статистика по вопросам"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Посмотреть ответы"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Голоса"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Ответы"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Текст вопроса"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Один вариант ответа"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Один или несколько вариантов ответа"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Собственный ответ (текст)"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Текст ответа"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Текстовое поле"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Сообщение, отображаемое в магазине после завершения опроса."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Голосов на странице"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Ответов на странице"
+

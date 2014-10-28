@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Belønningspoeng"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Lar kundene tjene og bruke poeng ved kjøp"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Belønningspoeng"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Belønningspoeng oversikt"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Tilordne globale belønningspoeng i butikken."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Poeng på brukers konto"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Poeng"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Poeng i bruk"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "poeng i bruk"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "poeng"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Poeng å bruke"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Poengbetaling"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Pris i poeng"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "Poengene som brukes i den rekkefølgen ble lagt til brukerkonto."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "Poeng ble brukt i ordre"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "Du har"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Tillat betaling med poeng"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Overstyr global PER"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Overstyrer globale/kategori poeng"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "Antallet poeng som du har lagt inn overstiger antall poeng på kontoen din."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "Antall poeng som du har lagt overstiger antall poeng som kan brukes på denne bestillingen."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Poeng kan ikke brukes fordi delsummen er helt innfridd."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "Dessverre kan du ikke bruke poeng på denne ordren, fordi den totale kostnaden er null."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "Dessverre kan du ikke bruke poeng på denne ordren, fordi du ikke har nok poeng på kontoen."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "Ordrestatusen har ikke blitt forandret, fordi brukeren ikke hadde nok poeng."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Pris i poeng har blitt økt med"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Pris i poeng har blitt redusert med"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Poeng opptjent per produkt"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Overstyr global poengverdi for alle produkter i denne kategorien"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Mengdetype"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Opptjente poeng modifikator"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Overstyr global/kategori poengverdi for dette produktet"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "Vis brukerpoeng"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Logg"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Trekk fra"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Endre poeng"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Legg til og trekk fra poeng"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Oppryddingslogg"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "Vi ønsker å informere deg om at"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "have been added to your account."
+msgstr "har blitt lagt til kontoen din."
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "have been subtracted from your account."
+msgstr "er trukket fra kontoen din."
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Administrer belønningpoeng systemet"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Poeng valutakurs (PER - antall poeng lik 1 konvensjonell enhet)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"Prispoeng\" beregnes automatisk på PER grunnlag"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"Prispoeng\" blir rekalkulert og tar hensyn til kontorabatter"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"Poeng\" blir rekalkulert og tar hensyn til kontorabatter"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"Prispoeng\" blir rekalkulert og tar hensyn til kontorabatter"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"Poeng\" blir rekalkulert og tar hensyn til kontorabatter"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "Hvis produktet og produktkategorien ikke har definerte belønningspoeng, men kategorien på et høyere nivå har belønningspoeng, trekk ut data fra det"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "Hvis flere belønningspoeng kan bli brukt, sett"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Bruk null belønningspoeng verdier"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Logg linjer per side"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "Belønningspoeng reglene for null verdiene bør vurderes"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Absolutt minimal verdi"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Minimal prosentverdi"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Absolutt maksimal verdi"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Maksimal prosentverdi"
+

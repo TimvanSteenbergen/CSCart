@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>discussion</id>
+    <version>1.0</version>
+    <priority>3000</priority>
+    <position>140</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="products">
+                <items>
+                    <item id="product_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="product_post_approval">
+                        <type>selectbox</type>
+                        <default_value>any</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="product_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="product_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="product_notify_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="product_share_discussion" edition_type="ULT:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="categories">
+                <items>
+                    <item id="category_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="category_post_approval">
+                        <type>selectbox</type>
+                        <default_value>any</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="category_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="category_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="orders">
+                <items>
+                    <item id="order_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="order_initiate">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="order_notify_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="news">
+                <items>
+                    <item id="news_posts_per_page">
+                        <type>input</type>
+                        <default_value>3</default_value>
+                        <variants/>
+                    </item>
+                    <item id="news_post_approval">
+                        <type>selectbox</type>
+                        <default_value>any</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="news_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="news_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="news_share_discussion" edition_type="ULT:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="gift_registry">
+                <items>
+                    <item id="giftreg_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="giftreg_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="pages">
+                <items>
+                    <item id="page_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="page_post_approval">
+                        <type>selectbox</type>
+                        <default_value>disabled</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="page_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="page_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="page_notify_vendor" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="page_share_discussion" edition_type="ULT:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="testimonials">
+                <items>
+                    <item id="home_page_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="home_page_post_approval">
+                        <type>selectbox</type>
+                        <default_value>any</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="home_page_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="home_page_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="home_page_testimonials" edition_type="MVE:ROOT,ULT:VENDOR">
+                        <type>selectbox</type>
+                        <default_value>D</default_value>
+                        <variants>
+                            <item id="B">
+                            </item>
+                            <item id="C">
+                            </item>
+                            <item id="R">
+                            </item>
+                            <item id="D">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="testimonials_from_all_stores" edition_type="ULT:ROOT">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="companies" edition_type="MVE:ROOT">
+                <items>
+                    <item id="company_discussion_type">
+                        <type>selectbox</type>
+                        <default_value>D</default_value>
+                        <variants>
+                            <item id="B">
+                            </item>
+                            <item id="C">
+                            </item>
+                            <item id="R">
+                            </item>
+                            <item id="D">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="company_only_buyers">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <variants/>
+                    </item>
+                    <item id="company_posts_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="company_post_approval">
+                        <type>selectbox</type>
+                        <default_value>any</default_value>
+                        <variants>
+                            <item id="any">
+                            </item>
+                            <item id="anonymous">
+                            </item>
+                            <item id="disabled">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="company_post_ip_check">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="company_notification_email">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="company_notify_vendor">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item>DROP TABLE IF EXISTS ?:discussion;</item>
+        <item>DROP TABLE IF EXISTS ?:discussion_messages;</item>
+        <item>DROP TABLE IF EXISTS ?:discussion_posts;</item>
+        <item>DROP TABLE IF EXISTS ?:discussion_rating;</item>
+        <item>
+            CREATE TABLE `?:discussion` (
+                `thread_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `object_type` char(1) NOT NULL default '',
+                `type` char(1) NOT NULL default 'D',
+                PRIMARY KEY  (`thread_id`),
+                UNIQUE KEY `object_id` (`object_id`,`object_type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:discussion_messages` (
+                `message` mediumtext NOT NULL,
+                `post_id` mediumint(8) unsigned NOT NULL default '0',
+                `thread_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`post_id`),  KEY `thread_id` (`thread_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:discussion_posts` (
+                `post_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `thread_id` mediumint(8) unsigned NOT NULL default '0',
+                `name` varchar(128) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `ip_address` varchar(15) NOT NULL default '',
+                `status` char(1) NOT NULL default 'D',
+                PRIMARY KEY  (`post_id`),
+                KEY `thread_id` (`thread_id`,`ip_address`),
+                KEY `thread_id_2` (`thread_id`,`status`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:discussion_rating` (
+                `rating_value` tinyint(4) unsigned NOT NULL default '0',
+                `post_id` mediumint(8) unsigned NOT NULL default '0',
+                `thread_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`post_id`),
+                KEY `thread_id` (`thread_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:discussion`
+            ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `company_id` (`company_id`),
+            DROP INDEX  `object_id` ,
+            ADD UNIQUE  `object_id` (  `object_id` ,  `object_type` ,  `company_id` );
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_discussions', 'Y', 'cms');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_discussions', 'Y', 'cms');</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:discussion;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:discussion_messages;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:discussion_posts;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:discussion_rating;</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_discussions'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_discussions'</item>
+    </queries>
+</addon>

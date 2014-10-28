@@ -1,0 +1,33 @@
+{
+    "name": "Tygh/core",
+    "authors": [
+        {
+            "name": "Simtech",
+            "email": "zeke@cs-cart.com"
+        }
+    ],
+    "require": {
+        "educoder/pest": "1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PEAR": "pear/",
+            "Archive": "pear/",
+            "Crypt": "pear/",
+            "Net": "pear/",
+            "Text": "pear/"
+        },
+        "classmap": [
+            "other/smarty/Smarty.class.php",
+            "other/amazon_sdk/sdk.class.php",
+            "other/captcha/captcha.php",
+            "other/lessphp/lessc.inc.php",
+            "other/phpmailer/class.phpmailer.php",
+            "other/sqlparser/php-sql-parser.php",
+            "other/sqlparser/php-sql-creator.php",
+            "other/xmldocument/xmldocument.php",
+            "other/poparser/poparser.php",
+            "other/ftp/ftp.class.php"
+        ]
+    }
+}

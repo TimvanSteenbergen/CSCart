@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-10 06:00-0400\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "Slår på <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> søketjenesten"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "Produktkatalogen står i kø for synkronisering med Searchanise."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: Re-indeksering kreves (Klikk <strong>Force re-indexation </strong> knappen i <a href=\"[link]\">Searchanise admin-panelet</a>)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: Ny søkemotor for [store] opprettet. Katalog import startet."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "Hvis du har endret noen SEO tillegg innstillinger, vennligst <a href=\"[link]\">Re-indexation</a> produktkatalogen med Searchanise for å oppdatere produktene sine nettadresser."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Det oppstod en feil under Searchanise registreringen. Prøv igjen senere."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "Synkronisering av produktkatalogen pågår."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Produktkatalogen ble synkronisert vellykket med Searchanise."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Produktkatalogen er ikke synkronisert med Searchanise enda. Trykk \"Sync\" knappen for å starte."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "Vær oppmerksom på at data på Searchanise serveren er oppdatert med en 2-3 minutters forsinkelse når du gjør endringer i nettbutikken."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Klikk på knappen nedenfor for å koble til Searchanise."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Gratulerer, har du blitt koblet til Searchanise."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Du har blitt koblet til Searchanise."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "Du har nettopp gjenopprettet dataene fra databasen dump-filen. Hvis denne dumpen inneholder produktdata, vennligst <a href=\"[link]\">Re-indexation</a> med Searchanise."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Bare root admin har tillatelse til å koble til Searchanise"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Mente du"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "Produkt ID"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Tittel"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "Produkt Url"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Pris"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Antall"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Produktkode"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "Bilde Url"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "Kategori-Id"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "Kategori brukergruppe ID"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "Brukergruppe-ID"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "Firma-Id"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Uten kategorier"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Pris for brukergruppe Id ([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "Funksjons \"[id]\" Id"
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Relevans"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Produkter"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Populære forslag"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Sortér etter relevans"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API nøkkel"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Privat nøkkel"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Konfigurasjon"
+
+msgctxt "SettingsOptions::searchanise::template"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::api_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::private_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::parent_private_key"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::import_status"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::last_request"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::last_resync"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::searchanise::use_navigation"
+msgid ""
+msgstr ""
+""
+

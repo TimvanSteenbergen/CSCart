@@ -1,0 +1,159 @@
+.notification-content-extended h1 {
+	background: @menu;
+	color: #fff;
+}
+.ty-btn__secondary {
+	color: lighten(@font, 20%);
+}
+.ty-btn__secondary:hover {
+	background: darken(@secondary_button, 5%);
+	color: lighten(@font, 20%);
+}
+.ty-btn__primary:hover {
+	color: #fff;
+	background: darken(@primary_button, 10%);
+}
+.ty-btn__primary.ty-btn__text {
+	color: @links;
+}
+.ty-product-filters__switch-right, .ty-product-filters__switch-down, .ty-product-filters__title {
+	color: darken(@base, 45%);
+}
+.ty-menu__submenu-items .ty-menu__submenu-link {
+	color: @font;
+}
+.ty-sort-dropdown__content, .ty-dropdown-box__content, .ty-select-block {
+	border: 1px solid darken(@base, 15%);
+}
+.ty-select-block__a.open, .ty-select-block__a.open:hover, .ty-dropdown-box__title.open {
+	background: darken(@base, 15%);
+	color: @base;
+}
+.ty-sort-dropdown__wrapper.open {
+	background: darken(@base, 15%);
+	color: #fff;
+}
+.footer-stay-connected {
+	background: @menu;
+	border-bottom: 1px solid darken(@footer_bg, 10%);
+	border-top: 1px solid darken(@footer_bg, 10%);
+	color: @font;
+}
+.ty-footer-menu__header {
+	color: @links;
+}
+.ty-footer-menu__item a {
+	color: @font;
+}
+.footer-copyright {
+    border-top: 1px solid darken(@footer_bg, 10%);
+}
+.ty-footer-menu-bg() when(@footer_bg_full = true) {   
+}
+.ty-footer-menu-bg() when(@footer_bg_full = false) {
+    .tygh-footer > div {
+  		max-width: 1240px;
+		min-width: 290px;
+		background-color: @footer_bg;
+		.ty-footer-menu-bg-is-transparent();
+	}
+	.ty-footer-menu > .row, .ty-footer-menu > .row-fluid {
+		#gradient .vertical(@footer_bg, @footer_bg_grad_stop);
+        .ty-footer-menu-bg-is-transparent();
+	}
+	.footer-copyright {
+        background-color: lighten(@footer_bg, 5%);
+        .ty-footer-menu-bg-is-transparent();
+    }
+}
+.ty-footer-menu-bg();
+
+.ty-cr-phone-number-link .ty-cr-phone-prefix {
+    color: darken(@base, 35%);
+}
+
+
+@rounded_corners: false;
+@links: #3b5999;
+@menu_links: #ffffff;
+@menu: #3C599F;
+@base: #EEE;
+@font: #333333;
+
+@primary_button: #BB3737;
+@secondary_button: #D7D8DB;
+@tertiary_button: #718fbd;
+
+@sidebar: #fff;
+@price: #BB3737;
+@discount_label: #3C599F;
+@in_stock: #2ECC71;
+@out_of_stock: #a80006;
+@top_panel_links: #3b5999;
+@top_panel_text: #3b5999;
+@footer_text: #A3AAAF;
+@decorative: #e3e3e3;
+
+@general_bg_color: #ffffff;
+@general_bg_image: transparent;
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+
+@top_panel_bg: #F2F2F2;
+@top_panel_bg_full: true;
+@top_panel_bg_transparent: false;
+@top_panel_bg_grad_stop: #F2F2F2;
+
+@header_bg: #ffffff;
+@header_bg_full: false;
+@header_bg_transparent: false;
+@header_bg_grad_stop: #ffffff;
+
+@content_bg: #ffffff;
+@content_bg_full: false;
+@content_bg_transparent: false;
+
+@footer_bg: #F2F4F8;
+@footer_bg_full: true;
+@footer_bg_transparent: false;
+@footer_bg_grad_stop: #F2F4F8;
+
+@body_font: Tahoma,Geneva,sans-serif;
+@body_font_size: 13px;
+@body_font_style: normal;
+@body_font_weight: normal;
+
+@headings_font: Tahoma,Geneva,sans-serif;
+@headings_font_size: 20px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: bold;
+
+@links_font: Tahoma,Geneva,sans-serif;
+@links_font_size: 13px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+
+@price_font: Tahoma,Geneva,sans-serif;
+@price_font_size: 20px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: bold;
+
+@buttons_font: Tahoma,Geneva,sans-serif;
+@buttons_font_size: 14px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: normal;
+
+
+/*GFONTS*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+/*/GFONTS*/

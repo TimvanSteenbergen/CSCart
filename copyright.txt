@@ -1,0 +1,146 @@
+
+                              LICENSE AGREEMENT
+                                on the use of CS-Cart
+
+This license agreement (hereinafter referred to as the "Agreement") constitutes a contract between Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev who are the authors of and the owners of the exclusive right to the CS-Cart (hereinafter referred to as the "Copyright Owner"), and you (hereinafter referred to as the "User").
+This Agreement contains definitions and conditions under which the User can use CS-Cart.
+
+TERMS AND DEFINITIONS
+
+All terms given in this section of the Agreement shall have the following meaning for this Agreement only, and shall not be construed to suggest otherwise when used in respect of the conditions set forth in this Agreement.
+
+CS-Cart means the software registered at the Federal Service for Intellectual Property, Patents and Trademarks Regulations of the Russian Federation (certificate of official registration of a computer program #2007610394) and at the U.S. Copyright Office of the Library of Congress (certificate #TX 6-852-685).
+
+Program means the CS-Cart and all related printed materials, help and online documentation as well as all copies and all derivative works related to this software, including but not limited to, all updates and modifications.
+
+Program-based Derivative means any program, work or information created by the User or a third party with  using the Program or any of its parts.
+
+Use of the Program means any actions related to operation of the Program according to its purpose.
+
+Domain Name means a unique alphanumeric name intended to identify a resource on the Internet.
+
+Server means a computer to which the Program is installed.
+
+Free License means the right to Use the Program (one copy) in the limited functionality mode on one Server, which is provided by the Copyright Owner to the User for unlimited time.
+
+Trial License means the right to Use the Program (one copy) on one Server within thirty (30) days after the first installation of the Program provided by the Copyright Owner to the User.
+
+Subscription License means the right to Use the Program (one copy) on one Server provided by the Copyright Owner to the User for one (1) year from the date the right has been purchased.
+
+Full License means the right to Use the Program (one copy) on one Server provided by the Copyright Owner to  the User for unlimited time.
+
+Additional License means the time unlimited right to Use the Program  on one Domain Name in addition to the number of Domain Names declared while the Full License was purchased.
+
+Reseller means a legal entity or a private entrepreneur empowered to distribute the Free Licenses, the Trial Licenses, the Full Licenses and the Additional Licenses.
+
+Confidential Information means the contents of the Program (source code) as well as other information about the Program that the Copyright Owner may deem confidential.
+
+1. GENERAL PROVISIONS
+
+The User shall Use the Program within the bounds of this Agreement only. By Using the Program, the User thus consents to the conditions set forth in this Agreement. If the User does not wish to be bound by the conditions of this Agreement, he shall not Use the Program.
+
+The Copyright Owner notifies the User that the Program is not sold to the User, but, in accordance with this Agreement, the User gains the right to Use the Program (within the period stipulated by the Free License, the Trial License, the Subscription License or the Full License) under a simple non-exclusive license.
+
+Every Use of the Program is subject to this Agreement. Any Use of the Program or any of its parts, which contradicts the conditions of this Agreement, is prohibited. If the law of the User's country makes a provision for a different order of using similar products, the User has the right to Use the Program only in the way and within the bounds stipulated by this Agreement.
+
+2. GRANT OF LICENSE
+
+The Copyright Owner provides the User with the Free License under a simple non-exclusive license on the territory mentioned in Section 7 of this Agreement, provided that the User declares the number of Domain Names for which the Free License is obtained and through which the Program will be available on the Internet. 
+
+The User having the Free License shall keep the text "Powered by CS-Cart" which contains a hyperlink to the website http://www.cs-cart.com on each page of the Program. Upon removing or visual concealing this text and/or the hyperlink the User bears liability for infringing the Copyright Owner's exclusive rights in accordance with the effective law of the Russian Federation and international agreements on copyright and intellectual property.
+
+The Copyright Owner provides the User with the Trial License under a simple non-exclusive license on the territory mentioned in Section 7 of this Agreement only once. If the User was provided with the Trial License earlier, the  Trial License is not provided to him again.
+
+The User having the Trial License shall keep the  text "Powered by CS-Cart" which contains a hyperlink to the site  http://www.cs-cart.com on each page of the Program. Upon removing this text and/or the hyperlink the User bears liability for infringing the Copyright Owner's exclusive rights in accordance with the effective law of the Russian Federation and international agreements on copyright and intellectual property.
+
+The User shall, upon expiration of the term granted by the Trial License, purchase the Subscription  License or the Full License on the site http://www.cs-cart.com  or remove the Program both from the Server on which the Program was used and from other media if any.
+
+The Copyright Owner provides the User with the Subscription  License under a simple non-exclusive license on the territory mentioned in Section 7 of this Agreement only after the User pays the compensation on the Website http://www.cs-cart.com provided that the User declares the number of Domain Names for which the Subscription License is purchased and through which the Program will be available on the Internet.
+
+The User shall, upon expiration of the term granted by the Subscription License, purchase the Full License or purchase the Subscription License repeatedly on the Website  http://www.cs-cart.com or remove the Program both from the Server on which the Program is installed and from  other media, if any.
+
+The Copyright Owner provides the User with the Full  License under a simple non-exclusive license on the territory mentioned in Section 7 of this Agreement only after the User pays the compensation on the site http://www.cs-cart.com or to the Reseller provided that the User declares the number of Domain Names for which the Full License is purchased and through which the Program will be available on the Internet.
+
+The Copyright Owner provides the User with the Additional License under a simple non-exclusive license on the territory mentioned in Section 7 of this Agreement only after the User pays the compensation on the site http://www.cs-cart.com or to the Reseller, provided that the User declares for which his Full License the Additional License is obtained.
+
+3.  EXCLUSIVE RIGHT AND LIMITATIONS
+
+Exclusive right:
+
+The Copyright Owner owns personal non-property  copyrights and an exclusive right to the Program.
+
+The Copyright Owner has the right to:
+
+- notify the User that the copy of the Program is illegal and is used without the Free License, the Trial License, the Subscription License, the Full License or the Additional License.
+
+Limitations:
+
+The User has no right to:
+
+- make copies of the Program and let a third party copy the Program;
+
+- deploy additional copies of the Program on the Server on which the Program is used without obtaining  the Free License, the Trial License, the Subscription License or the Full License;
+
+- make the Program available on a greater number of Domain Names than declared while the Free License or the Subscription License or the Full License was purchased if no appropriate number of the Additional Licenses was obtained for them;
+
+- extract, excerpt or use any part of the Program to create any Program-based Derivatives as well as provide such possibility to a third party;
+
+- sell, transfer, obligate, license, sublicense, rent, lease, give for temporary use, yield or convey (by selling, exchanging, giving as a gift, by law, or in any other way) the Program, any of its copies (or any of its parts), the Free License, the Trial License, the Subscription License, the Full  License or the Additional License and other rights to them, partially or in full, to a third party without a prior written consent of the Copyright Owner;
+
+- remove, hide, modify or make barely visible any copyright, trademark or other proprietary notices contained within any part of the Program without a prior written consent of the Copyright Owner;
+
+- prevent the Copyright Owner from obtaining information about the Use of the Program;
+
+- use the Program after the Trial License or the Subscription License expires.
+
+The User having the Free License may not use the CS-Cart source code or any of its parts as well as the source codes of the other program products developed by the Copyright Owner based on CS-Cart to modify the Program. If the User breaches this section, the User shall pay the Copyright Owner the compensation for the use of the program product developed by the Copyright Owner, which source code the User used. The amount of the compensation (the price of the corresponding program product) and the order of payment are defined on the website http://www.cs-cart.com.
+
+The User may not remove, disable or modify the part of the Program source code that verifies the Program authenticity and ascertains whether the User has the Free License, the Trial License, the Subscription License, the Full License or the Additional License.
+
+4. CONFIDENTIALITY
+
+The User pledges not to disclose Confidential Information, protect from and prevent unauthorized disclosure of the Confidential Information, and take appropriate measures to protect Confidential Information. If the information, which is confidential according to this Agreement, becomes available to a third party without a consent of the Copyright Owner, the User agrees to indemnify the Copyright Owner for all suffered damages.
+
+5. WARRANTIES AND LIMITATIONS
+
+The Program is provided "AS IS" with all possible malfunction and in the state that is actual by the time the Copyright Owner provides the User with the Free License, the Trial License, the Subscription License, the Full License or the Additional License.
+
+Under no circumstances the Copyright Owner guarantees error-free and uninterrupted performance of the Program and that the Program will meet the requirements of the User as well as the Copyright Owner disclaims any other warranties to the extent to which it is permitted by the effective law.
+
+6. LIABILITY
+
+The User assumes all the risks related to the performance and the Use of the Program, including the risk of not getting the expected profit, the risk of a software failure after the Program is installed, etc.
+
+Under no circumstances the Copyright Owner is liable to the User for any damages (including, but not limited to, any loss of profits and confidential or other information, the damages caused by an interruption of the business, loss of revenue, turnover, business reputation or data, neglected business opportunities, any indirect, incidental, special, punitive or consequential damages) related to the Use of the Program or impossibility to Use the Program.
+
+In the event that the law of the User's country concedes no limitation of liability, or the liability of the Copyright Owner is recognized by the competent court, the Copyright Owner will be liable only for actual damage incurred from Using the Program if the damage is caused by a tort of the Copyright Owner, or if the damage is caused by the reasons that the Copyright Owner knew or should have known. The maximum amount of liability of the Copyright Owner is limited to the amount of the compensation that the User paid for one Subscription License or one Full License.
+
+The limitations of liability of the Copyright Owner that are specified in this section of the Agreement apply to the Program and all associated objects.
+
+7. TERMINATION OF LICENSE AND AGREEMENT
+
+The Agreement is effective until terminated. The Agreement is terminated upon expiration of the Trial License. The Trial License is terminated thirty (30) days after the first installation of the Program. The Subscription License expires one (1) year after it was purchased by the User. The Agreement and the Free License, the Trial License, the Subscription License or the Full License together with the appropriate Additional Licenses are also terminated immediately after the User violates any part of this Agreement without any additional notice from the Copyright Owner. And the User consents to immediately remove the Program together with all copies, modifications and upgrades, or any Program-based Derivatives.
+
+The territory for this Agreement shall be the entire world. The User has the right to terminate the Free License, the Trial License, the Subscription License or the Full License together with the appropriate Additional Licenses at any time by discontinuing the Agreement and removing the Program together with all its copies, modifications and upgrades, or Program-based Derivatives, along with sending an appropriate notification to the Copyright Owner. The Agreement is deemed terminated from the moment the Copyright Owner receives the notification from the User.
+
+8. FINAL PROVISIONS
+
+This Agreement complies with the effective law of the Russian Federation and international agreements on copyright and intellectual property. The appropriate law to interpret this Agreement and all relationships coming from the scope of the Agreement is the substantive and the adjective law of the Russian Federation.
+
+If any condition of this Agreement for any reason becomes unenforceable, or is voided or declared invalid by the competent court, then it is regarded as an omission from the text of this Agreement, which, however, shall by no means affect the legitimacy and validity of the other conditions.
+
+The section headings in the text of the Agreement are for convenience only and have no independent legal force, and shall not be interpreted in relation to the conditions of the Agreement.
+
+The User acknowledges that he has read this Agreement carefully and understood it completely, and agrees to accept its terms and conditions.
+
+The Copyright Owner may unilaterally change this Agreement. The User is notified of the changes through a notice on the site http://www.cs-cart.com where the text of the changes is published. The changes in the conditions of the Agreement shall come into force on the date of publishing on the site http://www.cs-cart.com, unless otherwise is specified in the publication, and become mandatory for acceptance and satisfaction by the User for further Use of the Program. 
+
+The User acknowledges that the Copyright Owner may suffer damage if the conditions of this Agreement are not respected, and therefore the User agrees that the Copyright Owner has the right to use any form of protecting the violated rights and legitimate interests, including the direct appeal to the appropriate court without a necessity to comply with the claim settlement procedure.
+
+Any dispute arising out or in connection with this Agreement, including any question regarding its interpretation, execution, termination or validity shall be finally settled by arbitration under the Rules of the International Commercial Arbitration Court at the Chamber of Commerce and Industry of the Russian Federation (hereinafter referred to as the "Rules", http://www.tpprf-mkac.ru/en/2010-06-13-13-33-51/regleng), which Rules are deemed to be incorporated by reference into this section. The arbitration panel shall consist of one (1) arbitrator selected in accordance with the Rules. The language to be used in the arbitral proceeding shall be English. The governing law of the Agreement shall be the substantive law of Russian Federation. The arbitration shall be held in Moscow, Russian Federation. The injunctive relief for the subject of dispute may be only suspension of recovery on the basis of the enforced document questioned by the plaintiff or any other document under which penalties are recovered on non-acceptable basis. The plaintiff shall bear its own and the other Party’s costs associated with the resolution or arbitration of any dispute, and all fees and other costs of the arbitration proceeding shall be paid by the plaintiff. The award rendered by the arbitration shall be final and binding upon both Parties and judgment upon the award may be entered in any court having jurisdiction thereof.
+
+The Parties acknowledge the legal validity of the documents sent by email. The documents sent by the Copyright Owner are considered created in the proper written form if they are sent from sales@cs-cart.com.
+
+The Program is protected by the law of the Russian Federation and international legislation on copyright and intellectual property.
+
+(c) 2004 Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev

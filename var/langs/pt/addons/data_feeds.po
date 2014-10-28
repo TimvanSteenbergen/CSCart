@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-06 11:00-0400\n"
+
+msgctxt "Addons::name::data_feeds"
+msgid "Data feeds"
+msgstr "Data feeds"
+
+msgctxt "Addons::description::data_feeds"
+msgid "Makes it possible to create product data feeds in CSV"
+msgstr "Makes it possible to create product data feeds in CSV"
+
+msgctxt "Languages::data_feeds"
+msgid "Data feeds"
+msgstr "Data feeds"
+
+msgctxt "Languages::data_feed"
+msgid "Data feed"
+msgstr "Data feed"
+
+msgctxt "Languages::export_by_cron"
+msgid "Export by cron"
+msgstr "Export by cron"
+
+msgctxt "Languages::export_by_cron_to"
+msgid "Export by cron to"
+msgstr "Export by cron to"
+
+msgctxt "Languages::add_new_datafeed"
+msgid "New data feed"
+msgstr "New data feed"
+
+msgctxt "Languages::add_datafeed"
+msgid "Add data feed"
+msgstr "Add data feed"
+
+msgctxt "Languages::datafeed_name"
+msgid "Data feed name"
+msgstr "Data feed name"
+
+msgctxt "Languages::save_directory"
+msgid "Server directory"
+msgstr "Server directory"
+
+msgctxt "Languages::ftp_url"
+msgid "FTP server"
+msgstr "FTP server"
+
+msgctxt "Languages::ftp_url_hint"
+msgid "The format is: FTPHOST[:PORT][/DIRECTORY]. Example: ftp.yourhost.com:21/home/username/folder"
+msgstr "The format is: FTPHOST[:PORT][/DIRECTORY]. Example: ftp.yourhost.com:21/home/username/folder"
+
+msgctxt "Languages::ftp_user"
+msgid "FTP username"
+msgstr "FTP username"
+
+msgctxt "Languages::ftp_pass"
+msgid "FTP password"
+msgstr "FTP password"
+
+msgctxt "Languages::fields"
+msgid "Fields"
+msgstr "Fields"
+
+msgctxt "Languages::field_name"
+msgid "Field name"
+msgstr "Field name"
+
+msgctxt "Languages::field_type"
+msgid "Field type"
+msgstr "Field type"
+
+msgctxt "Languages::map_fields"
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+msgctxt "Languages::update_datafeed"
+msgid "Editing data feed"
+msgstr "Editing data feed"
+
+msgctxt "Languages::export_cron_hint"
+msgid "Use the following line to run the script according to schedule"
+msgstr "Use the following line to run the script according to schedule"
+
+msgctxt "Languages::exported_items"
+msgid "Exported items"
+msgstr "Exported items"
+
+msgctxt "Languages::ftp_connection_problem"
+msgid "Unable connect to FTP server. Please, check FTP connection information"
+msgstr "Unable connect to FTP server. Please, check FTP connection information"
+
+msgctxt "Languages::categories_products"
+msgid "Products from categories"
+msgstr "Products from categories"
+
+msgctxt "Languages::local_export"
+msgid "Download"
+msgstr "Download"
+
+msgctxt "Languages::upload_to_ftp"
+msgid "Upload to FTP server"
+msgstr "Upload to FTP server"
+
+msgctxt "Languages::cron_export"
+msgid "Cron export settings"
+msgstr "Cron export settings"
+
+msgctxt "Languages::export_to_server"
+msgid "Export to server"
+msgstr "Export to server"
+
+msgctxt "Languages::export_to_ftp"
+msgid "FTP server options"
+msgstr "FTP server options"
+
+msgctxt "Languages::ftp"
+msgid "FTP"
+msgstr "FTP"
+
+msgctxt "Languages::check_server_export_settings"
+msgid "Check server export settings"
+msgstr "Check server export settings"
+
+msgctxt "Languages::exclude_disabled_products"
+msgid "Exclude disabled products"
+msgstr "Exclude disabled products"
+
+msgctxt "Languages::general_settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::enclosure"
+msgid "Enclosure"
+msgstr "Enclosure"
+
+msgctxt "SettingsSections::data_feeds::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::data_feeds::cron_password"
+msgid "Cron password"
+msgstr "Cron password"
+

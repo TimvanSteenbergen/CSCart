@@ -1,0 +1,164 @@
+.ty-product-filters__item {
+    color: @font;
+}
+.ty-sidebox__title-wrapper, .ty-sidebox__title span, .ty-sidebox__title a {
+    color: @font;
+}
+.ty-product-filters__switch {
+    border-bottom: 1px solid @base;
+}
+.ty-footer-menu__header, .ty-footer-menu__item {
+    border-bottom: 1px solid lighten(@footer_bg, 5%);
+}
+.ty-product-filters__title {
+    color: @font; 
+}
+.ty-dropdown-box__content .ty-dropdown-box__item:hover {
+    background: lighten(@font, 45%);
+}
+.ty-account-info__item .ty-account-info__a {
+    color: @font;
+}
+.ty-menu__item .ty-menu__item-link {
+    text-transform: uppercase;
+    text-decoration: @headings_font_decoration;
+    font-weight: @headings_font_weight;
+    font-style: @headings_font_style;
+    font-size: 14px;
+    font-family: @headings_font;
+    text-shadow: 1px 1px 0 darken(@menu, 20%);
+}
+.ty-menu__submenu-item-header .ty-menu__submenu-link, .ty-menu__submenu-items .ty-menu__submenu-link {
+    color: @font;
+}
+.no-touch .ty-menu__item:hover .ty-menu__item-link,
+.is-hover-menu .ty-menu__item-link,
+.is-hover-menu.ty-menu__item-active .ty-menu__item-link {
+    text-shadow: 1px 1px 0 darken(@menu, 20%);
+    background: darken(@menu, 10%);
+}
+.ty-sort-dropdown__content-item-a, .ty-select-block__list-a {
+    color: @font;
+}
+.ty-sort-dropdown__content-item-a:hover, .ty-select-block__list-a:hover {
+    background: lighten(@font, 45%);
+    color: white;
+}
+.ty-footer-menu__header {
+    color: @links;
+}
+.ty-grid-list__item-name .product-title {
+    color: @links;
+}
+.ty-grid-list__price .ty-list-price {
+    display: block;
+    color: @font;
+}
+.ty-product-block__button .ty-btn__text {
+    padding: 0px;
+    color: @links;
+}
+.ty-footer-menu-bg-is-transparent() when(@footer_bg_transparent = true) {
+    background-color: transparent;
+    background-image: none;
+}
+.ty-footer-menu-bg() when(@footer_bg_full = true) {
+    .tygh-footer > div {
+    	background-color: @footer_bg;
+    	.ty-footer-menu-bg-is-transparent();
+    }
+}
+.ty-footer-menu-bg() when(@footer_bg_full = false) {
+    .tygh-footer > div  {
+  		max-width: 1240px;
+		min-width: 320px;
+		background-color: @footer_bg;
+		.ty-footer-menu-bg-is-transparent();
+	}
+	.footer-copyright {
+        background-color: lighten(@footer_bg, 5%);
+        .ty-footer-menu-bg-is-transparent();
+    }
+}
+.ty-footer-menu-bg();
+
+
+@rounded_corners: false;
+@links: #66bcda;
+@menu_links: #ffffff;
+@menu: #ee3963;
+@base: #efefef;
+@font: #535353;
+
+@primary_button: #e0365d;
+@secondary_button: #66bcdb;
+@tertiary_button: #66bcdb;
+
+@sidebar: #faf9f5;
+@price: #66bcdb;
+@discount_label: #e0365d;
+@in_stock: #6aa84f;
+@out_of_stock: #999999;
+@top_panel_links: #535353;
+@top_panel_text: #555555;
+@footer_text: #a3a3a3;
+@decorative: #e3e3e3;
+
+@general_bg_color: #ffffff;
+@general_bg_image: url(../media/images/patterns/Woody/general_bg_image.png);
+@general_bg_repeat: repeat;
+@general_bg_scroll: scroll;
+
+@top_panel_bg: #ffffff;
+@top_panel_bg_full: false;
+@top_panel_bg_transparent: false;
+@top_panel_bg_grad_stop: #ffffff;
+
+@header_bg: #ffffff;
+@header_bg_full: false;
+@header_bg_transparent: false;
+@header_bg_grad_stop: #ffffff;
+
+@content_bg: #ffffff;
+@content_bg_full: false;
+@content_bg_transparent: false;
+
+@footer_bg: #202020;
+@footer_bg_full: false;
+@footer_bg_transparent: false;
+@footer_bg_grad_stop: #202020;
+
+@body_font: Lucida Sans Unicode,Lucida Grande,sans-serif;
+@body_font_size: 13px;
+@body_font_style: normal;
+@body_font_weight: normal;
+@headings_font: Fjalla One;
+@headings_font_size: 20px;
+@headings_font_decoration: none;
+@headings_font_style: normal;
+@headings_font_weight: bold;
+@links_font: Lucida Sans Unicode,Lucida Grande,sans-serif;
+@links_font_size: 13px;
+@links_font_decoration: none;
+@links_font_style: normal;
+@links_font_weight: normal;
+@price_font: Lucida Sans Unicode,Lucida Grande,sans-serif;
+@price_font_size: 20px;
+@price_font_decoration: none;
+@price_font_style: normal;
+@price_font_weight: bold;
+@buttons_font: Lucida Sans Unicode,Lucida Grande,sans-serif;
+@buttons_font_size: 14px;
+@buttons_font_decoration: none;
+@buttons_font_style: normal;
+@buttons_font_weight: normal;
+
+/*GFONTS*/
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://themes.googleusercontent.com/static/fonts/fjallaone/v2/rxxXUYj4oZ6Q5oDJFtEd6i3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+/*/GFONTS*/

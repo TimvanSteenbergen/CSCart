@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>elFinder</title>
+
+	<link rel="stylesheet" href="js/ui-themes/base/ui.all.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/elfinder.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<script src="../jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../../js/tygh/core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../jqueryui/jquery-ui.custom.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/elfinder.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		Tygh.$(function() {
+
+			var params = top.tinymce.activeEditor.windowManager.getParams();
+			
+			var f = Tygh.$('#finder').elfinder({
+				url : params.connector_url,
+				lang : 'en',
+
+				editorCallback : function(url) {
+					var win = params.window;
+
+					url += '?' + new Date().getTime();
+
+					// insert information now
+					win.document.getElementById(params.input).value = url;
+
+					// are we an image browser
+					if (typeof(win.ImageDialog) != 'undefined') {
+						// we are, so update image dimensions...
+						if (win.ImageDialog.getImageData)
+							win.ImageDialog.getImageData();
+
+						// ... and preview if necessary
+						if (win.ImageDialog.showPreviewImage)
+							win.ImageDialog.showPreviewImage(url);
+					}
+			        top.tinymce.activeEditor.windowManager.close();
+				},
+				closeOnEditorCallback : true
+			})
+		});
+	</script>
+
+</head>
+<body>
+	<div id="finder">finder</div>
+</body>
+</html>

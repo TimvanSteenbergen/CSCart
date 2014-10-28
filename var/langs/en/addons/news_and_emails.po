@@ -1,0 +1,437 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::news_and_emails"
+msgid "News & e-mails"
+msgstr "News & e-mails"
+
+msgctxt "Addons::description::news_and_emails"
+msgid "Lets you manage site news and configure newsletter sending"
+msgstr "Lets you manage site news and configure newsletter sending"
+
+msgctxt "Languages::news"
+msgid "News"
+msgstr "News"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Create and send newsletters to your customer."
+
+msgctxt "Languages::news_menu_description"
+msgid "Manage news that is published in News box on the storefront."
+msgstr "Manage news that is published in News box on the storefront."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Plain"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Sign up for our newsletters!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "News & emails: Newsletter subscription form"
+msgstr "News & emails: Newsletter subscription form"
+
+msgctxt "Languages::log_type_news"
+msgid "News"
+msgstr "News"
+
+msgctxt "Languages::news_and_emails"
+msgid "News & e-mails"
+msgstr "News & e-mails"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Unsubscribe link"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Add subscribers from the list of users"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> is already in the subscribers list"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Subscribers"
+
+msgctxt "Languages::news_list_page"
+msgid "News list page"
+msgstr "News list page"
+
+msgctxt "Languages::view_news_page"
+msgid "News page"
+msgstr "News page"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Newsletter subscription"
+
+msgctxt "Languages::block_news"
+msgid "News"
+msgstr "News"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Email field for newsletter subscription"
+
+msgctxt "Languages::block_news_description"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::privileges.view_news"
+msgid "View news"
+msgstr "View news"
+
+msgctxt "Languages::privileges.manage_news"
+msgid "Manage news"
+msgstr "Manage news"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "The newsletter(s) have been sent successfully."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail cannot be empty"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Sending email to [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Your e-mail has been successfully added to our free e-mail updates list"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Your e-mail is already subscribed."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Your e-mail has been successfully removed from our free e-mail updates list"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Your email has been successfully activated"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "The link will be displayed in a live newsletter"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Newsletters"
+
+msgctxt "Languages::templates"
+msgid "Templates"
+msgstr "Templates"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Autoresponders"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Campaigns"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Sent"
+
+msgctxt "Languages::add_news"
+msgid "Add news"
+msgstr "Add news"
+
+msgctxt "Languages::add_news_and_close"
+msgid "Add news and close"
+msgstr "Add news and close"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Number of subscribers"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Editing mailing list"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "From name"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "From email"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Reply to"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Confirmation email"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "No autoresponder"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Show at checkout"
+
+msgctxt "Languages::show_on_registration"
+msgid "Show on registration"
+msgstr "Show on registration"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Show on separate page"
+
+msgctxt "Languages::editing_news"
+msgid "Editing news"
+msgstr "Editing news"
+
+msgctxt "Languages::new_news"
+msgid "New news"
+msgstr "New news"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Campaign statistics"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Add campaign"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "New campaign"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Newsletter templates"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Newsletter autoresponders"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Subject"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Add newsletter"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Add template"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Add autoresponder"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Random subjects (one per line)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML body"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "No template"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Load"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Campaign"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Send to"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Add recipients from users"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Customers with abandoned"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Cart or Wishlist"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "which is"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "days old"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Send to test email"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Save and send"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Newsletter template"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Newsletter autoresponder"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Mailing list"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Subscribed to [num] lists"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Subscribed"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "You have been successfully subscribed to our free e-mail updates and promotions!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "updates and promotions subscription"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Shared with:"
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Email of a sender."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Name of a sender (e.g. company name)."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Email to send replies to."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "If several subjects are specified, email subject is randomly picked from this list."
+
+msgctxt "Languages::tt_addons_news_and_emails_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "If the message text contains the unsubscribe link, it will be empty for these users."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Add mailing list"
+
+msgctxt "Languages::add_subscribers"
+msgid "Add subscribers"
+msgstr "Add subscribers"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "New mailing list"
+
+msgctxt "Languages::new_subscribers"
+msgid "New subscribers"
+msgstr "New subscribers"
+
+msgctxt "SettingsSections::news_and_emails::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::news_and_emails::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Newsletters sent per step"
+
+msgctxt "SettingsOptions::news_and_emails::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Advanced mailing server options"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Method of sending e-mails"
+
+msgctxt "SettingsOptions::news_and_emails::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP server settings"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP host"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP username"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP password"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Use SMTP authentication"
+
+msgctxt "SettingsOptions::news_and_emails::elm_sendmail_settings"
+msgid "Sendmail settings"
+msgstr "Sendmail settings"
+
+msgctxt "SettingsOptions::news_and_emails::mailer_sendmail_path"
+msgid "Path to sendmail program"
+msgstr "Path to sendmail program"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "via SMTP server"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "via php mail function"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::sendmail"
+msgid "via sendmail program"
+msgstr "via sendmail program"
+
+msgctxt "SettingsVariants::news_and_emails::mailer_send_method::default"
+msgid "use default settings"
+msgstr "use default settings"

@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-23 08:00-0400\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "奖励积分"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "让客户购买赚取和消费积分"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "奖励积分"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "奖励积分日志"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "在您的商店分配全局的奖励积分"
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "用户帐户积分"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "积分"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "积分使用"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "积分使用"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "积分"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "积分使用"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "积分支付"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "积分价格"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "此订单使用的积分已添加到用户帐户."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "积分用于订单"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "您有"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "允许积分支付"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "覆盖全局 PER"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "覆盖全局/分类积分"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "您输入的积分超过了您的帐户积分."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "您输入的积分超过了此订单应用的积分."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "积分不能适用因为小计全部赎回."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "很不幸,您无法在此订单中使用积分,因为总成本为零."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "很不幸,您无法在此订单中使用积分,因为帐号中没有足够的积分."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "订单状况没有改变,因为用户没有足够的积分."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "积分价格上涨由"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "积分价格降低由"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "单个产品赚取积分"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "在此分类中对所有产品覆盖全局积分值"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "金额类型"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "最大的"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "修改赚取积分"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "覆盖全局/此产品的分类积分"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "查看用户积分"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "日志"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "减少"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "更改积分"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "添加和减少积分"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "清除日志"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "我们想通知您"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "have been added to your account."
+msgstr "已被添加到您的帐户."
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "have been subtracted from your account."
+msgstr "已从您的账户中扣除."
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Manage reward points system"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "积分兑换率(PER-积分数等于1常规单位)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"价格在积分中\"每单位自动计算"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"价格在积分中\"考虑到帐户折扣重新计算"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"积分\"考虑到帐户折扣重新计算"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"价格在积分中\"考虑到帐户定单折扣重新计算"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"积分\"考虑到帐户定单折扣重新计算"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "如果产品和产品分类没有已定义的奖励积分,但更高级别分类具有这种奖励积分,则从中提取数据"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "如果几个积分奖励可以应用,设置"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "应用零奖励积分值"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "每页日志行数"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "奖励积分规则为零值必须考虑"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Absolute minimal value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Minimal percentage value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Absolute maximal value"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Maximal percentage value"
+

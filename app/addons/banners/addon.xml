@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>banners</id>
+    <version>1.0</version>
+    <priority>2800</priority>
+    <position>100</position>
+    <status>active</status>
+    <dependencies/>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="banner_multilang">
+                        
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:banners;</item>
+        <item>DROP TABLE IF EXISTS ?:banner_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:banner_images;</item>
+        <item>
+            CREATE TABLE `?:banners` (
+                `banner_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `status` char(1) NOT NULL default 'A',
+                `type` char(1) NOT NULL default 'G',
+                `target` char(1) NOT NULL default 'B',
+                `localization` varchar(255) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `position` smallint(5) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`banner_id`),
+                KEY `localization` (`localization`),
+                KEY `status` (`status`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:banner_descriptions` (
+                `banner_id` mediumint(8) unsigned NOT NULL default 0,
+                `banner` varchar(255) NOT NULL default '',
+                `url` varchar(255) NOT NULL default '',
+                `description` mediumtext NOT NULL,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`banner_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:banner_images` (
+            `banner_image_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `banner_id` mediumint(8) unsigned NOT NULL default 0,
+            `lang_code` char(2) NOT NULL default '',
+            PRIMARY KEY  (`banner_image_id`),
+            UNIQUE KEY  `banner` (`banner_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:banners`
+            ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `company_id` (`company_id`);
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_banners', 'Y', 'design');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_banners', 'Y', 'design');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'view_banners');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'manage_banners');</item>
+        <item type="file">database/data.sql</item>
+        <item type="file" editions="ULTIMATE">database/data_ultimate.sql</item>
+        <item type="file" table="banner_descriptions">database/data_banners.sql</item>
+        <item type="file" lang="ru" table="banner_descriptions">database/data_banners_ru.sql</item>
+        <item type="file" for="demo" lang="en" table="banner_descriptions">database/demo_banners_en.sql</item>
+        <item type="file" for="demo" lang="ru" table="banner_descriptions">database/demo_banners_ru.sql</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:banners;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:banner_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:banner_images;</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_banners'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'view_banners'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_banners'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'manage_banners'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_banners_install</item>
+    </functions>
+</addon>

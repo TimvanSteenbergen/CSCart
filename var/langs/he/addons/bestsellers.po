@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-04 14:00-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "הנמכרים ביותר & מוצרים הנמצאים בסייל"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "אוסף הנמכרים ביותר & רבי מכר והוסף בלוק של המוצרים הנ\"ל"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "מיין לפי רבי מכר: מהנמוך לגבוה"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "מיין לפי רבי מכר"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "מיין לפי הנחה: מהנמוך לגבוה"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "מיין לפי הנחה: מהגבוה לנמוך"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "כמות המכירות"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "רבי מכר"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "במבצע"
+

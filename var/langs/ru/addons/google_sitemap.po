@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 10:00-0400\n"
+
+msgctxt "Addons::name::google_sitemap"
+msgid "Google sitemap"
+msgstr "Карта сайта для Yandex и Google"
+
+msgctxt "Addons::description::google_sitemap"
+msgid "Creates a sitemap.xml for Google"
+msgstr "Создание карты сайта в формате XML (sitemap.xml) для улучшения поиска магазина через Yandex и Google"
+
+msgctxt "Languages::google_sitemap.text_regenerate"
+msgid "If products, categories, etc. were added or changed, please <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Regenerate a sitemap</a><br /><br /> [sitemap_available_in_customer]"
+msgstr "If products, categories, etc. were added or changed, please <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Regenerate a sitemap</a><br /><br /> [sitemap_available_in_customer]"
+
+msgctxt "Languages::google_sitemap.text_select_storefront"
+msgid "To generate a sitemap, please select storefront first."
+msgstr "To generate a sitemap, please select storefront first."
+
+msgctxt "Languages::sitemap_available_in_customer"
+msgid "Sitemap is available by this link: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Sitemap can be reached by the URL <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+msgstr "Sitemap is available by this link: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Sitemap can be reached by the URL <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+
+msgctxt "Languages::always"
+msgid "Always"
+msgstr "Всегда"
+
+msgctxt "Languages::hourly"
+msgid "Hourly"
+msgstr "Каждый час"
+
+msgctxt "Languages::daily"
+msgid "Daily"
+msgstr "Ежедневно"
+
+msgctxt "Languages::weekly"
+msgid "Weekly"
+msgstr "Еженедельно"
+
+msgctxt "Languages::monthly"
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+msgctxt "Languages::yearly"
+msgid "Yearly"
+msgstr "Ежегодно"
+
+msgctxt "Languages::never"
+msgid "Never"
+msgstr "Никогда"
+
+msgctxt "Languages::google_sitemap.generate_map"
+msgid "The sitemap is not generated yet. Please go to addon settings and press \"Regenerate a sitemap\" button"
+msgstr "The sitemap is not generated yet. Please go to addon settings and press \"Regenerate a sitemap\" button"
+
+msgctxt "Languages::google_sitemap.map_generated"
+msgid "The sitemap was generated successfully"
+msgstr "The sitemap was generated successfully"
+
+msgctxt "SettingsSections::google_sitemap::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::google_sitemap::information"
+msgid "Information"
+msgstr "Информация"
+
+msgctxt "SettingsOptions::google_sitemap::clear_url"
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+msgctxt "SettingsOptions::google_sitemap::site_setting"
+msgid "Homepage settings"
+msgstr "Настройки домашней страницы"
+
+msgctxt "SettingsOptions::google_sitemap::site_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::site_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::products_setting"
+msgid "Products settings"
+msgstr "Настройки товаров"
+
+msgctxt "SettingsOptions::google_sitemap::include_products"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::products_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::products_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::categories_setting"
+msgid "Categories settings"
+msgstr "Настройки категорий"
+
+msgctxt "SettingsOptions::google_sitemap::include_categories"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::categories_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::categories_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::pages_setting"
+msgid "Pages settings"
+msgstr "Настройки страниц"
+
+msgctxt "SettingsOptions::google_sitemap::include_pages"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::pages_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::pages_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::news_setting"
+msgid "News settings"
+msgstr "Настройки новостей"
+
+msgctxt "SettingsOptions::google_sitemap::include_news"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::news_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::news_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::extended_setting"
+msgid "Brand/Manufacturer feature pages settings"
+msgstr "Настройки страниц характеристики с типом бренд/производитель"
+
+msgctxt "SettingsOptions::google_sitemap::include_extended"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::extended_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::extended_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::google_sitemap::companies_setting"
+msgid "Companies settings"
+msgstr "Настройки компаний"
+
+msgctxt "SettingsOptions::google_sitemap::include_companies"
+msgid "Include in sitemap"
+msgstr "Включать в карту сайта (sitemap)"
+
+msgctxt "SettingsOptions::google_sitemap::companies_change"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgctxt "SettingsOptions::google_sitemap::companies_priority"
+msgid "Priority"
+msgstr "Приоритет"
+

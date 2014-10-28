@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-15 09:00-0400\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "Kanał RSS"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products, news and pages"
+msgstr "Generuje kanały RSS dla produktów, nowości i stron"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "Kanał RSS"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "Tytuł kanału"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "Opis kanału"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "Sortuj elementy według"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "Wyświetl kod produktu"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "Wyświetlaj obraz"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "Wyświetlić cenę brutto"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "Wyświetl cenę netto"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "Wyświetlaj przycisk \"Dodaj do koszyka\""
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "Stworzony"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "Aktualizacja"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "Kanał RSS"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "Przycisk subskrypcji RSS"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "Zawartość edytora"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "Pokaż kanał RSS dla każdej kategorii"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "Maksymalna ilość produktów w kategorii"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "Wpisz do edytora e-mail i prawdziwe imię, np. john@example.com (Jan Kowalski)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "Ikona RSS w pobliżu tytułu kategorii."
+

@@ -1,0 +1,20 @@
+[ISAPI_Rewrite]
+
+# Some hostings require UriMatchPrefix and UriFormatPrefix to be uncommented
+# Example:
+# Your store url is http://www.yourcompany.com/store/cart
+# So UriMatchPrefix and UriFormatPrefix should be:
+# UriMatchPrefix /store
+# UriFormatPrefix /store
+
+#UriMatchPrefix /
+#UriFormatPrefix /
+
+RewriteRule /js/(.*) /js/$1 [L]
+RewriteRule /design/(.*) /design/$1 [L]
+RewriteRule /app/(.*) /app/$1 [L]
+RewriteRule /images/(.*) /images/$1 [L]
+RewriteRule /index\.php(.*) /index.php$1 [L]
+RewriteRule /admin\.php(.*) /admin.php$1 [L]
+RewriteRule /vendor\.php(.*) /vendor.php$1 [L]
+RewriteRule (.*?)(\?(.*))? /index.php?sef_rewrite=1&$3 [L]

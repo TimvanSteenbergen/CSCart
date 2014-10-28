@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-09-24 10:00-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & on sale products"
+msgstr "Legkeresettebb és akciós termékek"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Legkeresetebb és akciós termékek összegyűjtése blokok kitöltéséhez"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Legkeresettebbek hátra"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Legkeresettebbek szerint"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Akciósok termékek szerint: Legkisebb előre"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Akciós termékek szerint: legnagyobb előre"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Eladott összeg"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Legkeresettebb"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Akciós"
+

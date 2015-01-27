@@ -11,4 +11,8 @@
 		<item for="install"></item>
         <item for="uninstall"></item>
 	</queries>
+	<functions>
+        <item for="install">fn_postnl_export_add_features</item>
+        <item for="uninstall">fn_postnl_export_remove_features</item>
+    </functions>
 </addon>

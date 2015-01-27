@@ -1,0 +1,816 @@
+a:2:{s:4:"data";s:24530:"    <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Hot deals
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+                        
+    <div id="scroll_list_28" class="owl-carousel ty-scroller-list">
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/0/ipad-white-1.jpg" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_28000241" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_28000241" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="241" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_28000241"  src="http://localhost/workspace/cscart/images/thumbnails/120/166/detailed/0/ipad-white-1.jpg" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">Apple® - iPad® with Retina® display Wi-Fi - 32GB - White</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_28000241_name">Your name</label>
+    <input id="call_data_call_request_28000241_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_28000241_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_28000241_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_28000241_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_28000241_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_28000241" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_28000241][product_id]" value="241" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/" class="product-title" title="Apple® - iPad® with Retina® display Wi-Fi - 32GB - White" >Apple® - iPad® with Retina® display Wi-Fi...</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/computers/desktops/packard-bell-onetwo/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/1/pocket_bell.jpg" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_28000244" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_28000244" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="244" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_28000244"  src="http://localhost/workspace/cscart/images/thumbnails/120/120/detailed/1/pocket_bell.jpg" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">Packard Bell OneTwo</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_28000244_name">Your name</label>
+    <input id="call_data_call_request_28000244_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_28000244_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_28000244_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_28000244_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_28000244_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_28000244" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_28000244][product_id]" value="244" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/computers/desktops/packard-bell-onetwo/" class="product-title" title="Packard Bell OneTwo" >Packard Bell OneTwo</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/cell-phones/apple-iphone/apple-iphone-5c-32gb-cell-phone-green/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/1/iphone_green.png" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_28000245" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_28000245" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="245" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_28000245"  src="http://localhost/workspace/cscart/images/thumbnails/120/120/detailed/1/iphone_green.png" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">Apple - iPhone 5c 32GB Cell Phone - Green</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_28000245_name">Your name</label>
+    <input id="call_data_call_request_28000245_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_28000245_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_28000245_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_28000245_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_28000245_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_28000245" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_28000245][product_id]" value="245" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/cell-phones/apple-iphone/apple-iphone-5c-32gb-cell-phone-green/" class="product-title" title="Apple - iPhone 5c 32GB Cell Phone - Green" >Apple - iPhone 5c 32GB Cell Phone - Green</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/cameras-and-photo/camcorders/gopro-hero3-black-edition-camera/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/1/go_pro.png" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_28000246" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_28000246" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="246" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_28000246"  src="http://localhost/workspace/cscart/images/thumbnails/120/120/detailed/1/go_pro.png" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">GoPro - Hero3+ Black Edition Camera</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_28000246_name">Your name</label>
+    <input id="call_data_call_request_28000246_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_28000246_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_28000246_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_28000246_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_28000246_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_28000246" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_28000246][product_id]" value="246" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/cameras-and-photo/camcorders/gopro-hero3-black-edition-camera/" class="product-title" title="GoPro - Hero3+ Black Edition Camera" >GoPro - Hero3+ Black Edition Camera</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-64gb-black/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/0/ipad-black-1.jpg" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_28000240" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_28000240" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="240" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_28000240"  src="http://localhost/workspace/cscart/images/thumbnails/120/166/detailed/0/ipad-black-1.jpg" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">Apple® - iPad® with Retina® display Wi-Fi - 64GB - Black</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_28000240_name">Your name</label>
+    <input id="call_data_call_request_28000240_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_28000240_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_28000240_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_28000240_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_28000240_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_28000240" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_28000240][product_id]" value="240" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-64gb-black/" class="product-title" title="Apple® - iPad® with Retina® display Wi-Fi - 64GB - Black" >Apple® - iPad® with Retina® display Wi-Fi...</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+                    
+            <div class="ty-scroller-list__item">
+                                <div class="ty-scroller-list__img-block">
+                    
+                    <a href="http://localhost/workspace/cscart/electronics/tv-and-video/plasma-tvs/toshiba-32c120u-32-class-720p-hd-lcd-tv/"><img class="ty-pict   "    src="http://localhost/workspace/cscart/images/thumbnails/160/160/detailed/0/lcd-tv-32C120-01.jpg" alt="" title=""  /></a>
+                                    </div>
+                <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="content_call_request_280006" title="Buy now with 1-click">
+    <form name="call_requests_form" id="form_call_request_280006" action="http://localhost/workspace/cscart/" method="post" class="cm-ajax">
+
+    <input type="hidden" name="call_data[product_id]" value="6" />
+    <div class="ty-cr-product-info-container">
+        <div class="ty-cr-product-info-image">
+            <img class="ty-pict   "  id="det_img_scr_280006"  src="http://localhost/workspace/cscart/images/thumbnails/120/120/detailed/0/lcd-tv-32C120-01.jpg" alt="" title=""  />
+        </div>
+        <div class="ty-cr-product-info-header">
+            <h1 class="ty-product-block-title">Toshiba 32C120U 32&quot; Class 720P HD LCD TV</h1>
+        </div>
+    </div>
+
+<div class="ty-control-group">
+    <label class="ty-control-group__title" for="call_data_call_request_280006_name">Your name</label>
+    <input id="call_data_call_request_280006_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value="" />
+</div>
+
+<div class="ty-control-group">
+    <label for="call_data_call_request_280006_phone" class="ty-control-group__title">Phone</label>
+    <input id="call_data_call_request_280006_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value="" />
+</div>
+
+
+    <div class="ty-control-group">
+        <label for="call_data_call_request_280006_email" class="ty-control-group__title cm-email">Email</label>
+        <input id="call_data_call_request_280006_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value="" />
+    </div>
+
+    <div class="cr-popup-error-box">
+        <div class="hidden cm-cr-error-box help-inline">
+            <p>Please enter your phone number or email (for our manager to contact you)</p>
+        </div>
+    </div>
+
+
+<div class="buttons-container">
+        
+ 
+    <button  class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]" >Submit</button>
+
+
+</div>
+
+</form>
+
+</div>
+
+
+
+    <div class="simple-list product-container clearfix">
+                <form action="http://localhost/workspace/cscart/" method="post" name="product_form_28000scr_280006" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_280006][product_id]" value="6" />
+
+                        
+            <a href="http://localhost/workspace/cscart/electronics/tv-and-video/plasma-tvs/toshiba-32c120u-32-class-720p-hd-lcd-tv/" class="product-title" title="Toshiba 32C120U 32&quot; Class 720P HD LCD TV" >Toshiba 32C120U 32" Class 720P HD LCD TV</a>    
+
+
+                
+                
+    
+
+
+
+            
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+
+                            
+
+                                                    </form>
+
+    </div>
+
+                </div>
+            </div>
+            
+
+            </div>
+
+
+<script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_28');
+
+        if (elm.length) {
+            elm.owlCarousel({
+                items: 4,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                slideSpeed: 400,
+                stopOnHover: true,
+                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                pagination: false
+            });
+        }
+    });
+}(Tygh, Tygh.$));
+</script></div>
+    </div>
+";s:6:"expiry";i:0;}

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+	<id>Post.nl</id>
+	<name>POST.NL</name>
+	<description>Add-On that generates a csv export shipping file from the orders for PostNL. PostNL is the company handling the package-distributions.</description>
+	<version>1.0</version>
+	<priority>100500</priority>
+	<status>active</status>
+	<queries>
+        <item for="install"></item>
+		<item for="install"></item>
+        <item for="uninstall"></item>
+	</queries>
+</addon>
